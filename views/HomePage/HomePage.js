@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import HeaderLinks from "../../components/Header/HeaderLinks";
 import Parallax from "../../components/Parallax/Parallax.js";
 import GridContainer from "../../components/Grid/GridContainer.js";
@@ -24,7 +25,8 @@ import classNames from "classnames";
 import SectionCarousel from "../../components/Carousel/SectionCarousel.js";
 import FutureTalksSection from '../../components/FutureTalks/FutureTalksSection.js';
 import StreamingTimeSection from '../../components/StreamingTime/StreamingTimeSection.js';
-import TeamSection from '../../components/Team/TeamSection.js'
+import TeamSection from '../../components/Team/TeamSection.js';
+
 
 const useStyles = makeStyles(styles);
 
@@ -149,7 +151,7 @@ export default function HomePage(props) {
           <TeamSection />
         </div>
       </div>
-
+      <Footer />          
     </div>
   )
 }
