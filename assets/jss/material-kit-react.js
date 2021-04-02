@@ -164,6 +164,14 @@ const title = {
   fontFamily: `"Roboto Slab", "Times New Roman", serif`
 };
 
+const titleFutureTalks = {
+  color: "#3C4858",
+  //margin: "1.75rem 0 0.875rem",
+  textDecoration: "none",
+  fontWeight: "bold",
+  fontFamily: `"Roboto Slab", "Times New Roman", serif`
+};
+
 const cardTitle = {
   ...title,
   marginTop: ".625rem"
@@ -213,6 +221,7 @@ export {
   cardHeader,
   defaultBoxShadow,
   title,
+  titleFutureTalks,
   cardTitle,
   cardLink,
   cardSubtitle

@@ -13,7 +13,7 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      <Link href='./' passHref>
+      <Link href='./'>
         <ListItem className={classes.listItem}>
           <Button 
           type="button" 
@@ -24,7 +24,7 @@ export default function HeaderLinks(props) {
           </Button>
         </ListItem>
       </Link> 
-      <Link href='/next-talks' passHref>
+      <Link href='/next-talks'>
         <ListItem className={classes.listItem}>
             <Button
               type = "button"
@@ -35,7 +35,7 @@ export default function HeaderLinks(props) {
             </Button>
         </ListItem>
       </Link>
-      <Link href='/previous-talks' passHref>
+      <Link href='/previous-talks'>
         <ListItem className={classes.listItem}>
           <Button
           type = "button"
@@ -55,16 +55,16 @@ export default function HeaderLinks(props) {
             color: "transparent"
           }}
           dropdownList={[
-            <Link href= '/list-speakers' passHref className={classes.dropdownLink}>
+            <Link href= '/list-speakers' className={classes.dropdownLink}>
               Speakers
             </Link>,
-            <Link href= '/list-keywords' passHref  className={classes.dropdownLink}>
+            <Link href= '/list-keywords'  className={classes.dropdownLink}>
               Keywords
             </Link>
           ]}
         />
       </ListItem>
-      <Link href='/subscribe' passHref>
+      <Link href='/subscribe'>
         <ListItem className={classes.listItem}>
           <Button
           type = "button"

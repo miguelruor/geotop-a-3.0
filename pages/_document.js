@@ -1,4 +1,3 @@
-
 import React from 'react'
 import NextDocument from 'next/document'
 import { ServerStyleSheet as StyledComponentSheets } from 'styled-components'

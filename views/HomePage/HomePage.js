@@ -16,14 +16,25 @@ import styles from "./HomePageStyle.js";
 import Database from "../../data"
 import Slide from "@material-ui/core/Slide";
 
+import backgroundImageHome from '../../public/img/img1.jpg';
+
+// nodejs library that concatenates classes
+import classNames from "classnames";
+
+import SectionCarousel from "../../components/Carousel/SectionCarousel.js";
+import FutureTalksSection from '../../components/FutureTalks/FutureTalksSection.js';
+import StreamingTimeSection from '../../components/StreamingTime/StreamingTimeSection.js';
+import TeamSection from '../../components/Team/TeamSection.js'
+
 const useStyles = makeStyles(styles);
+
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="down" ref={ref} {...props} />;
 });
 
 export default function HomePage(props) {
   const classes = useStyles();
-  const { ...rest } = props;
+  //const { ...rest } = props;
   var cont=0;
   for(var i = 0, max = Database.seminarData.length; i<max; i+=1){
     if(Database.seminarData[i].Previous){
@@ -50,10 +61,10 @@ export default function HomePage(props) {
           height: 400,
           color: "white"
         }}
-        {...rest}
+        //{...rest}
       />
 
-      <Parallax filter>
+      <Parallax filter image={backgroundImageHome}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
@@ -105,17 +116,14 @@ export default function HomePage(props) {
                   id="modal-slide-description"
                   className={classes.modalBody}
                 >
-                  <p>
-                    <b>Speaker: </b>{speaker}
-                    <br/>
-                    <b>Title: </b>{talkTitle}
-                    <br/>
-                    <b>Keywords: </b> {talkKeywords}
-                    <br/>
-                    <b>Abstract: </b>{talkDescription}
-                    <br/>
-                    <b>Video: </b> <a href={talkVideo}>Click here</a>
-                  </p>
+                  <p><b>Speaker: </b> {/*speaker*/} </p>
+                  <p><b>Title: </b>{/*talkTitle*/} </p>
+                  <p><b>Video: </b> {/*talkVideo === null ? 'Not available yet.' : <a href={talkVideo} target="_blank">Click here</a>*/} </p>
+                  {/*Cuando una talk no tiene presentacion, talkSlides es undefined, y en otro caso string*/}
+                  {/*typeof(talkSlides) == "undefined" ? null : <><p><b>Slides:</b> <a href={talkSlides} target="_blank">Click here</a></p></>*/}
+                  <p><b>Date: </b>{/*talkDate*/} </p>
+                  <p><b>Keywords: </b> {/*talkKeywords.join(', ')*/}</p>
+                  <p><b>Abstract: </b>{/*ReactHtmlParser (talkDescription)*/}</p>
                 </DialogContent>
                 <DialogActions className={classes.modalFooter}>
                   <Button
@@ -131,6 +139,17 @@ export default function HomePage(props) {
           </GridContainer>
         </div>
       </Parallax>
+      <div>{props.geometryImages}</div>
+
+      <div className={classNames(classes.main, classes.mainRaised)}>
+        {/*<SectionCarousel geometryImages={props.geometryImages} topologyImages={props.topologyImages}/>*/}
+        <div className={classes.container}>
+          <FutureTalksSection />
+          <StreamingTimeSection />
+          <TeamSection />
+        </div>
+      </div>
+
     </div>
   )
 }
