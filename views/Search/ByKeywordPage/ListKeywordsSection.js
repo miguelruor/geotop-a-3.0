@@ -4,12 +4,6 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
-
-// core components
-import GridContainer from "../../../components/Grid/GridContainer.js";
-import GridItem from "../../../components/Grid/GridItem.js";
-
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 import MenuOpen from '@material-ui/icons/MenuOpen';
 
@@ -36,30 +30,27 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 export default function ListSpeakersSection(props){
     const classes = useStyles();
-
+    
+    // keywords[DNA] = [talk1_id, talk2_id,...]  --- DNA denota una keyword
     const keywords = props.keywords;
+
+    // keywordsListByLetter[a] = [{keyword1_con_a: [talk1_id, talk2_id, ...]}, 
+    //                                    {keyword2_con_a: [talk3_id, ...]}, ...]
     const keywordsListByLetter = props.keywordsListByLetter;
+
+    // Lista ordenada con primeras letras de todas las keywords en mayuscula
     const lettersInKeywords = props.lettersInKeywords;
+    
+    // allTalks[talk_id] = objecto con llaves surname, speaker, year, video, date, title, slides, keywords, abstract, warning
+    // speaker es el nombre completo
     const allTalks = props.talks;
 
     /*
     let keywords_aux = {};
-    // keywords_aux[DNA] = [talk1_id, talk2_id,...]  --- DNA denota una keyword
-
     const [keywords, setKeywords] = useState({});
-    // keywords[DNA] = [talk1_id, talk2_id,...]  --- DNA denota una keyword
-    
     const [keywordsListByLetter,setKeywordsListByLatter] = useState([]);
-    // keywordsListByLetter[a] = [{keyword1_con_a: [talk1_id, talk2_id, ...]}, 
-    //                                    {keyword2_con_a: [talk3_id, ...]}, ...]
-
     const [lettersInKeywords, setLettersInKeywords] = useState([]);
-    // Lista ordenada con primeras letras de todas las keywords en mayuscula
-
     const [allTalks, setTalks] = useState({});
-    // allTalks[talk_id] = objecto con llaves surname, speaker, year, video, date, title, slides, keywords, abstract, warning
-    // speaker es el nombre completo
-
     */
     
     // al dar clic en una letra, se pone visitLetters[letter] = True, para mostrar la lista de keywords

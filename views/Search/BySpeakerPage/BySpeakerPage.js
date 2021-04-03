@@ -43,8 +43,8 @@ export default function BySpeakerPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container} style={{paddingTop:"10px", paddingBottom:"10px"}}>
-            {//<ListSpeakersSection />
-}
+            <ListSpeakersSection talks={props.talks} speakers={props.speakers} speakersIDList={props.speakersID}
+       lettersInSurname={props.lettersInSurname} speakersListByLetter={props.speakersListByLetter} />
         </div>
       </div>
       <Footer />

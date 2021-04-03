@@ -4,15 +4,9 @@ import removeAccents from "remove-accents"
 
 // nodejs library that concatenates classes
 import classNames from "classnames";
+
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-
-// @material-ui/icons
-
-// core components
-import GridContainer from "../../../components/Grid/GridContainer.js";
-import GridItem from "../../../components/Grid/GridItem.js";
-
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
 import MenuOpen from '@material-ui/icons/MenuOpen';
@@ -30,7 +24,6 @@ import DialogActions from "@material-ui/core/DialogActions";
 import Close from "@material-ui/icons/Close";
 import IconButton from "@material-ui/core/IconButton";
 import Slide from "@material-ui/core/Slide";
-import { AddAlertOutlined } from "@material-ui/icons";
 
 const useStyles = makeStyles(styles);
 
@@ -38,17 +31,40 @@ const Transition = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="down" ref={ref} {...props} />;
   });
 
-export default function ListSpeakersSection(){
+export default function ListSpeakersSection(props){
     const classes = useStyles();
+
+    // lista con id's de speakers para ordenarlos con respecto al apellido del speaker
+    const speakersIDList = props.speakersIDList;
+
+    // speakersDic[speaker_id] = {...}
+    // name, surname, middle_initial, completeName, talks: [], years: []
+    const speakersDic = props.speakers;
+    
+    // speakersListByLetter[a] = [speaker1_con_a, speaker2_con_a, ...]
+    const speakersListByLetter = props.speakersListByLetter;
+    
+    // Lista ordenada con primeras letras de todas las apellidos sin acentos
+    const lettersInSurname = props.lettersInSurname;
+
+    // talks[talk_id] = objecto con llaves speakerID, year, video, date, title, season, slides, keywords, abstract, warning
+    const talks = props.talks;
+
+    /*
     const [speakersIDList, setSpeakersIDList] = useState([]);
     const [speakersDic, setSpeakersDic] = useState({});
     const [speakersListByLetter, setSpeakersListByLatter] = useState({});
     const [lettersInSurname, setLettersInSurname] = useState([]);
-    const [visitLetters, setVisitLetters] = useState({});
     const [talks, setTalks] = useState({});
+    */
 
-    //para modals
+    // al dar clic en una letra, se pone visitLetters[letter] = True, para mostrar la lista de speakers
+    const [visitLetters, setVisitLetters] = useState({});
+
+    //modal activo o no
     const [modal, setModal] = useState(false);
+    
+    // variables de platica del modal actual al dar clic en detalles de platica
     const[talkTitle,setTalkTitle] = useState('');
     const[talkDate,setTalkDate] = useState('');
     const[talkDescription,setTalkDescription] = useState('');
@@ -159,8 +175,6 @@ export default function ListSpeakersSection(){
     useEffect(() => {
         handleLettersInSurname();
     },[speakersIDList]);
-    
-    */
 
     // Función que revisa las letras que existen para hacer listas
     function handleLettersInSurname(){
@@ -193,7 +207,10 @@ export default function ListSpeakersSection(){
         setVisitLetters(visitLetters);
         setSpeakersListByLatter(speakersWithLetter); 
     }  
+    
+    */
 
+    // lista de speakers que empiezan con letter
     function listWithLetter(letter){
         const listItems = speakersListByLetter[letter].map(speaker => {
             var firstTalk = true;
