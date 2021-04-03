@@ -8,16 +8,12 @@ import ReactHtmlParser from 'react-html-parser';
 // @material-ui/icons
 
 // core components
-import GridContainer from "../../../components/Grid/GridContainer.js";
-import GridItem from "../../../components/Grid/GridItem.js";
-import Button from "../../../components/CustomButtons/Button.js";
-import Card from "../../../components/Card/Card.js";
-import CardBody from "../../../components/Card/CardBody.js";
-import CardFooter from "../../../components/Card/CardFooter.js";
+import GridContainer from "../../components/Grid/GridContainer.js";
+import GridItem from "../../components/Grid/GridItem.js";
 
-import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
-import image2 from "../../../assets/img/images/speakers/sp047.png";
-import image1 from "../../../assets/img/images/speakers/sp046.png";
+import styles from "../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
+import image2 from "../../public/img/speakers/sp047.png";
+import image1 from "../../public/img/speakers/sp046.png";
 
 const useStyles = makeStyles(styles);
 
