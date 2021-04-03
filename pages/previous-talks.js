@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import PreviousTalksPage from '../views/PreviousTalksPage/PreviousTalksPage';
 
-import {db} from '../ConfigFirebase';
+//import {db} from '../ConfigFirebase';
 
 export async function getStaticProps(){
 
@@ -22,6 +22,8 @@ export async function getStaticProps(){
   var speakers_aux = {};
   var seasons_aux = {};
 
+  
+  /*
   await db.collection("speakers").get()
     .then(function(querySnapshot){
         querySnapshot.forEach(function(doc){
@@ -73,6 +75,7 @@ export async function getStaticProps(){
   .catch(function(error){
       console.log(error);
   });
+  */
 
   
   const example = {
