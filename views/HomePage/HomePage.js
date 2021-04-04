@@ -16,12 +16,9 @@ import Close from "@material-ui/icons/Close";
 import styles from "./HomePageStyle.js";
 import Database from "../../data"
 import Slide from "@material-ui/core/Slide";
-
 import backgroundImageHome from '../../public/img/img1.jpg';
-
 // nodejs library that concatenates classes
 import classNames from "classnames";
-
 import SectionCarousel from "../../components/Carousel/SectionCarousel.js";
 import FutureTalksSection from '../../components/FutureTalks/FutureTalksSection.js';
 import StreamingTimeSection from '../../components/StreamingTime/StreamingTimeSection.js';
@@ -34,27 +31,14 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="down" ref={ref} {...props} />;
 });
 
-export default function HomePage(props) {
+export default function HomePage(data) {
   const classes = useStyles();
-  //const { ...rest } = props;
-  var cont=0;
-  for(var i = 0, max = Database.seminarData.length; i<max; i+=1){
-    if(Database.seminarData[i].Previous){
-      cont = i;
-    }
-  }
-  const talkTitle = Database.seminarData[cont].Title;
-  const talkDescription = Database.seminarData[cont].Abstract;
-  const talkVideo  = Database.seminarData[cont].Video;
-  const talkKeywords = Database.seminarData[cont].Keywords;
-  const speaker =  Database.seminarData[cont].Speaker;
   const [modal, setModal] = React.useState(false);
-
-
+  console.log(data.data.dataObj.Title)
   return (
     <div>
       <Header
-        color="blue"
+        color="rose"
         //routes={dashboardRoutes}
         brand="Seminar GEOTOP-A"
         rightLinks={<HeaderLinks/>}
@@ -118,14 +102,14 @@ export default function HomePage(props) {
                   id="modal-slide-description"
                   className={classes.modalBody}
                 >
-                  <p><b>Speaker: </b> {/*speaker*/} </p>
-                  <p><b>Title: </b>{/*talkTitle*/} </p>
-                  <p><b>Video: </b> {/*talkVideo === null ? 'Not available yet.' : <a href={talkVideo} target="_blank">Click here</a>*/} </p>
+                  <p><b>Speaker: </b> {data.data.dataObj.Speaker} </p>
+                  <p><b>Title: </b>{data.data.dataObj.Title} </p>
+                  <p><b>Video: </b> {data.data.dataObj.Video === null ? 'Not available yet.' : <a href={data.data.dataObj.Video} target="_blank">Click here</a>} </p>
                   {/*Cuando una talk no tiene presentacion, talkSlides es undefined, y en otro caso string*/}
                   {/*typeof(talkSlides) == "undefined" ? null : <><p><b>Slides:</b> <a href={talkSlides} target="_blank">Click here</a></p></>*/}
-                  <p><b>Date: </b>{/*talkDate*/} </p>
-                  <p><b>Keywords: </b> {/*talkKeywords.join(', ')*/}</p>
-                  <p><b>Abstract: </b>{/*ReactHtmlParser (talkDescription)*/}</p>
+                  <p><b>Date: </b>{data.data.dataObj.Date} </p>
+                  <p><b>Keywords: </b> {data.data.dataObj.Keywords}</p>
+                  <p><b>Abstract: </b>{data.data.dataObj.Abstract}</p>
                 </DialogContent>
                 <DialogActions className={classes.modalFooter}>
                   <Button
@@ -141,8 +125,7 @@ export default function HomePage(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <div>{props.geometryImages}</div>
-
+      {/* <div>{data.data.geometryImages}</div> */}
       <div className={classNames(classes.main, classes.mainRaised)}>
         {/*<SectionCarousel geometryImages={props.geometryImages} topologyImages={props.topologyImages}/>*/}
         <div className={classes.container}>
