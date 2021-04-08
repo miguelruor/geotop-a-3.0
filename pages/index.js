@@ -9,6 +9,7 @@ export async function getStaticProps(){
 
   const geometryImages = fs.readdirSync(imagesDirectory+'Pics_Geometry');
   const topologyImages = fs.readdirSync(imagesDirectory+'Pics_Topology');
+  
 
   return {
     props: {
@@ -25,7 +26,7 @@ export default function Home(props) {
         <title>GEOTOP-A</title>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
-      <HomePage props/>
+      <HomePage geometryImages={props.geometryImages} topologyImages={props.topologyImages}/>
       <br/>
     </div>
   )

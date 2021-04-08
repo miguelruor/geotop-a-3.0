@@ -1,0 +1,144 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    max-width: 900px;
+  }
+  
+  .carousel ul {
+    display: flex;
+    list-style: none;
+    transition: all ease 0.3s;
+  }
+  
+  .carousel li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px !important;
+  }
+  
+  .carouselArea {
+    overflow: hidden;
+  }
+  
+  .carouselItem > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /*.carouselItem img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 18px;
+  }*/
+  
+  .carouselButtons {
+    bottom: 50%;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .carouselButtons button {
+    border: 0;
+    display: flex;
+    align-items: stretch;
+    background: transparent;
+  }
+  
+  .carouselPoints {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carouselPoints button {
+    height: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #dddddd;
+    margin-right: 6px;
+    transition: all ease 0.3s;
+  }
+  
+  .carouselPoints button:last-child {
+    margin: 0px;
+  }
+  
+  .carouselPoints button:disabled {
+    background-color: #007de7;
+    width: 24px;
+    transition: all ease 0.3s;
+  }
+  
+  .carouselPoints button:focus {
+    outline: none;
+    box-shadow: 0px 0 4px 2px #007de7;
+  }
+
+  .container{
+      padding: 10%;
+  }
+  
+  /* responsive */
+  @media (max-width: 950px) {
+    .carousel {
+      max-width: none;
+      padding: 0px 24px;
+    }
+
+    
+    .container{
+        padding: 2%;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .carousel {
+      max-width: 400px;
+      text-align: center;
+    }
+  
+    .carousel h3 {
+      font-size: 30px;
+      line-height: normal;
+    }
+    
+    /*.carouselItem img {
+      width: 150px;
+      height: 150px;
+      margin-top: 64px;
+    }*/
+  
+    .carousel p {
+      max-width: 200px;
+    }
+  
+    .carouselButtons {
+      display: none;
+    }
+  
+    .carouselPoints {
+      padding-top: 32px;
+      padding-left: 24px;
+    }
+
+    .container{
+        padding: 2%;
+    }
+  }
