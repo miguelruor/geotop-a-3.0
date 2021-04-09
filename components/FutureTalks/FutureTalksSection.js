@@ -1,14 +1,9 @@
 import React, {useEffect, useState} from "react";
-
-// @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-
-// core components
 import Hidden from '@material-ui/core/Hidden';
 import GridContainer from "../Grid/GridContainer.js";
 import GridItem from "../Grid/GridItem.js";
 import Divider from '@material-ui/core/Divider';
-
 import styles from "./FutureTalksStyle.js";
 
 const useStyles = makeStyles(styles);

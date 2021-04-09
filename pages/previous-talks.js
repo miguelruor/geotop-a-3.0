@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import PreviousTalksPage from '../views/PreviousTalksPage/PreviousTalksPage';
-
+import talks from "../data/talks";
+import speakers from "../data/speakers"
 //import {db} from '../ConfigFirebase';
 
 export async function getStaticProps(){
@@ -22,7 +23,12 @@ export async function getStaticProps(){
   var speakers_aux = {};
   var seasons_aux = {};
 
+  for(var i = 0, max = 49; i<max; i+=1){
+    console.log(speakers[0][i].surname);
+  }
   
+  var sea = speakers;
+
   /*
   await db.collection("speakers").get()
     .then(function(querySnapshot){
@@ -38,7 +44,6 @@ export async function getStaticProps(){
     .catch(function(error){
         console.log("Cannot load some speaker");
     });
-
   await db.collection("talks").orderBy("date", "desc")
   .get()
   .then(function(querySnapshot){

@@ -14,7 +14,7 @@ import IconButton from "@material-ui/core/IconButton";
 import { makeStyles } from "@material-ui/core/styles";
 import Close from "@material-ui/icons/Close";
 import styles from "./HomePageStyle.js";
-import Database from "../../data"
+import Database from "../../data/data"
 import Slide from "@material-ui/core/Slide";
 import backgroundImageHome from '../../public/img/img1.jpg';
 // nodejs library that concatenates classes

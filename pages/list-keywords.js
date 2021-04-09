@@ -1,6 +1,8 @@
 import { ThumbDownAltOutlined } from '@material-ui/icons';
 import Head from 'next/head';
 import SearchByKeywordPage from '../views/Search/ByKeywordPage/ByKeywordPage';
+import talks from "../data/talks";
+import speakers from "../data/speakers";
 
 export async function getStaticProps(){
   const keywords = {

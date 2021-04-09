@@ -6,13 +6,10 @@ import GridItem from '../../components/Grid/GridItem';
 import Footer from '../../components/Footer/Footer';
 import NextTalkSection from './NextTalksSection';
 import StreamingTimeSection from '../../components/StreamingTime/StreamingTimeSection.js';
-
 import backgroundImageHome from '../../public/img/img2.jpg'
-
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "./NextTalksPageStyle.js";
 import classNames from "classnames";
-
 
 const useStyles = makeStyles(styles);
 
@@ -22,7 +19,7 @@ export default function NextTalksPage(props) {
   return (
     <div>
       <Header
-        color="blue"
+        color="rose"
         //routes={dashboardRoutes}
         brand="Seminar GEOTOP-A"
         rightLinks={<HeaderLinks/>}

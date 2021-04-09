@@ -1,21 +1,10 @@
 import React, {useEffect, useState} from "react";
-
 import removeAccents from "remove-accents"
-
-// nodejs library that concatenates classes
 import classNames from "classnames";
-
-// @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
-
 import MenuOpen from '@material-ui/icons/MenuOpen';
-
-//import {db} from '../../../ConfigFirebase';
 import ReactHtmlParser from 'react-html-parser';
-
-// For modals
-
 import Button from "../../../components/CustomButtons/Button.js";
 import Dialog from "@material-ui/core/Dialog";
 import DialogTitle from "@material-ui/core/DialogTitle";

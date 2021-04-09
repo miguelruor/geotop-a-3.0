@@ -1,8 +1,11 @@
- module.exorts = [ 
+module.exports = [
   {
     "0": {
       "speaker_id": 0,
-      "date": { "seconds": 1534482000, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1534482000,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/574upkq0wDE",
       "title": "DNA Topology",
       "keywords": [
@@ -23,7 +26,10 @@
     },
     "1": {
       "speaker_id": 1,
-      "date": { "seconds": 1536296400, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1536296400,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/Yd83jnhnCS4",
       "title": "A brief introduction to Discrete Exterior Calculus",
       "keywords": [
@@ -41,7 +47,10 @@
     },
     "2": {
       "speaker_id": 2,
-      "date": { "seconds": 1537506000, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1537506000,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/uPDxjaNSMcw",
       "title": "Knotted DNA: conformational, dynamical and pore-translocation properties",
       "keywords": ["pore translocation", "DNA knots", "DNA supercoiling", "DNA"],
@@ -53,7 +62,10 @@
     },
     "3": {
       "speaker_id": 3,
-      "date": { "seconds": 1539925200, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1539925200,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/QD4-qm2-vTA",
       "title": "Discrete Morse Theory",
       "keywords": [
@@ -70,7 +82,10 @@
     },
     "4": {
       "speaker_id": 4,
-      "date": { "seconds": 1541743200, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1541743200,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/JZUe54BwRGI",
       "title": "Simplicial complexity: piecewise linear motion planning in robotics.",
       "keywords": [
@@ -87,7 +102,10 @@
     },
     "5": {
       "speaker_id": 5,
-      "date": { "seconds": 1542952800, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1542952800,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/IYmEPzD4YQg",
       "title": "Geometric devils in topological dynamics.",
       "keywords": [
@@ -109,7 +127,10 @@
     },
     "6": {
       "speaker_id": 6,
-      "date": { "seconds": 1543557600, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1543557600,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/rHjsntnze9U",
       "title": "A very elementary introduction to the combinatorial topology approach to distributed computing.",
       "keywords": ["distributed computing", "combinatorial topology"],
@@ -121,7 +142,10 @@
     },
     "7": {
       "speaker_id": 7,
-      "date": { "seconds": 1538888400, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1538888400,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/wHyGoKGy_7A",
       "title": "Polarization geometry of crystals and the blue sky.",
       "keywords": [
@@ -138,7 +162,10 @@
     },
     "8": {
       "speaker_id": 8,
-      "date": { "seconds": 1548396000, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1548396000,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/zY6mTpkG9FQ",
       "title": "Unitary Braiding and Topological Quantum Computing.",
       "keywords": [
@@ -164,7 +191,10 @@
     },
     "9": {
       "speaker_id": 9,
-      "date": { "seconds": 1549605600, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1549605600,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/twSF7f5sDck",
       "title": "Learning Algebraic Varieties from Samples.",
       "keywords": [
@@ -181,7 +211,10 @@
     },
     "10": {
       "speaker_id": 10,
-      "date": { "seconds": 1550815200, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1550815200,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/Z9hEu2H5aUY",
       "title": "Discrete Morse theory in action.",
       "keywords": [
@@ -198,7 +231,10 @@
     },
     "11": {
       "speaker_id": 11,
-      "date": { "seconds": 1552024800, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1552024800,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/jdI4PZ_McY0",
       "title": "Why are there knots in proteins?",
       "keywords": [
@@ -221,7 +257,10 @@
     },
     "12": {
       "speaker_id": 12,
-      "date": { "seconds": 1553839200, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1553839200,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/zs8zmeWzC4M",
       "title": "Local solutions for global problems in wireless networks",
       "keywords": [
@@ -240,7 +279,10 @@
     },
     "13": {
       "speaker_id": 13,
-      "date": { "seconds": 1555045200, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1555045200,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/Etijnx5B3_U",
       "title": "Mysteries of entanglement – proteins, life and physics. Biological role of knotting.",
       "keywords": [
@@ -260,7 +302,10 @@
     },
     "14": {
       "speaker_id": 14,
-      "date": { "seconds": 1557464400, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1557464400,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/fdwtH7b6euI",
       "title": "Directed topological complexity.",
       "keywords": [
@@ -279,7 +324,10 @@
     },
     "15": {
       "speaker_id": 15,
-      "date": { "seconds": 1558674000, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1558674000,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/NKNkequdrVs",
       "title": "Geometric Topology of Liquid Crystal Textures.",
       "keywords": [
@@ -298,7 +346,10 @@
     },
     "16": {
       "speaker_id": 16,
-      "date": { "seconds": 1566536400, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1566536400,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/1QpL_26cL7I",
       "title": "Some New Geometric Methods to Distinguish Shapes and Applications in Biology",
       "keywords": [
@@ -317,7 +368,10 @@
     },
     "17": {
       "speaker_id": 17,
-      "date": { "seconds": 1567746000, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1567746000,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/aJTR5l1EIwE",
       "title": "Topological Dimensionality Reduction.",
       "keywords": [
@@ -334,7 +388,10 @@
     },
     "18": {
       "speaker_id": "18",
-      "date": { "seconds": 1570165200, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1570165200,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/Npyw75dWY2Y",
       "title": "Random entanglements: Winding of planar Brownian motions",
       "keywords": ["planar Brownian motion", "entanglement", "winding number"],
@@ -346,7 +403,10 @@
     },
     "19": {
       "speaker_id": 19,
-      "date": { "seconds": 1571374800, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1571374800,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/OfTTZpaOq8M",
       "title": "Topological modeling of DNA recombination",
       "keywords": [
@@ -364,7 +424,10 @@
     },
     "20": {
       "speaker_id": 20,
-      "date": { "seconds": 1573192800, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1573192800,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/_kDIFc2Y94U",
       "title": "Modeling topological polymers with Gaussian random graph embeddings.",
       "keywords": [
@@ -383,7 +446,10 @@
     },
     "21": {
       "speaker_id": 21,
-      "date": { "seconds": 1573797600, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1573797600,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/StoaNWadOwE",
       "title": "Aspects of High Dimensional Expansion.",
       "keywords": [
@@ -399,7 +465,10 @@
     },
     "22": {
       "speaker_id": 22,
-      "date": { "seconds": 1574402400, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1574402400,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/n-vVAeLBbJg",
       "title": "Non-topological persistence.",
       "keywords": [
@@ -419,7 +488,10 @@
     },
     "23": {
       "speaker_id": 23,
-      "date": { "seconds": 1575612000, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1575612000,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/CzhG0SzcgXY",
       "title": "Topological exploration of neuronal network dynamics.",
       "keywords": ["network dynamics", "persistent homology"],
@@ -431,7 +503,10 @@
     },
     "24": {
       "speaker_id": 24,
-      "date": { "seconds": 1579845600, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1579845600,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/EGOvOcaQvqw",
       "title": "Delaunay triangulation of manifolds.",
       "keywords": [
@@ -448,7 +523,10 @@
     },
     "25": {
       "speaker_id": 25,
-      "date": { "seconds": 1581055200, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1581055200,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/IbTGmxAvAlM",
       "title": "Algebraic Systems Biology",
       "keywords": [
@@ -465,7 +543,10 @@
     },
     "26": {
       "speaker_id": 26,
-      "date": { "seconds": 1582264800, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1582264800,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/5aeWC1PwUNE",
       "title": "On the Geometric Hypothesis of Banach.",
       "keywords": [
@@ -482,7 +563,10 @@
     },
     "27": {
       "speaker_id": 27,
-      "date": { "seconds": 1583474400, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1583474400,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/E4bhPpZxtIg",
       "title": "On the interplay between DNA topology, elasticity, and its biological role.",
       "keywords": [
@@ -501,7 +585,10 @@
     },
     "28": {
       "speaker_id": 28,
-      "date": { "seconds": 1584684000, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1584684000,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/Qw8O8BdNADo",
       "title": "Some Topological Aspects of Fluid Dynamics.",
       "keywords": [
@@ -523,7 +610,10 @@
     },
     "29": {
       "speaker_id": 29,
-      "date": { "seconds": 1585893600, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1585893600,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/yll-4kUoboI",
       "title": "Hamiltonian time crystals - why do they exist and how do they move",
       "keywords": [
@@ -540,7 +630,10 @@
     },
     "30": {
       "speaker_id": 30,
-      "date": { "seconds": 1587704400, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1587704400,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/JSVE-ukefPg",
       "title": "Entanglement of Polymers",
       "keywords": [
@@ -565,7 +658,10 @@
     },
     "31": {
       "speaker_id": 31,
-      "date": { "seconds": 1589864400, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1589864400,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/91e2kQA5GW4",
       "title": "Computational homology in statistical genetics: applications to cancer genomic data.",
       "keywords": [
@@ -583,7 +679,10 @@
     },
     "32": {
       "speaker_id": 32,
-      "date": { "seconds": 1593061200, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1593061200,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/WWwMf8Nd494",
       "title": "Backbone Free Energy Estimator, a New Geometric Tool in Structural Biology.",
       "keywords": [
@@ -602,7 +701,10 @@
     },
     "33": {
       "speaker_id": 33,
-      "date": { "seconds": 1597986000, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1597986000,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/UBts4ZuU2yU",
       "title": "A CW-complex of Monotone Polyhedral Paths: Geometric/topological meditations about the performance of the Simplex Method.",
       "keywords": [
@@ -623,7 +725,10 @@
     },
     "34": {
       "speaker_id": 34,
-      "date": { "seconds": 1599195600, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1599195600,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/o4CK1MZ8984",
       "title": "Homological Percolation and Persistence.",
       "keywords": [
@@ -640,7 +745,10 @@
     },
     "35": {
       "speaker_id": 35,
-      "date": { "seconds": 1600405200, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1600405200,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/nyO4KQTmwzU",
       "title": "The Truncated Interleaving Distance for Reeb Graphs",
       "keywords": ["reeb graph", "interleaving"],
@@ -652,7 +760,10 @@
     },
     "36": {
       "speaker_id": 36,
-      "date": { "seconds": 1601614800, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1601614800,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/fZkMwgKswEg",
       "title": "Magnetic helicity: decompositions and methods of localization.",
       "keywords": ["helicity", "wavelets", "poloidal-toroidal decomposition"],
@@ -664,7 +775,10 @@
     },
     "37": {
       "speaker_id": 37,
-      "date": { "seconds": 1602824400, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1602824400,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/mLUozD6-Db4",
       "title": "COVID-19, Viruses, Recombination and Topology",
       "keywords": [
@@ -681,7 +795,10 @@
     },
     "38": {
       "speaker_id": 38,
-      "date": { "seconds": 1604642400, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1604642400,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/qaU4P5AJkH0",
       "title": "Detecting geodesic circles with selective Rips complexes.",
       "keywords": [
@@ -698,7 +815,10 @@
     },
     "39": {
       "speaker_id": 39,
-      "date": { "seconds": 1605852000, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1605852000,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/lpgcG4ZdmNc",
       "title": "A landscape of knots: TDA and dimension reduction techniques in theoretical mathematics.",
       "keywords": [
@@ -716,7 +836,10 @@
     },
     "40": {
       "speaker_id": 40,
-      "date": { "seconds": 1607061600, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1607061600,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/7cGPeMBWEwc",
       "title": "Characterizing rare events in persistent homology.",
       "keywords": [
@@ -733,7 +856,10 @@
     },
     "41": {
       "speaker_id": 41,
-      "date": { "seconds": 1611295200, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1611295200,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/E7J9IWqhwN4",
       "title": "Low-dimensional topology and non-Euclidean geometry in nature.",
       "keywords": [
@@ -752,7 +878,10 @@
     },
     "42": {
       "speaker_id": 42,
-      "date": { "seconds": 1612504800, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1612504800,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/ntwjBdEC_B4",
       "title": "Predicting emergent sequences of neural networks via directional graphs",
       "keywords": [
@@ -769,7 +898,10 @@
     },
     "43": {
       "speaker_id": 43,
-      "date": { "seconds": 1613714400, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1613714400,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/mlQRgR7V898",
       "title": "The magnitude of point-cloud data",
       "keywords": [
@@ -786,7 +918,10 @@
     },
     "44": {
       "speaker_id": 44,
-      "date": { "seconds": 1614924000, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1614924000,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/rDNUX9QGTyc",
       "title": "Topologically Active Polymers and DNA",
       "keywords": [
@@ -803,7 +938,10 @@
     },
     "45": {
       "speaker_id": 45,
-      "date": { "seconds": 1616133600, "nanoseconds": 0 },
+      "date": {
+        "seconds": 1616133600,
+        "nanoseconds": 0
+      },
       "video": "https://www.youtube.com/embed/RpQ2uW98tjo",
       "title": "Pseudo-Seifert surfaces and vortex reconnections in quantum fluids",
       "keywords": [
@@ -821,4 +959,4 @@
       "numberDislikesYoutube": 0
     }
   }
-]
+  ]

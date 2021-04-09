@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import SearchBySpeakerPage from '../views/Search/BySpeakerPage/BySpeakerPage';
 import removeAccents from "remove-accents"
+import talks from "../data/talks";
+import speakers from "../data/speakers";;
 
 export async function getStaticProps(){
   const speaker0 = {

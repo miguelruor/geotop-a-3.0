@@ -20,7 +20,7 @@ export default function PreviousTalksPage(props) {
   return (
     <div>
       <Header
-        color="blue"
+        color="rose"
         //routes={dashboardRoutes}
         brand="Seminar GEOTOP-A"
         rightLinks={<HeaderLinks/>}

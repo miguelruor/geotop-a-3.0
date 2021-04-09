@@ -2,7 +2,7 @@ import Head from 'next/head';
 import HomePage from '../views/HomePage/HomePage';
 import fs from 'fs';
 import path from 'path';
-import Database from "../data";
+import Database from "../data/data";
 
 export default function Home(props) {
   return (
