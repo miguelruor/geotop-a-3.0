@@ -10,7 +10,7 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    max-width: 900px;
+    max-width: 90vw;
   }
   
   .carousel ul {
@@ -32,10 +32,11 @@
   }
   
   .carouselItem > div {
-    display: flex;
+    display: inline;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   /*.carouselItem img {
@@ -62,7 +63,6 @@
   }
   
   .carouselPoints {
-    position: absolute;
     display: flex;
     justify-content: center;
   }
@@ -92,7 +92,7 @@
   }
 
   .container{
-      padding: 10%;
+      padding: 2%;
   }
   
   /* responsive */
@@ -102,6 +102,9 @@
       padding: 0px 24px;
     }
 
+    .carouselPoints {
+      display: none;
+    }
     
     .container{
         padding: 2%;
@@ -129,13 +132,12 @@
       max-width: 200px;
     }
   
-    .carouselButtons {
+    /*.carouselButtons {
       display: none;
-    }
+    }*/
   
     .carouselPoints {
-      padding-top: 32px;
-      padding-left: 24px;
+      display: none;
     }
 
     .container{

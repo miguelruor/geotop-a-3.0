@@ -147,7 +147,7 @@ export default function HomePage(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionCarousel geometryImages={props.geometryImages} topologyImages={props.topologyImages}/>
+        <SectionCarousel images={props.images}/>
         <div className={classes.container}>
           <FutureTalksSection />
           <StreamingTimeSection />
