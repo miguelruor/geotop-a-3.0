@@ -1,6 +1,6 @@
 import NextApp from 'next/app'
 import React from 'react'
-import '../assets/css/globals.css'
+import '../assets/css/globals.scss'
 
 import { ThemeProvider } from 'styled-components'
 const theme = {

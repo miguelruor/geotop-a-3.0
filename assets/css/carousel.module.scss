@@ -1,6 +1,4 @@
 .main {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,22 +27,16 @@
   
   .carouselArea {
     overflow: hidden;
+    padding-right: 10%;
   }
   
-  .carouselItem > div {
+  .carouselItem {
     display: inline;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly !important;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  
-  /*.carouselItem img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin-bottom: 18px;
-  }*/
   
   .carouselButtons {
     bottom: 50%;
@@ -58,10 +50,22 @@
   .carouselButtons button {
     border: 0;
     display: flex;
-    align-items: stretch;
     background: transparent;
+    cursor: pointer;
+    background-color:  rgba(126, 127, 212, 0.5);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
+
+  .carouselButtons button:disabled {
+    background-color:  rgba(194, 194, 196, 0.863);
+    cursor: default;
+  }
+
   .carouselPoints {
     display: flex;
     justify-content: center;
@@ -99,7 +103,6 @@
   @media (max-width: 950px) {
     .carousel {
       max-width: none;
-      padding: 0px 24px;
     }
 
     .carouselPoints {
@@ -116,24 +119,20 @@
       max-width: 400px;
       text-align: center;
     }
-  
-    .carousel h3 {
-      font-size: 30px;
-      line-height: normal;
+    
+    .carouselButtons {
+      position: relative;
+    }
+
+    .carouselArea {
+      overflow: hidden;
+      padding-right: 18%;
     }
     
     /*.carouselItem img {
       width: 150px;
       height: 150px;
       margin-top: 64px;
-    }*/
-  
-    .carousel p {
-      max-width: 200px;
-    }
-  
-    /*.carouselButtons {
-      display: none;
     }*/
   
     .carouselPoints {
