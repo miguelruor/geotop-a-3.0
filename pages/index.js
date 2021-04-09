@@ -1,19 +1,20 @@
 import Head from 'next/head';
 import HomePage from '../views/HomePage/HomePage';
-import fs from 'fs'
-import path from 'path'
+import data from '../data/imageData.json'
 
 
 export async function getStaticProps(){
-  const imagesDirectory = path.join(process.cwd(), 'public/img/')
+  const totalImages = data.totalImages
 
-  const geometryImages = fs.readdirSync(imagesDirectory+'Pics_Geometry');
-  const topologyImages = fs.readdirSync(imagesDirectory+'Pics_Topology');
+  var images = []
 
+  for(var i=1; i<=totalImages; i+=1){
+    images.push('/img/imagesCarousel/img'+i.toString()+'.jpg')
+  }
+  
   return {
     props: {
-      geometryImages, 
-      topologyImages
+      images
     }
   }
 }
@@ -24,8 +25,9 @@ export default function Home(props) {
       <Head>
         <title>GEOTOP-A</title>
         <link rel="icon" href="/favicon.ico"/>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <HomePage props/>
+      <HomePage images={props.images}/>
       <br/>
     </div>
   )

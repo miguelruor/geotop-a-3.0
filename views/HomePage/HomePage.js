@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import HeaderLinks from "../../components/Header/HeaderLinks";
 import Parallax from "../../components/Parallax/Parallax.js";
 import GridContainer from "../../components/Grid/GridContainer.js";
@@ -24,7 +25,8 @@ import classNames from "classnames";
 import SectionCarousel from "../../components/Carousel/SectionCarousel.js";
 import FutureTalksSection from '../../components/FutureTalks/FutureTalksSection.js';
 import StreamingTimeSection from '../../components/StreamingTime/StreamingTimeSection.js';
-import TeamSection from '../../components/Team/TeamSection.js'
+import TeamSection from '../../components/Team/TeamSection.js';
+
 
 const useStyles = makeStyles(styles);
 
@@ -34,20 +36,24 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 export default function HomePage(props) {
   const classes = useStyles();
+
   //const { ...rest } = props;
+  /*
   var cont=0;
   for(var i = 0, max = Database.seminarData.length; i<max; i+=1){
     if(Database.seminarData[i].Previous){
       cont = i;
     }
   }
+
   const talkTitle = Database.seminarData[cont].Title;
   const talkDescription = Database.seminarData[cont].Abstract;
   const talkVideo  = Database.seminarData[cont].Video;
   const talkKeywords = Database.seminarData[cont].Keywords;
   const speaker =  Database.seminarData[cont].Speaker;
+  */
+ 
   const [modal, setModal] = React.useState(false);
-
 
   return (
     <div>
@@ -139,17 +145,16 @@ export default function HomePage(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <div>{props.geometryImages}</div>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        {/*<SectionCarousel geometryImages={props.geometryImages} topologyImages={props.topologyImages}/>*/}
+        <SectionCarousel images={props.images}/>
         <div className={classes.container}>
           <FutureTalksSection />
           <StreamingTimeSection />
           <TeamSection />
         </div>
       </div>
-
+      <Footer />          
     </div>
   )
 }
