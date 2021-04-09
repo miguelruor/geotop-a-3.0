@@ -122,8 +122,8 @@ export default function HomePage(props) {
                   {typeof(talkSlides) == "undefined" ? null : <><p><b>Slides:</b> <a href={talkSlides} target="_blank">Click here</a></p></>}
                   {typeof(warningNote) == "undefined" ? null : <><p><b>Warning: </b>{warningNote}</p></>}
                   <p><b>Date: </b>{talkDate} </p>
-                  <p><b>Keywords: </b> {talkKeywords.join(', ')}</p>
-                  <p><b>Abstract: </b>{ReactHtmlParser (talkDescription)}</p>
+                  <p><b>Keywords: </b> {/*talkKeywords.join(', ')*/}</p>
+                  <p><b>Abstract: </b>{/*ReactHtmlParser (talkDescription)*/}</p>
                 </DialogContent>
                 <DialogActions className={classes.modalFooter}>
                   <Button

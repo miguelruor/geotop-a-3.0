@@ -13,17 +13,23 @@ export async function getStaticProps(){
     images.push('/img/imagesCarousel/img'+i.toString()+'.jpg')
   }
   
+  var lastTalk = Object.keys(talks).length - 1;
+
+  while(talks[lastTalk.toString()].video == null){
+    lastTalk -= 1;
+  }
+  
   return {
     props: {
       images: images,
-      title: title,
-      video: video,
-      abstract: abstract,
-      date: date, 
-      keywords: keywords,
-      speaker: speaker,
-      slides: props.slides,
-      warning: props.warning
+      title: talks[lastTalk.toString()].title,
+      video: talks[lastTalk.toString()].video,
+      abstract: talks[lastTalk.toString()].abstract,
+      date: talks[lastTalk.toString()].date, 
+      keywords: talks[lastTalk.toString()].keywords,
+      speaker: talks[lastTalk.toString()].speaker_id,
+      slides: talks[lastTalk.toString()].slides,
+      warning: talks[lastTalk.toString()].warning
     }
   }
 }
@@ -36,7 +42,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico"/>
         <meta name="viewport" content="initial-scale=1.0, maximum-scale=1" />
       </Head>
-      <HomePage images={props.images}/>
+      <HomePage {...props}/>
       <br/>
     </div>
   )
