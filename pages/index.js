@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import HomePage from '../views/HomePage/HomePage';
-import data from '../data/imageData.json'
-
+import data from '../data/imageData.json';
+import speakers from '../data/speakers.json';
+import talks from '../data/talks.json';
 
 export async function getStaticProps(){
   const totalImages = data.totalImages
@@ -14,7 +15,15 @@ export async function getStaticProps(){
   
   return {
     props: {
-      images
+      images: images,
+      title: title,
+      video: video,
+      abstract: abstract,
+      date: date, 
+      keywords: keywords,
+      speaker: speaker,
+      slides: props.slides,
+      warning: props.warning
     }
   }
 }
