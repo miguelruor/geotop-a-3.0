@@ -4,6 +4,7 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import ReactHtmlParser from 'react-html-parser'; 
+import Image from 'next/image'
 
 // @material-ui/icons
 
@@ -11,13 +12,16 @@ import ReactHtmlParser from 'react-html-parser';
 import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
 
-import styles from "../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
-import image1 from "../../public/img/speakers/sp47.png";
-import image2 from "../../public/img/speakers/sp46.png";
+import styles from "./NextTalksPageStyle";
+//import image1 from "../../public/img/speakers/sp47.png";
+//import image2 from "../../public/img/speakers/sp46.png";
 
 const useStyles = makeStyles(styles);
 
 export default function NextTalksSection(){
+
+    const image1 = '/img/speakers/sp47.png';
+    const image2 = '/img/speakers/sp47.png';
     
     const [talks2, setTalks2] = useState([
         {
@@ -49,13 +53,13 @@ export default function NextTalksSection(){
     return(
         <GridContainer>
             <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
-                <div style={{textAlign: "center"}}><img src={image1} className={imageClasses}/></div>
+                <div className={classes.imgContainer}><Image src={image1} width={380} height={380} className={imageClasses}/></div>
             </GridItem>
             <GridItem xs={12} sm={12} md={7}>
                 <GridContainer>
                     {talks.map(talk => (
                         <>
-                        <GridItem xs={12} sm={12} md={12}><h1 className={classes.title}>{talk.speaker}</h1></GridItem>
+                        <GridItem xs={12} sm={12} md={12}><h1 className={classes.speaker}>{talk.speaker}</h1></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{talk.date}</b></p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{talk.title}</p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser (talk.abstract)}</p></GridItem>
@@ -65,13 +69,13 @@ export default function NextTalksSection(){
                 </GridContainer>
             </GridItem>
             <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
-              <div style={{textAlign: "center"}}>{/*<img src={image2} className={imageClasses}/>*/}</div>
+            <div className={classes.imgContainer}>{/*<Image src={image1} width={380} height={380} className={imageClasses}/>*/}</div>
             </GridItem>
             <GridItem xs={12} sm={12} md={7}>
                 <GridContainer>
                     {talks2.map(talk => (
                         <>
-                        <GridItem xs={12} sm={12} md={12}><h1 className={classes.title}>{talk.speaker}</h1></GridItem>
+                        <GridItem xs={12} sm={12} md={12}><h1 className={classes.speaker}>{talk.speaker}</h1></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{talk.date}</b></p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{talk.title}</p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser (talk.abstract)}</p></GridItem>

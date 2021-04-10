@@ -44,8 +44,6 @@ export default function ListKeywordsSection(props){
     // allTalks[talk_id] = objecto con llaves surname, speaker, year, video, date, title, slides, keywords, abstract, warning
     // speaker es el nombre completo
     const allTalks = props.talks;
-
-    console.log(allTalks.year)
     
     // al dar clic en una letra, se pone visitLetters[letter] = True, para mostrar la lista de keywords
     const [visitLetters, setVisitLetters] = useState({});

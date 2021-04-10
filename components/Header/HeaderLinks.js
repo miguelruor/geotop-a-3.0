@@ -55,11 +55,11 @@ export default function HeaderLinks(props) {
             color: "transparent"
           }}
           dropdownList={[
-            <Link href= '/list-speakers' className={classes.dropdownLink}>
-              Speakers
+            <Link href= '/list-speakers' passHref className={classes.dropdownLink}>
+              <Button component='a' color="transparent" className={classes.dropdownButton}>Speakers</Button>
             </Link>,
-            <Link href= '/list-keywords'  className={classes.dropdownLink}>
-              Keywords
+            <Link href= '/list-keywords' passHref className={classes.dropdownLink}>
+              <Button component='a' color="transparent" className={classes.dropdownButton}>Keywords</Button>
             </Link>
           ]}
         />
