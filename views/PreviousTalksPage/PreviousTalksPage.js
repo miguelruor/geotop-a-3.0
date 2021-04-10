@@ -43,7 +43,7 @@ export default function PreviousTalksPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <PreviousTalksComponent previousTalks={props.previousTalksBySeason}/>
+            <PreviousTalksComponent previousTalks={props.previousTalks} speakerImages={props.speakerImages}/>
           </div>
       </div>
       <Footer />

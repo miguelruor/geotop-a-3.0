@@ -29,6 +29,8 @@ import IconButton from "@material-ui/core/IconButton";
 
 import Close from "@material-ui/icons/Close";
 
+import Image from 'next/image';
+
 
 const useStyles = makeStyles(styles);
 
@@ -49,8 +51,8 @@ export default function NavPills(props) {
   const[warningNote, setWarningNote] = useState('');
 
 
-  const {content} = props;
-  const keySeason =  Object.keys(content);
+  const {content, speakerImages} = props;
+  const keySeason =  Object.keys(content).reverse();
 
 
   const [active, setActive] = React.useState(props.active);
@@ -112,12 +114,6 @@ export default function NavPills(props) {
     </Tabs>
   );
 
-  // Funcion para leer todos los archivos de una carpeta (npm install --save-dev webpack@4.44.2 webpack-cli)
-  function importAll(r) {
-    return r.keys().map(r);
-  }
-  //const speakerImages = importAll(require.context('../../public/img/speakers', false, /\.(png|jpe?g|svg)$/));
-  
   const tabContent = (
     <div className={classes.contentWrapper}>
       <SwipeableViews
@@ -138,7 +134,8 @@ export default function NavPills(props) {
                         <small className={classes.smallTitle}>{talk['date']}</small>
                       </h4>
                       <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                        {/*<img src={speakerImages[talk['speakerID']].default} alt="..." className={imageClasses} />*/}
+                        <Image src={speakerImages[talk['speakerID']]} width={100} height={100} />
+                        {/*<img src={speakerImages[talk['speakerID']]} className={imageClasses} />*/}
                       </GridItem>
                       <h4 className={classes.cardTitle}>
                         {talk['speaker']}
@@ -198,8 +195,8 @@ export default function NavPills(props) {
                           <p><b>Speaker: </b> {talkSpeaker} </p>
                           <p><b>Title: </b>{talkTitle} </p>
                           <p><b>Video: </b> {talkVideo === null ? 'Not available yet.' : <a href={talkVideo} target="_blank">Click here</a>} </p>
-                          {typeof(talkPresentation) == "undefined" ? null : <><p><b>Slides:</b> <a href={talkPresentation} target="_blank">Click here</a></p></>}
-                          {typeof(warningNote) == "undefined" ? null : <><p><b>Warning: </b>{warningNote}</p></>}
+                          {talkPresentation == null ? null : <><p><b>Slides:</b> <a href={talkPresentation} target="_blank">Click here</a></p></>}
+                          {warningNote == null ? null : <><p><b>Warning: </b>{warningNote}</p></>}
                           <p><b>Date: </b>{talkDate} </p>
                           <p><b>Keywords: </b> {talkKeywords.join(', ')}</p>
                           <p><b>Abstract: </b>{ReactHtmlParser(talkDescription)}</p>
