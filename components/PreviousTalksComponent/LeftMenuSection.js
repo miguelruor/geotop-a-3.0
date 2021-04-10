@@ -1,9 +1,8 @@
-import { FormatPaintRounded } from "@material-ui/icons";
-import React, {useState, useEffect} from "react";
+import ReactHtmlParser from "react";
 // @material-ui/core components
 
 // core components
-import NavPills from "./NavPills_Modified.js";
+import NavPills from "./NavPills_v2";
 
 export default function LeftMenuSection(props){
 
