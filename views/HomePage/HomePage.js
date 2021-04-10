@@ -14,8 +14,8 @@ import IconButton from "@material-ui/core/IconButton";
 import { makeStyles } from "@material-ui/core/styles";
 import Close from "@material-ui/icons/Close";
 import styles from "./HomePageStyle.js";
-import Database from "../../data"
 import Slide from "@material-ui/core/Slide";
+import ReactHtmlParser from 'react-html-parser';
 
 import backgroundImageHome from '../../public/img/img1.jpg';
 
@@ -26,7 +26,6 @@ import SectionCarousel from "../../components/Carousel/SectionCarousel.js";
 import FutureTalksSection from '../../components/FutureTalks/FutureTalksSection.js';
 import StreamingTimeSection from '../../components/StreamingTime/StreamingTimeSection.js';
 import TeamSection from '../../components/Team/TeamSection.js';
-
 
 const useStyles = makeStyles(styles);
 
@@ -119,11 +118,11 @@ export default function HomePage(props) {
                   <p><b>Title: </b>{talkTitle} </p>
                   <p><b>Video: </b> {talkVideo === null ? 'Not available yet.' : <a href={talkVideo} target="_blank">Click here</a>} </p>
                   {/*Cuando una talk no tiene presentacion, talkSlides es undefined, y en otro caso string*/}
-                  {typeof(talkSlides) == "undefined" ? null : <><p><b>Slides:</b> <a href={talkSlides} target="_blank">Click here</a></p></>}
-                  {typeof(warningNote) == "undefined" ? null : <><p><b>Warning: </b>{warningNote}</p></>}
+                  {talkSlides == null ? null : <><p><b>Slides:</b> <a href={talkSlides} target="_blank">Click here</a></p></>}
+                  {warningNote == null ? null : <><p><b>Warning: </b>{warningNote}</p></>}
                   <p><b>Date: </b>{talkDate} </p>
-                  <p><b>Keywords: </b> {/*talkKeywords.join(', ')*/}</p>
-                  <p><b>Abstract: </b>{/*ReactHtmlParser (talkDescription)*/}</p>
+                  <p><b>Keywords: </b> {talkKeywords.join(', ')}</p>
+                  <p><b>Abstract: </b>{ReactHtmlParser (talkDescription)}</p>
                 </DialogContent>
                 <DialogActions className={classes.modalFooter}>
                   <Button

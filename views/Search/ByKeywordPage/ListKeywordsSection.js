@@ -44,14 +44,6 @@ export default function ListSpeakersSection(props){
     // allTalks[talk_id] = objecto con llaves surname, speaker, year, video, date, title, slides, keywords, abstract, warning
     // speaker es el nombre completo
     const allTalks = props.talks;
-
-    /*
-    let keywords_aux = {};
-    const [keywords, setKeywords] = useState({});
-    const [keywordsListByLetter,setKeywordsListByLatter] = useState([]);
-    const [lettersInKeywords, setLettersInKeywords] = useState([]);
-    const [allTalks, setTalks] = useState({});
-    */
     
     // al dar clic en una letra, se pone visitLetters[letter] = True, para mostrar la lista de keywords
     const [visitLetters, setVisitLetters] = useState({});
@@ -82,100 +74,6 @@ export default function ListSpeakersSection(props){
     month[9] = "October";
     month[10] = "November";
     month[11] = "December";
-    
-    /* 
-    useEffect(async()=>{
-        
-        var speakers = {};
-        await db.collection('speakers').get()
-        .then(function(querySnapshot){
-            querySnapshot.forEach(async function(doc){
-                var mi = doc.data().middle_initial;
-                speakers[doc.id] = {
-                    surname: doc.data().surname,
-                    completeName: doc.data().name + " " + 
-                    (mi != null ? mi : "") + " " + doc.data().surname
-                };
-            })
-        })
-        .catch(function(error){
-            alert("Some speakers cannot load.");
-        });
-
-        var talks = {};
-
-        await db.collection("talks").get()
-        .then(function(querySnapshot){
-            querySnapshot.forEach(async function(doc){
-                
-                let keys = doc.data().keywords;
-                let keys_len = keys.length;
-                for(let i=0; i<keys_len; i++){
-                    // Checo si encuentro una keyword nueva
-                    if(!(keys[i] in keywords_aux)){
-                        keywords_aux[keys[i]] = []
-                    }
-                    keywords_aux[keys[i]].push(doc.id); 
-                }
-                var idx = doc.data().speaker;
-                var date = doc.data().date.toDate();
-                talks[doc.id] = {
-                    surname: speakers[idx].surname,
-                    speaker: speakers[idx].completeName,
-                    year: date.getFullYear(),
-                    video: doc.data().video,
-                    date: month[date.getMonth()] + " " + date.getDate().toString() + ", " + date.getFullYear().toString(),
-                    title: doc.data().title,
-                    keywords: doc.data().keywords,
-                    slides: doc.data().presentation,
-                    abstract: doc.data().abstract,
-                    warning: doc.data().warning,
-                };
-                
-            });
-        })
-        .catch(function(error){
-            alert("Cannot load some talk")
-        });
-        setKeywords(keywords_aux);
-        setTalks(talks);
-    },[]);
-
-    // Al modificar speakers list con el contenido se actualiza
-    useEffect(() => {
-        handleLettersInKeyWords();
-    },[keywords]);
-
-    // Función que revisa las letras que existen para hacer listas
-    function handleLettersInKeyWords(){
-        let letterSet = new Set(); // Set con primeras letras de keywords en mayusculas
-        let visitLetters = {}; // 
-        let keywordsWithLetter = {}; 
-        // keywordsWithLetter[a] = [{keyword1_con_a: [talk1_id, talk2_id, ...]}, 
-        //                                    {keyword2_con_a: [talk3_id, ...]}, ...]
-
-        for(var k in keywords){
-            var letter = k.charAt(0).toUpperCase();
-            letterSet.add(letter);
-            visitLetters[letter] = false;
-            keywordsWithLetter[letter] = [];
-        }
-
-        for(var k in keywords){
-            var letter = k.charAt(0).toUpperCase() ;
-            var copy = {};
-            copy[k] = keywords[k];
-            keywordsWithLetter[letter].push(copy);
-        }
-        var auxLetterSet = [...letterSet]; // convertir a lista el set 
-        auxLetterSet.sort(); // ordenar
-
-        setLettersInKeywords(auxLetterSet);
-        setVisitLetters(visitLetters);
-        setKeywordsListByLatter(keywordsWithLetter); 
-    }  
-
-    */
 
     // funcion para poner la lista de keywords que empiezan con letter
     function listWithLetter(letter){
