@@ -1,4 +1,3 @@
-import { ThumbDownAltOutlined } from '@material-ui/icons';
 import Head from 'next/head';
 import SearchByKeywordPage from '../views/Search/ByKeywordPage/ByKeywordPage';
 import speakers from '../data/speakers.json';
@@ -7,31 +6,74 @@ import talks from '../data/talks.json';
 export async function getStaticProps(){
   
   var keywords = {};
-  var keywordsListByLetter = {};
   let letterSet = new Set(); // Set con primeras letras de keywords en mayusculas
   let visitLetters = {}; // 
   let keywordsWithLetter = {}; 
   // keywordsWithLetter[a] = [{keyword1_con_a: [talk1_id, talk2_id, ...]}, 
   // {keyword2_con_a: [talk3_id, ...]}, ...]
 
-  // Función que revisa las letras que existen para hacer listas
-  function handleLettersInKeyWords(){       
-    for(var k in keywords){
-        var letter = k.charAt(0).toUpperCase();
-        letterSet.add(letter);
-        visitLetters[letter] = false;
-        keywordsWithLetter[letter] = [];
+  var month = new Array();
+  month[0] = "January";
+  month[1] = "February";
+  month[2] = "March";
+  month[3] = "April";
+  month[4] = "May";
+  month[5] = "June";
+  month[6] = "July";
+  month[7] = "August";
+  month[8] = "September";
+  month[9] = "October";
+  month[10] = "November";
+  month[11] = "December";
+
+  var talks_ext = {}
+
+  Object.keys(talks).forEach(talk_id => {
+    var date = new Date(1000*talks[talk_id].date.seconds); // pass unix timestamp milliseconds as an argument to the Date constructor
+
+    if(date > new Date()){
+      return;
+    }
+    
+    let keys = talks[talk_id].keywords;
+    let keys_len = keys.length;
+
+    for(let i=0; i<keys_len; i++){
+        // Checo si encuentro una keyword nueva
+        if(!(keys[i] in keywords)){
+            keywords[keys[i]] = []
+        }
+        keywords[keys[i]].push(talk_id); 
     }
 
-    for(var k in keywords){
-        var letter = k.charAt(0).toUpperCase() ;
-        var copy = {};
-        copy[k] = keywords[k];
-        keywordsWithLetter[letter].push(copy);
-    }
-    var auxLetterSet = [...letterSet]; // convertir a lista el set 
-    auxLetterSet.sort(); // ordenar
-  }  
+    var idx = talks[talk_id].speaker_id.toString();
+    var year = date.getFullYear();
+    var stringDate = month[date.getMonth()] + " " + date.getDate().toString() + ", " + date.getFullYear().toString();
+    
+    talks_ext[talk_id] = {
+        ...talks[talk_id],
+        surname: speakers[idx].surname,
+        speaker: speakers[idx].completeName,
+        year: year,
+        date: stringDate
+    };
+  })
+
+  // Función que revisa las letras que existen para hacer listas  
+  for(var k in keywords){
+      var letter = k.charAt(0).toUpperCase();
+      letterSet.add(letter);
+      keywordsWithLetter[letter] = [];
+  }
+
+  for(var k in keywords){
+      var letter = k.charAt(0).toUpperCase() ;
+      var copy = {};
+      copy[k] = keywords[k];
+      keywordsWithLetter[letter].push(copy);
+  }
+  var auxLetterSet = [...letterSet]; // convertir a lista el set 
+  auxLetterSet.sort(); // ordenar
 
   var lettersInKeywords = [...letterSet]; // convertir a lista el set 
   lettersInKeywords.sort(); // ordenar
@@ -41,56 +83,10 @@ export async function getStaticProps(){
       keywords: keywords,
       keywordsListByLetter: keywordsWithLetter,
       lettersInKeywords: lettersInKeywords,
-      talks: talks
+      talks: talks_ext
     }
   }
 }
-
-/* 
-
-        await db.collection("talks").get()
-        .then(function(querySnapshot){
-            querySnapshot.forEach(async function(doc){
-                
-                let keys = doc.data().keywords;
-                let keys_len = keys.length;
-                for(let i=0; i<keys_len; i++){
-                    // Checo si encuentro una keyword nueva
-                    if(!(keys[i] in keywords_aux)){
-                        keywords_aux[keys[i]] = []
-                    }
-                    keywords_aux[keys[i]].push(doc.id); 
-                }
-                var idx = doc.data().speaker;
-                var date = doc.data().date.toDate();
-                talks[doc.id] = {
-                    surname: speakers[idx].surname,
-                    speaker: speakers[idx].completeName,
-                    year: date.getFullYear(),
-                    video: doc.data().video,
-                    date: month[date.getMonth()] + " " + date.getDate().toString() + ", " + date.getFullYear().toString(),
-                    title: doc.data().title,
-                    keywords: doc.data().keywords,
-                    slides: doc.data().presentation,
-                    abstract: doc.data().abstract,
-                    warning: doc.data().warning,
-                };
-                
-            });
-        })
-        .catch(function(error){
-            alert("Cannot load some talk")
-        });
-        setKeywords(keywords_aux);
-        setTalks(talks);
-    },[]);
-
-    // Al modificar speakers list con el contenido se actualiza
-    useEffect(() => {
-        handleLettersInKeyWords();
-    },[keywords]);
-
-    */
 
 export default function SearchByKeyword(props) {
   return (

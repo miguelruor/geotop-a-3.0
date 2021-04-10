@@ -44,6 +44,8 @@ export default function ListSpeakersSection(props){
     // allTalks[talk_id] = objecto con llaves surname, speaker, year, video, date, title, slides, keywords, abstract, warning
     // speaker es el nombre completo
     const allTalks = props.talks;
+
+    console.log(allTalks.year)
     
     // al dar clic en una letra, se pone visitLetters[letter] = True, para mostrar la lista de keywords
     const [visitLetters, setVisitLetters] = useState({});
@@ -60,20 +62,6 @@ export default function ListSpeakersSection(props){
     const[talkSpeaker,setTalkSpeaker] = useState('');
     const[talkKeywords,setTalkKeywords] = useState([]);
     const[warningNote, setWarningNote] = useState('');
-
-    var month = new Array();
-    month[0] = "January";
-    month[1] = "February";
-    month[2] = "March";
-    month[3] = "April";
-    month[4] = "May";
-    month[5] = "June";
-    month[6] = "July";
-    month[7] = "August";
-    month[8] = "September";
-    month[9] = "October";
-    month[10] = "November";
-    month[11] = "December";
 
     // funcion para poner la lista de keywords que empiezan con letter
     function listWithLetter(letter){
