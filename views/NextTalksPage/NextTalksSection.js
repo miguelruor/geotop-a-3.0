@@ -12,8 +12,8 @@ import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
 
 import styles from "../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
-import image1 from "../../public/img/speakers/sp047.png";
-import image2 from "../../public/img/speakers/sp046.png";
+import image1 from "../../public/img/speakers/sp47.png";
+import image2 from "../../public/img/speakers/sp46.png";
 
 const useStyles = makeStyles(styles);
 
