@@ -1,9 +1,13 @@
 import Head from 'next/head';
 import SearchBySpeakerPage from '../views/Search/BySpeakerPage/BySpeakerPage';
 import removeAccents from "remove-accents"
+import speakers from '../data/speakers.json';
+import talks from '../data/talks.json';
 
 export async function getStaticProps(){
-  const speaker0 = {
+
+
+/*   const speaker0 = {
     name: "Juan",
     surname: "Perez",
     middle_initial: null,
@@ -55,9 +59,9 @@ export async function getStaticProps(){
     '3': speaker3,
     '4': speaker4
   }
+ */
+  var speakersID = Object.keys(speakers);
 
-  var speakersID = ['0', '1', '2', '3', '4'];
-  
   speakersID.sort(function(a,b){
     if(removeAccents(speakers[a].surname) > removeAccents(speakers[b].surname)){
         return 1;
@@ -68,7 +72,19 @@ export async function getStaticProps(){
     return 0;
   });
 
-  const talk0 = {
+/*   var speakersID = ['0', '1', '2', '3', '4'];
+  
+  speakersID.sort(function(a,b){
+    if(removeAccents(speakers[a].surname) > removeAccents(speakers[b].surname)){
+        return 1;
+    }
+    if(removeAccents(speakers[a].surname) < removeAccents(speakers[b].surname)){
+        return -1;
+    }
+    return 0;
+  }); */
+
+  /* const talk0 = {
     speakerID: "0",
     year: "2014",
     video: "https://www.youtube.com/watch?v=-gDinVAmtA0",
@@ -129,22 +145,32 @@ export async function getStaticProps(){
     '2': talk2, 
     '3': talk3,
     '4': talk4
-  };
+  }; */
 
   let lettersInSurname = new Set();
   let speakersWithLetter = {};
 
-  speakersID.forEach(speaker => {
+  Object.keys(speakers).forEach( speaker => {
+    const letter = removeAccents(speakers[speaker].surname.charAt(0));
+    lettersInSurname.add(letter);
+    speakersWithLetter[letter] = [];
+  })
+  
+  Object.keys(speakers).forEach(speaker => {
+    const letter = removeAccents(speakers[speaker].surname.charAt(0));
+    speakersWithLetter[letter].push(speaker);
+  })
+/*   speakersID.forEach(speaker => {
       const letter = removeAccents(speakers[speaker].surname.charAt(0));
       lettersInSurname.add(letter);
       speakersWithLetter[letter] = [];
-  });
+  }); 
 
   speakersID.forEach(speaker => {
       const letter = removeAccents(speakers[speaker].surname.charAt(0));
       speakersWithLetter[letter].push(speaker);
   });
-
+*/
   return{
     props:{
       talks: talks,

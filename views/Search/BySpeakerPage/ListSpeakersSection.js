@@ -232,7 +232,7 @@ export default function ListSpeakersSection(props){
                                 setTalkPresentation(talks[talkID_aux].slides);
                                 setTalkDescription(talks[talkID_aux].abstract);
                                 setTalkKeywords(talks[talkID_aux].keywords);
-                                setTalkSpeaker(speakersDic[talks[talkID_aux].speakerID.toString()].completeName); 
+                                setTalkSpeaker(speakersDic[talks[talkID_aux].speaker_id.toString()].completeName); 
                                 setTalkDate(talks[talkID_aux].date); 
                                 setWarningNote(talks[talkID_aux].warning);
                             }}>
