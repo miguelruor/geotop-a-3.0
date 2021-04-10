@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // nodejs library to set properties for components
@@ -13,50 +13,20 @@ import Tab from "@material-ui/core/Tab";
 // core components
 import GridContainer from "../Grid/GridContainer.js"  
 import GridItem from "../Grid/GridItem.js" 
-
 import styles from "../../assets/jss/material-kit-react/components/navPillsStyle.js";
-import ReactHtmlParser from 'react-html-parser';
-
 import Card from "../Card/Card.js";
 import Button from "../CustomButtons/Button.js";
-
-import Slide from "@material-ui/core/Slide";
-import Dialog from "@material-ui/core/Dialog";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import DialogContent from "@material-ui/core/DialogContent";
-import DialogActions from "@material-ui/core/DialogActions";
-import IconButton from "@material-ui/core/IconButton";
-
-import Close from "@material-ui/icons/Close";
-
 import Image from 'next/image';
-
+import Link from 'next/link';
 
 const useStyles = makeStyles(styles);
 
-const Transition = React.forwardRef(function Transition(props, ref) {
-  return <Slide direction="down" ref={ref} {...props} />;
-});
-
 export default function NavPills(props) {
 
-  const [info, setInfo] = useState({
-    talkTitle : '',
-    talkDate: '',
-    talkDescription: '',
-    talkVideo: '',
-    talkPresentation: '',
-    talkSpeaker: '',
-    talkKeywords: [],
-    warningNote: ''
-  })
-
-  const {content, speakerImages} = props;
+  var {content, speakerImages} = props;
   const keySeason =  Object.keys(content).reverse();
 
-
   const [active, setActive] = React.useState(props.active);
-  const [classicModal, setClassicModal] = React.useState(false);
   const handleChange = (event, active) => {
     setActive(active);
     //alert('cambio');
@@ -134,7 +104,7 @@ export default function NavPills(props) {
                         <small className={classes.smallTitle}>{talk['date']}</small>
                       </h4>
                       <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                        <Image src={speakerImages[talk['speakerID']]} width={100} height={100} />
+                        <Image src={speakerImages[talk['speakerID']]} width={100} height={100}  className={imageClasses}/>
                         {/*<img src={speakerImages[talk['speakerID']]} className={imageClasses} />*/}
                       </GridItem>
                       <h4 className={classes.cardTitle}>
@@ -142,78 +112,15 @@ export default function NavPills(props) {
                         <br />
                     <small className={classes.smallTitle}>{talk['title']}</small>
                       </h4>
+                      <Link href={'/previous-talks/'+talk['speakerID']}>
                       <Button 
                         round 
                         color='primary' 
                         className={classes.button}
-                        onClick={() => {setClassicModal(true); 
-                            setInfo({
-                              talkTitle : talk['title'],
-                              talkDate:talk['date'],
-                              talkDescription: talk['abstract'],
-                              talkVideo: talk['video'],
-                              talkPresentation: talk['presentation'],
-                              talkSpeaker: talk['speaker'],
-                              talkKeywords: talk['keywords'],
-                              warningNote: talk['warning']
-                            })
-                          }}
                       >
                           Details
                         </Button>
-                      <Dialog
-                        classes={{
-                          root: classes.center,
-                          paper: classes.modal
-                        }}
-                        open={classicModal}
-                        TransitionComponent={Transition}
-                        keepMounted
-                        onClose={() => setClassicModal(false)}
-                        aria-labelledby="classic-modal-slide-title"
-                        aria-describedby="classic-modal-slide-description"
-                      >
-                        <DialogTitle
-                          id="classic-modal-slide-title"
-                          disableTypography
-                          className={classes.modalHeader}
-                        >
-                          <IconButton
-                            className={classes.modalCloseButton}
-                            key="close"
-                            aria-label="Close"
-                            color="inherit"
-                            onClick={() => setClassicModal(false)}
-                          >
-                            <Close className={classes.modalClose} />
-                          </IconButton>
-                          <h2 className={classes.modalTitle}>Talk Details</h2>
-                        </DialogTitle>
-                        <DialogContent
-                          id="classic-modal-slide-description"
-                          className={classes.modalBody}
-                        >
-                          <p><b>Speaker: </b> {info.talkSpeaker} </p>
-                          <p><b>Title: </b>{info.talkTitle} </p>
-                          <p><b>Video: </b> {info.talkVideo === null ? 'Not available yet.' : <a href={info.talkVideo} target="_blank">Click here</a>} </p>
-                          {info.talkPresentation == null ? null : <><p><b>Slides:</b> <a href={info.talkPresentation} target="_blank">Click here</a></p></>}
-                          {info.warningNote == null ? null : <><p><b>Warning: </b>{info.warningNote}</p></>}
-                          <p><b>Date: </b>{info.talkDate} </p>
-                          <p><b>Keywords: </b> {info.talkKeywords.join(', ')}</p>
-                          <p><b>Abstract: </b>{ReactHtmlParser(info.talkDescription)}</p>
-                            
-                        </DialogContent>
-                        <DialogActions className={classes.modalFooter}>
-                          <Button
-                            onClick={() => setClassicModal(false)}
-                            color="danger"
-                            simple
-                          >
-                            Close
-                          </Button>
-                        </DialogActions>
-                      </Dialog>
-
+                        </Link>
                     </Card>
                   </GridItem>
                   );})}
