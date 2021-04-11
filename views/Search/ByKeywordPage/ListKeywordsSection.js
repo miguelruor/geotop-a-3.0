@@ -1,6 +1,4 @@
-import React, {useState, useEffect} from "react";
-// nodejs library that concatenates classes
-import classNames from "classnames";
+import React, {useState} from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 

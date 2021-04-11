@@ -1,11 +1,7 @@
 import React, {useState} from "react";
-
-// nodejs library that concatenates classes
-import classNames from "classnames";
-
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
+import styles from "./BySpeakerPageStyle";
 
 import MenuOpen from '@material-ui/icons/MenuOpen';
 
@@ -165,7 +161,7 @@ export default function ListSpeakersSection(props){
         const listItems = lettersInSurname.map(letter => 
                 <li 
                     style={{cursor: 'pointer'}}> 
-                    <h1 className={classes.title}> 
+                    <h1 className={classes.letter}> 
                         {letter} <MenuOpen
                         onClick={onclickLetter.bind(this, letter)}
                         /> {visitLetters[letter] ? listWithLetter(letter) : null}
