@@ -95,16 +95,15 @@ export async function getStaticProps(context){
   month[11] = "December";
 
   var talk_id = context.params.id;
-  var date = talks[talk_id].date.seconds;
-  date = new Date(1000*date); // pass unix timestamp milliseconds as an argument to the Date constructor
-  date = month[date.getMonth()] + " " + date.getDate().toString() + ", " + date.getFullYear().toString();
+  var date = new Date(1000*talks[talk_id].date.seconds); // pass unix timestamp milliseconds as an argument to the Date constructor
+  var stringDate = month[date.getMonth()] + " " + date.getDate().toString() + ", " + date.getFullYear().toString();
   
   const speakerID = talks[talk_id].speaker_id;
 
   return{
     props:{
       speakerImage: '/img/speakers/sp'+speakerID+".png",
-      date: date,
+      date: stringDate,
       speaker: speakers[speakerID.toString()].completeName,
       title: talks[talk_id].title,
       keywords: talks[talk_id].keywords,
