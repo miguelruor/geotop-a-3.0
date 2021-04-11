@@ -4,7 +4,7 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
+import styles from './ByKeywordPageStyle.js';
 import MenuOpen from '@material-ui/icons/MenuOpen';
 
 import removeAccents from "remove-accents"
@@ -28,7 +28,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="down" ref={ref} {...props} />;
   });
 
-export default function ListSpeakersSection(props){
+export default function ListKeywordsSection(props){
     const classes = useStyles();
     
     // keywords[DNA] = [talk1_id, talk2_id,...]  --- DNA denota una keyword
@@ -44,8 +44,6 @@ export default function ListSpeakersSection(props){
     // allTalks[talk_id] = objecto con llaves surname, speaker, year, video, date, title, slides, keywords, abstract, warning
     // speaker es el nombre completo
     const allTalks = props.talks;
-
-    console.log(allTalks.year)
     
     // al dar clic en una letra, se pone visitLetters[letter] = True, para mostrar la lista de keywords
     const [visitLetters, setVisitLetters] = useState({});
@@ -185,7 +183,7 @@ export default function ListSpeakersSection(props){
         const listItems = lettersInKeywords.map(letter => 
                 <li
                     style={{listStyleType:'none'}} > 
-                    <h1 className={classes.title}> 
+                    <h1 className={classes.letter}> 
                         {letter} <MenuOpen
                         onClick={onclickLetter.bind(this, letter)}
                         style={{cursor: 'pointer'}}

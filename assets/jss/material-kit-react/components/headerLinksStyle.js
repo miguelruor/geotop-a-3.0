@@ -110,8 +110,12 @@ const headerLinksStyle = theme => ({
       textDecoration: "none",
       outline: "none !important",
       display: "block",
-      padding: "10px 20px"
+      padding: "0px important!"
     }
+  },
+  dropdownButton: {
+    display: "inline-block",
+    width: '100%'
   },
   ...tooltip,
   marginRight5: {

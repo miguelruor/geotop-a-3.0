@@ -1,4 +1,5 @@
 import { container, title } from "../../assets/jss/material-kit-react.js";
+import imagesStyle from "../../assets/jss/material-kit-react/imagesStyles";
 
 const landingPageStyle = {
   container: {
@@ -6,6 +7,29 @@ const landingPageStyle = {
     color: "#FFFFFF",
     ...container
   },
+  containerContent: {
+    zIndex: "12",
+    color: "#FFFFFF",
+    paddingRight: "15px",
+    paddingTop: "50px",
+    paddingLeft: "15px",
+    marginRight: "auto",
+    marginLeft: "auto",
+    width: "100%",
+    "@media (min-width: 576px)": {
+      maxWidth: "540px"
+    },
+    "@media (min-width: 768px)": {
+      maxWidth: "720px"
+    },
+    "@media (min-width: 992px)": {
+      maxWidth: "960px"
+    },
+    "@media (min-width: 1200px)": {
+      maxWidth: "1640px"
+    }
+  },
+  ...imagesStyle,
   title: {
     ...title,
     display: "inline-block",
@@ -16,10 +40,20 @@ const landingPageStyle = {
     textDecoration: "none",
     fontSize: "50px"
   },
+  speaker: {
+    ...title,
+    marginBottom: "1rem",
+    marginTop: "30px",
+    minHeight: "32px",
+    textDecoration: "none"
+  },
   subtitle: {
     fontSize: "1.313rem",
     maxWidth: "500px",
     margin: "10px auto 0"
+  },
+  smallTitle: {
+    color: "black"
   },
   main: {
     background: "#FFFFFF",
@@ -31,7 +65,14 @@ const landingPageStyle = {
     borderRadius: "6px",
     boxShadow:
       "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
-  }
+  },
+  imgContainer:{
+    display: "block",
+    textAlign: "center"
+  },
+  nextTalk: {
+    padding: '5%',
+  },
 };
 
 export default landingPageStyle;

@@ -40,6 +40,17 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 export default function NavPills(props) {
 
+  const [info, setInfo] = useState({
+    talkTitle : '',
+    talkDate: '',
+    talkDescription: '',
+    talkVideo: '',
+    talkPresentation: '',
+    talkSpeaker: '',
+    talkKeywords: [],
+    warningNote: ''
+  })
+
   const[talkTitle,setTalkTitle] = useState('');
   const[talkDate,setTalkDate] = useState('');
   const[talkDescription,setTalkDescription] = useState('');
@@ -47,7 +58,6 @@ export default function NavPills(props) {
   const[talkPresentation,setTalkPresentation] = useState('');
   const[talkSpeaker,setTalkSpeaker] = useState('');
   const[talkKeywords,setTalkKeywords] = useState([]);
-  const[speakerID,setSpeakerID] = useState(0);
   const[warningNote, setWarningNote] = useState('');
 
 
@@ -147,6 +157,17 @@ export default function NavPills(props) {
                         color='primary' 
                         className={classes.button}
                         onClick={() => {setClassicModal(true); 
+                            setInfo({
+                              talkTitle : talk['title'],
+                              talkDate:talk['date'],
+                              talkDescription: talk['abstract'],
+                              talkVideo: talk['video'],
+                              talkPresentation: talk['presentation'],
+                              talkSpeaker: talk['speaker'],
+                              talkKeywords: talk['keywords'],
+                              warningNote: talk['warning']
+                            })
+                            /*
                             setTalkTitle(talk['title']);
                             setTalkVideo(talk['video']);
                             setTalkPresentation(talk['presentation']);
@@ -156,6 +177,7 @@ export default function NavPills(props) {
                             setTalkDate(talk['date']); 
                             setSpeakerID(talk['speakerID']); 
                             setWarningNote(talk['warning']);
+                            */
                           }}
                       >
                           Details
@@ -192,14 +214,14 @@ export default function NavPills(props) {
                           id="classic-modal-slide-description"
                           className={classes.modalBody}
                         >
-                          <p><b>Speaker: </b> {talkSpeaker} </p>
-                          <p><b>Title: </b>{talkTitle} </p>
-                          <p><b>Video: </b> {talkVideo === null ? 'Not available yet.' : <a href={talkVideo} target="_blank">Click here</a>} </p>
-                          {talkPresentation == null ? null : <><p><b>Slides:</b> <a href={talkPresentation} target="_blank">Click here</a></p></>}
-                          {warningNote == null ? null : <><p><b>Warning: </b>{warningNote}</p></>}
-                          <p><b>Date: </b>{talkDate} </p>
-                          <p><b>Keywords: </b> {talkKeywords.join(', ')}</p>
-                          <p><b>Abstract: </b>{ReactHtmlParser(talkDescription)}</p>
+                          <p><b>Speaker: </b> {info.talkSpeaker} </p>
+                          <p><b>Title: </b>{info.talkTitle} </p>
+                          <p><b>Video: </b> {info.talkVideo === null ? 'Not available yet.' : <a href={info.talkVideo} target="_blank">Click here</a>} </p>
+                          {info.talkPresentation == null ? null : <><p><b>Slides:</b> <a href={info.talkPresentation} target="_blank">Click here</a></p></>}
+                          {info.warningNote == null ? null : <><p><b>Warning: </b>{info.warningNote}</p></>}
+                          <p><b>Date: </b>{info.talkDate} </p>
+                          <p><b>Keywords: </b> {info.talkKeywords.join(', ')}</p>
+                          <p><b>Abstract: </b>{ReactHtmlParser(info.talkDescription)}</p>
                             
                         </DialogContent>
                         <DialogActions className={classes.modalFooter}>
