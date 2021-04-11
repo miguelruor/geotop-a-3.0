@@ -96,7 +96,7 @@ export async function getStaticProps(context){
 
   var talk_id = context.params.id;
   var date = talks[talk_id].date.seconds;
-  date = new Date(date*1000); // pass unix timestamp milliseconds as an argument to the Date constructor
+  date = new Date(1000*date); // pass unix timestamp milliseconds as an argument to the Date constructor
   date = month[date.getMonth()] + " " + date.getDate().toString() + ", " + date.getFullYear().toString();
   
   const speakerID = talks[talk_id].speaker_id;

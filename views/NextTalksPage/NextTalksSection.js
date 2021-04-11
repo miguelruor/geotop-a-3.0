@@ -68,8 +68,8 @@ export default function NextTalksSection(){
                     ))}
                 </GridContainer>
             </GridItem>
-            <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
-            <div className={classes.imgContainer}>{/*<Image src={image1} width={380} height={380} className={imageClasses}/>*/}</div>
+            {/*<GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
+            <div className={classes.imgContainer}><Image src={image1} width={380} height={380} className={imageClasses}/></div>
             </GridItem>
             <GridItem xs={12} sm={12} md={7}>
                 <GridContainer>
@@ -83,7 +83,7 @@ export default function NextTalksSection(){
                         </>
                     ))}
                 </GridContainer>
-            </GridItem>
+            </GridItem>*/}
         </GridContainer>
     );
 }
