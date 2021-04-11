@@ -56,7 +56,32 @@ export async function getStaticProps(){
   var speakerImages = []
   Object.keys(speakers).forEach(id => speakerImages.push('/img/speakers/sp'+id+".png"))
 
-  /* Ejemplo
+  
+  for(var season in seasons_aux){
+    seasons_aux[season].reverse()
+  }
+
+  return{
+    props:{
+      seasons : seasons_aux,
+      speakerImages: speakerImages
+    }
+  }
+}
+
+export default function PreviousTalks(props) {
+  return (
+    <div>
+      <Head>
+        <title>GEOTOP-A</title>
+        <link rel="icon" href="/favicon.ico"/>
+      </Head>
+      <PreviousTalksPage previousTalks={props.seasons} speakerImages={props.speakerImages}/>
+    </div>
+  )
+}
+
+/* Ejemplo
   const example = {
     abstract: 'Descripcion',
     date : 'fecha dada',
@@ -83,23 +108,3 @@ export async function getStaticProps(){
     'SPRING 2019': [example2, example, example2],
     'FALL 2018': [example, example2, example, example2, example],
   }; */
-
-  return{
-    props:{
-      seasons : seasons_aux,
-      speakerImages: speakerImages
-    }
-  }
-}
-
-export default function PreviousTalks(props) {
-  return (
-    <div>
-      <Head>
-        <title>GEOTOP-A</title>
-        <link rel="icon" href="/favicon.ico"/>
-      </Head>
-      <PreviousTalksPage previousTalks={props.seasons} speakerImages={props.speakerImages}/>
-    </div>
-  )
-}
