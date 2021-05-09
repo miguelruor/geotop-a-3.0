@@ -1,14 +1,13 @@
-import { FormatPaintRounded } from "@material-ui/icons";
-import React, {useState, useEffect} from "react";
+import ReactHtmlParser from "react";
 // @material-ui/core components
 
 // core components
-import NavPills from "./NavPills_Modified.js";
+import NavPills from "./NavPills_v2";
 
 export default function LeftMenuSection(props){
 
     var tabs = []
-    var seasons = Object.keys(props.previousTalks);
+    var seasons = Object.keys(props.previousTalks).reverse();
 
     seasons.forEach(season => tabs.push({tabButton: season}));
 
@@ -21,30 +20,7 @@ export default function LeftMenuSection(props){
             }}
             content={props.previousTalks}
             tabs={tabs}
-            
+            speakerImages={props.speakerImages}
             />
     );
 }
-            
-            /*
-            tabs={[
-                {
-                    tabButton: "SPRING 2021",
-                },
-                {
-                    tabButton: "FALL 2020",
-                },
-                {
-                    tabButton: "SPRING 2020",
-                },
-                {
-                    tabButton: "FALL 2019",
-                },
-                {
-                    tabButton: "SPRING 2019",
-                },
-                {
-                    tabButton: "FALL 2018",
-                }
-            ]}*/
-

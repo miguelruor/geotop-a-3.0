@@ -16,7 +16,6 @@ const useStyles = makeStyles(styles);
 
 export default function BySpeakerPage(props) {
   const classes = useStyles();
-  const { ...rest } = props;
   return (
     <div>
       <Header
@@ -29,7 +28,6 @@ export default function BySpeakerPage(props) {
           height: 400,
           color: "white"
         }}
-        {...rest}
       />
       <Parallax small filter image={backgroundImageHome}>
         <div className={classes.container}>
@@ -43,7 +41,7 @@ export default function BySpeakerPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container} style={{paddingTop:"10px", paddingBottom:"10px"}}>
-            <ListSpeakersSection talks={props.talks} speakers={props.speakers} speakersIDList={props.speakersID}
+            <ListSpeakersSection talks={props.talks} speakers={props.speakers} speakersIDList={props.speakersIDList}
        lettersInSurname={props.lettersInSurname} speakersListByLetter={props.speakersListByLetter} />
         </div>
       </div>

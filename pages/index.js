@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import HomePage from '../views/HomePage/HomePage';
-import data from '../data/imageData.json'
-
+import data from '../data/imageData.json';
+import speakers from '../data/speakers.json';
+import talks from '../data/talks.json';
 
 export async function getStaticProps(){
   const totalImages = data.totalImages
@@ -12,9 +13,45 @@ export async function getStaticProps(){
     images.push('/img/imagesCarousel/img'+i.toString()+'.jpg')
   }
   
+  var lastTalk = Object.keys(talks).length - 1;
+
+  while(talks[lastTalk.toString()].video == null){
+    lastTalk -= 1;
+  }
+
+  var date = talks[lastTalk.toString()].date.seconds;
+
+  var month = new Array();
+  month[0] = "January";
+  month[1] = "February";
+  month[2] = "March";
+  month[3] = "April";
+  month[4] = "May";
+  month[5] = "June";
+  month[6] = "July";
+  month[7] = "August";
+  month[8] = "September";
+  month[9] = "October";
+  month[10] = "November";
+  month[11] = "December";
+
+  date = new Date(date*1000); // pass unix timestamp milliseconds as an argument to the Date constructor
+
+  date = month[date.getMonth()] + " " + date.getDate().toString() + ", " + date.getFullYear().toString();
+  const speaker_id = talks[lastTalk.toString()].speaker_id;
+  const speaker = speakers[speaker_id.toString()].completeName;
+
   return {
     props: {
-      images
+      images: images,
+      title: talks[lastTalk.toString()].title,
+      video: talks[lastTalk.toString()].video,
+      abstract: talks[lastTalk.toString()].abstract,
+      date: date, 
+      keywords: talks[lastTalk.toString()].keywords,
+      speaker: speaker,
+      slides: typeof(talks[lastTalk.toString()].slides) == "undefined" ? null : talks[lastTalk.toString()].slides,
+      warning: typeof(talks[lastTalk.toString()].warning) == "undefined" ? null : talks[lastTalk.toString()].warning,
     }
   }
 }
@@ -25,9 +62,9 @@ export default function Home(props) {
       <Head>
         <title>GEOTOP-A</title>
         <link rel="icon" href="/favicon.ico"/>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1" />
       </Head>
-      <HomePage images={props.images}/>
+      <HomePage {...props}/>
       <br/>
     </div>
   )

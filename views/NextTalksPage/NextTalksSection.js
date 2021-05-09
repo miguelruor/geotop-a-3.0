@@ -4,6 +4,7 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import ReactHtmlParser from 'react-html-parser'; 
+import Image from 'next/image'
 
 // @material-ui/icons
 
@@ -11,25 +12,28 @@ import ReactHtmlParser from 'react-html-parser';
 import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
 
-import styles from "../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
-import image2 from "../../public/img/speakers/sp047.png";
-import image1 from "../../public/img/speakers/sp046.png";
+import styles from "./NextTalksPageStyle";
+//import image1 from "../../public/img/speakers/sp47.png";
+//import image2 from "../../public/img/speakers/sp46.png";
 
 const useStyles = makeStyles(styles);
 
 export default function NextTalksSection(){
+
+    const image1 = '/img/speakers/sp47.png';
+    const image2 = '/img/speakers/sp47.png';
     
-    const [talks, setTalks] = useState([
+    const [talks2, setTalks2] = useState([
         {
-            date: "April 9, 2021",
-            speaker: "Stephen Childress",
-            title: "A toy model of the inertial range",
-            keywords: ["turbulence", "inertial range", "turbulent cascade"],
-            abstract: "<p>In this talk we develop a simple toy model of the inertial range of turbulent flow, based upon a cascade of vortical filaments. The filaments are taken to be helical, one turn of the helix playing the role of a turbulent eddy. A binary branching structure is proposed, involving the splitting of filaments at each step into pairs of daughter filaments with differing properties, in effect two distinct simultaneous cascades. Neither of the cascades of this bimodal structure, in isolation, has the Richardson exponent of 1/3. If cascades are assumed to be initiated continuously and throughout space we obtain a model of the inertial range of stationary turbulence. We impose the constraint associated with Kolmogorov's four-fifths law and then adjust the splitting to achieve good agreement with the observed structure exponents <i>zeta<sub>p</sub></i>. The presence of two simultaneous cascades is responsible for the nonlinear dependence of <i>zeta<sub>p</sub></i> upon <i>p</i>. We also consider the intial value problem and study the flow of energy to small scales.</p><p>This is joint work with Andrew Gilbert.</p>",
+            date: "May 7, 2021",
+            speaker: "Aldo Guzmán-Sáenz",
+            title: "TBA",
+            keywords: ["TBA"],
+            abstract: "TBA",
         },
     ]);
 
-    const [talks2, setTalks2] = useState([
+    const [talks, setTalks] = useState([
         {
             date: "April 23, 2021",
             speaker: "Dimos Gkountaroulis",
@@ -49,13 +53,13 @@ export default function NextTalksSection(){
     return(
         <GridContainer>
             <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
-                <div style={{textAlign: "center"}}><img src={image1} className={imageClasses}/></div>
+                <div className={classes.imgContainer}><Image src={image1} width={380} height={380} className={imageClasses}/></div>
             </GridItem>
             <GridItem xs={12} sm={12} md={7}>
                 <GridContainer>
                     {talks.map(talk => (
                         <>
-                        <GridItem xs={12} sm={12} md={12}><h1 className={classes.title}>{talk.speaker}</h1></GridItem>
+                        <GridItem xs={12} sm={12} md={12}><h1 className={classes.speaker}>{talk.speaker}</h1></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{talk.date}</b></p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{talk.title}</p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser (talk.abstract)}</p></GridItem>
@@ -64,14 +68,14 @@ export default function NextTalksSection(){
                     ))}
                 </GridContainer>
             </GridItem>
-            <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
-              <div style={{textAlign: "center"}}><img src={image2} className={imageClasses}/></div>
+            {/*<GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
+            <div className={classes.imgContainer}><Image src={image1} width={380} height={380} className={imageClasses}/></div>
             </GridItem>
             <GridItem xs={12} sm={12} md={7}>
                 <GridContainer>
                     {talks2.map(talk => (
                         <>
-                        <GridItem xs={12} sm={12} md={12}><h1 className={classes.title}>{talk.speaker}</h1></GridItem>
+                        <GridItem xs={12} sm={12} md={12}><h1 className={classes.speaker}>{talk.speaker}</h1></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{talk.date}</b></p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{talk.title}</p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser (talk.abstract)}</p></GridItem>
@@ -79,7 +83,7 @@ export default function NextTalksSection(){
                         </>
                     ))}
                 </GridContainer>
-            </GridItem>
+            </GridItem>*/}
         </GridContainer>
     );
 }
