@@ -25,10 +25,10 @@ export async function getStaticProps(){
   month[11] = "December";
 
   for(var talk_id in talks){
-    var date = talks[talk_id].date.seconds
+    var date = talks[talk_id].timestamp.seconds
     date = new Date(1000*date)
     talks_aux[talk_id].year = date.getFullYear()
-    talks_aux[talk_id].date =  month[date.getMonth()] + " " + date.getDate().toString() + ", " + date.getFullYear().toString()
+    talks_aux[talk_id].date =  talks[talk_id].date
   }
 
   speakersID.sort(function(a,b){
