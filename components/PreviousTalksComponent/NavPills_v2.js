@@ -11,8 +11,8 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 
 // core components
-import GridContainer from "../Grid/GridContainer.js"  
-import GridItem from "../Grid/GridItem.js" 
+import GridContainer from "../Grid/GridContainer.js"
+import GridItem from "../Grid/GridItem.js"
 import styles from "../../assets/jss/material-kit-react/components/navPillsStyle.js";
 import Card from "../Card/Card.js";
 import Button from "../CustomButtons/Button.js";
@@ -23,8 +23,8 @@ const useStyles = makeStyles(styles);
 
 export default function NavPills(props) {
 
-  var {content, speakerImages} = props;
-  const keySeason =  Object.keys(content).reverse();
+  var { content, speakerImages } = props;
+  const keySeason = Object.keys(content).reverse();
 
   const [active, setActive] = React.useState(props.active);
   const handleChange = (event, active) => {
@@ -91,43 +91,42 @@ export default function NavPills(props) {
         index={active}
         onChangeIndex={handleChangeIndex}
       >
-          {tabs.map((prop, key) => {
-            return (
-              <div className={classes.tabContent} key={key}>
-                <GridContainer alignItems="center">
-                  {keySeason.length > 0 && content[keySeason[key]].map(talk =>    
-                    {
-                    return (
+        {tabs.map((prop, key) => {
+          return (
+            <div className={classes.tabContent} key={key}>
+              <GridContainer alignItems="center">
+                {keySeason.length > 0 && content[keySeason[key]].map(talk => {
+                  return (
                     <GridItem xs={12} sm={6} md={4} >
-                    <Card plain>
-                      <h4 className={classes.cardTitle} style={{textAlign:'left'}}>
-                        <small className={classes.smallTitle}>{talk['date']}</small>
-                      </h4>
-                      <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                        <Image src={speakerImages[talk['speakerID']]} width={100} height={100}  className={imageClasses}/>
-                        {/*<img src={speakerImages[talk['speakerID']]} className={imageClasses} />*/}
-                      </GridItem>
-                      <h4 className={classes.cardTitle}>
-                        {talk['speaker']}
-                        <br />
-                    <small className={classes.smallTitle}>{talk['title']}</small>
-                      </h4>
-                      <Link href={'/previous-talks/'+talk['speakerID']}>
-                      <Button 
-                        round 
-                        color='primary' 
-                        className={classes.button}
-                      >
-                          Details
-                        </Button>
+                      <Card plain>
+                        <h4 className={classes.cardTitle} style={{ textAlign: 'left' }}>
+                          <small className={classes.smallTitle}>{talk['date']}</small>
+                        </h4>
+                        <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                          <Image src={speakerImages[talk['speakerID']]} width={100} height={100} className={imageClasses} />
+                        </GridItem>
+                        <h4 className={classes.cardTitle}>
+                          {talk['speaker']}
+                          <br />
+                          <small className={classes.smallTitle}>{talk['title']}</small>
+                        </h4>
+                        <Link href={'/previous-talks/' + talk['talkID']}>
+                          <Button
+                            round
+                            color='primary'
+                            className={classes.button}
+                          >
+                            Details
+                          </Button>
                         </Link>
-                    </Card>
-                  </GridItem>
-                  );})}
-                </GridContainer>
-              </div>
-            );
-          })}
+                      </Card>
+                    </GridItem>
+                  );
+                })}
+              </GridContainer>
+            </div>
+          );
+        })}
       </SwipeableViews>
     </div>
   );
