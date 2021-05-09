@@ -4,6 +4,9 @@
         "completeName": "De Witt L Sumners",
         "middle_initial": "L",
         "name": "De Witt",
+        "talks": [
+            0
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -20,6 +23,9 @@
         "completeName": "Rafael Herrera",
         "middle_initial": null,
         "name": "Rafael",
+        "talks": [
+            1
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -36,6 +42,9 @@
         "completeName": "Cristian Micheletti",
         "middle_initial": null,
         "name": "Cristian",
+        "talks": [
+            2
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -52,6 +61,9 @@
         "completeName": "Vidit Nanda",
         "middle_initial": null,
         "name": "Vidit",
+        "talks": [
+            "3"
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -68,6 +80,9 @@
         "completeName": "Jesús Gonzalez",
         "middle_initial": null,
         "name": "Jesús",
+        "talks": [
+            4
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -84,6 +99,9 @@
         "completeName": "Renzo L Ricca",
         "middle_initial": "L",
         "name": "Renzo",
+        "talks": [
+            5
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -100,6 +118,9 @@
         "completeName": "Sergio Rajsbaum",
         "middle_initial": null,
         "name": "Sergio",
+        "talks": [
+            "6"
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -116,6 +137,9 @@
         "completeName": "Mark Dennis",
         "middle_initial": null,
         "name": "Mark",
+        "talks": [
+            "7"
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -132,6 +156,9 @@
         "completeName": "Louis H Kauffman",
         "middle_initial": "H",
         "name": "Louis",
+        "talks": [
+            8
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -147,6 +174,9 @@
         "surname": "Kalisnik",
         "completeName": "Sara Kalisnik",
         "name": "Sara",
+        "talks": [
+            9
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -163,6 +193,9 @@
         "completeName": "Neza Mramor-Kosta",
         "middle_initial": null,
         "name": "Neza",
+        "talks": [
+            10
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -179,6 +212,9 @@
         "completeName": "Sophie E Jackson",
         "middle_initial": "E",
         "name": "Sophie",
+        "talks": [
+            11
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -195,6 +231,9 @@
         "completeName": "Jorge Urrutia",
         "middle_initial": null,
         "name": "Jorge",
+        "talks": [
+            12
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -211,6 +250,9 @@
         "completeName": "Joanna Sulkowska",
         "middle_initial": null,
         "name": "Joanna",
+        "talks": [
+            13
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -227,6 +269,9 @@
         "completeName": "Eric Goubault",
         "middle_initial": null,
         "name": "Eric",
+        "talks": [
+            14
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -243,6 +288,9 @@
         "completeName": "Gareth Alexander",
         "middle_initial": null,
         "name": "Gareth",
+        "talks": [
+            15
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -259,6 +307,9 @@
         "completeName": "Joel Hass",
         "middle_initial": null,
         "name": "Joel",
+        "talks": [
+            16
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -275,6 +326,9 @@
         "completeName": "Jose Perea",
         "middle_initial": null,
         "name": "Jose",
+        "talks": [
+            17
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -291,6 +345,9 @@
         "completeName": "Jean-Luc Thiffeault",
         "middle_initial": null,
         "name": "Jean-Luc",
+        "talks": [
+            18
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -307,6 +364,9 @@
         "completeName": "Mariel Vázquez",
         "middle_initial": null,
         "name": "Mariel",
+        "talks": [
+            19
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -323,6 +383,9 @@
         "completeName": "Jason Cantarella",
         "middle_initial": null,
         "name": "Jason",
+        "talks": [
+            20
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -339,6 +402,9 @@
         "completeName": "Roy Meshulam",
         "middle_initial": null,
         "name": "Roy",
+        "talks": [
+            21
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -355,6 +421,9 @@
         "completeName": "Massimo Ferri",
         "middle_initial": null,
         "name": "Massimo",
+        "talks": [
+            22
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -371,6 +440,9 @@
         "completeName": "Kathryn Hess",
         "middle_initial": null,
         "name": "Kathryn",
+        "talks": [
+            23
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -387,6 +459,9 @@
         "completeName": "Jean-Daniel Boissonnat",
         "middle_initial": null,
         "name": "Jean-Daniel",
+        "talks": [
+            24
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -403,6 +478,9 @@
         "completeName": "Heather A Harrington",
         "middle_initial": "A",
         "name": "Heather",
+        "talks": [
+            25
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -419,6 +497,9 @@
         "completeName": "Luis Montejano",
         "middle_initial": null,
         "name": "Luis",
+        "talks": [
+            26
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -435,6 +516,9 @@
         "completeName": "David Swigon",
         "middle_initial": null,
         "name": "David",
+        "talks": [
+            27
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -451,6 +535,9 @@
         "completeName": "Keith Moffatt",
         "middle_initial": null,
         "name": "Keith",
+        "talks": [
+            28
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -467,6 +554,9 @@
         "completeName": "Antti Niemi",
         "middle_initial": null,
         "name": "Antti",
+        "talks": [
+            29
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -483,6 +573,9 @@
         "completeName": "Kenneth C Millett",
         "middle_initial": "C",
         "name": "Kenneth",
+        "talks": [
+            30
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -499,6 +592,9 @@
         "completeName": "Javier Arsuaga",
         "middle_initial": null,
         "name": "Javier",
+        "talks": [
+            31
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -515,6 +611,9 @@
         "completeName": "Robert Penner",
         "middle_initial": null,
         "name": "Robert",
+        "talks": [
+            32
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -531,6 +630,9 @@
         "completeName": "Jesús De Loera",
         "middle_initial": null,
         "name": "Jesús",
+        "talks": [
+            33
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -547,6 +649,9 @@
         "completeName": "Primož Škraba",
         "middle_initial": null,
         "name": "Primož",
+        "talks": [
+            34
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -563,6 +668,9 @@
         "completeName": "Elizabeth Munch",
         "middle_initial": null,
         "name": "Elizabeth",
+        "talks": [
+            35
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -579,6 +687,9 @@
         "completeName": "Mitchel Berger",
         "middle_initial": null,
         "name": "Mitchel",
+        "talks": [
+            36
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -595,6 +706,9 @@
         "completeName": "Raul Rabadan",
         "middle_initial": null,
         "name": "Raul",
+        "talks": [
+            37
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -611,6 +725,9 @@
         "completeName": "Žiga Virk",
         "middle_initial": null,
         "name": "Žiga",
+        "talks": [
+            38
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -627,6 +744,9 @@
         "completeName": "Radmila Sazdanovic",
         "middle_initial": null,
         "name": "Radmila",
+        "talks": [
+            39
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -643,6 +763,9 @@
         "completeName": "Yasuaki Hiraoka",
         "middle_initial": null,
         "name": "Yasuaki",
+        "talks": [
+            40
+        ],
         "institution": null,
         "country": "",
         "state": "",
@@ -659,6 +782,9 @@
         "completeName": "Sergei Nechaev",
         "middle_initial": null,
         "name": "Sergei",
+        "talks": [
+            41
+        ],
         "institution": "Interdisciplinary Scientific Center Poncelet (CNRS UMI 2615) Moscow - Russia",
         "country": "",
         "state": "",
@@ -675,6 +801,9 @@
         "completeName": "Alice Patania",
         "middle_initial": null,
         "name": "Alice",
+        "talks": [
+            42
+        ],
         "institution": "Indiana University - USA",
         "country": "",
         "state": "",
@@ -691,6 +820,9 @@
         "completeName": "Nina Otter",
         "middle_initial": null,
         "name": "Nina",
+        "talks": [
+            43
+        ],
         "institution": "UCLA - USA",
         "country": "",
         "state": "",
@@ -707,6 +839,9 @@
         "completeName": "Davide Michieletto",
         "middle_initial": null,
         "name": "Davide",
+        "talks": [
+            44
+        ],
         "institution": "University of Edinburgh - UK",
         "country": "",
         "state": "",
@@ -723,6 +858,9 @@
         "completeName": "Daniel Peralta-Salas",
         "middle_initial": null,
         "name": "Daniel",
+        "talks": [
+            45
+        ],
         "institution": "ICMAT - Spain",
         "country": "",
         "state": "",
@@ -739,6 +877,9 @@
         "completeName": "Stephen Childress",
         "middle_initial": null,
         "name": "Stephen",
+        "talks": [
+            46
+        ],
         "institution": "NYU - USA",
         "country": "",
         "state": "",
@@ -755,6 +896,9 @@
         "completeName": "Dimos Gkountaroulis",
         "middle_initial": null,
         "name": "Dimos",
+        "talks": [
+            47
+        ],
         "institution": "Baylor College of Medicine - USA",
         "country": "",
         "state": "",
@@ -771,6 +915,9 @@
         "completeName": "Aldo Guzmán-Sáenz",
         "middle_initial": null,
         "name": "Aldo",
+        "talks": [
+            48
+        ],
         "institution": "IBM Thomas J. Watson Research Center - USA",
         "country": "",
         "state": "",
@@ -787,6 +934,7 @@
         "completeName": "Caroline Uhler",
         "middle_initial": null,
         "name": "Caroline",
+        "talks": null,
         "institution": "ETH Zurich - Switzerland",
         "country": "",
         "state": "",

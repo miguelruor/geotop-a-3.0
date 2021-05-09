@@ -22,14 +22,14 @@ export async function getStaticProps(){
   var seasons_aux = {};
 
   Object.keys(talks).forEach(key => {
-    var date = talks[key].date.seconds;
+    var date = talks[key].timestamp.seconds;
     date = new Date(date*1000); // pass unix timestamp milliseconds as an argument to the Date constructor
 
     if(date > new Date()){
       return;
     }
 
-    date = month[date.getMonth()] + " " + date.getDate().toString() + ", " + date.getFullYear().toString();
+    var dateString = talks[key].date;
     
     var sea = talks[key].season;
     if(!(sea in seasons_aux)){
@@ -45,7 +45,7 @@ export async function getStaticProps(){
             speaker: speakers[speakerID.toString()].completeName,
             title: talks[key].title,
             keywords: talks[key].keywords,
-            date: date,
+            date: dateString,
             abstract: talks[key].abstract,
             video: talks[key].video,
             presentation: typeof(talks[key].slides) == "undefined" ? null : talks[key].slides,
