@@ -41,6 +41,7 @@ export async function getStaticProps(){
     seasons_aux[sea].push(
         {
             speakerID: speakerID,
+            talkID: key,
             speaker: speakers[speakerID.toString()].completeName,
             title: talks[key].title,
             keywords: talks[key].keywords,
