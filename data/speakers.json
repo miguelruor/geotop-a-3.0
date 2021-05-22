@@ -919,7 +919,7 @@
             48
         ],
         "institution": "IBM Thomas J. Watson Research Center - USA",
-        "country": "",
+        "country": "United States",
         "state": "",
         "city": "",
         "research_interests": [
@@ -934,9 +934,11 @@
         "completeName": "Caroline Uhler",
         "middle_initial": null,
         "name": "Caroline",
-        "talks": null,
+        "talks": [
+            49
+        ],
         "institution": "ETH Zurich - Switzerland",
-        "country": "",
+        "country": "Switzerland",
         "state": "",
         "city": "",
         "research_interests": [

@@ -24,10 +24,10 @@ export default function NextTalksSection(){
     
     const [talks, setTalks] = useState([
         {
-            date: "May 21, 2021",
-            speaker: "Caroline Uhler",
+            date: "August 20, 2021",
+            speaker: "Bei Wang",
             title: "TBA",
-            keywords: ["TBA"],
+            keywords: [],
             abstract: "<p>TBA</p>",
         },
     ]);
@@ -62,7 +62,7 @@ export default function NextTalksSection(){
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{talk.date}</b></p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{talk.title}</p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser (talk.abstract)}</p></GridItem>
-                        <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Keywords: "}</b> {talk.keywords.join(", ")}</p></GridItem>
+                        {/*<GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Keywords: "}</b> {talk.keywords.join(", ")}</p></GridItem>*/}
                         </>
                     ))}
                 </GridContainer>

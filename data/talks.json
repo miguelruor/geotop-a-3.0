@@ -1074,7 +1074,7 @@
             "nanoseconds": 0
         },
         "date": "May 7, 2021",
-        "video": null,
+        "video": "https://www.youtube.com/embed/Q8x8cJNYzjc",
         "title": "Applying TDA on genomic and metagenomic data",
         "keywords": [
             "topological data analysis (TDA)",
@@ -1083,6 +1083,27 @@
             "metagenomics"
         ],
         "abstract": "The field of computational biology aims to gain insights from biological data. In particular, from genomic and metagenomic data through tools that for some time now include geometric and topological methods. In this talk we will mention two applications of these tools in this setting: Using persistent homology to aid machine learning classifiers in a phenotype prediction task for Parkinson's disease, and to help identify organisms present in a metagenomic sample.",
+        "season": "SPRING 2021",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "49": {
+        "speaker_id": 49,
+        "timestamp": {
+            "seconds": 1621573200,
+            "nanoseconds": 0
+        },
+        "date": "May 21, 2021",
+        "video": "https://www.youtube.com/embed/f7Z5KII-rkM",
+        "title": "Mathematics of Genome Packing and Regulation",
+        "keywords": [
+            "3D genome organization",
+            "Euclidean distance geometry",
+            "autoencoders",
+            "over-parameterization"
+        ],
+        "abstract": "Recent evidence suggests that the spatial organization of the genome represents an important epigenetic regulator of expression, and alterations thereof are associated with various diseases. In this talk, I will analyze the link between the 3D genome organization and gene expression using geometric packing models and autoencoders/deep learning. In particular, I will first discuss the Euclidean distance geometry problem arising when studying the 3D genome organization and show that higher-order contacts are needed for its reconstruction. I will then discuss how autoencoders can be used to translate between DNA packing images and gene expression at the single-cell level as well as between different cell types. Given the empirical benefits of over-parameterization in autoencoders for these applications, I will end with a theoretical analysis of autoencoders linking over-parameterization to attractor properties. Understanding the geometry of these basins of attraction remains an important open problem. ",
         "season": "SPRING 2021",
         "numberViewsYoutube": 0,
         "numberLikesYoutube": 0,

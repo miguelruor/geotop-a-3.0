@@ -72,7 +72,7 @@ export default function FutureTalks(){
         },  
         {
             date: "September 3",
-            speaker: "Yasu Wang",
+            speaker: "Yusu Wang",
             tittle: "UC San Diego - USA"
         },
         {
@@ -104,6 +104,11 @@ export default function FutureTalks(){
             date: "November 19",
             speaker: "Antonio Rieser",
             tittle: "CIMAT - Mexico"
+        },
+        {
+            date: "December 3",
+            speaker: "Jacob Leygonie",
+            tittle: "University of Oxford - UK"
         },
         {
             date: "December 10",
@@ -167,55 +172,6 @@ export default function FutureTalks(){
 
     return(
         <>
-        <div className={classes.section} style={{paddingTop: 20}}>
-            <h1 className={classes.titleFutureTalks}>SPRING 2021 TALKS</h1>
-            <div styles={{justifyContent: 'center'}}>
-               <GridContainer>
-                  <Hidden only="xs">
-                     <GridItem sm={3} md={2}>
-                        <h3 className={classes.subtitle}>DATE</h3>
-                     </GridItem>
-                  
-                     <GridItem xs={6} sm={3} md={2}>
-                        <h3 className={classes.subtitle}>SPEAKER</h3>
-                     </GridItem>
-                     <GridItem xs={6} sm={6} md={8}>
-                        <h3 className={classes.subtitle}>INSTITUTION</h3>
-                     </GridItem>
-                  </Hidden>
-                  {talks.map(talk => (
-                     <>
-                     <Hidden xsDown>
-                        <GridItem sm={3} md={2}>
-                              <p className={classes.nextTalks}>{talk.date}</p>
-                        </GridItem>
-                        <GridItem sm={3} md={2}>
-                              <p className={classes.nextTalks}>{talk.speaker}</p>
-                        </GridItem>
-                        <GridItem sm={6} md={8}>
-                              <p className={classes.nextTalks}>{talk.tittle}</p>
-                        </GridItem>
-                        <GridItem sm={12} md={12}>
-                           <Divider variant="fullWidth"/>
-                        </GridItem>
-                     </Hidden>
-                     {/* Seccion Movil */}
-                     <Hidden smUp>
-                        <GridItem xs={12} sm={3} md={2}>
-                              <p className={classes.nextTalks}><b>{talk.speaker}</b> - {talk.date}</p>
-                        </GridItem>
-                        <GridItem xs={12}>
-                              <p className={classes.nextTalks}>{talk.tittle}</p>
-                        </GridItem>
-                        <GridItem xs={12} sm={12} md={12}>
-                           <Divider variant="fullWidth"/>
-                        </GridItem>
-                     </Hidden>
-                     </>
-                  ))}
-               </GridContainer>
-            </div>
-        </div>
         <div className={classes.section} style={{paddingTop: 20}}>
             <h1 className={classes.titleFutureTalks}>FALL 2021 TALKS</h1>
             <div styles={{justifyContent: 'center'}}>
