@@ -13,7 +13,7 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      <Link href='./'>
+      <Link href='/'>
         <ListItem className={classes.listItem}>
           <Button 
           type="button" 

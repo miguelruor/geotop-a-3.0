@@ -19,39 +19,12 @@ export async function getStaticProps(){
     lastTalk -= 1;
   }
 
-  var date = talks[lastTalk.toString()].date.seconds;
-
-  var month = new Array();
-  month[0] = "January";
-  month[1] = "February";
-  month[2] = "March";
-  month[3] = "April";
-  month[4] = "May";
-  month[5] = "June";
-  month[6] = "July";
-  month[7] = "August";
-  month[8] = "September";
-  month[9] = "October";
-  month[10] = "November";
-  month[11] = "December";
-
-  date = new Date(date*1000); // pass unix timestamp milliseconds as an argument to the Date constructor
-
-  date = month[date.getMonth()] + " " + date.getDate().toString() + ", " + date.getFullYear().toString();
-  const speaker_id = talks[lastTalk.toString()].speaker_id;
-  const speaker = speakers[speaker_id.toString()].completeName;
+  const talk_id = lastTalk.toString();
 
   return {
     props: {
       images: images,
-      title: talks[lastTalk.toString()].title,
-      video: talks[lastTalk.toString()].video,
-      abstract: talks[lastTalk.toString()].abstract,
-      date: date, 
-      keywords: talks[lastTalk.toString()].keywords,
-      speaker: speaker,
-      slides: typeof(talks[lastTalk.toString()].slides) == "undefined" ? null : talks[lastTalk.toString()].slides,
-      warning: typeof(talks[lastTalk.toString()].warning) == "undefined" ? null : talks[lastTalk.toString()].warning,
+      last_talk: talk_id
     }
   }
 }
