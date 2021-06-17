@@ -8,7 +8,7 @@ import Hidden from '@material-ui/core/Hidden';
 import GridContainer from "../Grid/GridContainer.js";
 import GridItem from "../Grid/GridItem.js";
 import Divider from '@material-ui/core/Divider';
-
+import styles2 from "./FutureTalksSection.module.css"
 import styles from "./FutureTalksStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -172,8 +172,8 @@ export default function FutureTalks(){
 
     return(
         <>
-        <div className={classes.section} style={{paddingTop: 20}}>
-            <h1 className={classes.titleFutureTalks}>FALL 2021 TALKS</h1>
+        <div className={styles2.titleFutureTalks} style={{paddingTop: 20}}>
+            <h1>FALL 2021 TALKS</h1>
             <div styles={{justifyContent: 'center'}}>
                 <GridContainer>
                   <Hidden only="xs">
@@ -221,8 +221,8 @@ export default function FutureTalks(){
                 </GridContainer>
             </div>
         </div>
-        <div className={classes.section} style={{paddingTop: 20}}>
-            <h1 className={classes.titleFutureTalks}>SPRING 2022 TALKS</h1>
+        <div className={styles2.titleFutureTalks} style={{paddingTop: 20}}>
+            <h1>SPRING 2022 TALKS</h1>
             <div styles={{justifyContent: 'center'}}>
                <GridContainer>
                   <Hidden only="xs">

@@ -26,7 +26,7 @@ export default function StreamingTime(){
 
 
     return(
-        <GridContainer style={{paddingLeft: "10%", paddingRight:"10%"}} justify = "left">
+        <GridContainer style={{paddingLeft: "10%", paddingRight:"10%", paddingTop:"5%"}} justify = "left">
             <GridItem>
                 <h1 className={classes.title}>Streaming time</h1>
             </GridItem>

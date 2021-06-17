@@ -1,0 +1,17 @@
+.titleFutureTalks h1{
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 30px;
+    text-align: center;
+    color: #3C4858 !important;
+    margin: 1.75rem 0 0.875rem;
+    font-weight: bold !important;
+    font-family: "Times New Roman", serif !important;
+}
+
+@media (max-width: 400px){
+    .titleFutureTalks h1{
+        font-size: 20px;
+    }
+}
