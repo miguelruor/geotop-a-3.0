@@ -26,19 +26,19 @@ export default function StreamingTime(){
 
 
     return(
-        <GridContainer style={{paddingLeft: "10%", paddingRight:"10%", paddingTop:"5%"}} justify = "left">
-            <GridItem>
+        <div style={{paddingLeft: "10%", paddingRight:"10%", paddingTop:"5%"}} justify = "left">
+            <div>
                 <h1 className={classes.title}>Streaming time</h1>
-            </GridItem>
+            </div>
 
-            <GridItem>
+            <div>
                 <Times 
                     timeLabel={"CDMX time"}
                     timeLeftInMinutes={StreamingTimeLocal}
                     color='#282c34'
                     bordercolor='#9c27b0'
                 />
-            </GridItem>
-        </GridContainer>
+            </div>
+        </div>
     );
 }
