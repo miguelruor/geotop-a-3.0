@@ -6,11 +6,14 @@ const workStyle = {
   },
   title: {
     ...title,
-    marginBottom: "50px",
+    marginBottom: "30px",
     margin: "10px",
     minHeight: "30px",
     textDecoration: "none",
-    textAlign: "center"
+    textAlign: "center",
+    "@media (max-width: 400px)": {
+      fontSize: "23px"
+    },
   },
   description: {
     color: "black",

@@ -19,13 +19,20 @@ import imagesStyle from "../imagesStyles.js";
 
 const navPillsStyle = theme => ({
   ...imagesStyle,
-  itemGrid: {
-    marginLeft: "auto",
-    marginRight: "auto"
-  },
   cardTitle,
   smallTitle: {
     color: "#6c757d"
+  },
+  layout:{
+    height: "100%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    alignContent: "space-between",
+    alignItem: "center"
+  },
+  layoutItem:{
+    flex: "1 0 auto"
   },
   modalStyle,
   root: {

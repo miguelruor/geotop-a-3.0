@@ -11,18 +11,17 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 
 // core components
-import GridContainer from "../Grid/GridContainer.js"
-import GridItem from "../Grid/GridItem.js"
+import GridContainer from "../Grid/GridContainer.js";
+import GridItem from "../Grid/GridItem.js";
 import styles from "../../assets/jss/material-kit-react/components/navPillsStyle.js";
 import Card from "../Card/Card.js";
 import Button from "../CustomButtons/Button.js";
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 const useStyles = makeStyles(styles);
 
 export default function NavPills(props) {
-
   var { content, speakerImages } = props;
   const keySeason = Object.keys(content).reverse();
 
@@ -31,14 +30,14 @@ export default function NavPills(props) {
     setActive(active);
     //alert('cambio');
   };
-  const handleChangeIndex = index => {
+  const handleChangeIndex = (index) => {
     setActive(index);
   };
   const classes = useStyles();
   const { tabs, direction, color, horizontal, alignCenter } = props;
   const flexContainerClasses = classNames({
     [classes.flexContainer]: true,
-    [classes.horizontalDisplay]: horizontal !== undefined
+    [classes.horizontalDisplay]: horizontal !== undefined,
   });
 
   const imageClasses = classNames(
@@ -52,7 +51,7 @@ export default function NavPills(props) {
         root: classes.root,
         fixed: classes.fixed,
         flexContainer: flexContainerClasses,
-        indicator: classes.displayNone
+        indicator: classes.displayNone,
       }}
       value={active}
       onChange={handleChange}
@@ -66,7 +65,7 @@ export default function NavPills(props) {
         const pillsClasses = classNames({
           [classes.pills]: true,
           [classes.horizontalPills]: horizontal !== undefined,
-          [classes.pillsWithIcons]: prop.tabIcon !== undefined
+          [classes.pillsWithIcons]: prop.tabIcon !== undefined,
         });
         return (
           <Tab
@@ -76,7 +75,7 @@ export default function NavPills(props) {
             classes={{
               root: pillsClasses,
               selected: classes[color],
-              wrapper: classes.tabWrapper
+              wrapper: classes.tabWrapper,
             }}
           />
         );
@@ -94,35 +93,55 @@ export default function NavPills(props) {
         {tabs.map((prop, key) => {
           return (
             <div className={classes.tabContent} key={key}>
-              <GridContainer alignItems="center">
-                {keySeason.length > 0 && content[keySeason[key]].map(talk => {
-                  return (
-                    <GridItem xs={12} sm={6} md={4} >
-                      <Card plain>
-                        <h4 className={classes.cardTitle} style={{ textAlign: 'left' }}>
-                          <small className={classes.smallTitle}>{talk['date']}</small>
-                        </h4>
-                        <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                          <Image src={speakerImages[talk['speakerID']]} width={100} height={100} className={imageClasses} />
-                        </GridItem>
-                        <h4 className={classes.cardTitle}>
-                          {talk['speaker']}
-                          <br />
-                          <small className={classes.smallTitle}>{talk['title']}</small>
-                        </h4>
-                        <Link href={'/previous-talks/' + talk['talkID']}>
-                          <Button
-                            round
-                            color='primary'
-                            className={classes.button}
-                          >
-                            Details
-                          </Button>
-                        </Link>
-                      </Card>
-                    </GridItem>
-                  );
-                })}
+              <GridContainer style={{justifyItems: "stretch"}}>
+                {keySeason.length > 0 &&
+                  content[keySeason[key]].map((talk) => {
+                    return (
+                      <GridItem xs={12} sm={6} md={4}>
+                        <Card plain className={classes.layout}>
+                          <div className={classes.layoutItem}>
+                            <h4
+                              className={classes.cardTitle}
+                              style={{ textAlign: "left" }}
+                            >
+                              <small className={classes.smallTitle}>
+                                {talk["date"]}
+                              </small>
+                            </h4>
+                          </div>
+                          {/* Antes la imagen estaba dentro de un GridItem con clase classes.itemGrid*/}
+                          <div className={classes.layoutItem}>
+                            <Image
+                              src={speakerImages[talk["speakerID"]]}
+                              width={250}
+                              height={200}
+                              className={imageClasses}
+                            />
+                          </div>
+                          <div className={classes.layoutItem}>
+                            <h4 className={classes.cardTitle}>
+                              {talk["speaker"]}
+                              <br />
+                              <small className={classes.smallTitle}>
+                                {talk["title"]}
+                              </small>
+                            </h4>
+                          </div>
+                          <div className={classes.layoutItem}>
+                            <Link href={"/previous-talks/" + talk["talkID"]}>
+                              <Button
+                                round
+                                color="primary"
+                                className={classes.button}
+                              >
+                                Details
+                              </Button>
+                            </Link>
+                          </div>
+                        </Card>
+                      </GridItem>
+                    );
+                  })}
               </GridContainer>
             </div>
           );
@@ -145,7 +164,7 @@ export default function NavPills(props) {
 
 NavPills.defaultProps = {
   active: 0,
-  color: "primary"
+  color: "primary",
 };
 
 NavPills.propTypes = {
@@ -155,7 +174,7 @@ NavPills.propTypes = {
     PropTypes.shape({
       tabButton: PropTypes.string,
       tabIcon: PropTypes.object,
-      tabContent: PropTypes.node
+      tabContent: PropTypes.node,
     })
   ).isRequired,
   color: PropTypes.oneOf([
@@ -164,12 +183,12 @@ NavPills.propTypes = {
     "danger",
     "success",
     "info",
-    "rose"
+    "rose",
   ]),
   direction: PropTypes.string,
   horizontal: PropTypes.shape({
     tabsGrid: PropTypes.object,
-    contentGrid: PropTypes.object
+    contentGrid: PropTypes.object,
   }),
-  alignCenter: PropTypes.bool
+  alignCenter: PropTypes.bool,
 };
