@@ -67,11 +67,9 @@ export default function HomePage(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionCarousel images={props.images}/>
-        <div className={classes.container}>
-          <FutureTalksSection />
-          <StreamingTimeSection />
-          <TeamSection />
-        </div>
+        <FutureTalksSection />
+        <StreamingTimeSection />
+        <TeamSection />
       </div>
       <Footer />          
     </div>
