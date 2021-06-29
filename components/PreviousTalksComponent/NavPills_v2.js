@@ -113,8 +113,8 @@ export default function NavPills(props) {
                           <div className={classes.layoutItem}>
                             <Image
                               src={speakerImages[talk["speakerID"]]}
-                              width={250}
-                              height={200}
+                              width={230}
+                              height={230}
                               className={imageClasses}
                             />
                           </div>
