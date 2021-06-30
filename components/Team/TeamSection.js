@@ -35,7 +35,7 @@ export default function TeamSection() {
       <h1 className={classes.title}>Scientific Committee</h1>
       <div className={classes.team}>
         <GridContainer justify='center' className={classes.grid}>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={4}>
             <Card plain>
               <img src={team6} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>
@@ -51,7 +51,7 @@ export default function TeamSection() {
               </CardBody>*/}
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={4}>
             <Card plain>
               <img src={team1} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>
@@ -67,7 +67,7 @@ export default function TeamSection() {
               </CardBody>*/}
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={4}>
             <Card plain>
               <img src={team2} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>
@@ -83,7 +83,7 @@ export default function TeamSection() {
               </CardBody>*/}
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={4}>
             <Card plain>
               <img src={team3} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>
@@ -99,7 +99,7 @@ export default function TeamSection() {
               </CardBody>*/}
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={4}>
             <Card plain>
               <img src={team4} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>
@@ -115,7 +115,7 @@ export default function TeamSection() {
               </CardBody>*/}
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={4}>
             <Card plain>
               <img src={team5} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>

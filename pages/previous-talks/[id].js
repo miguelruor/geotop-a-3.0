@@ -69,11 +69,18 @@ export default function SingleTalkPage(props) {
           </GridContainer>
         </div>
         <div>
-          <h2 className={style.title}>Video</h2>
           {props.video ? 
-          <div className={style.video}>
-            <iframe src={props.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div> : <p className={style.non_video}>Not available yet.</p>} 
+            <>
+              <h2 className={style.title}><a href={props.video} target="_blank">Video</a></h2>
+              <div className={style.video}>
+                <iframe src={props.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </>: 
+            <>
+              <h2 className={style.title}>Video</h2>
+              <p className={style.non_video}>Not available yet.</p>
+            </>
+          } 
         </div> 
       </div>
       <Footer />
