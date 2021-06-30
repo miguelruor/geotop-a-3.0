@@ -51,7 +51,12 @@ const teamStyle = {
     paddingLeft: '10%',
     paddingRight: '10%'
   },
-  grid: {
+  organizer_img: {
+    width: "150px",
+    height: "150px",
+    alignSelf: "center"
+  },
+  grid:{
     margin: "0px"
   },
   searchBy:{

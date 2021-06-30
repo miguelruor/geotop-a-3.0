@@ -27,7 +27,8 @@ export default function TeamSection() {
   const imageClasses = classNames(
     classes.imgRaised,
     classes.imgRoundedCircle,
-    classes.imgFluid
+    classes.imgFluid,
+    classes.organizer_img
   );
   return (
     <div className={classes.section}>
@@ -36,9 +37,7 @@ export default function TeamSection() {
         <GridContainer justify='center' className={classes.grid}>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6}>
-                <img src={team6} alt="..." className={imageClasses} />
-              </GridItem>
+              <img src={team6} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>
                 Alicia Dickenstein
                 <br />
@@ -54,9 +53,7 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
-              </GridItem>
+              <img src={team1} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>
                 José-Carlos Gómez-Larrañaga
                 <br />
@@ -72,9 +69,7 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team2} alt="..." className={imageClasses} />
-              </GridItem>
+              <img src={team2} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>
                 Kathryn Hess
                 <br />
@@ -90,9 +85,7 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem> 
+              <img src={team3} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>
                 Neza Mramor-Kosta
                 <br />
@@ -108,9 +101,7 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team4} alt="..." className={imageClasses} />
-              </GridItem>
+              <img src={team4} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>
                 Renzo L. Ricca
                 <br />
@@ -126,9 +117,7 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team5} alt="..." className={imageClasses} />
-              </GridItem>
+              <img src={team5} alt="..." className={imageClasses} />
               <h4 className={classes.cardTitle}>
                 De Witt L. Sumners
                 <br />
