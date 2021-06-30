@@ -15,7 +15,7 @@ import backgroundImageHome from '../../public/img/img1.jpg';
 // nodejs library that concatenates classes
 import classNames from "classnames";
 
-import SectionCarousel from "../../components/Carousel/SectionCarousel-v2.js";
+import SectionCarousel from "../../components/Carousel/carousel.js";
 import FutureTalksSection from '../../components/FutureTalks/FutureTalksSection.js';
 import StreamingTimeSection from '../../components/StreamingTime/StreamingTimeSection.js';
 import TeamSection from '../../components/Team/TeamSection.js';
@@ -67,11 +67,9 @@ export default function HomePage(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionCarousel images={props.images}/>
-        <div className={classes.container}>
-          <FutureTalksSection />
-          <StreamingTimeSection />
-          <TeamSection />
-        </div>
+        <FutureTalksSection />
+        <StreamingTimeSection />
+        <TeamSection />
       </div>
       <Footer />          
     </div>

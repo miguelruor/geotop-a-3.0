@@ -174,7 +174,7 @@ export default function FutureTalks(){
         <>
         <div className={styles2.titleFutureTalks} style={{paddingTop: 20}}>
             <h1>FALL 2021 TALKS</h1>
-            <div styles={{justifyContent: 'center'}}>
+            <div className={styles2.talks} styles={{justifyContent: 'center'}}>
                 <GridContainer>
                   <Hidden only="xs">
                      <GridItem sm={3} md={2}>
@@ -223,7 +223,7 @@ export default function FutureTalks(){
         </div>
         <div className={styles2.titleFutureTalks} style={{paddingTop: 20}}>
             <h1>SPRING 2022 TALKS</h1>
-            <div styles={{justifyContent: 'center'}}>
+            <div className={styles2.talks} styles={{justifyContent: 'center'}}>
                <GridContainer>
                   <Hidden only="xs">
                      <GridItem sm={3} md={2}>

@@ -26,7 +26,7 @@ export default function StreamingTime(){
 
 
     return(
-        <div style={{paddingLeft: "10%", paddingRight:"10%", paddingTop:"5%"}} justify = "left">
+        <div style={{paddingLeft: "10%", paddingRight:"10%", paddingTop:"5%", color: "#fff"}} justify = "left">
             <div>
                 <h1 className={classes.title}>Streaming time</h1>
             </div>

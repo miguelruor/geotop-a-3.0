@@ -1,6 +1,8 @@
 import NextApp from 'next/app'
 import React from 'react'
 import '../assets/css/globals.scss'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 import { ThemeProvider } from 'styled-components'
 const theme = {

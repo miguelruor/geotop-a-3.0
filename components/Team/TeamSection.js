@@ -33,10 +33,10 @@ export default function TeamSection() {
     <div className={classes.section}>
       <h1 className={classes.title}>Scientific Committee</h1>
       <div className={classes.team}>
-        <GridContainer justify='center'>
+        <GridContainer justify='center' className={classes.grid}>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+              <GridItem xs={12} sm={12} md={6}>
                 <img src={team6} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>

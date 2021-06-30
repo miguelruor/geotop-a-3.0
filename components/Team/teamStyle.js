@@ -3,7 +3,6 @@ import imagesStyle from "../../assets/jss/material-kit-react/imagesStyles.js";
 
 const teamStyle = {
   section: {
-    //padding: "70px 0",
     textAlign: "center"
   },
   title: {
@@ -17,10 +16,6 @@ const teamStyle = {
     }
   },
   ...imagesStyle,
-  itemGrid: {
-    marginLeft: "auto",
-    marginRight: "auto"
-  },
   cardTitle,
   smallTitle: {
     color: "black"
@@ -55,6 +50,9 @@ const teamStyle = {
   team: {
     paddingLeft: '10%',
     paddingRight: '10%'
+  },
+  grid: {
+    margin: "0px"
   },
   searchBy:{
     ...title,

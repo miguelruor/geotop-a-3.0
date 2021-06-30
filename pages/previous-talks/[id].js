@@ -10,6 +10,7 @@ import Image from 'next/image'
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "../../assets/css/talkStyle.js";
 import classNames from "classnames";
+import style from "../../assets/css/talks.module.css"
 
 import backgroundImageHome from '../../public/img/img1.jpg'
 import speakers from '../../data/speakers.json';
@@ -50,7 +51,7 @@ export default function SingleTalkPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)} >
         <div className={classes.containerContent} >
-          <GridContainer>
+          <GridContainer className={style.grid}>
               <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
                   <div className={classes.imgContainer}><Image src={props.speakerImage} width={380} height={380} className={imageClasses}/></div>
               </GridItem>
@@ -61,17 +62,19 @@ export default function SingleTalkPage(props) {
                     <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{props.title}</p></GridItem>
                     <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser (props.abstract)}</p></GridItem>
                     <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Keywords: "}</b> {props.keywords.join(", ")}</p></GridItem>
-                    <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Video: "}</b> {props.video === null ? "Not available yet" : <a href={props.video} target="_blank">Click here</a>}</p></GridItem>
                     {props.slides == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Slides:</b> <a href={props.slides} target="_blank">Click here</a></p></GridItem></>}
                     {props.warning == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Warning:</b> {props.warning}</p></GridItem></>}
                   </GridContainer>
               </GridItem>
           </GridContainer>
         </div>
-        {/*props.video ? 
-        <div className={classes.containerContent}>
-          <iframe width="560" height="315" src={props.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> : null*/}  
+        <div>
+          <h2 className={style.title}>Video</h2>
+          {props.video ? 
+          <div className={style.video}>
+            <iframe src={props.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div> : <p className={style.non_video}>Not available yet.</p>} 
+        </div> 
       </div>
       <Footer />
 
