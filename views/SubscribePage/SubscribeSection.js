@@ -103,7 +103,7 @@ export default function SubscribeSection() {
               }}
             />
             <CustomInput
-              labelText="Email (institutional, preferably)"
+              labelText="Email (institutional, if possible)"
               id="email"
               formControlProps={{
                 fullWidth: true
