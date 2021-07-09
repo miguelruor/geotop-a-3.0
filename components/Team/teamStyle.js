@@ -52,8 +52,8 @@ const teamStyle = {
     paddingRight: '10%'
   },
   organizer_img: {
-    width: "100px",
-    height: "100px",
+    width: "150px",
+    height: "150px",
     alignSelf: "center"
   },
   grid:{
