@@ -7,10 +7,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import styles from "./StreamingTimeSectionStyle.js";
 import Times from "../Clock/Times.js";
 
-//https://material-ui.com/es/components/grid/
-import GridContainer from "../Grid/GridContainer.js";
-import GridItem from "../Grid/GridItem.js";
-
 const useStyles = makeStyles(styles);
 
 export default function StreamingTime(){
@@ -23,7 +19,6 @@ export default function StreamingTime(){
     const localOffset = d.getTimezoneOffset();
 
     const StreamingTimeLocal = (StreamingTimeMexicoCity + UTCMexicoCity - localOffset + 1440)%1440;
-
 
     return(
         <div style={{paddingLeft: "10%", paddingRight:"10%", paddingTop:"5%", color: "#fff"}} justify = "left">

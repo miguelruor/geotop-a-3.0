@@ -1,9 +1,9 @@
-import React, {useState} from "react";
+import React, { useEffect, useState } from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-import ReactHtmlParser from 'react-html-parser'; 
+import ReactHtmlParser from 'react-html-parser';
 import Image from 'next/image'
 
 // @material-ui/icons
@@ -12,33 +12,25 @@ import Image from 'next/image'
 import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
 
-import styles from "./NextTalksPageStyle";
+import styles from "../../assets/css/talkStyle.js";
+import style from "../../assets/css/talks.module.css"
 
 const useStyles = makeStyles(styles);
 
-export default function NextTalksSection(){
+export default function NextTalksSection() {
 
-    const image1 = '/img/speakers/sp47.png';
-    const image2 = '/img/speakers/sp48.png';
-    
-    
     const [talks, setTalks] = useState([
         {
             date: "August 20, 2021",
             speaker: "Bei Wang",
-            title: "TBA",
-            keywords: [],
-            abstract: "<p>TBA</p>",
-        },
-    ]);
-
-    const [talks2, setTalks2] = useState([
-        {
-            date: "April 23, 2021",
-            speaker: "Dimos Gkountaroulis",
-            title: "Knotoids and protein structure",
-            keywords: ["knotoids", "proteins", "topology", "folding", "knots"],
-            abstract: "<p>Approximately 6% of proteins deposited in the Protein Data Bank are known to fold into conformations that are non-trivially entangled. The vast majority of knotted proteins form simple knot-like structures with up to three crossings. However, there are a few examples of proteins having up to six crossings. Interestingly, even though they are not ubiquitous, knots in proteins have been conserved within species that are separated by millions of years of evolution. This might imply that knottiness provides some advantages to proteins but this theory is still being contested. Besides the role of knotting in proteins, the pathway that the backbone of a knotted protein follows to reach its native folded state is still an open question.  To this date, researchers have suggested several mechanisms for protein self-tying that are based on wet lab experiments, numerical simulations, mathematical theory or a combination of all the above.</p><p>In this talk, I will discuss how the theory of knotoids can be applied to characterize the topology of linear proteins. I will present the basics of the theory, some knotoids invariants, the computational pipeline that we developed for this, as well as our tabulation of knotoids. I will also present a statistical distance that we define on distributions of projections of a protein backbone seen as knotoids and I will show how this distance allows us to infer possible folding pathways of trefoil knotted proteins. I will close this talk by briefly discussing applications of knot theory to genomics. </p>",
+            title: "Sheaf-Theoretic Stratification Learning From Geometric and Topological Perspectives",
+            keywords: [
+                "topological data analysis (TDA)",
+                "sheaf",
+                "stratification learning"
+            ],
+            abstract: "We investigate a sheaf-theoretic interpretation of stratification learning from geometric and topological perspectives. Our main result is the construction of stratification learning algorithms framed in terms of a sheaf on a partially ordered set with the Alexandroff topology. We prove that the resulting decomposition is the unique minimal stratification for which the strata are homogeneous and the given sheaf is constructible. In particular, when we choose to work with the local homology sheaf, our algorithm gives an alternative to the local homology transfer algorithm given in Bendich et al. (2012), and the cohomology stratification algorithm given in Nanda (2020). Additionally, we give examples of stratifications based on the geometric techniques of Breiding et al. (2018), illustrating how the sheaf-theoretic approach can be used to study stratifications from both topological and geometric perspectives. This approach also points toward future applications of sheaf theory in the study of topological data analysis by illustrating the utility of the language of sheaf theory generalizing existing algorithms. This is joint work with Adam Brown (<a href=https://doi.org/10.1007/s00454-020-00206-y>click here</a>).",
+            image: "/img/speakers/sp50.png"
         },
     ]);
 
@@ -47,42 +39,26 @@ export default function NextTalksSection(){
         classes.imgRaised,
         classes.imgRoundedCircle,
         classes.imgFluid,
-      );
-      
-    return(
-        <GridContainer>
-            <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
-                {/*<div className={classes.imgContainer}><Image src={image1} width={380} height={380} className={imageClasses}/></div>*/}
-            </GridItem>
-            <GridItem xs={12} sm={12} md={7}>
-                <GridContainer>
-                    {talks.map(talk => (
-                        <>
-                        <GridItem xs={12} sm={12} md={12}><h1 className={classes.speaker}>{talk.speaker}</h1></GridItem>
-                        <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{talk.date}</b></p></GridItem>
-                        <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{talk.title}</p></GridItem>
-                        <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser (talk.abstract)}</p></GridItem>
-                        {/*<GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Keywords: "}</b> {talk.keywords.join(", ")}</p></GridItem>*/}
-                        </>
-                    ))}
+    );
+
+    return (
+        <>
+            {talks.map((talk) => (
+                <GridContainer className={style.grid}>
+                    <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
+                        <div className={classes.imgContainer}><Image src={talk.image} width={380} height={380} className={imageClasses} /></div>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={7}>
+                        <GridContainer>
+                            <GridItem xs={12} sm={12} md={12}><h1 className={classes.speaker}>{talk.speaker}</h1></GridItem>
+                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{talk.date}</b></p></GridItem>
+                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{talk.title}</p></GridItem>
+                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser(talk.abstract)}</p></GridItem>
+                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Keywords: "}</b> {talk.keywords.join(", ")}</p></GridItem>
+                        </GridContainer>
+                    </GridItem>
                 </GridContainer>
-            </GridItem>
-            {/*<GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
-            <div className={classes.imgContainer}><Image src={image1} width={380} height={380} className={imageClasses}/></div>
-            </GridItem>
-            <GridItem xs={12} sm={12} md={7}>
-                <GridContainer>
-                    {talks2.map(talk => (
-                        <>
-                        <GridItem xs={12} sm={12} md={12}><h1 className={classes.speaker}>{talk.speaker}</h1></GridItem>
-                        <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{talk.date}</b></p></GridItem>
-                        <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{talk.title}</p></GridItem>
-                        <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser (talk.abstract)}</p></GridItem>
-                        <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Keywords: "}</b> {talk.keywords.join(", ")}</p></GridItem>
-                        </>
-                    ))}
-                </GridContainer>
-            </GridItem>*/}
-        </GridContainer>
+            ))}
+        </>
     );
 }
