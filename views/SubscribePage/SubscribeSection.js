@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -18,38 +18,65 @@ const useStyles = makeStyles(styles);
 
 export default function SubscribeSection() {
 
-  const [name,setName] = useState('');
-  const [email,setEmail] = useState('');
-  const [message,setMessage] = useState('');
+  const [params, setParams] = useState({
+    from_name: "",
+    institution: "",
+    email: "",
+    interest: "",
+    message: ""
+  })
 
-  function handleChangeName(event){
-    setName(event['target'].value);
+  const handleNameChange = (event) => {
+    setParams({
+      ...params,
+      from_name: event.target.value
+    })
   }
 
-  function handleChangeEmail(event){
-    setEmail(event['target'].value);
+  const handleInstitutionChange = (event) => {
+    setParams({
+      ...params,
+      institution: event.target.value
+    })
   }
 
-  function handleChangeMessage(event){
-    setMessage(event['target'].value);
+  const handleEmailChange = (event) => {
+    setParams({
+      ...params,
+      email: event.target.value
+    })
   }
 
-  function handleSumbit(e){
+  const handleInterestChange = (event) => {
+    setParams({
+      ...params,
+      interest: event.target.value
+    })
+  }
+
+  const handleMessageChange = (event) => {
+    setParams({
+      ...params,
+      message: event.target.value
+    })
+  }
+
+  function handleSumbit(e) {
     e.preventDefault();
-    
+
     emailjs
-      .sendForm(
-        "service_5nxp327",
-        "template_kjs6r07",
-        e.target,
-        "user_9vgc4yH3Zzx5b8J7xMbDT"
+      .send(
+        "service_qtjgu2b",
+        "geotop_form",
+        params,
+        "user_ACWbrTNybMU7EJa0oRaUL"
       )
       .then(
         (result) => {
           alert("Email sent succesfully!");
         },
         (error) => {
-          alert("Email didnt sent");
+          alert("Error");
         }
       )
   }
@@ -59,58 +86,74 @@ export default function SubscribeSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Subscribe to GEOTOP-A</h2>
+          <h2 style={{margin: "0px 0px 50px 0px", minHeight:"32px", textDecoration:"none", 
+          textAlign:"center", color:"#3C4858", fontWeight: "bold", fontFamily: `"Roboto Slab", "Times New Roman", "serif"`, 
+          fontSize:"2rem"}}>Subscribe to GEOTOP-A</h2>
           <h4 className={classes.description}>
             Send us your details to receive automatic reminders of upcoming seminars
           </h4>
-          <form onSubmit={handleSumbit}>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
-                  labelText="Your Name"
-                  id="name"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                  inputProps={{
-                    name:"from_name",
-                    onChange: handleChangeName
-                  }}
-                />
-              </GridItem>
-              <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
-                  labelText="Your Email"
-                  id="email"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                  inputProps={{
-                    name:"email",
-                    onChange: handleChangeEmail,
-                  }}
-                />
-              </GridItem>
-              <CustomInput
-                labelText="Your Message"
-                id="message"
-                formControlProps={{
-                  fullWidth: true,
-                  className: classes.textArea
-                }}
-                inputProps={{
-                  multiline: true,
-                  rows: 5,
-                  name: "message",
-                  value: message,
-                  onChange: handleChangeMessage
-                }}
-              />
-              <GridItem xs={12} sm={12} md={4}>
-                <Button color="primary" type='sumbit'>Send Message</Button>
-              </GridItem>
-            </GridContainer>
+          <form onSubmit={handleSumbit} id="contact_form">
+            <CustomInput
+              labelText="Full Name"
+              id="from_name"
+              formControlProps={{
+                fullWidth: true
+              }}
+              inputProps={{
+                name: "from_name",
+                onChange: handleNameChange
+              }}
+            />
+            <CustomInput
+              labelText="Email (institutional, if possible)"
+              id="email"
+              formControlProps={{
+                fullWidth: true
+              }}
+              inputProps={{
+                name: "email",
+                onChange: handleEmailChange
+              }}
+            />
+            <CustomInput
+              labelText="Institution/University"
+              id="institution"
+              formControlProps={{
+                fullWidth: true
+              }}
+              inputProps={{
+                name: "institution",
+                onChange: handleInstitutionChange
+              }}
+            />
+            <CustomInput
+              labelText="Areas of interest"
+              id="interest"
+              formControlProps={{
+                fullWidth: true
+              }}
+              inputProps={{
+                multiline: true,
+                rows: 2,
+                name: "interest",
+                onChange: handleInterestChange
+              }}
+            />
+            <CustomInput
+              labelText="Optional message"
+              id="message"
+              formControlProps={{
+                fullWidth: true
+              }}
+              inputProps={{
+                multiline: true,
+                rows: 2,
+                name: "message",
+                onChange: handleMessageChange
+              }}
+            />
           </form>
+          <Button color="primary" type='submit' form="contact_form">Send Message</Button>
         </GridItem>
       </GridContainer>
     </div>

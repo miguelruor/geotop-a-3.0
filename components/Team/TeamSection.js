@@ -13,12 +13,12 @@ import Card from "../Card/Card.js";
 
 import styles from "./teamStyle.js";
 
-import team1 from "../../public/img/organizers/org1.jpg";
-import team2 from "../../public/img/organizers/org2.jpg";
-import team3 from "../../public/img/organizers/org3.jpg";
-import team4 from "../../public/img/organizers/org4.jpg";
-import team5 from "../../public/img/organizers/org5.jpg";
-import team6 from "../../public/img/organizers/org6.jpg";
+import team1 from "../../public/img/organizers/org1.png";
+import team2 from "../../public/img/organizers/org2.png";
+import team3 from "../../public/img/organizers/org3.png";
+import team4 from "../../public/img/organizers/org4.png";
+import team5 from "../../public/img/organizers/org5.png";
+import team6 from "../../public/img/organizers/org6.png";
 
 const useStyles = makeStyles(styles);
 

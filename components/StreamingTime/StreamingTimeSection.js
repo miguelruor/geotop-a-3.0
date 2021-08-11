@@ -20,7 +20,6 @@ export default function StreamingTime(){
 
     const StreamingTimeLocal = (StreamingTimeMexicoCity + UTCMexicoCity - localOffset + 1440)%1440;
 
-
     return(
         <div style={{paddingLeft: "10%", paddingRight:"10%", paddingTop:"5%", color: "#fff"}} justify = "left">
             <div>

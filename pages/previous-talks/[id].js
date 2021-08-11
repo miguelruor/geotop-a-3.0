@@ -4,7 +4,6 @@ import Parallax from '../../components/Parallax/Parallax';
 import GridContainer from '../../components/Grid/GridContainer';
 import GridItem from '../../components/Grid/GridItem';
 import Footer from '../../components/Footer/Footer';
-import StreamingTimeSection from '../../components/StreamingTime/StreamingTimeSection.js';
 import ReactHtmlParser from 'react-html-parser'; 
 import Image from 'next/image'
 import { makeStyles } from "@material-ui/core/styles";
