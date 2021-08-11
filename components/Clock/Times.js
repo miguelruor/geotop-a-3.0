@@ -19,7 +19,7 @@ export default class Times extends Component {
         <div className={styles.timescontent} style={{ backgroundColor: this.props.color, borderColor: this.props.bordercolor }}>
           {`${Intl.DateTimeFormat().resolvedOptions().timeZone.replace("_", " ")}` == "America/Mexico City" ? 
           <>
-            <div className={styles.timerlabel2}>{this.props.timeLabel+":"}</div>
+            <div className={styles.timerlabel2}>{"CDMX time:"}</div>
           </>
           : 
           <>
