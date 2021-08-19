@@ -25,8 +25,9 @@ export async function getStaticProps(){
   month[11] = "December";
 
   for(var talk_id in talks){
-    var date = talks[talk_id].timestamp.seconds
-    date = new Date(1000*date)
+    var date = talks[talk_id].date2;
+    date = new Date(date.slice(0, 4), date.slice(4, 6)-"01", date.slice(6,8));
+    
     talks_aux[talk_id].year = date.getFullYear()
     talks_aux[talk_id].date =  talks[talk_id].date
   }

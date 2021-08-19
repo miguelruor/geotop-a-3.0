@@ -45,7 +45,7 @@ export default function NextTalksPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)} >
         <div className={classes.containerContent} >
-          <NextTalkSection />
+          <NextTalkSection next_talks={props.next_talks}/>
         </div>
         <div className={classes.container}>
           <StreamingTimeSection />
