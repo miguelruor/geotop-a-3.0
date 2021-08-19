@@ -22,8 +22,8 @@ export async function getStaticProps(){
   var seasons_aux = {};
 
   Object.keys(talks).forEach(key => {
-    var date = talks[key].timestamp.seconds;
-    date = new Date(date*1000); // pass unix timestamp milliseconds as an argument to the Date constructor
+    var date = talks[key].date2;
+    date = new Date(date.slice(0, 4), date.slice(4, 6)-"01", date.slice(6,8));
 
     if(date > new Date()){
       return;
@@ -32,6 +32,7 @@ export async function getStaticProps(){
     var dateString = talks[key].date;
     
     var sea = talks[key].season;
+
     if(!(sea in seasons_aux)){
         seasons_aux[sea] = []
     }

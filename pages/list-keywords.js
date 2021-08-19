@@ -29,7 +29,9 @@ export async function getStaticProps(){
   var talks_ext = {}
 
   Object.keys(talks).forEach(talk_id => {
-    var date = new Date(1000*talks[talk_id].timestamp.seconds); // pass unix timestamp milliseconds as an argument to the Date constructor
+    
+    var date = talks[talk_id].date2;
+    date = new Date(date.slice(0, 4), date.slice(4, 6)-"01", date.slice(6,8));
 
     if(date > new Date()){
       return;
