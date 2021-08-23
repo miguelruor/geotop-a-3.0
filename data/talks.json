@@ -1,4 +1,21 @@
 {
+    "52": {
+        "speaker_id": 52,
+        "date": "September 17, 2021",
+        "date2": "20210917",
+        "title": "Getting interlocked circular chains through the needle’s eye",
+        "keywords": [
+            "topological links", 
+            "translocation", 
+            "molecular dynamics"
+        ],
+        "abstract": "<p text-align=\"justify\">The process of driven translocation of polymer chains through a narrow pore can be severely hindered by the presence of self and mutual entanglement. In circular chains this entanglement is trapped in the form of knots and links that may act as potential obstruction at the pore affecting the translocation dynamics. Here we present theoretical results mainly based on extensive Langevin simulations on the driven translocation dynamics of topologically linked rings. We highlight the role of link complexity, pore size and driving force field  on the translocation process and suggest how to extend nanopore sensing techniques to probe the topological properties of these systems and, for instance, to distinguish knotted from linked states and two component to multicomponent links.</p>",
+        "season": "FALL 2021",
+        "video": null,
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
     "51": {
         "speaker_id": 51,
         "date": "September 3, 2021",
