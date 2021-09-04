@@ -30,3 +30,7 @@
 .grid{
     align-items: center;
 }
+
+.grid p{
+    text-align: justify;
+}
