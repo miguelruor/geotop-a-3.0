@@ -51,7 +51,7 @@
         ],
         "abstract": "<p>The combinatorial graph Laplacian, as an operator on functions defined on the vertex set of a graph, is a fundamental object in the analysis of and optimization on graphs. There is also an algebraic topology view of the graph Laplacian which arises through considering boundary operators and specific inner products defined on simplicial (co)chain groups. This permits extending the graph Laplacian to a more general operator, the q-th combinatorial Laplacian to a given simplicial complex. An extension of this combinatorial Laplacian to the setting of pairs (or more generally, a sequence of) simplicial complexes was recently introduced by (R.) Wang, Nguyen and Wei. In this talk, I will present serveral results (including a persistent version of the Cheeger inequality) from our recent study of the theoretical properties for the persistence Laplacian, as well as efficient algorithms to compute it. This is joint work with Facundo Memoli and Zhengchao Wan. </p>",
         "season": "FALL 2021",
-        "video": null,
+        "video": "https://www.youtube.com/embed/8ypbCdnXhrI",
         "numberViewsYoutube": 0,
         "numberLikesYoutube": 0,
         "numberDislikesYoutube": 0
