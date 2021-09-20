@@ -90,7 +90,10 @@ export default function SubscribeSection() {
           textAlign:"center", color:"#3C4858", fontWeight: "bold", fontFamily: `"Roboto Slab", "Times New Roman", "serif"`, 
           fontSize:"2rem"}}>Subscribe to GEOTOP-A</h2>
           <h4 className={classes.description}>
-            Send us your details to receive automatic reminders of upcoming seminars
+            Send us your details to receive automatic reminders of upcoming seminars.
+          </h4>
+          <h4 className={classes.description}>
+            You will receive a registration message in the next 24 hours.
           </h4>
           <form onSubmit={handleSumbit} id="contact_form">
             <CustomInput
