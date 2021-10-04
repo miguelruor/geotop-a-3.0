@@ -1,4 +1,14 @@
 {
+    "54": {
+        "speaker_id": 54,
+        "date": "October 15, 2021",
+        "date2": "20211015",
+        "title": "TBA",
+        "keywords": ["TBA"],
+        "abstract": "TBA",
+        "season": "FALL 2021",
+        "video": null
+    },
     "53": {
         "speaker_id": 53,
         "date": "October 1, 2021",
@@ -16,10 +26,7 @@
         ],
         "abstract": "<p>Jonathan M. Fogg and Lynn Zechiedrich - Baylor College of Medicine</p><p>DNA in cells is supercoiled and constrained into loops. Despite the ubiquity and importance of supercoiling in regulating nearly every aspect of DNA activity, relatively little is known about how. To determine how supercoiling influenced DNA shape, we determined the 3-D structures of individual 336 bp DNA minicircles over a wide range of supercoiling from s = -0.019 to +0.085 (Irobalieva et al. 2015). Supercoiled DNA forms far more bent and contorted shapes than predicted. We sought to understand how DNA formed these shapes using coarse-grained molecular dynamics simulations (Wang et al. 2017), which predicted that site-specific disruptions to base pairing may explain otherwise energetically unfavorable sharp DNA bends. Likewise, bending strain at the apices of highly writhed DNA circles leads to broken base pairs. Probing for and mapping where base-pair disruptions occur, we discovered that negative supercoiling transmits mechanical stress along the DNA backbone to disrupt base pairing at specific distant sites (Fogg et al. 2021). This unprecedented base-pair disruption cooperativity among distant sites localizes certain sequences to superhelical apices to facilitate DNA writhing and relieve torsional strain, likely preventing more extensive denaturation that can cause genomic instability. We also discovered how cells may exploit DNA looping to position DNA nicks to facilitate repair. Our data explain how DNA can form short loops through base-pair disruption and reveal a complex interplay between looping- and supercoiling-mediated site-specific disruptions to base pairing and the 3-D conformation of DNA, which influence how genomes are stored, replicated, transcribed, repaired, and likely other aspects of DNA activity. We hope to harness these looping- and supercoiling-mediated site-specific denaturation and mechanical correlations to design novel DNA shapes for nanotechnology.</p><p>Irobalieva, R.N.*, Fogg, J.M.*, Catanese, D.J., Sutthibutpong, T., Chen, M., Barker, A.K., Ludtke, S.J., Harris, S.A., Schmid, M.F., Chiu, W., and Zechiedrich, L. (2015) Structural diversity of supercoiled DNA. Nature Comm. Oct 12;6:8440 PMC4608029 (*equal contribution)</p><p>Wang, Q., Irobalieva, R. N., Chiu, W., Schmid, M. F., Fogg, J. M., Zechiedrich, L., and Pettitt, B.M. (2017) DNA sequence determines conformational distribution of minicircles under torsional stress. Nucleic Acids Res. 45, 7633–7642 PMC5737869</p> <p>Fogg, J.M., Judge, A.K., Stricker, E., Chan, H.L., and Zechiedrich, L. Supercoiling and looping promote DNA base accessibility and coordination among distant sites. Nature Comm. in press.</p>",
         "season": "FALL 2021",
-        "video": null,
-        "numberViewsYoutube": 0,
-        "numberLikesYoutube": 0,
-        "numberDislikesYoutube": 0
+        "video": null
     },
     "52": {
         "speaker_id": 52,
@@ -33,10 +40,7 @@
         ],
         "abstract": "<p>The process of driven translocation of polymer chains through a narrow pore can be severely hindered by the presence of self and mutual entanglement. In circular chains this entanglement is trapped in the form of knots and links that may act as potential obstruction at the pore affecting the translocation dynamics. Here we present theoretical results mainly based on extensive Langevin simulations on the driven translocation dynamics of topologically linked rings. We highlight the role of link complexity, pore size and driving force field  on the translocation process and suggest how to extend nanopore sensing techniques to probe the topological properties of these systems and, for instance, to distinguish knotted from linked states and two component to multicomponent links.</p>",
         "season": "FALL 2021",
-        "video": "https://www.youtube.com/embed/tJAW9ihBgIg",
-        "numberViewsYoutube": 0,
-        "numberLikesYoutube": 0,
-        "numberDislikesYoutube": 0
+        "video": "https://www.youtube.com/embed/tJAW9ihBgIg"
     },
     "51": {
         "speaker_id": 51,
@@ -51,10 +55,7 @@
         ],
         "abstract": "<p>The combinatorial graph Laplacian, as an operator on functions defined on the vertex set of a graph, is a fundamental object in the analysis of and optimization on graphs. There is also an algebraic topology view of the graph Laplacian which arises through considering boundary operators and specific inner products defined on simplicial (co)chain groups. This permits extending the graph Laplacian to a more general operator, the q-th combinatorial Laplacian to a given simplicial complex. An extension of this combinatorial Laplacian to the setting of pairs (or more generally, a sequence of) simplicial complexes was recently introduced by (R.) Wang, Nguyen and Wei. In this talk, I will present serveral results (including a persistent version of the Cheeger inequality) from our recent study of the theoretical properties for the persistence Laplacian, as well as efficient algorithms to compute it. This is joint work with Facundo Memoli and Zhengchao Wan. </p>",
         "season": "FALL 2021",
-        "video": "https://www.youtube.com/embed/8ypbCdnXhrI",
-        "numberViewsYoutube": 0,
-        "numberLikesYoutube": 0,
-        "numberDislikesYoutube": 0
+        "video": "https://www.youtube.com/embed/8ypbCdnXhrI"
     },
     "50": {
         "speaker_id": 50,
@@ -68,10 +69,7 @@
         ],
         "abstract": "<p>We investigate a sheaf-theoretic interpretation of stratification learning from geometric and topological perspectives. Our main result is the construction of stratification learning algorithms framed in terms of a sheaf on a partially ordered set with the Alexandroff topology. We prove that the resulting decomposition is the unique minimal stratification for which the strata are homogeneous and the given sheaf is constructible. In particular, when we choose to work with the local homology sheaf, our algorithm gives an alternative to the local homology transfer algorithm given in Bendich et al. (2012), and the cohomology stratification algorithm given in Nanda (2020). Additionally, we give examples of stratifications based on the geometric techniques of Breiding et al. (2018), illustrating how the sheaf-theoretic approach can be used to study stratifications from both topological and geometric perspectives. This approach also points toward future applications of sheaf theory in the study of topological data analysis by illustrating the utility of the language of sheaf theory generalizing existing algorithms. This is joint work with Adam Brown (<a href=https://doi.org/10.1007/s00454-020-00206-y>click here</a>).</p>",
         "season": "FALL 2021",
-        "video": "https://www.youtube.com/embed/kBb5oXE3CDQ",
-        "numberViewsYoutube": 0,
-        "numberLikesYoutube": 0,
-        "numberDislikesYoutube": 0
+        "video": "https://www.youtube.com/embed/kBb5oXE3CDQ"
     },
     "49": {
         "speaker_id": 49,
