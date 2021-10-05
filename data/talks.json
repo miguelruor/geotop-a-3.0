@@ -3,9 +3,9 @@
         "speaker_id": 54,
         "date": "October 15, 2021",
         "date2": "20211015",
-        "title": "TBA",
-        "keywords": ["TBA"],
-        "abstract": "TBA",
+        "title": "The Wonderful World of Protein Structures",
+        "keywords": ["Protein Structures", "Chirality"],
+        "abstract": "This talk will aim to present an overview of the three dimensional structures of proteins. These large and intricate molecules perform the vast majority of the biological functions of life and the structures of over 170,000 proteins have been determined and are stored in the Protein Databank. A detailed understanding of their structures has gradually emerged over the last 50 years. Chirality within protein structures is observed at all 'levels' of structure, starting with the basic stereochemistry of the polypeptide chain, through local chain folding, to the 'tertiary' structure of the whole chain and even to chirality of large complexes.",
         "season": "FALL 2021",
         "video": null
     },
@@ -26,7 +26,7 @@
         ],
         "abstract": "<p>Jonathan M. Fogg and Lynn Zechiedrich - Baylor College of Medicine</p><p>DNA in cells is supercoiled and constrained into loops. Despite the ubiquity and importance of supercoiling in regulating nearly every aspect of DNA activity, relatively little is known about how. To determine how supercoiling influenced DNA shape, we determined the 3-D structures of individual 336 bp DNA minicircles over a wide range of supercoiling from s = -0.019 to +0.085 (Irobalieva et al. 2015). Supercoiled DNA forms far more bent and contorted shapes than predicted. We sought to understand how DNA formed these shapes using coarse-grained molecular dynamics simulations (Wang et al. 2017), which predicted that site-specific disruptions to base pairing may explain otherwise energetically unfavorable sharp DNA bends. Likewise, bending strain at the apices of highly writhed DNA circles leads to broken base pairs. Probing for and mapping where base-pair disruptions occur, we discovered that negative supercoiling transmits mechanical stress along the DNA backbone to disrupt base pairing at specific distant sites (Fogg et al. 2021). This unprecedented base-pair disruption cooperativity among distant sites localizes certain sequences to superhelical apices to facilitate DNA writhing and relieve torsional strain, likely preventing more extensive denaturation that can cause genomic instability. We also discovered how cells may exploit DNA looping to position DNA nicks to facilitate repair. Our data explain how DNA can form short loops through base-pair disruption and reveal a complex interplay between looping- and supercoiling-mediated site-specific disruptions to base pairing and the 3-D conformation of DNA, which influence how genomes are stored, replicated, transcribed, repaired, and likely other aspects of DNA activity. We hope to harness these looping- and supercoiling-mediated site-specific denaturation and mechanical correlations to design novel DNA shapes for nanotechnology.</p><p>Irobalieva, R.N.*, Fogg, J.M.*, Catanese, D.J., Sutthibutpong, T., Chen, M., Barker, A.K., Ludtke, S.J., Harris, S.A., Schmid, M.F., Chiu, W., and Zechiedrich, L. (2015) Structural diversity of supercoiled DNA. Nature Comm. Oct 12;6:8440 PMC4608029 (*equal contribution)</p><p>Wang, Q., Irobalieva, R. N., Chiu, W., Schmid, M. F., Fogg, J. M., Zechiedrich, L., and Pettitt, B.M. (2017) DNA sequence determines conformational distribution of minicircles under torsional stress. Nucleic Acids Res. 45, 7633–7642 PMC5737869</p> <p>Fogg, J.M., Judge, A.K., Stricker, E., Chan, H.L., and Zechiedrich, L. Supercoiling and looping promote DNA base accessibility and coordination among distant sites. Nature Comm. in press.</p>",
         "season": "FALL 2021",
-        "video": null
+        "video": "https://www.youtube.com/embed/-_QNMOnIf6c"
     },
     "52": {
         "speaker_id": 52,
