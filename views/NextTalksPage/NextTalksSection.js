@@ -33,7 +33,7 @@ export default function NextTalksSection(props) {
                     <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
                         <div className={classes.imgContainer}>
                             {talk.image ? 
-                                <Image src={'/img/speakers/sp'+talk.speaker_id.toString()+".png"} width={380} height={380} className={imageClasses} /> :
+                                <Image src={'/img/speakers/sp'+talk.speaker_id.toString()+".png"} width={335} height={335} className={imageClasses} /> :
                                 null}
                         </div>
                     </GridItem>
