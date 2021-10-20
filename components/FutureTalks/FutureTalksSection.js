@@ -16,55 +16,7 @@ const useStyles = makeStyles(styles);
 export default function FutureTalks(){
     const classes = useStyles();
 
-    const [talks,setTalks] = useState([
-        {
-            date: "January 22",
-            speaker: "Sergei Nechaev",
-            tittle: "Interdisciplinary Scientific Center Poncelet (CNRS UMI 2615) - Russia"
-        },  
-        {
-            date: "February 5",
-            speaker: "Alice Patania",
-            tittle: "Indiana University - USA"
-        },
-        {
-            date: "February 19",
-            speaker: "Nina Otter",
-            tittle: "UCLA - USA"
-        },
-        {
-            date: "March 5",
-            speaker: "Davide Michieletto",
-            tittle: "University of Edinburgh - UK"
-        },
-        {
-            date: "March 19",
-            speaker: "Daniel Peralta-Salas",
-            tittle: "ICMAT - Spain"
-        },
-        {
-            date: "April 9",
-            speaker: "Stephen Childress",
-            tittle: "NYU - USA"
-        },
-        {
-            date: "April 23",
-            speaker: "Dimos Gkountaroulis",
-            tittle: "Baylor College of Medicine - USA"
-        },
-        {
-            date: "May 7",
-            speaker: "Aldo Guzmán-Sáenz",
-            tittle: "IBM Thomas J. Watson Research Center - USA"
-        },
-        {
-            date: "May 21",
-            speaker: "Caroline Uhler",
-            tittle: "MIT - USA"
-        },
-    ]);
-
-    const [talks2,setTalks2] = useState([
+    const talks2 = [
         {
             date: "August 20",
             speaker: "Bei Wang",
@@ -92,7 +44,7 @@ export default function FutureTalks(){
         },
         {
             date: "October 29",
-            speaker: "Fazle Hussain",
+            speaker: "Jie Yao and Fazle Hussain",
             tittle: "Texas Tech University - USA"
         },
         {
@@ -115,9 +67,9 @@ export default function FutureTalks(){
             speaker: "Matthew Kahle",
             tittle: "Ohio State University - USA"
         },
-    ]);
+    ];
 
-    const [talks3,setTalks3] = useState([
+    const talks3 = [
         {
             date: "January 21",
             speaker: "Tudor Ratiu",
@@ -168,7 +120,7 @@ export default function FutureTalks(){
             speaker: "Xiao-Gang Wen",
             tittle: "MIT - USA"
         },
-    ]);
+    ];
 
     return(
         <>
