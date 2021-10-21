@@ -44,7 +44,7 @@ export default function FutureTalks(){
         },
         {
             date: "October 29",
-            speaker: "Jie Yao and Fazle Hussain",
+            speaker: "Fazle Hussain and Jie Yao",
             tittle: "Texas Tech University - USA"
         },
         {
