@@ -1,9 +1,19 @@
 {
-    "56": {
+    "57": {
         "surname": "Dłotko",
         "completeName": "Paweł Dłotko",
         "middle_initial": null,
         "name": "Paweł",
+        "talks": [
+            57
+        ],
+        "image": true
+    },
+    "56": {
+        "surname": "Yao",
+        "completeName": "Jie Yao",
+        "middle_initial": null,
+        "name": "Jie",
         "talks": [
             56
         ],
@@ -11,9 +21,9 @@
     },
     "55": {
         "surname": "Hussain",
-        "completeName": "Fazle Hussain and Jie Yao",
+        "completeName": "Fazle Hussain",
         "middle_initial": null,
-        "name": "Fazle, Yao Jie",
+        "name": "Fazle",
         "talks": [
             55
         ],
