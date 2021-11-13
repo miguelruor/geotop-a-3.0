@@ -17,7 +17,7 @@
         "keywords": ["applied topology", "persistence", "mapper", "applications"],
         "abstract": "Topological data analysis is a rapidly developing area of mathematics with applications in data science. In addition to revealing the shape of data we develop tools for visualizing high dimensional scalar and vector valued functions. As an example, we explore relations between various knot invariants, and extrapolate how presented tools may help to compare various, high-dimensional descriptors of fixed datasets. In particular, we show how these ideas can be used to compare different mapper-type graphs of the same dataset. This is a joint work with Davide Gurnari, Anna Jurek, Simon Rudkin and Radmila Sazdanovic.",
         "season": "FALL 2021",
-        "video": null
+        "video": "https://www.youtube.com/embed/JkMn_YDFU20"
     },
     "56": {
         "speaker_id": 56,
