@@ -17,7 +17,7 @@
         "keywords": ["categories", "homotopy theory", "topological invariants", "functors", "coarse category", "Vietoris-Rips homology", "sheaf theory", "Cech closure spaces"],
         "abstract": "We generalize several basic notions in algebraic topology to categories which contain both topological spaces classically treated by classical homotopy theory as well as more discrete and combinatorial spaces of interest in applications, such as graphs and point clouds. The advantage of doing so is that there are now non-trivial 'continuous' maps from paracompact Hausdorff spaces to finite spaces (given the appropriate structure), and one may then compare the resulting topological invariants on each side functorially. We find that there are a number of possible such categories, each with its own particular homotopy theory and associated homologies, and, additionally, that there is a generalization of the coarse category which allows finite sets to be non-trivial (i.e. not 'coarsely' equivalent to a point). We will give an overview of these theories and several applications, show how they are related to familiar objects in applied topology, such as the Vietoris-Rips homology, and discuss the advantages and disadvantages of each. We finish by describing a recent construction of sheaf theory in the category of Cech closure spaces, a strict generalization of the category of topological spaces.",
         "season": "FALL 2021",
-        "video": null
+        "video": "https://www.youtube.com/embed/msbvjWMoy7U"
     },
     "57": {
         "speaker_id": 57,
