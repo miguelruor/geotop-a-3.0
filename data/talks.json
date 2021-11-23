@@ -1,4 +1,14 @@
 {
+    "60": {
+        "speaker_id": 60,
+        "date": "December 10, 2021",
+        "date2": "20211210",
+        "title": "Configurations spaces of particles: homological solid, liquid, and gas.",
+        "keywords": ["TBA"],
+        "abstract": "Configuration spaces of points in the plane are well studied and the topology of such spaces is well understood. But what if you replace points by particles with some positive thickness, and put them in a container with boundaries? It seems like not much is known. To mathematicians, this is a natural generalization of the configuration space of points, perhaps interesting for its own sake. But is also important from the point of view of physics––physicists might call such a space the \"phase space\" or \"energy landscape\" for a hard-spheres system. Since hard-spheres systems are observed experimentally to undergo phase transitions (analogous to water changing into ice), it would be quite interesting to understand topological underpinnings of such transitions.",
+        "season": "FALL 2021",
+        "video": null
+    },
     "59": {
         "speaker_id": 59,
         "date": "December 3, 2021",
