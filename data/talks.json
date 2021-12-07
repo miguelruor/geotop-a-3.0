@@ -17,7 +17,7 @@
         "keywords": ["persistent homology", "inverse problems"],
         "abstract": "Persistent Homology (PH) is a widely used topological descriptor for data. In order to get a systematic understanding of the data science scenarios where PH is successful, it is crucial to know about its discriminative power, i.e. the ability to identify and disambiguate patterns in the data, or in other words it is crucial to know about the information loss and the invariances of PH. Formally these interrogations translate into the following inverse problem: Given an element in the image of PH, a so-called barcode D, what is the fiber (pre-image) of PH over D? There are several ways of defining PH: for point clouds in a metric space, for filter functions on a simplicial complex and for continuous functions on an arbitrary space, to name a few. Hence there are as many inverse problems to address. In this talk I will review the simplicial situation as well as that of Morse functions on a smooth manifold, with the aim of showing some geometrically surprising fibers and transmitting my interest for these intricate inverse problems. ",
         "season": "FALL 2021",
-        "video": null
+        "video": "https://www.youtube.com/embed/imzHXmC6iIs"
     },
     "58": {
         "speaker_id": 58,
