@@ -1,0 +1,54 @@
+{
+  "SPRING 2022": [
+    {
+      "date": "January 21",
+      "speaker": "Tudor Ratiu",
+      "institution": "EPFL & Shanghai Jiao Tong University - Switzerland and China"
+    },
+    {
+      "date": "February 4",
+      "speaker": "Jesús Rodríguez-Viorato",
+      "institution": "CIMAT - México"
+    },
+    {
+      "date": "February 18",
+      "speaker": "Marco Tulio Angulo",
+      "institution": "UNAM - México"
+    },
+    {
+      "date": "March 4",
+      "speaker": "Kevin Knudson",
+      "institution": "University of Florida - USA"
+    },
+    {
+      "date": "March 18",
+      "speaker": "Randall Kamien",
+      "institution": "University of Pennsylvania - USA"
+    },
+    {
+      "date": "April 1",
+      "speaker": "Carina Curto",
+      "institution": "The Pennsylvania State University - USA"
+    },
+    {
+      "date": "April 22",
+      "speaker": "Yang-Hui He",
+      "institution": "City, University of London and University of Oxford - UK"
+    },
+    {
+      "date": "May 6",
+      "speaker": "Alexander Grosberg",
+      "institution": "NYU - USA"
+    },
+    {
+      "date": "May 20",
+      "speaker": "Claudia Landi",
+      "institution": "Università di Modena e Reggio Emilia - Italy"
+    },
+    {
+      "date": "June 3",
+      "speaker": "Xiao-Gang Wen",
+      "institution": "MIT - USA"
+    }
+  ]
+}
