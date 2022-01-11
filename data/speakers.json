@@ -1,4 +1,24 @@
 {
+    "63": {
+        "surname": "Angulo",
+        "completeName": "Marco Tulio Angulo",
+        "middle_initial": null,
+        "name": "Marco Tulio",
+        "talks": [
+            63
+        ],
+        "image": true
+    },
+    "62": {
+        "surname": "Rodríguez-Viorato",
+        "completeName": "Jesús Rodríguez-Viorato",
+        "middle_initial": null,
+        "name": "Jesús",
+        "talks": [
+            62
+        ],
+        "image": false
+    },
     "61": {
         "surname": "Ratie",
         "completeName": "Tudor Ratiu",
