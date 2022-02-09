@@ -17,7 +17,8 @@
         "keywords": ["Persistent Homology",  "Latent Semantic Analysis", "Natural Language Processing"],
         "abstract": "Latent Semantic Analysis is one of the most widely used and accepted techniques in natural language processing. A better understanding of the topology of Latent Spaces could lead to better applications. We applied different topological techniques such as Ballmapper and persistent homology to the Latent Semantic representation of hundreds of thousands of abstracts and titles from the ArXiv database. We will present a comprehensible synthesis of our computations, comparing results between different time frames and ArXiv categories",
         "season": "SPRING 2022",
-        "video": null
+        "video": "https://www.youtube.com/embed/nmIxPrsv32k",
+        "warning": "Sound is not very clear"
     },
     "61": {
         "speaker_id": 61,
