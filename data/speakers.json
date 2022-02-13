@@ -1,4 +1,14 @@
 {
+    "64": {
+        "surname": "Knudson",
+        "completeName": "Kevin Knudson",
+        "middle_initial": null,
+        "name": "Kevin",
+        "talks": [
+            64
+        ],
+        "image": true
+    },
     "63": {
         "surname": "Angulo",
         "completeName": "Marco Tulio Angulo",
