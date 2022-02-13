@@ -1,4 +1,14 @@
 {
+    "64": {
+        "speaker_id": "64",
+        "date": "March 4, 2022",
+        "date2": "20220304",
+        "title": "Discrete Stratified Morse Theory",
+        "keywords": ["discrete Morse Theory", "stratified"],
+        "abstract": "In this talk I will describe a discrete version of stratified Morse theory and give several examples of the utility of theory. This is joint work with Bei Wang.",
+        "season": "SPRING 2022",
+        "video": null
+    },
     "63": {
         "speaker_id": 63,
         "date": "February 18, 2022",
