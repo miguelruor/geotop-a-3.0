@@ -50,5 +50,62 @@
       "speaker": "Xiao-Gang Wen",
       "institution": "MIT - USA"
     }
+  ],
+  "FALL 2022": [
+    {
+      "date": "August 19",
+      "speaker": "Lisbeth Fajstrup",
+      "institution": "Aalborg University - Denmark"
+    },
+    {
+      "date": "September 2",
+      "speaker": "Martina Scolamiero",
+      "institution": "KTH Royal Institute of Technology - Sweden"
+    },
+    {
+      "date": "September 9",
+      "speaker": "John Baez",
+      "institution": "UC Riverside - USA"
+    },
+    {
+      "date": "September 23",
+      "speaker": "Alexandru Baltag",
+      "institution": "Universiteit van Amsterdam - Netherlands"
+    },
+    {
+      "date": "September 30",
+      "speaker": "Jérémy Ledent",
+      "institution": "University of Strathclyde - Scotland"
+    },
+    {
+      "date": "October 7",
+      "speaker": "Peter Bubenik",
+      "institution": "University of Florida - USA"
+    },
+    {
+      "date": "October 21",
+      "speaker": "Chad Giusti",
+      "institution": "University of Delaware - USA"
+    },
+    {
+      "date": "November 4",
+      "speaker": "Marc Lackenby",
+      "institution": "University of Oxford - UK"
+    },
+    {
+      "date": "November 18",
+      "speaker": "Carlo Barenghi",
+      "institution": "U. Newcastle - Australia"
+    },
+    {
+      "date": "December 2",
+      "speaker": "Reidun Twarock",
+      "institution": "The University of York - UK"
+    },
+    {
+      "date": "December 9",
+      "speaker": "Michael Bronstein",
+      "institution": "University of Oxford - UK"
+    }
   ]
 }
