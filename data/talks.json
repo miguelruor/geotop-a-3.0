@@ -1,6 +1,6 @@
 {
     "65": {
-        "speaker_id": "65",
+        "speaker_id": 65,
         "date": "March 18, 2022",
         "date2": "20220318",
         "title": "A New Classification of Topological Defects",
@@ -10,7 +10,7 @@
         "video": null
     },
     "64": {
-        "speaker_id": "64",
+        "speaker_id": 64,
         "date": "March 11, 2022",
         "date2": "20220311",
         "title": "Discrete Stratified Morse Theory",
