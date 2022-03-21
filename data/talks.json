@@ -1,4 +1,14 @@
 {
+    "66": {
+        "speaker_id": 66,
+        "date": "April 1, 2022",
+        "date2": "20220401",
+        "title": "Dynamically relevant motifs in inhibition-dominated networks",
+        "keywords": ["Motifs", "inhibitory threshold-linear networks (TLNs)", "neural circuits", "dynamic attractor", "Hopfield model", "directed graphs"],
+        "abstract": "Many networks in the brain possess an abundance of inhibition, which serves to shape and stabilize neural dynamics. The neurons in such networks exhibit intricate patterns of connectivity whose structure controls the allowed patterns of neural activity. In this work, we examine inhibitory threshold-linear networks (TLNs) whose dynamics are constrained by an underlying directed graph. We develop a set of parameter-independent graph rules that enable us to predict features of the dynamics, such as emergent sequences and dynamic attractors, from properties of the graph. These rules provide a direct link between the structure and function of inhibition-dominated networks, yielding new insights into how connectivity shapes dynamics in real neural circuits. Recently, we have used these ideas to classify dynamic attractors in a two-parameter family of TLNs spanning all 9608 directed graphs of size n=5. Remarkably, we find a striking modularity in the dynamic attractors, with identical or near-identical attractors arising in networks that are otherwise dynamically inequivalent. This suggests that, just as one can store multiple static patterns as stable fixed points in a Hopfield model, a variety of dynamic attractors can also be embedded in TLNs in a modular fashion.",
+        "season": "SPRING 2022",
+        "video": null
+    },
     "65": {
         "speaker_id": 65,
         "date": "March 18, 2022",
