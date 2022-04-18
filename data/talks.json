@@ -1,4 +1,14 @@
 {
+    "68": {
+        "speaker_id": 68,
+        "date": "May 6, 2022",
+        "date2": "20220506",
+        "title": "Is Trivial Knot Really So Trivial?",
+        "keywords": [" linear threads of polymer", "biopolymers", "polymer unknots", "topological glass"],
+        "abstract": "While topological ideas are widely popular in physics, topology of classical linear threads of polymers presents steep mathematical and conceptual challenges, with applications in both biopolymers and materials.  I will concentrate on the simplest case of polymer unknots and review what is known about fluctuations and statistical mechanics of such objects based mostly on simulations, experiments, and hand-waving theoretical arguments.  Continuing with increasingly sophisticated models and phenomena, I will review several more recent theoretical and experimental achievements, and conclude with the discussion of a controversial concept of ''topological glass''.",
+        "season": "SPRING 2022",
+        "video": null
+    },
     "67": {
         "speaker_id": 67,
         "date": "April 22, 2022",
