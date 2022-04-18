@@ -1,4 +1,14 @@
 {
+    "68":{
+        "surname": " Grosberg",
+        "completeName": "Alexander Grosberg",
+        "middle_initial": null,
+        "name": "Alexander",
+        "talks": [
+            68
+        ],
+        "image": true
+    },
     "67":{
         "surname": "He",
         "completeName": "Yang-Hui He",
