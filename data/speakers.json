@@ -1,6 +1,16 @@
 {
+    "69":{
+        "surname": "Landi",
+        "completeName": "Claudia Landi",
+        "middle_initial": null,
+        "name": "Claudia",
+        "talks": [
+            69
+        ],
+        "image": true
+    },
     "68":{
-        "surname": " Grosberg",
+        "surname": "Grosberg",
         "completeName": "Alexander Grosberg",
         "middle_initial": null,
         "name": "Alexander",
