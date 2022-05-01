@@ -1,10 +1,20 @@
 {
+    "69": {
+        "speaker_id": 69,
+        "date": "May 20, 2022",
+        "date2": "20220520",
+        "title": "Multi-parameter persistence from the viewpoint of discrete Morse theory",
+        "keywords": ["Multi-parameter persistence", "discrete Morse theory", "multivariate data", "persistence modules", "critical cells", "multi-filtered data"],
+        "abstract": "Although there is no doubt that multi-parameter persistent homology is a useful tool for the topological analysis of multivariate data, a complete understanding of these modules is still lacking. Issues such as computation, visualization, and interpretation of the output remain difficult to solve. In this talk, I will show how discrete Morse theory may enhance our understanding of multi-parameter persistence by connecting the combinatorial properties of the critical cells of multi-filtered data to the algebraic properties of their persistence modules.",
+        "season": "SPRING 2022",
+        "video": null
+    },
     "68": {
         "speaker_id": 68,
         "date": "May 6, 2022",
         "date2": "20220506",
         "title": "Is Trivial Knot Really So Trivial?",
-        "keywords": [" linear threads of polymer", "biopolymers", "polymer unknots", "topological glass"],
+        "keywords": ["linear threads of polymer", "biopolymers", "polymer unknots", "topological glass"],
         "abstract": "While topological ideas are widely popular in physics, topology of classical linear threads of polymers presents steep mathematical and conceptual challenges, with applications in both biopolymers and materials.  I will concentrate on the simplest case of polymer unknots and review what is known about fluctuations and statistical mechanics of such objects based mostly on simulations, experiments, and hand-waving theoretical arguments.  Continuing with increasingly sophisticated models and phenomena, I will review several more recent theoretical and experimental achievements, and conclude with the discussion of a controversial concept of ''topological glass''.",
         "season": "SPRING 2022",
         "video": null
