@@ -1,4 +1,14 @@
 {
+    "70":{
+        "surname": "Wen",
+        "completeName": "Xiao-Gang Wen",
+        "middle_initial": null,
+        "name": "Xiao-Gang",
+        "talks": [
+            70
+        ],
+        "image": true
+    },
     "69":{
         "surname": "Landi",
         "completeName": "Claudia Landi",
