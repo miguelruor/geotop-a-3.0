@@ -1,5 +1,15 @@
 {
-    "70":{
+    "71": {
+        "surname": "Fajstrup",
+        "completeName": "Lisbeth Fajstrup",
+        "middle_initial": null,
+        "name": "Lisbeth",
+        "talks": [
+            71
+        ],
+        "image": false
+    },
+    "70": {
         "surname": "Wen",
         "completeName": "Xiao-Gang Wen",
         "middle_initial": null,
@@ -9,7 +19,7 @@
         ],
         "image": true
     },
-    "69":{
+    "69": {
         "surname": "Landi",
         "completeName": "Claudia Landi",
         "middle_initial": null,
@@ -19,7 +29,7 @@
         ],
         "image": true
     },
-    "68":{
+    "68": {
         "surname": "Grosberg",
         "completeName": "Alexander Grosberg",
         "middle_initial": null,
@@ -29,7 +39,7 @@
         ],
         "image": true
     },
-    "67":{
+    "67": {
         "surname": "He",
         "completeName": "Yang-Hui He",
         "middle_initial": null,
@@ -39,7 +49,7 @@
         ],
         "image": true
     },
-    "66":{
+    "66": {
         "surname": "Curto",
         "completeName": "Carina Curto",
         "middle_initial": null,
@@ -49,7 +59,7 @@
         ],
         "image": true
     },
-    "65":{
+    "65": {
         "surname": "Kamien",
         "completeName": "Randall Kamien",
         "middle_initial": null,
