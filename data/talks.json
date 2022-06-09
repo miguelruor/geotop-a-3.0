@@ -1,10 +1,26 @@
 {
+    "71": {
+        "speaker_id": 71,
+        "date": "August 19, 2022",
+        "date2": "20220819",
+        "title": "TBA",
+        "keywords": [
+            "TBA"
+        ],
+        "abstract": "TBA",
+        "season": "FALL 2022",
+        "video": null
+    },
     "70": {
         "speaker_id": 70,
         "date": "June 3, 2022",
         "date2": "20220603",
         "title": "From topological order to origin of elementary particles (from algebra to geometry)",
-        "keywords": ["topological order", "long range entanglement", "origin of light"],
+        "keywords": [
+            "topological order",
+            "long range entanglement",
+            "origin of light"
+        ],
         "abstract": "I will discuss the world of many-body long range entanglement. It turns out that both topological quantum matter and elementary particles arise from many-body long range entanglement.",
         "season": "SPRING 2022",
         "video": "https://www.youtube.com/embed/3HhX-W2KGjg",
@@ -15,7 +31,14 @@
         "date": "May 20, 2022",
         "date2": "20220520",
         "title": "Multi-parameter persistence from the viewpoint of discrete Morse theory",
-        "keywords": ["Multi-parameter persistence", "discrete Morse theory", "multivariate data", "persistence modules", "critical cells", "multi-filtered data"],
+        "keywords": [
+            "Multi-parameter persistence",
+            "discrete Morse theory",
+            "multivariate data",
+            "persistence modules",
+            "critical cells",
+            "multi-filtered data"
+        ],
         "abstract": "Although there is no doubt that multi-parameter persistent homology is a useful tool for the topological analysis of multivariate data, a complete understanding of these modules is still lacking. Issues such as computation, visualization, and interpretation of the output remain difficult to solve. In this talk, I will show how discrete Morse theory may enhance our understanding of multi-parameter persistence by connecting the combinatorial properties of the critical cells of multi-filtered data to the algebraic properties of their persistence modules.",
         "season": "SPRING 2022",
         "video": "https://www.youtube.com/embed/BP9csWxzGIY"
@@ -25,7 +48,12 @@
         "date": "May 6, 2022",
         "date2": "20220506",
         "title": "Is Trivial Knot Really So Trivial?",
-        "keywords": ["linear threads of polymer", "biopolymers", "polymer unknots", "topological glass"],
+        "keywords": [
+            "linear threads of polymer",
+            "biopolymers",
+            "polymer unknots",
+            "topological glass"
+        ],
         "abstract": "While topological ideas are widely popular in physics, topology of classical linear threads of polymers presents steep mathematical and conceptual challenges, with applications in both biopolymers and materials.  I will concentrate on the simplest case of polymer unknots and review what is known about fluctuations and statistical mechanics of such objects based mostly on simulations, experiments, and hand-waving theoretical arguments.  Continuing with increasingly sophisticated models and phenomena, I will review several more recent theoretical and experimental achievements, and conclude with the discussion of a controversial concept of ''topological glass''.",
         "season": "SPRING 2022",
         "video": "https://www.youtube.com/embed/Pr1-0IRy1us"
@@ -35,7 +63,13 @@
         "date": "April 22, 2022",
         "date2": "20220422",
         "title": "Universes as Bigdata:  Physics, Geometry and Machine-Learning",
-        "keywords": ["IA and mathematics", "big data", "machine learning", "physics", "geometry"],
+        "keywords": [
+            "IA and mathematics",
+            "big data",
+            "machine learning",
+            "physics",
+            "geometry"
+        ],
         "abstract": "The search for the Theory of Everything has led to superstring theory, which then led physics, first to algebraic/differential geometry/topology, and then to computational geometry, and now to data science. With a concrete playground of the geometric landscape, accumulated by the collaboration of physicists, mathematicians and computer scientists over the last 4 decades, we show how the latest techniques in machine-learning can help explore problems of interest to theoretical physics and to pure mathematics. At the core of our programme is the question: how can AI help us with mathematics?",
         "season": "SPRING 2022",
         "video": "https://www.youtube.com/embed/1InNxNP81Es"
@@ -45,7 +79,14 @@
         "date": "April 1, 2022",
         "date2": "20220401",
         "title": "Dynamically relevant motifs in inhibition-dominated networks",
-        "keywords": ["Motifs", "inhibitory threshold-linear networks (TLNs)", "neural circuits", "dynamic attractor", "Hopfield model", "directed graphs"],
+        "keywords": [
+            "Motifs",
+            "inhibitory threshold-linear networks (TLNs)",
+            "neural circuits",
+            "dynamic attractor",
+            "Hopfield model",
+            "directed graphs"
+        ],
         "abstract": "Many networks in the brain possess an abundance of inhibition, which serves to shape and stabilize neural dynamics. The neurons in such networks exhibit intricate patterns of connectivity whose structure controls the allowed patterns of neural activity. In this work, we examine inhibitory threshold-linear networks (TLNs) whose dynamics are constrained by an underlying directed graph. We develop a set of parameter-independent graph rules that enable us to predict features of the dynamics, such as emergent sequences and dynamic attractors, from properties of the graph. These rules provide a direct link between the structure and function of inhibition-dominated networks, yielding new insights into how connectivity shapes dynamics in real neural circuits. Recently, we have used these ideas to classify dynamic attractors in a two-parameter family of TLNs spanning all 9608 directed graphs of size n=5. Remarkably, we find a striking modularity in the dynamic attractors, with identical or near-identical attractors arising in networks that are otherwise dynamically inequivalent. This suggests that, just as one can store multiple static patterns as stable fixed points in a Hopfield model, a variety of dynamic attractors can also be embedded in TLNs in a modular fashion.",
         "season": "SPRING 2022",
         "video": "https://www.youtube.com/embed/ldLxhoDl4QA"
@@ -55,7 +96,11 @@
         "date": "March 18, 2022",
         "date2": "20220318",
         "title": "A New Classification of Topological Defects",
-        "keywords": ["smectic liquid crystals", "topological defects", "layered systems"],
+        "keywords": [
+            "smectic liquid crystals",
+            "topological defects",
+            "layered systems"
+        ],
         "abstract": "Smectic liquid crystals are layered systems that abound in nature. I will introduce these materials and show how the long-lived, topologically protected excitations defy simple classification. I will describe our attempts.",
         "season": "SPRING 2022",
         "video": "https://www.youtube.com/embed/GMnUFbFk7jo"
@@ -65,7 +110,10 @@
         "date": "March 11, 2022",
         "date2": "20220311",
         "title": "Discrete Stratified Morse Theory",
-        "keywords": ["discrete Morse Theory", "stratified"],
+        "keywords": [
+            "discrete Morse Theory",
+            "stratified"
+        ],
         "abstract": "In this talk I will describe a discrete version of stratified Morse theory and give several examples of the utility of theory. This is joint work with Bei Wang.",
         "season": "SPRING 2022",
         "video": "https://www.youtube.com/embed/Jw7p7QXQF0w"
@@ -75,7 +123,11 @@
         "date": "February 18, 2022",
         "date2": "20220218",
         "title": "Coexistence holes in ecological systems",
-        "keywords": ["algebraic topology", "hypergraphs", "ecology"],
+        "keywords": [
+            "algebraic topology",
+            "hypergraphs",
+            "ecology"
+        ],
         "abstract": "<p>A central challenge of Ecology is to explain the enormous biodiversity of species that we find on Earth, from the diversity of plant and animal species that stably coexist in tropical forests to the variety of microbial species that coexist in our gut. Ecologists have focused on characterizing the \"limits\" of species coexistence ---that is, the maximum number of different species that can coexist under given constraints. Yet, little is known about the structure of species coexistence below such limits. Namely, is it possible to assemble an ecological system by adding one species at a time until reaching the coexistence limits? Or is it possible to find obstructions where species coexistence abruptly breaks before reaching the limits? To address these questions, we built a novel formalism based on hypergraphs and Algebraic Topology to show that, below its limits, species coexistence in ecological systems has ubiquitous obstructions that we call \"coexistence holes\". A coexistence hole occurs during an assembly process when a species collection does not coexist, although we can assemble it from sub-collections that coexist. Using theoretical and experimental ecological systems, we provide direct evidence showing that coexistence holes obey regularities. Namely, their diversity is constrained by the internal structure of species interactions, while their frequency can be explained by external factors acting on these systems. Overall, our work provides one of the first applications of Algebraic Topology to Ecology, unveiling how biodiversity is a discontinuous process driven by internal design constraints. </p><p>This is joint work with Aaron Kelley (IM-UNAM), Luis Montejano (IM-UNAM), Chuliang Song (McGill/Toronto University) and Serguei Saavedra (MIT).</br><p>References: </br>[1] Angulo, Marco Tulio, et al. \"Coexistence holes characterize the assembly and disassembly of multispecies systems.\" Nature Ecology & Evolution (2021): 1-11.</br>[2] Letten, A. D. (2021). \"Coexistence holes fill a gap in community assembly theory.\" Nature Ecology & Evolution, 1-2.</p>",
         "season": "SPRING 2022",
         "video": "https://www.youtube.com/embed/uXWS6p8TW6A"
@@ -85,7 +137,11 @@
         "date": "February 4, 2022",
         "date2": "20220204",
         "title": "Topological Analysis from Latent Semantic Analysis",
-        "keywords": ["Persistent Homology",  "Latent Semantic Analysis", "Natural Language Processing"],
+        "keywords": [
+            "Persistent Homology",
+            "Latent Semantic Analysis",
+            "Natural Language Processing"
+        ],
         "abstract": "Latent Semantic Analysis is one of the most widely used and accepted techniques in natural language processing. A better understanding of the topology of Latent Spaces could lead to better applications. We applied different topological techniques such as Ballmapper and persistent homology to the Latent Semantic representation of hundreds of thousands of abstracts and titles from the ArXiv database. We will present a comprehensible synthesis of our computations, comparing results between different time frames and ArXiv categories",
         "season": "SPRING 2022",
         "video": "https://www.youtube.com/embed/nmIxPrsv32k",
@@ -96,7 +152,17 @@
         "date": "January 21, 2022",
         "date2": "20220121",
         "title": "The Geometry of Fluid Dynamics",
-        "keywords": ["fluids", "motion", "Poisson", "flows", "crystals", "momentum", "Eringen", "Clebsch", "helicity"],
+        "keywords": [
+            "fluids",
+            "motion",
+            "Poisson",
+            "flows",
+            "crystals",
+            "momentum",
+            "Eringen",
+            "Clebsch",
+            "helicity"
+        ],
         "abstract": "Fluid motion has a remarkable geometric structure generated by Poisson structures on the Hamiltonian and variational structures on the Lagrangian side. I will briefly review the standard results for ideal incompressible homogeneous flows and then show how this is extended to fluids with advected quantities. A much more elaborate extension happens for the Eringen model of liquid crystals because these fluids have internal structure. Then I will introduce a momentum map with values in differential characters that captures topological information, something the classical momentum map cannot do. This has consequences in hydrodynamics, specifically for Clebsch variables, since it permits to deal with solutions whose helicity is integer valued.",
         "season": "SPRING 2022",
         "video": "https://www.youtube.com/embed/f4NUPgTeBIk",
@@ -107,7 +173,12 @@
         "date": "December 10, 2021",
         "date2": "20211210",
         "title": "Configurations spaces of particles: homological solid, liquid, and gas.",
-        "keywords": ["configuration spaces", "particles", "phase transitions", "homological solid, liquid, and gas"],
+        "keywords": [
+            "configuration spaces",
+            "particles",
+            "phase transitions",
+            "homological solid, liquid, and gas"
+        ],
         "abstract": "Configuration spaces of points in the plane are well studied and the topology of such spaces is well understood. But what if you replace points by particles with some positive thickness, and put them in a container with boundaries? It seems like not much is known. To mathematicians, this is a natural generalization of the configuration space of points, perhaps interesting for its own sake. But is also important from the point of view of physics––physicists might call such a space the \"phase space\" or \"energy landscape\" for a hard-spheres system. Since hard-spheres systems are observed experimentally to undergo phase transitions (analogous to water changing into ice), it would be quite interesting to understand topological underpinnings of such transitions. <br/> We have just started to understand the homology of these configuration spaces, and based on our results so far we suggest working definitions of \"homological solid, liquid, and gas\". This is joint work with a number of collaborators, including Hannah Alpert, Ulrich Bauer, Robert MacPherson, and Kelly Spendlove.",
         "season": "FALL 2021",
         "video": "https://www.youtube.com/embed/dfW6cgDovqM"
@@ -117,7 +188,10 @@
         "date": "December 3, 2021",
         "date2": "20211203",
         "title": "Inverse Problems for Persistent Homology",
-        "keywords": ["persistent homology", "inverse problems"],
+        "keywords": [
+            "persistent homology",
+            "inverse problems"
+        ],
         "abstract": "Persistent Homology (PH) is a widely used topological descriptor for data. In order to get a systematic understanding of the data science scenarios where PH is successful, it is crucial to know about its discriminative power, i.e. the ability to identify and disambiguate patterns in the data, or in other words it is crucial to know about the information loss and the invariances of PH. Formally these interrogations translate into the following inverse problem: Given an element in the image of PH, a so-called barcode D, what is the fiber (pre-image) of PH over D? There are several ways of defining PH: for point clouds in a metric space, for filter functions on a simplicial complex and for continuous functions on an arbitrary space, to name a few. Hence there are as many inverse problems to address. In this talk I will review the simplicial situation as well as that of Morse functions on a smooth manifold, with the aim of showing some geometrically surprising fibers and transmitting my interest for these intricate inverse problems. ",
         "season": "FALL 2021",
         "video": "https://www.youtube.com/embed/imzHXmC6iIs"
@@ -127,7 +201,16 @@
         "date": "November 19, 2021",
         "date2": "20211119",
         "title": "Applied topology from the classical point of view",
-        "keywords": ["categories", "homotopy theory", "topological invariants", "functors", "coarse category", "Vietoris-Rips homology", "sheaf theory", "Cech closure spaces"],
+        "keywords": [
+            "categories",
+            "homotopy theory",
+            "topological invariants",
+            "functors",
+            "coarse category",
+            "Vietoris-Rips homology",
+            "sheaf theory",
+            "Cech closure spaces"
+        ],
         "abstract": "We generalize several basic notions in algebraic topology to categories which contain both topological spaces classically treated by classical homotopy theory as well as more discrete and combinatorial spaces of interest in applications, such as graphs and point clouds. The advantage of doing so is that there are now non-trivial 'continuous' maps from paracompact Hausdorff spaces to finite spaces (given the appropriate structure), and one may then compare the resulting topological invariants on each side functorially. We find that there are a number of possible such categories, each with its own particular homotopy theory and associated homologies, and, additionally, that there is a generalization of the coarse category which allows finite sets to be non-trivial (i.e. not 'coarsely' equivalent to a point). We will give an overview of these theories and several applications, show how they are related to familiar objects in applied topology, such as the Vietoris-Rips homology, and discuss the advantages and disadvantages of each. We finish by describing a recent construction of sheaf theory in the category of Cech closure spaces, a strict generalization of the category of topological spaces.",
         "season": "FALL 2021",
         "video": "https://www.youtube.com/embed/msbvjWMoy7U"
@@ -137,7 +220,12 @@
         "date": "November 12, 2021",
         "date2": "20211112",
         "title": "Data, their relations and shape - topology in action",
-        "keywords": ["applied topology", "persistence", "mapper", "applications"],
+        "keywords": [
+            "applied topology",
+            "persistence",
+            "mapper",
+            "applications"
+        ],
         "abstract": "Topological data analysis is a rapidly developing area of mathematics with applications in data science. In addition to revealing the shape of data we develop tools for visualizing high dimensional scalar and vector valued functions. As an example, we explore relations between various knot invariants, and extrapolate how presented tools may help to compare various, high-dimensional descriptors of fixed datasets. In particular, we show how these ideas can be used to compare different mapper-type graphs of the same dataset. This is a joint work with Davide Gurnari, Anna Jurek, Simon Rudkin and Radmila Sazdanovic.",
         "season": "FALL 2021",
         "video": "https://www.youtube.com/embed/JkMn_YDFU20"
@@ -147,7 +235,13 @@
         "date": "October 29, 2021",
         "date2": "20211029",
         "title": "Dynamics of viscous vortex knots and links",
-        "keywords": ["vortex reconnection", "turbulence cascade", "helicity dynamics", "vortex knot", "vortex link"],
+        "keywords": [
+            "vortex reconnection",
+            "turbulence cascade",
+            "helicity dynamics",
+            "vortex knot",
+            "vortex link"
+        ],
         "abstract": "Reconnection is the process by which two approaching vortices cut and connect to each other. As a topologically changing event, it has been a subject of considerable fundamental interest for decades – not only in (classical) viscous flows but also in quantum fluids, as well as in numerous other fields, such as plasmas, polymers, DNAs, and so on. For viscous fluid flows, reconnection is believed to play a significant role in various important phenomena, such as turbulence cascade, fine-scale mixing, and aerodynamic noise generation. We first delineate the underlying mechanism involved in vortex reconnection and its apparent role in turbulence cascade. Then we address the helicity dynamics involved in viscous reconnection occurring in evolutions of a trefoil knotted vortex and a Hopf-link. For both cases, we find that the global helicity <i>H</i> gradually decreases before reconnection but sharply increases during reconnection – this effect increases with increasing vortex Reynolds number (<i>Re≡circulation/viscousity</i>). This suggests that <i>H</i> for viscous flows is not conserved as <i>Re→∞</i>. Both positive and negative helical structures are simultaneously generated before and during reconnection, and their different decay rates due to asymmetric reconnection appears to cause such an increase of <i>H</i> during reconnection. By examining the topological aspects of the helicity dynamics, we find that different from <i>H</i>, the sum of linking and writhing numbers (i.e., <i>Lk+Wr</i>) continuously drop during reconnection. Our results suggest that the twist, which increases with <i>Re</i>, plays a more important role in helicity dynamics than recognized before, particularly at high <i>Re</i>. <br/><br/> <b>Note:</b>  the video of this web-seminar combines the contributions by <a href=\"https://seminargeotop-a.com/previous-talks/55\">Fazle Hussain</a> (I part) and Jie Yao (II part).",
         "season": "FALL 2021",
         "video": "https://www.youtube.com/embed/VWHeNwYFHwY"
@@ -157,7 +251,13 @@
         "date": "October 29, 2021",
         "date2": "20211029",
         "title": "Vortex reconnection and turbulence cascade",
-        "keywords": ["vortex reconnection", "turbulence cascade", "helicity dynamics", "vortex knot", "vortex link"],
+        "keywords": [
+            "vortex reconnection",
+            "turbulence cascade",
+            "helicity dynamics",
+            "vortex knot",
+            "vortex link"
+        ],
         "abstract": "Reconnection is the process by which two approaching vortices cut and connect to each other. As a topologically changing event, it has been a subject of considerable fundamental interest for decades – not only in (classical) viscous flows but also in quantum fluids, as well as in numerous other fields, such as plasmas, polymers, DNAs, and so on. For viscous fluid flows, reconnection is believed to play a significant role in various important phenomena, such as turbulence cascade, fine-scale mixing, and aerodynamic noise generation. We first delineate the underlying mechanism involved in vortex reconnection and its apparent role in turbulence cascade. Then we address the helicity dynamics involved in viscous reconnection occurring in evolutions of a trefoil knotted vortex and a Hopf-link. For both cases, we find that the global helicity <i>H</i> gradually decreases before reconnection but sharply increases during reconnection – this effect increases with increasing vortex Reynolds number (<i>Re≡circulation/viscousity</i>). This suggests that <i>H</i> for viscous flows is not conserved as <i>Re→∞</i>. Both positive and negative helical structures are simultaneously generated before and during reconnection, and their different decay rates due to asymmetric reconnection appears to cause such an increase of <i>H</i> during reconnection. By examining the topological aspects of the helicity dynamics, we find that different from <i>H</i>, the sum of linking and writhing numbers (i.e., <i>Lk+Wr</i>) continuously drop during reconnection. Our results suggest that the twist, which increases with <i>Re</i>, plays a more important role in helicity dynamics than recognized before, particularly at high <i>Re</i>. <br/><br/> <b>Note:</b>  the video of this web-seminar combines the contributions by Fazle Hussain (I part) and <a href=\"https://seminargeotop-a.com/previous-talks/56\">Jie Yao</a> (II part).",
         "season": "FALL 2021",
         "video": "https://www.youtube.com/embed/VWHeNwYFHwY"
@@ -167,7 +267,10 @@
         "date": "October 15, 2021",
         "date2": "20211015",
         "title": "The Wonderful World of Protein Structures",
-        "keywords": ["Protein Structures", "Chirality"],
+        "keywords": [
+            "Protein Structures",
+            "Chirality"
+        ],
         "abstract": "This talk will aim to present an overview of the three dimensional structures of proteins. These large and intricate molecules perform the vast majority of the biological functions of life and the structures of over 170,000 proteins have been determined and are stored in the Protein Databank. A detailed understanding of their structures has gradually emerged over the last 50 years. Chirality within protein structures is observed at all 'levels' of structure, starting with the basic stereochemistry of the polypeptide chain, through local chain folding, to the 'tertiary' structure of the whole chain and even to chirality of large complexes.",
         "season": "FALL 2021",
         "video": "https://www.youtube.com/embed/IQNMuJzcSBw"
@@ -178,10 +281,10 @@
         "date2": "20211001",
         "title": "Cooperativity of looping- and supercoiling-mediated base-pair disruption among distant sites modulates the 3-D structure of DNA to control its activity",
         "keywords": [
-            "DNA topology", 
-            "DNA structure/function", 
-            "linking number", 
-            "supercoiling", 
+            "DNA topology",
+            "DNA structure/function",
+            "linking number",
+            "supercoiling",
             "DNA looping",
             "nanotechnology",
             "nanoparticle",
@@ -197,8 +300,8 @@
         "date2": "20210917",
         "title": "Getting interlocked circular chains through the needle’s eye",
         "keywords": [
-            "topological links", 
-            "translocation", 
+            "topological links",
+            "translocation",
             "molecular dynamics"
         ],
         "abstract": "<p>The process of driven translocation of polymer chains through a narrow pore can be severely hindered by the presence of self and mutual entanglement. In circular chains this entanglement is trapped in the form of knots and links that may act as potential obstruction at the pore affecting the translocation dynamics. Here we present theoretical results mainly based on extensive Langevin simulations on the driven translocation dynamics of topologically linked rings. We highlight the role of link complexity, pore size and driving force field  on the translocation process and suggest how to extend nanopore sensing techniques to probe the topological properties of these systems and, for instance, to distinguish knotted from linked states and two component to multicomponent links.</p>",
