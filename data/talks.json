@@ -3,11 +3,11 @@
         "speaker_id": 71,
         "date": "August 19, 2022",
         "date2": "20220819",
-        "title": "TBA",
+        "title": "Collapsing in directed topology",
         "keywords": [
             "TBA"
         ],
-        "abstract": "TBA",
+        "abstract": "In a simplicial complex, a pair of simplices are a collapsing pair, if one is a unique maximal face of the other, it is a free face. Such a pair can be collapsed by removal of the two simplices and all simplices between them – think about an edge in a solid tetrahedron; collapsing means removing the edge, the interior of the tetrahedron and the interior of the two faces containing that edge. This leads to a homotopy equivalence. There is a similar notion for cubical complexes. A sequence of collapses lead to a simpler (fewer simplices/cubes) space. \nFor a directed space, which is a topological space with a selected set of paths, the directed paths, directed homotopy equivalence is a very strong requirement, and not what should be the basis of collapsing. We study the following setting: A Euclidean Cubical Complex, an ECC, is a subset of R^n which is a union of elementary cubes. An elementary cube is a product of n intervals [ai,ai+e], where e is either 0 or 1. A directed path in an ECC is continuous and non-decreasing in all coordinates. We define a notion of collapse with the aim of preserving various properties of spaces of directed paths. \nThis is joint work with the WiT, Women in Topology, group R. Belton, R. Brooks, S.Ebli, L.F., B.T.Fasy, N.Sanderson, E. Vidaurre.",
         "season": "FALL 2022",
         "video": null
     },
