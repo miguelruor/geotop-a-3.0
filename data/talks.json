@@ -1,4 +1,19 @@
 {
+    "72": {
+        "speaker_id": 72,
+        "date": "September 2, 2022",
+        "date2": "20220902",
+        "title": "Stable and interpretable topological feature maps",
+        "keywords": [
+            "Persistent homology",
+            "stability",
+            "Wasserstein distance",
+            "feature maps"
+        ],
+        "abstract": "Persistent homology, a popular method in TDA, can be used to define feature maps encoding geometrical properties of data. In this talk I will present a method, developed by the TDA group at KTH, which allows to construct feature maps with learnable parameters, stable with respect to distances on persistence modules. The feature maps are in fact defined starting from distances between persistence modules rather than on the barcode decomposition, making the method suitable for generalisations. Particular focus will be on understanding parametrised families of such feature maps, such as those stable with respect to p-Wasserstein distance. The use of Wasserstein stable features will be illustrated on real world and artificial datasets.",
+        "season": "FALL 2022",
+        "video": null
+    },
     "71": {
         "speaker_id": 71,
         "date": "August 19, 2022",
