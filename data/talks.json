@@ -20,11 +20,11 @@
             "Compositionality",
             "double category",
             "decorated cospan",
-            "epidemiology."
+            "epidemiology"
         ],
         "abstract": "One goal of applied category theory is to understand open systems: that is, systems with a boundary of some sort, through which matter, energy or information can flow in or out.   We can describe a large class of open systems using the mathematics of decorated cospans, which we explain here.  In various examples these ideas have been implemented in software.  An interesting example comes from stock-flow diagrams, which are widely used in epidemiology to model the dynamics of populations. Although tools already exist for building these diagrams and simulating the systems they describe, we have created a new package called StockFlow which uses decorated cospans to overcome limitations of the existing tools.  This is joint work with Xiaoyan Li, Sophie Libkind, Nathaniel Osgood and Evan Patterson.",
         "season": "FALL 2022",
-        "video": null,
+        "video": "https://www.youtube.com/embed/DYsDvpBwOnc",
         "slides": "https://drive.google.com/file/d/1W-V8tDsZ1vs9NbUuQmgqZ52N4VsQyYSL/view?usp=sharing"
     },
     "72": {
