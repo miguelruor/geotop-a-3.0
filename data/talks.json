@@ -3,11 +3,18 @@
         "speaker_id": 74,
         "date": "September 23, 2022",
         "date2": "20220923",
-        "title": "TBA",
+        "title": "The Topology of Knowing (Or How to Avoid Unexpected Exams)",
         "keywords": [
-            "TBA"
+            "epistemic logic",
+            "belief",
+            "knowability",
+            "simplicity",
+            "learnability",
+            "Surprise Exam Paradox",
+            "Cantor derivative",
+            "perfect core"
         ],
-        "abstract": "TBA",
+        "abstract": "In this talk I will present applications of General Topology to Epistemic Logic (=the logical aspects of knowledge, knowabiity and belief) and Formal Learning Theory. I show that topological methods can throw light on issues such as the value of simplicity as a learning strategy (cf. Ockham's Razor) and the analysis of epistemic paradoxes (e.g. the connection between the so-called Surprise Exam Paradox and the Cantor-Bendixson process of calculating the perfect core). Time-permitting, I may present some complete and decidable logical axiomatizations of these notions and maybe even give a hint concerning the completeness proofs.",
         "season": "FALL 2022",
         "video": null
     },
