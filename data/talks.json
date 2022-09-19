@@ -1,4 +1,18 @@
 {
+    "75": {
+        "speaker_id": 75,
+        "date": "September 30, 2022",
+        "date2": "20220930",
+        "title": "Knowledge and topology: a simplicial approach",
+        "keywords": [
+            "epistemic logic",
+            "simplicial complexes",
+            "distributed computing"
+        ],
+        "abstract": "Multi-agent Epistemic Logic is a modal logic of knowledge. It allows to reason about a finite set of agents who may know facts about the world, and about each other. In this talk, I will present a new semantics for epistemic logic, based on simplicial complexes. In this approach, the knowledge of the agents is modeled by a higher-dimensional space called a simplicial model; and the truth of an epistemic logic formula can be evaluated by inspecting the various possible paths in this space. I will illustrate these ideas using examples from the theory of distributed computing, where the agents correspond to individual processes who can exchange information in order to solve a task. Both topological invariants and logical invariants can be leveraged to prove that some distributed computing tasks are impossible to solve.",
+        "season": "FALL 2022",
+        "video": null
+    },
     "74": {
         "speaker_id": 74,
         "date": "September 23, 2022",

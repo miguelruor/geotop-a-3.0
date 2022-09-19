@@ -1,4 +1,14 @@
 {
+    "75": {
+        "surname": "Ledent",
+        "completeName": "Jérémy Ledent",
+        "middle_initial": null,
+        "name": "Jérémy",
+        "talks": [
+            75
+        ],
+        "image": true
+    },
     "74": {
         "surname": "Baltang",
         "completeName": "Alexandru Baltag",
