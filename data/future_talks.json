@@ -55,5 +55,67 @@
       "speaker": "Michael Bronstein",
       "institution": "University of Oxford - UK"
     }
+  ],
+  "SPRING 2022": [
+    {
+      "date": "January 20",
+      "speaker": "Fred Chazal",
+      "institution": "INRIA Saclay - France"
+    },
+    {
+      "date": "January 27",
+      "speaker": "Erika Roldan",
+      "institution": "Max Planck Institute for Mathematics in the Sciences (MiS) - Leipzig"
+    },
+    {
+      "date": "February 3",
+      "speaker": "Steve Oudot",
+      "institution": "Inria Saclay - France"
+    },
+    {
+      "date": "February 17",
+      "speaker": "Ingrid Membrillo Solís",
+      "institution": "University of Southampton - UK"
+    },
+    {
+      "date": "March 3",
+      "speaker": "Darrick Lee",
+      "institution": "EPFL - Switzerland"
+    },
+    {
+      "date": "March 17",
+      "speaker": "Koya Shimokawa",
+      "institution": "Ochanomizu University - Japan"
+    },
+    {
+      "date": "March 31",
+      "speaker": "Armajac Raventós Pujol/Sergio Rajsbaum",
+      "institution": "Universidad Autónoma de Madrid - Spain"
+    },
+    {
+      "date": "April 14",
+      "speaker": "Bastien Rieck",
+      "institution": "Institute of AI for Health and the Helmholtz Pioneer Campus of Helmholtz Munich - Germany"
+    },
+    {
+      "date": "April 28",
+      "speaker": "Xin Liu",
+      "institution": "Beijing-Dublin International College & Beijing University of Technology - China"
+    },
+    {
+      "date": "May 5",
+      "speaker": "Gunnar Hornig",
+      "institution": "Dundee University - UK"
+    },
+    {
+      "date": "May 19",
+      "speaker": "Fernando Galaz-García",
+      "institution": "Durham University - UK"
+    },
+    {
+      "date": "June 2",
+      "speaker": "Monica Clapp",
+      "institution": "Universidad Autónoma de México - Mexico"
+    }
   ]
 }
