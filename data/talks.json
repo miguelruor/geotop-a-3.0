@@ -27,7 +27,7 @@
         ],
         "abstract": "I will present the results of two projects applying topological data analysis (TDA) and machine learning (ML) to biological data. In the first, we have developed a new tool, TDAExplore, that combines TDA and ML to both classify biological images and to provide a visualization that is biologically informative. In the second, we use TDA and ML to classify quasi-periodic biological videos and we apply TDA to such a video to produce synthetic periodic videos.",
         "season": "FALL 2022",
-        "video": null
+        "video": "https://www.youtube.com/embed/B0dc9_ly7dM"
     },
     "75": {
         "speaker_id": 75,
