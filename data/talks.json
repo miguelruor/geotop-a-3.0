@@ -3,11 +3,19 @@
         "speaker_id": 78,
         "date": "November 4, 2022",
         "date2": "20221104",
-        "title": "TBA",
+        "title": "Knot theory and machine learning",
         "keywords": [
-            "TBA"
+            "knot",
+            "hyperbolic",
+            "signature",
+            "Heegaard Floer homology",
+            "machine learning",
+            "natural slope",
+            "cusp geometry",
+            "Dehn surgery",
+            "4-ball genus"
         ],
-        "abstract": "TBA",
+        "abstract": "Knot theory is divided into several subfields. One of these is hyperbolic knot theory, which is focused on the hyperbolic structure that exists on many knot complements. Another branch of knot theory is concerned with invariants that have connections to 4-manifolds, for example the knot signature and Heegaard Floer homology. In my talk, I will describe a new relationship between these two fields that was discovered with the aid of machine learning. Specifically, we show that the knot signature can be estimated surprisingly accurately in terms of hyperbolic invariants. We introduce a new real-valued invariant called the natural slope of a hyperbolic knot in the 3-sphere, which is defined in terms of its cusp geometry. Our main result is that twice the knot signature and the natural slope differ by at most a constant times the hyperbolic volume divided by the cube of the injectivity radius. This theorem has applications to Dehn surgery and to 4-ball genus. We will also present a refined version of the inequality where the upper bound is a linear function of the volume, and the slope is corrected by terms corresponding to short geodesics that have odd linking number with the knot. My talk will outline the proofs of these results, as well as describing the role that machine learning played in their discovery. </br> This is joint work with Alex Davies, Andras Juhasz, and Nenad Tomasev.",
         "season": "FALL 2022",
         "video": null
     },
