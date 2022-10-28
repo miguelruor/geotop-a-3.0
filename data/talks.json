@@ -32,7 +32,7 @@
         ],
         "abstract": "Circular coordinate systems -- here, cycles -- are ubiquitous in data encoded by the brain. Classical ideas from topology tell us that the structure of the encoded data must be reflected in the activity of the encoding neural populations, and methods from topological data analysis have been highly successful at detecting signatures of such encodings. The next natural question we might ask is how we assign meaning or semantics to observed cycles  Here, we describe a new method for using a measure of cross-similarity to register, or falsify the registration of, cycles across populations. We demonstrate its use in simulated and experimental data, and discuss ongoing work using these tools to investigate how feed-forward networks propagate cycles. This is joint work with Iris Yoon, Niko Schonsheck, and several others.",
         "season": "FALL 2022",
-        "video": null
+        "video": "https://www.youtube.com/embed/SSLlKwKXzDQ"
     },
     "76": {
         "speaker_id": 76,
