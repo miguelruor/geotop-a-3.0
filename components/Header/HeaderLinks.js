@@ -15,34 +15,45 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <Link href='/'>
         <ListItem className={classes.listItem}>
-          <Button 
-          type="button" 
-          color="transparent"
-          className={classes.navLink}  
-          round>
+          <Button
+            type="button"
+            color="transparent"
+            className={classes.navLink}
+            round>
             Homepage
           </Button>
         </ListItem>
-      </Link> 
+      </Link>
       <Link href='/next-talks'>
         <ListItem className={classes.listItem}>
-            <Button
-              type = "button"
-              color="transparent"
-              className={classes.navLink}
-              round>
-                Next Talks
-            </Button>
+          <Button
+            type="button"
+            color="transparent"
+            className={classes.navLink}
+            round>
+            Next Talks
+          </Button>
         </ListItem>
       </Link>
       <Link href='/previous-talks'>
         <ListItem className={classes.listItem}>
           <Button
-          type = "button"
-          color="transparent"
-          className={classes.navLink}
-          round>
+            type="button"
+            color="transparent"
+            className={classes.navLink}
+            round>
             Previous Talks
+          </Button>
+        </ListItem>
+      </Link>
+      <Link href='/events'>
+        <ListItem className={classes.listItem}>
+          <Button
+            type="button"
+            color="transparent"
+            className={classes.navLink}
+            round>
+            Events
           </Button>
         </ListItem>
       </Link>
@@ -55,10 +66,10 @@ export default function HeaderLinks(props) {
             color: "transparent"
           }}
           dropdownList={[
-            <Link href= '/list-speakers' passHref className={classes.dropdownLink}>
+            <Link href='/list-speakers' passHref className={classes.dropdownLink}>
               <Button component='a' color="transparent" className={classes.dropdownButton}>Speakers</Button>
             </Link>,
-            <Link href= '/list-keywords' passHref className={classes.dropdownLink}>
+            <Link href='/list-keywords' passHref className={classes.dropdownLink}>
               <Button component='a' color="transparent" className={classes.dropdownButton}>Keywords</Button>
             </Link>
           ]}
@@ -67,10 +78,10 @@ export default function HeaderLinks(props) {
       <Link href='/subscribe'>
         <ListItem className={classes.listItem}>
           <Button
-          type = "button"
-          color="transparent"
-          className={classes.navLink}
-          round>
+            type="button"
+            color="transparent"
+            className={classes.navLink}
+            round>
             Subscribe
           </Button>
         </ListItem>
