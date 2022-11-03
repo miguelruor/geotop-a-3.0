@@ -1,4 +1,20 @@
 {
+    "79": {
+        "speaker_id": 79,
+        "date": "November 18, 2022",
+        "date2": "20221118",
+        "title": "Is turbulence knotted?",
+        "keywords": [
+            "Turbulence",
+            "knots",
+            "vortex lines",
+            "superfluid",
+            "Bose-Einstein condensation"
+        ],
+        "abstract": "Vortex lines and streamlines in turbulent flows, visualized in the experiments or in the numerics, appear chaotic, twisted, perhaps linked or knotted. The physical meaning of this complexity and its relation to the dynamics is still obscure. In this lecture I shall address this problem - the geometrical and topological complexity of turbulence - in the arguably simpler context of \"quantum fluids\". </br></br>Quantum fluids (superfluid helium, atomic Bose-Einstein condensates, etc) are studied in the laboratory at temperatures close to absolute zero. At these low temperatures the fundamental quantum properties of matter are not masked by thermal disorder. In particular, any rotational motion is constrained by quantum mechanics to individual vortex lines of fixed strength (phase defects of a complex order parameter), unlike what happens in ordinary fluids where vorticity is a continuous field. Quantum turbulence, created by stirring a quantum fluid, is thus conceptually simpler than ordinary turbulence, consisting of a tangle of individual vortex lines rather than a disordered continuous vorticity field. </br></br>After describing some surprising similarities between quantum turbulence and ordinary turbulence, I shall show how the geometry and the topology of quantum turbulence can be quantified in a relatively simple way, hence demonstrate that quantum turbulence is indeed knotted. Is ordinary turbulence knotted too? </br></br>References: <ul><li>Barenghi, C.F. and Parker, N.G. 2016 A primer on quantum fluids, Springer.</li> <li>Barenghi, C.F., Skrbek, L., and Sreenivasan, K.R. 2014 Introduction to quantum turbulence, Proc. Nat. Acad. Sci. (USA) 111 (Suppl. 1), 4647. </li> <li>Cooper, R.G., Mesgarnezhad, M., Baggaley, A.W., and Barenghi, C.F. 2019 Knot spectrum of turbulence, Sci. Reports9, 10545.</li> <li>Barenghi, C.F. 2022 Tangled vortex lines: dynamics, geometry and topology of quantum turbulence, arXiv:2207.04260v1, to appear in Knotted fields, ed. Ricca, R.L. and Liu, X., Springer.</li</ul>",
+        "season": "FALL 2022",
+        "video": null
+    },
     "78": {
         "speaker_id": 78,
         "date": "November 4, 2022",
