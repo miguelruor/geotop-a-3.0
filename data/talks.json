@@ -1,4 +1,19 @@
 {
+    "80": {
+        "speaker_id": 80,
+        "date": "December 2, 2022",
+        "date2": "20221202",
+        "title": "Mathematical Virology: Geometry in the Fight against Viral Infection",
+        "keywords": [
+            "Geometric and topological models of virus structure",
+            "Virus (dis)assembly",
+            "Viral Tiling theory",
+            "Hamiltonian paths"
+        ],
+        "abstract": "The Covid-19 pandemic has highlighted the need for novel antiviral strategies. In this talk, I will demonstrate that insights into the geometric principles underpinning virus architecture provide a key to uncovering the mechanisms by which viruses replicate and infect their hosts. Geometric and topological descriptors of virus architecture, combined with stochastic simulations, reveal how viruses navigate the knife’s edge between stability and instability, guaranteeing protection for their genetic cargo while also enabling its timely release. Models of virus architecture also provide a novel perspective on open problems in virus assembly. This includes the origin and control of polymorphic particle assembly, which arises, amongst others, when virus-derived protein containers are functionalised to present antigens for applications in vaccinology. They moreover play an instrumental role in the discovery of genome- encoded virus assembly instructions. These results shed new light on selective pressures on viral evolution and pave the way for innovation in antiviral therapy and virus nanotechnology.",
+        "season": "FALL 2022",
+        "video": null
+    },
     "79": {
         "speaker_id": 79,
         "date": "November 18, 2022",

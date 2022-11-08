@@ -1,4 +1,14 @@
 {
+    "80": {
+        "surname": "Twarock",
+        "completeName": "Reidun Twarock",
+        "middle_initial": null,
+        "name": "Reidun",
+        "talks": [
+            80
+        ],
+        "image": true
+    },
     "79": {
         "surname": "Barenghi",
         "completeName": "Carlo Barenghi",
