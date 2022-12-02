@@ -1,6 +1,21 @@
 {
     "81": {
         "speaker_id": 81,
+        "date": "December 16, 2022",
+        "date2": "20221216",
+        "title": "Mathematical Virology: Geometry in the Fight against Viral Infection",
+        "keywords": [
+            "Geometric and topological models of virus structure",
+            "Virus (dis)assembly",
+            "Viral Tiling theory",
+            "Hamiltonian paths"
+        ],
+        "abstract": "The Covid-19 pandemic has highlighted the need for novel antiviral strategies. In this talk, I will demonstrate that insights into the geometric principles underpinning virus architecture provide a key to uncovering the mechanisms by which viruses replicate and infect their hosts. Geometric and topological descriptors of virus architecture, combined with stochastic simulations, reveal how viruses navigate the knife’s edge between stability and instability, guaranteeing protection for their genetic cargo while also enabling its timely release. Models of virus architecture also provide a novel perspective on open problems in virus assembly. This includes the origin and control of polymorphic particle assembly, which arises, amongst others, when virus-derived protein containers are functionalised to present antigens for applications in vaccinology. They moreover play an instrumental role in the discovery of genome- encoded virus assembly instructions. These results shed new light on selective pressures on viral evolution and pave the way for innovation in antiviral therapy and virus nanotechnology.",
+        "season": "FALL 2022",
+        "video": null
+    },
+    "80": {
+        "speaker_id": 80,
         "date": "December 9, 2022",
         "date2": "20221209",
         "title": "Over-squashing and over-smoothing through the lenses of curvature and multi-particle dynamics",
@@ -11,21 +26,6 @@
             "gradient flows"
         ],
         "abstract": "I am going to talk about two problems that Message Passing Neural Networks (MPNNs) have been shown to be struggling from. The first one – known as over-squashing – is unavoidable in the MPNN class and concerns the input graph topology. This relates to how information propagates in a graph. We show that discrete curvature quantities (old and new) could help us understand where messages are being lost and we can provably characterize the over-squashing phenomenon in terms of curvature. The second problem consists in analysing GNNs as multi-particle dynamics using the lens of gradient flows of an energy. We investigate what happens when instead of learning the MPNN equations we learn an energy and then let the equations follow the gradient flow of such energy. This allows us to understand further the role of the channel-mixing matrix that is ubiquitous in standard graph convolutional models as a bilinear potential inducing both attraction and repulsion along edges via its positive and negative eigenvalues respectively.",
-        "season": "FALL 2022",
-        "video": null
-    },
-    "80": {
-        "speaker_id": 80,
-        "date": "December 2, 2022",
-        "date2": "20221202",
-        "title": "Mathematical Virology: Geometry in the Fight against Viral Infection",
-        "keywords": [
-            "Geometric and topological models of virus structure",
-            "Virus (dis)assembly",
-            "Viral Tiling theory",
-            "Hamiltonian paths"
-        ],
-        "abstract": "The Covid-19 pandemic has highlighted the need for novel antiviral strategies. In this talk, I will demonstrate that insights into the geometric principles underpinning virus architecture provide a key to uncovering the mechanisms by which viruses replicate and infect their hosts. Geometric and topological descriptors of virus architecture, combined with stochastic simulations, reveal how viruses navigate the knife’s edge between stability and instability, guaranteeing protection for their genetic cargo while also enabling its timely release. Models of virus architecture also provide a novel perspective on open problems in virus assembly. This includes the origin and control of polymorphic particle assembly, which arises, amongst others, when virus-derived protein containers are functionalised to present antigens for applications in vaccinology. They moreover play an instrumental role in the discovery of genome- encoded virus assembly instructions. These results shed new light on selective pressures on viral evolution and pave the way for innovation in antiviral therapy and virus nanotechnology.",
         "season": "FALL 2022",
         "video": null
     },
