@@ -1,12 +1,11 @@
 import Head from 'next/head'
-import events from '../data/events.json';
 import Header from "../components/Header/Header";
 import HeaderLinks from "../components/Header/HeaderLinks";
 import Parallax from '../components/Parallax/Parallax';
 import GridContainer from '../components/Grid/GridContainer';
 import GridItem from '../components/Grid/GridItem';
 import Footer from '../components/Footer/Footer';
-import EventsGrid from "../components/EventsGrid/EventsGrid";
+import CardsGrid from "../components/CardsGrid/CardsGrid";
 import backgroundImageHome from '../public/img/img2.jpg'
 
 import { makeStyles } from "@material-ui/core/styles";
@@ -16,30 +15,46 @@ const useStyles = makeStyles(styles);
 
 export async function getStaticProps() {
 
-    var month = new Array();
-    month[0] = "January";
-    month[1] = "February";
-    month[2] = "March";
-    month[3] = "April";
-    month[4] = "May";
-    month[5] = "June";
-    month[6] = "July";
-    month[7] = "August";
-    month[8] = "September";
-    month[9] = "October";
-    month[10] = "November";
-    month[11] = "December";
+    const eventName = "Topological Methods in Mathematical Physics 2022"
+    const eventId = 0
+    const event = {
+        topNote: "Noviembre 2020",
+        title: eventName,
+        subtitle: "International Conference",
+        link: `/events/${eventId}`,
+        image: "/img/events/" + eventId + "/event_image.jpg"
+    }
+
+    const content = {
+        "2022": [
+            {
+                eventId: 0,
+                ...event
+            },
+            {
+                eventId: 2,
+                ...event
+            }
+        ],
+        "2021": [
+            {
+                eventId: 1,
+                ...event
+            }
+        ]
+    }
 
     return {
         props: {
-            events: events
+            cardsContent: content
         }
     }
 }
 
-
 export default function Events(props) {
     const classes = useStyles();
+
+    const upper_legend = <>IC = International Conference <br /> AS = Advanced School</>
 
     return (
         <div>
@@ -70,7 +85,12 @@ export default function Events(props) {
                     </div>
                 </Parallax>
 
-                <EventsGrid events={props.events} />
+                <CardsGrid
+                    cardsContent={props.cardsContent}
+                    tabsOrdered={Object.keys(props.cardsContent).reverse()}
+                    button_text={"See talks"}
+                    upper_legend={upper_legend}
+                />
 
                 <Footer />
 

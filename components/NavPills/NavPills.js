@@ -22,8 +22,8 @@ import Link from "next/link";
 const useStyles = makeStyles(styles);
 
 export default function NavPills(props) {
-    const { content, tabs, direction, color, horizontal, alignCenter, button_text } = props;
-    const tabsIdx = Object.keys(content).reverse();
+    const { content, tabs, direction, color, horizontal, alignCenter, button_text, tabsIdxOrdered } = props;
+    const tabsIdx = tabsIdxOrdered ?? Object.keys(content).reverse();
 
     const [active, setActive] = React.useState(props.active);
     const handleChange = (event, active) => {
