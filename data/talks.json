@@ -27,7 +27,8 @@
         ],
         "abstract": "I am going to talk about two problems that Message Passing Neural Networks (MPNNs) have been shown to be struggling from. The first one – known as over-squashing – is unavoidable in the MPNN class and concerns the input graph topology. This relates to how information propagates in a graph. We show that discrete curvature quantities (old and new) could help us understand where messages are being lost and we can provably characterize the over-squashing phenomenon in terms of curvature. The second problem consists in analysing GNNs as multi-particle dynamics using the lens of gradient flows of an energy. We investigate what happens when instead of learning the MPNN equations we learn an energy and then let the equations follow the gradient flow of such energy. This allows us to understand further the role of the channel-mixing matrix that is ubiquitous in standard graph convolutional models as a bilinear potential inducing both attraction and repulsion along edges via its positive and negative eigenvalues respectively.",
         "season": "FALL 2022",
-        "video": null
+        "video": null,
+        "slides": "https://drive.google.com/file/d/1r213zKOS3FH-wSEuoG8C6_FwvM1UxJ4z/view?usp=share_link"
     },
     "79": {
         "speaker_id": 79,
