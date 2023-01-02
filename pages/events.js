@@ -7,6 +7,7 @@ import GridItem from '../components/Grid/GridItem';
 import Footer from '../components/Footer/Footer';
 import CardsGrid from "../components/CardsGrid/CardsGrid";
 import backgroundImageHome from '../public/img/img2.jpg'
+import events from "../data/events.json"
 
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "../views/NextTalksPage/NextTalksPageStyle";
@@ -15,10 +16,35 @@ const useStyles = makeStyles(styles);
 
 export async function getStaticProps() {
 
+    var seasons_aux = {};
+
+    Object.keys(events).forEach(key => {
+        var sea = events[key].season;
+
+        if (!(sea in seasons_aux)) {
+            seasons_aux[sea] = []
+        }
+
+        seasons_aux[sea].push(
+            {
+                eventId: key,
+                topNote: events[key].topNote,
+                title: events[key].eventName,
+                subtitle: events[key].category,
+                link: `/events/${key}`,
+                image: "/img/events/event" + key + ".png"
+            }
+        );
+    });
+
+    for (var season in seasons_aux) {
+        seasons_aux[season].reverse()
+    }
+
     const eventName = "Topological Methods in Mathematical Physics 2022"
     const eventId = 0
     const event = {
-        topNote: "Noviembre 2020",
+        topNote: "September 2-6, 2022",
         title: eventName,
         subtitle: "International Conference",
         link: `/events/${eventId}`,
@@ -46,15 +72,13 @@ export async function getStaticProps() {
 
     return {
         props: {
-            cardsContent: content
+            cardsContent: seasons_aux,
         }
     }
 }
 
 export default function Events(props) {
     const classes = useStyles();
-
-    const upper_legend = <>IC = International Conference <br /> AS = Advanced School</>
 
     return (
         <div>
@@ -65,7 +89,6 @@ export default function Events(props) {
             <div>
                 <Header
                     color="blue"
-                    //routes={dashboardRoutes}
                     brand="Seminar GEOTOP-A"
                     rightLinks={<HeaderLinks />}
                     fixed
@@ -89,7 +112,6 @@ export default function Events(props) {
                     cardsContent={props.cardsContent}
                     tabsOrdered={Object.keys(props.cardsContent).reverse()}
                     button_text={"See talks"}
-                    upper_legend={upper_legend}
                 />
 
                 <Footer />

@@ -14,7 +14,9 @@ export async function getStaticProps() {
 
   var lastTalk = Object.keys(talks).length - 1;
 
-  while (talks[lastTalk.toString()].video == null) {
+  while (
+    talks[lastTalk.toString()].eventId != undefined | talks[lastTalk.toString()].video == null
+  ) {
     lastTalk -= 1;
   }
 

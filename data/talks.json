@@ -1,4 +1,86 @@
 {
+    "88": {
+        "speaker_id": 87,
+        "eventId": "1",
+        "date": "October 3, 2022",
+        "date2": "20221003",
+        "title": "Quantum walks as a tool for quantum computing",
+        "keywords": [
+            "quantum walks",
+            "quantum computing"
+        ],
+        "abstract": "Quantum walks are the quantum version of random walks and are being applied for quantum algorithms.",
+        "video": null
+    },
+    "87": {
+        "speaker_id": 86,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "TANGLED VORTEX LINES",
+        "keywords": [
+            "vortex tangles",
+            "quantum turbulence",
+            "quantum fluids"
+        ],
+        "abstract": "Turbulent streamlines, vortex lines or magnetic field lines are usually chaotic, twisted, even apparently linked or knotted. In this lecture I shall address the problem of the complexity of turbulence in the context of quantum fluids, physical systems such as superfluid helium and atomic Bose-Einstein condensates which are studied in the laboratory at temperatures close to absolute zero. In quantum fluids, any rotational motion is constrained by quantum mechanics to individual (discrete) vortex lines of fixed (quantised) strength [1]. This is unlike what happens in ordinary fluids, where vorticity is a continuous field. Quantum turbulence, created by stirring a quantum fluid, is thus conceptually simpler than ordinary turbulence, consisting of a tangle of individual vortex lines rather than a disordered continuous vorticity field. After describing some surprising similarities between quantum turbulence [2] and ordinary turbulence in terms of energy spectrum and velocity statistics, I shall show how the geometry and the topology of quantum turbulence can be quantified in a relatively simple way [3, 4].",
+        "video": null
+    },
+    "86": {
+        "speaker_id": 85,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "USING WRITHE TO PRODUCE REALISTIC PROTEIN STRUCTURE PREDICTIONS FROM BIOSAXS DATA",
+        "keywords": [
+            "writhe",
+            "proteins",
+            "open curves"
+        ],
+        "abstract": "The writhe is a measure of global self entanglement of a curve. The usual technique for studying entanglement of protein backbones requires artificial or probabilistic closures, thus altering the geometry of the curve. By using the open curve definition of the writhe we can study the geometry of protein curves in a more natural way. In particular, I will present bounds on the amount of global entanglement as measured by both the writhe and absolute writhe. With these bounds, we can produce realistically folded structures from BioSAXS data[1] with a much higher chance of success when passed into an MD simulation. These bounds, inspired by work in the magnetic helicity community[2], give rise to interesting classifications of proteins for further study. By studying the writhe of subsections of the protein’s backbone, we are also able to highlight sites of interest such as highly flexible sections allowing large scale conformational changes or areas of maximal entanglement.",
+        "video": null
+    },
+    "85": {
+        "speaker_id": 15,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Topological Chirality",
+        "keywords": [
+            "crystal defects",
+            "chirality",
+            "cholesterics"
+        ],
+        "abstract": "Cholesterics are a type of liquid crystal with a chiral structure, or intrinsic handedness, which imbues them with a great richness of textures. Recently, methods of contact geometry have been introduced to characterise the properties of cholesterics and understand their distinctive geometry and topology. I will describe our work on defects in cholesterics, covering point defects, a peculiar form of topological soliton and disclination lines. Time permitting, I will also describe briefly our work on chiral active liquid crystals, their vortex lattice states and odd elasticity.",
+        "video": null
+    },
+    "84": {
+        "speaker_id": 84,
+        "eventId": "-1",
+        "date": "June 7, 2021",
+        "date2": "20220507",
+        "title": "QAOA",
+        "keywords": [
+            "QAOA",
+            "optimization"
+        ],
+        "abstract": "QAOA is a quantum optimization algorithm.",
+        "video": null
+    },
+    "83": {
+        "speaker_id": 83,
+        "eventId": "-1",
+        "date": "June 05, 2021",
+        "date2": "20220505",
+        "title": "Quantum Support Vector Machines",
+        "keywords": [
+            "quantum computing",
+            "quantum ml",
+            "quantum support vector machines"
+        ],
+        "abstract": "Quantum support vector machines are the quantum version of the Support Vector Machines ML algorithm ",
+        "video": null
+    },
     "82": {
         "speaker_id": 82,
         "date": "January 13, 2023",

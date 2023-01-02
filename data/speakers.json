@@ -1,4 +1,54 @@
 {
+    "87": {
+        "surname": "Venegas",
+        "completeName": "Salvador Venegas",
+        "middle_initial": null,
+        "name": "Salvador",
+        "talks": [
+            88
+        ],
+        "image": true
+    },
+    "86": {
+        "surname": "BARENGHI",
+        "completeName": "CARLO F. BARENGHI",
+        "middle_initial": "F",
+        "name": "CARLO",
+        "talks": [
+            87
+        ],
+        "image": true
+    },
+    "85": {
+        "surname": "Bale",
+        "completeName": "ARRON N BALE",
+        "middle_initial": "N",
+        "name": "ARRON",
+        "talks": [
+            86
+        ],
+        "image": true
+    },
+    "84": {
+        "surname": "Ruiz",
+        "completeName": "Miguel Ruiz",
+        "middle_initial": null,
+        "name": "Miguel",
+        "talks": [
+            84
+        ],
+        "image": true
+    },
+    "83": {
+        "surname": "Avila",
+        "completeName": "Daniel Avila",
+        "middle_initial": null,
+        "name": "Daniel",
+        "talks": [
+            83
+        ],
+        "image": true
+    },
     "82": {
         "surname": "Chazal",
         "completeName": "Fred Chazal",
