@@ -11,9 +11,9 @@ import styles from "../../assets/css/talkStyle.js";
 import classNames from "classnames";
 import style from "../../assets/css/talks.module.css"
 
-import backgroundImageHome from '../../public/img/img1.jpg'
 import speakers from '../../data/speakers.json';
 import talks from '../../data/talks.json';
+import events from '../../data/events.json';
 
 const useStyles = makeStyles(styles);
 
@@ -39,11 +39,11 @@ export default function SingleTalkPage(props) {
                     color: "white"
                 }}
             />
-            <Parallax small filter image={backgroundImageHome}>
+            <Parallax small filter style={{ backgroundColor: "black" }}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>Event talk: {eventName}</h1>
+                            <h1 className={classes.title}>{eventName}</h1>
                             <br />
                         </GridItem>
                     </GridContainer>
@@ -96,7 +96,7 @@ export async function getStaticProps(context) {
 
     return {
         props: {
-            eventName: "Event Name",
+            eventName: events[talks[talk_id].eventId].eventName,
             speakerImage: '/img/speakers/sp' + speakerID.toString() + ".png",
             date: talks[talk_id].date,
             speaker: speakers[speakerID.toString()].completeName,
