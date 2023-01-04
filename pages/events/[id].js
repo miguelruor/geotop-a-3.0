@@ -83,7 +83,7 @@ export default function Events({ eventName, eventTalks }) {
 }
 
 export async function getStaticPaths() {
-    const paths = Object.keys(events).filter((talk_id) => talks[talk_id].eventId != undefined).map((talk_id) => ({ params: { id: talk_id } }))
+    const paths = Object.keys(events).map((talk_id) => ({ params: { id: talk_id } }))
     //paths = [{params: {id: "0"}}, {params:{id: "1"}}, {params:{id: "2"}}]
 
     return {
