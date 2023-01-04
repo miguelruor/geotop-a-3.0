@@ -4,44 +4,30 @@ import removeAccents from "remove-accents"
 import speakers from '../data/speakers.json';
 import talks from '../data/talks.json';
 
-export async function getStaticProps(){
+export async function getStaticProps() {
   var speakersID = Object.keys(speakers);
 
-  var speakers_aux = {...speakers}
-  var talks_aux = {...talks}
+  var speakers_aux = { ...speakers }
+  var talks_aux = { ...talks }
 
-  var month = new Array();
-  month[0] = "January";
-  month[1] = "February";
-  month[2] = "March";
-  month[3] = "April";
-  month[4] = "May";
-  month[5] = "June";
-  month[6] = "July";
-  month[7] = "August";
-  month[8] = "September";
-  month[9] = "October";
-  month[10] = "November";
-  month[11] = "December";
-
-  for(var talk_id in talks){
+  for (var talk_id in talks) {
     var date = talks[talk_id].date2;
-    date = new Date(date.slice(0, 4), date.slice(4, 6)-"01", date.slice(6,8));
+    date = new Date(date.slice(0, 4), date.slice(4, 6) - "01", date.slice(6, 8));
 
-    if(date > new Date()){
+    if (date > new Date()) {
       continue;
     }
-    
+
     talks_aux[talk_id].year = date.getFullYear()
-    talks_aux[talk_id].date =  talks[talk_id].date
+    talks_aux[talk_id].date = talks[talk_id].date
   }
 
-  speakersID.sort(function(a,b){
-    if(removeAccents(speakers[a].surname) > removeAccents(speakers[b].surname)){
-        return 1;
+  speakersID.sort(function (a, b) {
+    if (removeAccents(speakers[a].surname) > removeAccents(speakers[b].surname)) {
+      return 1;
     }
-    if(removeAccents(speakers[a].surname) < removeAccents(speakers[b].surname)){
-        return -1;
+    if (removeAccents(speakers[a].surname) < removeAccents(speakers[b].surname)) {
+      return -1;
     }
     return 0;
   });
@@ -49,12 +35,12 @@ export async function getStaticProps(){
   let lettersInSurname = new Set();
   let speakersWithLetter = {};
 
-  speakersID.forEach( speaker => {
+  speakersID.forEach(speaker => {
     var len = speakers[speaker].talks.length
-    var date = talks[speakers[speaker].talks[len-1].toString()].date2;
-    date = new Date(date.slice(0, 4), date.slice(4, 6)-"01", date.slice(6,8));
+    var date = talks[speakers[speaker].talks[len - 1].toString()].date2;
+    date = new Date(date.slice(0, 4), date.slice(4, 6) - "01", date.slice(6, 8));
 
-    if(date > new Date()){
+    if (date > new Date()) {
       return;
     }
 
@@ -62,16 +48,16 @@ export async function getStaticProps(){
     lettersInSurname.add(letter);
     speakersWithLetter[letter] = [];
   })
-  
+
   speakersID.forEach(speaker => {
     var len = speakers[speaker].talks.length
-    var date = talks[speakers[speaker].talks[len-1].toString()].date2;
-    date = new Date(date.slice(0, 4), date.slice(4, 6)-"01", date.slice(6,8));
+    var date = talks[speakers[speaker].talks[len - 1].toString()].date2;
+    date = new Date(date.slice(0, 4), date.slice(4, 6) - "01", date.slice(6, 8));
 
-    if(date > new Date()){
+    if (date > new Date()) {
       return;
     }
-    
+
     const letter = removeAccents(speakers[speaker].surname.charAt(0));
     speakersWithLetter[letter].push(speaker);
   })
@@ -79,12 +65,12 @@ export async function getStaticProps(){
   var auxLetterSet = [...lettersInSurname] // convertir set a lista
   auxLetterSet.sort()
 
-  return{
-    props:{
+  return {
+    props: {
       talks: talks_aux,
       speakers: speakers_aux,
       speakersID: speakersID,
-      lettersInSurname: auxLetterSet, 
+      lettersInSurname: auxLetterSet,
       speakersListByLetter: speakersWithLetter
     }
   }
@@ -98,7 +84,7 @@ export default function SearchBySpeaker(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SearchBySpeakerPage talks={props.talks} speakers={props.speakers} speakersIDList={props.speakersID}
-       lettersInSurname={props.lettersInSurname} speakersListByLetter={props.speakersListByLetter} />
+        lettersInSurname={props.lettersInSurname} speakersListByLetter={props.speakersListByLetter} />
     </div>
   )
 }

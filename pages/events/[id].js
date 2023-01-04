@@ -17,21 +17,6 @@ import styles from "../../views/NextTalksPage/NextTalksPageStyle";
 const useStyles = makeStyles(styles);
 
 export async function getStaticProps(context) {
-    /*
-    const talkId = "0"
-    const eventTalk = {
-        topNote: "Noviembre 2020",
-        title: "Topological Methods in Mathematical Physics 2022",
-        subtitle: "International Conference",
-        link: `/events/${eventId}/${talkId}`,
-        image: "/img/events/" + eventId + "/event_image.jpg"
-    }
-    const eventTalks = [
-        eventTalk,
-        eventTalk,
-        eventTalk
-    ]*/
-
     const eventId = context.params.id;
     const talksIds = events[eventId].talksIds;
 
