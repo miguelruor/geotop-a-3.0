@@ -22,9 +22,8 @@ export default function ByKeywordsPage(props) {
     <div>
       <Header
         color="blue"
-        //routes={dashboardRoutes}
         brand="Seminar GEOTOP-A"
-        rightLinks={<HeaderLinks/>}
+        rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 400,
@@ -33,20 +32,29 @@ export default function ByKeywordsPage(props) {
         {...rest}
       />
       <Parallax small filter image={backgroundImageHome}>
-          <div className={classes.container}>
-              <GridContainer>
-                  <GridItem xs={12} sm={12} md={6}>
-                      <h1 className={classes.title}>List of keywords</h1>
-                      <br />
-                  </GridItem>
-              </GridContainer>
-          </div>
+        <div className={classes.container}>
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={6}>
+              <h1 className={classes.title}>List of keywords</h1>
+              <br />
+            </GridItem>
+          </GridContainer>
+        </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
-          <div className={classes.container} style={{paddingTop:"10px", paddingBottom:"10px"}}>
-              <ListKeywordsSection keywords={props.keywords} keywordsListByLetter={props.keywordsListByLetter}
-               lettersInKeywords={props.lettersInKeywords} talks= {props.talks}/>
+        <div className={classes.container} style={{ paddingTop: "10px", paddingBottom: "10px" }}>
+          <div style={{ color: "black", display: "flex", justifyContent: "space-evenly", alignItems: "center" }}>
+            <span style={{ display: "flex", alignItems: "center" }}>
+              <span style={{ height: "10px", width: "10px", backgroundColor: "purple", marginRight: "10px" }}></span>
+              <h3>International Conference</h3>
+            </span>
+            <span style={{ display: "flex", alignItems: "center" }}>
+              <span style={{ height: "10px", width: "10px", backgroundColor: "red", marginRight: "10px" }}></span>
+              <h3>Advanced School</h3>
+            </span>
           </div>
+          <ListKeywordsSection keywords={props.keywords} keywordsListByLetter={props.keywordsListByLetter} lettersInKeywords={props.lettersInKeywords} />
+        </div>
       </div>
       <Footer />
     </div>

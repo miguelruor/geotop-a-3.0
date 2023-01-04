@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import Link from 'next/link'
@@ -6,26 +6,19 @@ import styles from './ByKeywordPageStyle.js';
 import MenuOpen from '@material-ui/icons/MenuOpen';
 import Button from '../../../components/CustomButtons/Button'
 
-import removeAccents from "remove-accents";
-
 const useStyles = makeStyles(styles);
 
 export default function ListKeywordsSection(props) {
     const classes = useStyles();
 
-    // keywords[DNA] = [talk1_id, talk2_id,...]  --- DNA denota una keyword
+    // keywords[keyword1] = [{"surname": "", "year": "", "url": "", color: ""},...]
     const keywords = props.keywords;
 
-    // keywordsListByLetter[a] = [{keyword1_con_a: [talk1_id, talk2_id, ...]}, 
-    //                                    {keyword2_con_a: [talk3_id, ...]}, ...]
+    // keywordsListByLetter[a] = [keyword1_con_a, keyword2_con_a, ...]
     const keywordsListByLetter = props.keywordsListByLetter;
 
     // Lista ordenada con primeras letras de todas las keywords en mayuscula
     const lettersInKeywords = props.lettersInKeywords;
-
-    // allTalks[talk_id] = objecto con llaves surname, speaker, year, video, date, title, slides, keywords, abstract, warning
-    // speaker es el nombre completo
-    const allTalks = props.talks;
 
     // al dar clic en una letra, se pone visitLetters[letter] = True, para mostrar la lista de keywords
     const [visitLetters, setVisitLetters] = useState({});
@@ -33,48 +26,28 @@ export default function ListKeywordsSection(props) {
     // funcion para poner la lista de keywords que empiezan con letter
     function listWithLetter(letter) {
         var orderedKeywords = keywordsListByLetter[letter];
-
-        // ordenar keywords que empiezan con letter sin considerar acentos (removeAccents) ni mayusculas
-        orderedKeywords.sort(function (a, b) {
-            if (removeAccents((Object.keys(a))[0]).toLowerCase() > removeAccents((Object.keys(b))[0]).toLowerCase()) {
-                return 1;
-            }
-            if (removeAccents((Object.keys(a))[0]).toLowerCase() < removeAccents((Object.keys(b))[0]).toLowerCase()) {
-                return -1;
-            }
-            return 0;
-        });
-
         // Para cada keyword (que es un diccionario) que empieza con letter, imprime
 
         const listItems = orderedKeywords.map(keyword => {
+            let first = true;
             return (
                 <li style={{ listStyleType: 'square' }}>
-                <h5 style={{ fontSize: '20px', fontStyle: 'normal' }}>
-
-                    {/*Object.keys(keyword) realmente solo tiene una llave, que es la keyword */}
-                    {Object.keys(keyword).map(function (k) {
-                        let first = true;
-
-                        return (
-                            <>
-                                {k} <br />
-                                {keywords[k].map((data) => {
-                                    return (
-                                        <>{first ? first = false : ','} {allTalks[data].surname + " "}
-                                            <Link href={'previous-talks/'+ data}>
-                                                <Button
-                                                    color='primary'
-                                                    className={classes.buttonList}>
-                                                    {allTalks[data].year}
-                                                </Button>
-                                            </Link>
-                                        </>
-                                    )
-                                })} </>
-                        )
-                    })}
-                </h5>
+                    <h5 style={{ fontSize: '20px', fontStyle: 'normal' }}>
+                        {keyword} <br />
+                        {keywords[keyword].map((data) => {
+                            return (
+                                <>{first ? first = false : ','} {data.surname + " "}
+                                    <Link href={data.url}>
+                                        <Button
+                                            color={data.color}
+                                            className={classes.buttonList}>
+                                            {data.year}
+                                        </Button>
+                                    </Link>
+                                </>
+                            )
+                        })}
+                    </h5>
                 </li>
             );
         });
