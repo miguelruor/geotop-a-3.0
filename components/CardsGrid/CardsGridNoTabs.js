@@ -12,6 +12,8 @@ import Card from "../Card/Card.js";
 import Button from "../CustomButtons/Button.js";
 import Image from "next/image";
 import Link from "next/link";
+import 'katex/dist/katex.min.css'
+import Latex from "react-latex-next";
 
 const useStyles = makeStyles(styles);
 
@@ -61,7 +63,7 @@ const CardsGridNoTabs = ({ cardsContent, upper_legend, button_text }) => {
                                         </div>
                                         <div className={classes.layoutItem}>
                                             <h4 className={classes.cardTitle}>
-                                                {card.title}
+                                                <Latex>{card.title}</Latex>
                                                 <br />
                                                 <small className={classes.smallTitle}>
                                                     {card.subtitle}

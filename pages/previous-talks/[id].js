@@ -4,7 +4,8 @@ import Parallax from '../../components/Parallax/Parallax';
 import GridContainer from '../../components/Grid/GridContainer';
 import GridItem from '../../components/Grid/GridItem';
 import Footer from '../../components/Footer/Footer';
-import ReactHtmlParser from 'react-html-parser';
+import 'katex/dist/katex.min.css'
+import Latex from "react-latex-next";
 import Image from 'next/image'
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "../../assets/css/talkStyle.js";
@@ -58,9 +59,9 @@ export default function SingleTalkPage(props) {
               <GridContainer>
                 <GridItem xs={12} sm={12} md={12}><h1 className={classes.speaker}>{props.speaker}</h1></GridItem>
                 <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{props.date}</b></p></GridItem>
-                <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{props.title}</p></GridItem>
-                <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser(props.abstract)}</p></GridItem>
-                <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Keywords: "}</b> {props.keywords.join(", ")}</p></GridItem>
+                <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Title: </b><Latex>{props.title}</Latex></p></GridItem>
+                <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Abstract: </b> <Latex>{props.abstract}</Latex></p></GridItem>
+                <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Keywords: </b> {props.keywords.join(", ")}</p></GridItem>
                 {props.slides == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Slides:</b> <a href={props.slides} target="_blank">Click here</a></p></GridItem></>}
                 {props.warning == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Warning:</b> {props.warning}</p></GridItem></>}
               </GridContainer>
