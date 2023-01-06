@@ -1,9 +1,22 @@
 {
-    "88": {
-        "speaker_id": 87,
+    "123": {
+        "speaker_id": 109,
         "eventId": "1",
-        "date": "October 3, 2022",
-        "date2": "20221003",
+        "date": "October 3, 2021",
+        "date2": "20211003",
+        "title": "Quantum walks over genotype networks",
+        "keywords": [
+            "quantum walks",
+            "genetic mutations"
+        ],
+        "abstract": "A quantum model for genetic evolution based on continuous-time quantum walks.",
+        "video": null
+    },
+    "122": {
+        "speaker_id": 108,
+        "eventId": "-1",
+        "date": "July 7, 2021",
+        "date2": "20220710",
         "title": "Quantum walks as a tool for quantum computing",
         "keywords": [
             "quantum walks",
@@ -12,12 +25,503 @@
         "abstract": "Quantum walks are the quantum version of random walks and are being applied for quantum algorithms.",
         "video": null
     },
-    "87": {
+    "121": {
+        "speaker_id": 107,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Evolution of quantum knots driven by minimal surfaces",
+        "keywords": [
+            "quantum knots",
+            "minimal surfaces",
+            "Gross-Pitaevskii equation"
+        ],
+        "abstract": "The origin and dynamics of some quantum knots and links are studied under the Gross-Pitaevskii equation in an infinitely extended, unitary background density. Several direct numerical simulations are carried out by employing a new numerical code [1] that resolves the limits of boundary conditions on a truncated domain. The head-on collision of quantum vortex rings and the creation of a trefoil knot from initially unlinked, unknotted loops are realized for the first time. Three generic scenarios are identified: (i) direct topological cascade and collapse, (ii) structural and topological cycles, and (iii) inverse topological cascade of complex structures. Thanks to defect localization, we can apply geometric and topological techniques to get physical insight on the dynamics of these evolutionary processes. Writhing number proves to be an appropriate detector of direct topological cascade that governs the decay of complex structures to small-scale vortex rings, whereas picks of total curvature provide a clear signature of reconnection events. We show that isophase minimal surfaces spanning knots and links have a privileged role in the decay process by detecting surface energy relaxation of complex systems [2].",
+        "video": null
+    },
+    "120": {
+        "speaker_id": 106,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Meaningful definitions of magnetic helicity in open domains",
+        "keywords": [
+            "magnetic helicity",
+            "winding gauge"
+        ],
+        "abstract": "It is well known that the magnetic helicity integral of magnetohydrodynamics is non-unique if the magnetic field passes through the domain boundary. Rather, it depends on the choice of vector potential, even in a topologically simple domain. The same is true of the field line helicity. In some sense, any choice of (field line) helicity is equally meaningful, because all are invariant under ideal deformations that vanish on the boundary. However, our proposition is that some choices are more physically meaningful than others, if one wishes to  measure topological complexity of the magnetic field. Candidate vector potentials include the so-called “winding gauge” [1] or the “poloidal-toroidal gauge” [2]. I will outline our ideas about what might be the “natural” choice of vector potential, both in Cartesian domains and in spherical shell domains. The latter are relevant to magnetic fields in the Sun’s atmosphere.",
+        "video": null
+    },
+    "119": {
+        "speaker_id": 105,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Noether currents for Eulerian variational principles in non-barotropic magneto-hydrodynamics and topological conservations laws",
+        "keywords": [
+            "Noether current",
+            "non-barotropic magnetohydrodynamics"
+        ],
+        "abstract": "We derive a Noether current for the Eulerian variational principle of ideal non-barotropic magnetohydrodynamics (MHD). It was shown previously that ideal non-barotropic MHD is mathematically equivalent to a five-function field theory with an induced geometrical structure in the case that field lines cover surfaces and this theory can be described using a variational principle. Here we use various symmetries of the flow to derive novel topological constants of motion through the newly derived Noether current and discuss their implication for non-barotropic MHD and plasma confinement.",
+        "video": null
+    },
+    "118": {
+        "speaker_id": 104,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Mysterious triality and M-theory",
+        "keywords": [
+            "M-theory",
+            "Del Pezzo surface",
+            "rational homotopy"
+        ],
+        "abstract": "Mysterious duality was discovered by Iqbal, Neitzke, and Vafa [1] as a convincing, yet mysterious correspondence between certain symmetry patterns in toroidal compactifications of M-theory and del Pezzo surfaces, both governed by the root system series $E_k$. It turns out that the sequence of del Pezzo surfaces is not the only sequence of objects in mathematics which gives rise to the $E_k$ symmetry pattern. I will present a sequence of topological spaces, starting with the four-sphere $S^4$, and then forming its iterated cyclic loop spaces $L_c^k$ $S^4$, within which we will see the $E_k$ symmetry pattern via rational homotopy theory. For this sequence of spaces, the correspondence between its $E_k$ symmetry pattern and that of toroidal compactifications of M-theory is no longer a mystery, as each space $L_c^k$ $S^4$ is naturally related to the compactification of M-theory on the k-torus via identification of the equations of motion of (11-k)-dimensional supergravity as the defining equations of the Sullivan minimal model of Lck S4. This gives an explicit duality between rational homotopy theory and physics. Thereby, Iqbal, Neitzke, and Vafa’s mysterious duality between algebraic geometry and physics is extended to a triality involving algebraic topology, with the duality between topology and physics demystified. The mystery is now transferred to the mathematical realm as duality between algebraic geometry and topology.",
+        "video": null
+    },
+    "117": {
+        "speaker_id": 18,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "The Burau representation of the braid group and its application to dynamics",
+        "keywords": [
+            "Burau representation",
+            "braid group"
+        ],
+        "abstract": "Strings that are anchored to parallel planes are called braids, and E. Artin realized that they could be given a group structure by concatenation.  The resulting braid group can be used for many purposes, in particular for encoding a dataset of two-dimensional trajectories in a concise form [1].  For example, the trajectories could arise from drifter observations in the ocean. Burau [2] introduced a convenient linear representation of the braid group, which has its origins in the homology of a branched cover.  We describe this representation, and see how it can be used to extract dynamical information about orbits, such as a measure of complexity that usually indicates the presence of chaotic dynamics, as well as a an indication of coherence of trajectories [3, 4].",
+        "video": null
+    },
+    "116": {
+        "speaker_id": 103,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Topological solitons as nuclei",
+        "keywords": [
+            "topological solitons",
+            "Skyrmions"
+        ],
+        "abstract": "Topological solitons [1] are particle-like solutions of nonlinear partial differential equations. This contribution will provide an introduction to Skyrmions, which are topological solitons that model nuclei [2]. Some of the properties of Skyrmions will be discussed in Skyrme’s original theory, followed by more recent developments that attempt to improve on this theory, for example by matching the cluster structure of light nuclei [3].",
+        "video": null
+    },
+    "115": {
+        "speaker_id": 0,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Helicity of seifert framed defects",
+        "keywords": [
+            "helicity",
+            "defects",
+            "reconnection",
+            "Seifert surface"
+        ],
+        "abstract": "The topology and helicity of anti-parallel defect reconnection will be discussed.  Line defects are one-dimensional phase singularities (forming knots and links) that arise in a variety of physical systems. In these systems, isophase surfaces (Seifert surfaces) have the phase defects as boundary, and these Seifert surfaces define a framing of the normal bundle of each link component. We define the individual helicity for each component of a link singularity, and prove that each individual helicity is zero if and only if there exists a Seifert framing for the link. We extend these results to multi-armed defects. We prove that under anti-parallel reconnection of framed defect strands that both twist and writhe helicity are conserved.",
+        "video": null
+    },
+    "114": {
+        "speaker_id": 102,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Topological polymers and random embeddings of graphs",
+        "keywords": [
+            "topological polymers",
+            "random embeddings",
+            "graphs"
+        ],
+        "abstract": "Over the last few decades, substantial progress has been made is developing a rigorous mathematical theory of ring polymers (like DNA minicircles and mitochondrial DNA), mostly be researchers at the interface between knot theory and biology. Recently, chemists working on developing novel materials have made substantial progress in synthesizing so-called “topological polymers” which are modeled on more complicated graphs, including lassos, θ-curves, and even $K_{3,3}$ and $K_4$. Predicting the material properties of these polymers in solution requires a mathematical theory of random embeddings of graphs. Such a theory was developed by James, Guth, and Flory [1,2,3] in the 20th century to study elasticity, but only with simple Gaussian interactions between monomers. This talk describes a generalization of that theory [4] which can handle arbitrary interaction potentials, including freely-jointed networks and steric interactions.",
+        "video": null
+    },
+    "113": {
+        "speaker_id": 101,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Untying pathways of vortex knots",
+        "keywords": [
+            "untying",
+            "vortex knots",
+            "reconnections",
+            "band surgery"
+        ],
+        "abstract": "The untying of vortex knots by reconnections has been observed in [1]. We analyze such untying pathways by using the characterizations of band surgery on knots and links. The topology of entangled vortices is represented using oriented knots and links, and the reconnection of vortices is modeled using coherent band surgeries [2-4]. For the case where the topology of the vortices are torus knots or links of type T(2,p), we characterize the untying pathways and determine where the reconnections occur.",
+        "video": null
+    },
+    "112": {
+        "speaker_id": 100,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Knots for quantum computation from defect branes",
+        "keywords": [
+            "worldlines",
+            "topological K-theory",
+            "anyon braid"
+        ],
+        "abstract": "Already 25 years ago [1], Kitaev proposed that intrinsically fault-tolerant quantum computation should be possible by knotting the worldlines of defect points in effectively 2-dimensional quantum materials akin to graphene. Meanwhile, there have been striking advances (a) in the theoretical understanding of such quantum materials, in terms of topological K-theory; and (b) in the practical construction of toy quantum computers – but the “topological quantum gates” proposed by Kitaev have remained somewhat elusive, both practically but also theoretically. Recently we have shown [2] that a previously neglected sector of topological K-theory in its fully-fledged “twisted & equivariant & differential” refinement does reflect those topological quantum gates that are thought to be practically realizable – namely the “su(2)-anyon braid gates”. This insight was drawn from the study of “defect branes” in string theory and points to a non-perturbative enhancement of what is known as “holographic” condensed matter theory. I will give a gentle motivation and exposition of these results. Talk notes will be available at: ncatlab.org/schreiber/show/Erice+2022",
+        "video": null
+    },
+    "111": {
+        "speaker_id": 99,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Introducing KnotPlot redux for experiments in knot theory",
+        "keywords": [
+            "KnotPlot"
+        ],
+        "abstract": "A newly reworked version of the speaker's software KnotPlot will be presented.  This version has an updated user interface with a native look and feel on multiple platforms, making the program much easier to learn and use.  In addition, KnotPlot is now augmented with powerful scripting languages (Lua and Python) that will allow researchers to write their own code for their experiments.  Example projects involving geometrical and topological simplification of knots, and a plugin mechanism for customizing the dynamics, will be presented.",
+        "video": null
+    },
+    "110": {
+        "speaker_id": 98,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Integrability and hamiltonisation of non-holonomic systems with symmetry",
+        "keywords": [
+            "integrability",
+            "Hamiltonian",
+            "non-holonomic systems"
+        ],
+        "abstract": "The problems of integrability and Hamiltonisation of nonholonomic systems (with symmetry) has been an active topic of research in the last twenty years. In this talk I present a sufficient condition that guarantees both the existence of a reduced Poisson structure that makes the reduced system Hamiltonian, and the  (broad) integrability of the reduced system. Moreover if some compactness issue on the reduced dynamics is satisfied also the integrability of the complete systems can be ensured. Finally some important examples are presented.",
+        "video": null
+    },
+    "109": {
+        "speaker_id": 5,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Multi-valued potentials and physical reality",
+        "keywords": [
+            "multi-valued potentials",
+            "multiply-connected domains"
+        ],
+        "abstract": "Riemann’s paper [1] on multi-valued potentials in multiply-connected domains marks arguably the origin of topology. It prompted Lord Kelvin [2] to propose a correction to Green’s first identity in potential theory, but his result remained almost unnoticed. Following Kelvin’s own work we re-derive this result from first principles, and show how ideas and techniques introduced have important implications in modern physics and in current applications of multi-valued gauge theory in condensed matter physics [3].",
+        "video": null
+    },
+    "108": {
+        "speaker_id": 97,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Some results and open questions regarding vector field winding",
+        "keywords": [
+            "vector field winding",
+            "helicity",
+            "linking",
+            "braided fields"
+        ],
+        "abstract": "The helicity is a well-known and critical topological quantity in a number of fields, including magnetohydrodynamics, fluid mechanics, non-linear elasticity and gauge field theories. In fact it is a product of two pieces of information, the strength (flux) of the field, and the winding/linking (the topological part). I will present two results: First that the winding can uniquely topologically classify certain types of braided fields [1] (this uniqueness is lost for the helicity). Second, that in continuum theories there are classes of vector fields for which the helicity can decay but the topology stays fixed [2]. In other words the two distinct components of the helicity have their own evolutionary rules. Using these results I will pose some open questions about the topology of vector fields whose answer I believe would provide significant insight.",
+        "video": null
+    },
+    "107": {
+        "speaker_id": 45,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Topology of the nodal sets of eigenfunctions of Schrödinger operators",
+        "keywords": [
+            "nodal sets",
+            "Schrödinger operators"
+        ],
+        "abstract": "In 2001, Sir Michael Berry conjectured that given any knot there should exist a (complex-valued) eigenfunction of the harmonic oscillator or the hydrogen atom whose nodal set contains a component of such a knot type. This is a particular instance of the following problem: how is the topology of the nodal sets of eigenfunctions of Schrödinger operators? In this talk I will focus on the flexibility aspects of the problem: if we consider operators with a large group of symmetries, one can exploit the large multiplicity of the high eigenvalues to use a novel inverse localization property. In particular, I will show how to use this strategy to tackle the aforementioned Berry's problem.",
+        "video": null
+    },
+    "106": {
+        "speaker_id": 29,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Timecrystalline vortices, saddle points and the Poincaré index formula",
+        "keywords": [
+            "timecrystalline vortices",
+            "saddle points",
+            "Poincaré index formula"
+        ],
+        "abstract": "Vortices in a Bose-Einstein condensate are modelled as spontaneously symmetry breaking minimum energy solutions of the time dependent Gross-Pitaevskii equation.  In a non-rotating axially symmetric trap, the core of a single vortex precesses around the trap center and, at the same time, the phase of its wave function shifts at a constant rate. The precession velocity,  the speed of phase shift, and the distance between the vortex core and the trap center, depend continuously on the value of the conserved angular momentum that is carried by the entire condensate. The number of vortices increases with increasing angular momentum, and the vortices repel each other to form timecrystalline Abrikosov lattices. Poincaré index formula states that besides vortices there are also saddle points, and the difference in the number of vortices and saddle points can never change. But unlike vortices the saddle points can also attract each other, they can join and become combined into timecrystalline degenerate critical point configurations. But when the number of saddle points becomes sufficiently large there is a transition, and instead of attracting each other, the saddle points start repelling each other, and pair up with vortices. The ensuing structures rotate around the trap center, in regular arrangements akin Abrikosov lattices [1].",
+        "video": null
+    },
+    "105": {
+        "speaker_id": 41,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Fractal dimension meets topology: statistics of collapsed polymers and beyond",
+        "keywords": [
+            "fractional Brownian polymers",
+            "knot complexity",
+            "braids"
+        ],
+        "abstract": "We consider statistical and topological properties of fractional Brownian polymers, equipped with short-range volume interactions [1]. The attention is paid to statistical properties of collapsed conformations with the fractal dimension $D_f \\geq 2$ in 3D, which are analyzed both numerically and via the mean-field Flory approach. Our study is motivated by an attempt to mimic the conformational statistics of collapsed unknotted polymer rings, which are known to equilibrate into the compact hierarchical crumpled globules (CG) with $D_f = 3$ at large scales. Replacing the topologically stabilized CG state by a self-avoiding fractal path adjusted to the fractal dimension $D_f \\approx 3$, we tremendously simplify the problem of generating the CG-like conformations since we wash out the topological constraints from the consideration. We show that, with the increase of $D_f$, typical conformations become more territorial and less knotted. Distributions of the knot complexity, $P(\\chi)$, for collapsed ring chains with $D_f \\geq 2$ suggest a direct correspondence between the fractal dimension and knotting of fractal paths. We extend the found results to the investigation of braiding of directed polymers near curved surfaces where the statistics of random walks becomes non-Gaussian [2].",
+        "video": null
+    },
+    "104": {
+        "speaker_id": 96,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "An interactive topological organization of a vortex between vortical flow and bundle of vorticity lines",
+        "keywords": [
+            "vortical flow",
+            "swirlity",
+            "vorticity lines"
+        ],
+        "abstract": "The present study clarifies a mechanism of an interactive organization of vortical flow structure and bundle of vorticity lines of a vortex. The formulation of the vortex stretching in a Galilei invariant coordinate system associated with the swirl plane, vortex space [1], shows that the vortical flow structure swirls a bundle of the vorticity lines which feature depends on the topological dynamics of the flow along a vortical region. Inversely, the velocity structure is influenced by swirling or rotating feature of the vorticity lines, which generates the axial flow of the vortex. The local axis geometry scheme specifies the topology of the bundle in the vortical region, and the topological quantities, i.e., swirlity, sourcity, and vortical flow symmetry [2], clarify the topological characteristics of both vortical flow and vorticity lines. This theory conjectures the specifec vortical structure in a homogeneous isotropic turbulence or wind turbine.",
+        "video": null
+    },
+    "103": {
+        "speaker_id": 95,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Minimal surface generating flow",
+        "keywords": [
+            "minimal surfaces",
+            "geometric flow",
+            "space curves"
+        ],
+        "abstract": "Minimal surfaces are abundant in nature, from the shape of grain boundaries and soap films to the apparent horizon of a black hole. In this contribution, we discuss how minimal surfaces can be generated via geometric flow of space curves. We present two different approaches, discuss their possible applications and outline future work.",
+        "video": null
+    },
+    "102": {
+        "speaker_id": 94,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "The groups $G_n^k$ and $\\Gamma_n^k$ and their applications in topology, algebra and geometry",
+        "keywords": [
+            "braid group",
+            "braid particles"
+        ],
+        "abstract": "In 2015, the author defined the two-parametric family of groups $G_n^k$, that depend on two integer parameters $n > k$, and formulated the following principle: “If a dynamical system describing the motion of $n$ particles possesses a nice co-dimension 1 property governed by exactly $k$ particles, then this dynamical system has a topological invariant valued in $G_n^k$.” </br></br>The first examples describe motions of points on the plane with properties that “3 points are collinear” and “4 points belong to the same circle or line”, which lead to homomorphisms from the pure braid group given by  $PB_n \\to G_n^3$, and $PB_n \\to G_n^k$, respectively. In a similar manner we defined other series of groups $\\Gamma_n^4$, that correspond to the configuration space of triangulations. We shall describe various examples and applications of the groups $G_n^k$ and $\\Gamma_n^4$ in algebra, geometry and topology and formulate some open problems.",
+        "video": null
+    },
+    "101": {
+        "speaker_id": 93,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Magnetic helicity in multiply connected domains and the proof of Taylor’s conjecture",
+        "keywords": [
+            "magnetic helicity",
+            "multiply connected domains",
+            "Taylor’s conjecture"
+        ],
+        "abstract": "Magnetic helicity is a topological invariant of ideal magnetohydrodynamics that describes the linkage of field lines weighted by magnetic flux. In simply connected and magnetically closed domains, its definition is the integral, over the domain, of the dot product of the magnetic field with a vector potential of the magnetic field. This definition is gauge-invariant, i.e. it does not depend on the choice of the vector potential. Often, however, it is necessary to consider magnetic helicity in multiply connected domains, such as a torus or a toroidal shell – two domains important in plasma physics. The standard definition of magnetic helicity in simply connected domains for any vector potential is no longer applicable in multiply connected domains as it is not gauge invariant. In this contribution, we present two main results. (1) The extension of the definition of magnetic helicity to bounded and multiply connected domains, making the definition gauge invariant. (2) The use of this extended definition to complete the landmark proof of Taylor’s conjecture in [1], allowing for arbitrary vector potentials to be used in multiply connected domains. Further details can be found in [2] and [3].",
+        "video": null
+    },
+    "100": {
+        "speaker_id": 92,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Measuring topological complexity of physical knots and links to detect cascade evolution",
+        "keywords": [
+            "vortex knots",
+            "adapted HOMFLYPT polynomial",
+            "complexity degree"
+        ],
+        "abstract": "Recent laboratory and numerical experiments in classical and quantum fluids[1][5] and recombinant DNA plasmids [6] show that physical knots/links are highly unstable, decaying from a high-topological complexity state to a low-complexity state through a series of reconnection events. In this talk we would review the following progress: (i) crossing numbers of prime knots/links versus the groundstate energy spectrum [4]; (ii) adapted HOMFLYPT polynomial values used to quantify complexity of torus knots and links [2]; (iii) complexity degree of a knot defined in a Legendre polynomial basis in a suitably defined knot polynomial space [3].",
+        "video": null
+    },
+    "99": {
+        "speaker_id": 91,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Topological surgery and applications",
+        "keywords": [
+            "topological surgery",
+            "Morse description"
+        ],
+        "abstract": "We discuss topological surgery in dimensions 1, 2 and 3 enriched by local dynamics and we provide the Morse description. Along the way we present some interesting phenomena exhibiting surgery.",
+        "video": null
+    },
+    "98": {
+        "speaker_id": 90,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Beyond Arnold's geodesic framework of an ideal hydrodynamics",
+        "keywords": [
+            "ideal hydrodynamics",
+            "Lie groupoid",
+            "volume-preserving diffeomorphisms"
+        ],
+        "abstract": "We discuss ramifications of Arnold’s group-theoretic approach to ideal hydrodynamics as the geodesic flow for a right-invariant metric on the group of volume-preserving diffeomorphisms. We show that problems of optimal mass transport are in a sense dual to the Euler hydrodynamics. Moreover, many equations of mathematical physics, such as the motion of vortex sheets or fluids with moving boundary, have Lie groupoid, rather than Lie group, symmetries [1, 2].",
+        "video": null
+    },
+    "97": {
+        "speaker_id": 8,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Reconnection number of vortex knots",
+        "keywords": [
+            "reconnection number",
+            "vortex knots"
+        ],
+        "abstract": "Knotted vortices such as those produced by Kleckner and Irvine at the Frank Institute of the University of Chicago tend to transform by reconnection to collections of unknotted and unlinked circles [1], [2]. The reconnection number R(K) of an oriented knot of link K is the least number of reconnections (oriented re-smoothings) needed to unknot/unlink K. Putting this problem into the context of knot cobordism, we show, using Rasmussen’s Theorem ([3], [4], [5]) that the reconnection number of a positive knot is equal to twice the genus of its Seifert spanning surface. In particular an (a,b) torus knot has R = (a-1)(b-1). For any knot or link diagram K, we show that R(K) is counted from above by c(K) - s(K) + 1 where c(K) is the number of crossings of K and s(K) is the number of Seifert circles of K. For an arbitrary positive knot or link K, this is an equality. That is, for K a positive link, R(K) = c(K) -s(K) + 1. Examples of vortex dynamics will be illustrated.",
+        "video": null
+    },
+    "96": {
+        "speaker_id": 65,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Topological lessons from liquid crystals",
+        "keywords": [
+            "liquid crystals",
+            "topological defects"
+        ],
+        "abstract": "The topology of the manifold of ground states in an equilibrium system determines the nature and variety of topological defects in ordered materials.  Liquid crystals enjoy a great variety of different manifolds and, as a result, many have topological defects that interact in a non-Abelian manner.  I will discuss the smectic liquid crystal as the paradigm for all spatially ordered states, describe the interaction between translational and rotational defects, and show how the energy can have a topological nature.  All in an hour!",
+        "video": null
+    },
+    "95": {
+        "speaker_id": 89,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Magnetohydrodynamic relaxation",
+        "keywords": [
+            "magnetic relaxation",
+            "Taylor’s theory"
+        ],
+        "abstract": "The equations of Magnetohydrodynamics (MHD) describe the evolution of an electrically conducting fluid. The resistive term in the MHD equations is for most astrophysical and also many technical plasmas very small. If one neglects this term (ideal MHD), the equations have an infinite number of conserved quantities related to the conservation of the topology of the magnetic field. On the other hand, even with very small resistivity strong current sheets can develop in localised regions leading to magnetic reconnection. This raises the question which ideal invariants are still approximate invariants in the limit of small, but non-vanishing, resistivity. We will discuss a number of numerical relaxation experiments which we have performed on plasmas with complex, braided, magnetic fields to find out which invariants govern the relaxation process towards a minimum energy state. This includes a critical review of Taylor’s theory [1], as well as a discussion of the role of turbulence [2, 3].",
+        "video": null
+    },
+    "94": {
+        "speaker_id": 88,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "New evolutionary pathways map for a system of physical knots and links",
+        "keywords": [
+            "Borromean rings",
+            "quantum reconnection"
+        ],
+        "abstract": "The study of quantum defects bears several analogies with classical fluids. It is well known that physical knots and links decay from a high-topological complexity state to a low-complexity state [1,2] and during evolution different dacaying paths can occur. A theoretical explanation of this phenomenon represents a fundamental open problem. Here we consider the spontaneous decay of Borromean superfluid rings governed by the Gross-Pitaevskii equation. Due to quantum reconnections [3] the system experiences a cascade path passing through midway stages forming a Whitehead link, a trefoil knot and a Hopf link, ultimately producing trivial loops. In particular, among the evolution paths, a new inverse cascade progress is observed in free evolution. The pathways discovered form an evolutionary map that helps to establish a theoretical framework of similar phenomena.",
+        "video": null
+    },
+    "93": {
+        "speaker_id": 87,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Nambu brackets for ideal fluid and mhd equations and their applications",
+        "keywords": [
+            "Nambu brackets",
+            "Lie-Poisson Hamiltonian"
+        ],
+        "abstract": "For the ideal magnetohydrodynamics (MHD), Noether's theorem states that the topological invariant associated with the particle relabeling symmetry is the cross helicity, the volume integral of the scalar product of the velocity field and a frozen-in field. This is also the case for the dynamics of an ideal fluid. A proof to it is given in terms of variation of the Lagrangian label as a function of the Eulerian position [1,2]. In addition to the cross helicity, the total mass, the total entropy and the magnetic helicity are topological invariants. We construct the Nambu bracket for the ideal MHD with constant coefficients, using the three topological invariants other than the total mass as Hamiltonians, together with the total energy [3]. The Lie-Poisson bracket induced from the Nambu bracket gives an extension of the known one [4] and automatically guarantees the cross-helicity to be a Casimir invariant. The Casimir manifested by the Namb btacket, if specialized to a vortex filament, provides the recursion operator for producing the localized induction hierarchy.",
+        "video": null
+    },
+    "92": {
         "speaker_id": 86,
         "eventId": "0",
         "date": "September, 2022",
         "date2": "20220901",
-        "title": "TANGLED VORTEX LINES",
+        "title": "Physical effects of global and localized Twist phase on quantum vortex defects",
+        "keywords": [
+            "twist phase",
+            "quantum defects",
+            "local",
+            "global",
+            "helicity"
+        ],
+        "abstract": "Twist is a well-known quantity in classical vortex theory, but its physical effects have not been studied in the context of quantum vortex defects in Bose-Einstein condensates. Here we introduce the concepts of global twist phase and localized twist phase to analyze the physical effects induced by the different phase presence on defects [1]. These effects are studied by making use of Kleinert’s multi-valued gauge theory [2, 3] under the zero helicity condition for the Gross-Pitaevskii equation. In the presence of global twist we show that secondary defects must be produced consistently with the zero-linking number requirement. If however a twist phase remains localized in the healing region of the defect the system is proved to be unstable [4], converting twist into writhe in analogy with the writhe instability of supercoiled elastic strings.",
+        "video": null
+    },
+    "91": {
+        "speaker_id": 7,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Skyrmionic hopfions: realising particle-like topologies in structured light",
+        "keywords": [
+            "Skyrmionic Hopfions",
+            "Hopf fibration",
+            "optical defects"
+        ],
+        "abstract": "Three-dimensional (3D) particle-like topological excitations, such as skyrmions and hopfions, originally proposed as topological models of fundamental particles and nuclei, have received much attention in high-energy and condensed matter systems. Rather than being based on special points and lines, the field values wrap around a 2-dimensional or 3D sphere “target space” within a plane or volume, realising a topological mapping of nontrivial degree, the Skyrme number. The full state of light, including polarisation and phase, determines a point on 3-sphere we call the optical hypersphere. Decomposing via the Hopf fibration, phase varies around Hopf loops, and the base space is the Poincaré sphere parametrising polarisation. We design, experimentally generate and measure an optical beam configuration which realises all polarisations and phases together in a propagation volume, realising a 3D optical skyrmionic hopfion [1]. For sufficiently high topological degree, the 3D polarisation structures are linked and knotted [2].",
+        "video": null
+    },
+    "90": {
+        "speaker_id": 20,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Polygons in higher dimensions via conformal barycenter sampling",
+        "keywords": [
+            "polygons",
+            "Millson and Kapovich method"
+        ],
+        "abstract": "Topologists and geometers have been interested in the configuration spaces of linkages for a long time. In three dimensions, Millson and Kapovich observed that the configuration spaces of polygons (modulo rotations) were symplectic, leading to a natural structure on these polygon spaces [1] and eventually to a fast sampling algorithm [2]. Much of the MK method is inherently three-dimensional. However, in this talk, we present an extension of the MK construction which allows us to build and sample polygons of fixed edgelengths in a space of any dimension. Our method is a reweighted sampler; numerical experiments show it to be both accurate and efficient. It is based on ideas from hyperbolic geometry and depends on our previous algorithm for computing the conformal barycenter [3].",
+        "video": null
+    },
+    "89": {
+        "speaker_id": 85,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Stable knots and links in electromagnetic fields",
+        "keywords": [
+            "electromagnetic knots and links",
+            "null field"
+        ],
+        "abstract": "An electromagnetic field consists of two time-dependent vector fields $E_t$ and $B_t$ that satisfy Maxwell's equations. At any fixed time $t$ closed field lines of $E_t$ or $B_t$ form knots and links. If an electromagnetic field is null for all time, the time evolution of its field lines is given by a 1-parameter family of diffeomorphisms. In particular, the knot types of the closed field lines do not change with time. They are stable. The most famous example of a null field with knotted field lines is Rañada's Hopfion, where all field lines are closed and any pair of them forms a Hopf link [4]. In 2013, Kedia, Bialynicki-Birula, Peralta-Salas and  Irvine used a construction by Bateman [1] to obtain any torus knot as a closed field line of a null electromagnetic field [3].</br></br>In this talk I will use Bateman's construction and its relation to contact topology to prove that every knot and every link arises as a set of closed field lines of a null electromagnetic field [2].",
+        "video": null
+    },
+    "88": {
+        "speaker_id": 85,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Stable knots and links in electromagnetic fields",
+        "keywords": [
+            "electromagnetic knots and links",
+            "null field"
+        ],
+        "abstract": "An electromagnetic field consists of two time-dependent vector fields Et and Bt that satisfy Maxwell's equations. At any fixed time t closed field lines of Et or Bt form knots and links. If an electromagnetic field is null for all time, the time evolution of its field lines is given by a 1-parameter family of diffeomorphisms. In particular, the knot types of the closed field lines do not change with time. They are stable. The most famous example of a null field with knotted field lines is Rañada's Hopfion, where all field lines are closed and any pair of them forms a Hopf link [4]. In 2013, Kedia, Bialynicki-Birula, Peralta-Salas and  Irvine used a construction by Bateman [1] to obtain any torus knot as a closed field line of a null electromagnetic field [3].</br></br>In this talk I will use Bateman's construction and its relation to contact topology to prove that every knot and every link arises as a set of closed field lines of a null electromagnetic field [2].",
+        "video": null
+    },
+    "87": {
+        "speaker_id": 36,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Definitions of twist, writhe, and absolute helicity in simply connected volumes",
+        "keywords": [
+            "twist",
+            "writhe",
+            "helicity"
+        ],
+        "abstract": "Quantities like twist and writhe are local building blocks of the global invariants linking number and helicity. They are readily defined when working in Cartesian or spherical geometries. In less symmetric geometries some complications arise. The talk will describe how the poloidal-toroidal representation of vector fields in spherical geometries can be generalized [1]. We foliate space into nested simply connected surfaces. If these surfaces lack spherical symmetry then the poloidal field acquires a shape term which arises from variation in curvature. We can then employ the shape term in defining absolute definitions of helicity, which describe how toroidal and poloidal components wrap about each other.",
+        "video": null
+    },
+    "86": {
+        "speaker_id": 84,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Proof of zero-helicity for the Gross-Pitaevskii equation by Noether theorem",
+        "keywords": [
+            "helicity",
+            "Gross-Pitaevskii equation",
+            "Seifert framing"
+        ],
+        "abstract": "In ideal conditions the standard kinetic helicity, that is well-defined for classical fluid systems, is a well-known conserved quantity. In quantum fluids its rigorous definition needs an appropriate adjustment due to the lack of regularity for the presence of defects. As shown by Salman [1], and subsequently proven using topological arguments by Sumners et al. [2], helicity can be demonstrated to be invariably zero for systems that admit Seifert framing. A typical example of such systems is given by quantum vortex defects governed by the Gross-Pitaevskii equation. In this case an attempted proof of zero-helicity using Noether theorem was given by Kedia et al. [3]. Their demonstration, however, has several inconsistencies. Here by making use of Kleinert’s [4] multi-valued gauge theory and Seifert surface properties we provide a rigorous proof of this result.",
+        "video": null
+    },
+    "85": {
+        "speaker_id": 79,
+        "eventId": "0",
+        "date": "September, 2022",
+        "date2": "20220901",
+        "title": "Tangled vortex lines",
         "keywords": [
             "vortex tangles",
             "quantum turbulence",
@@ -26,12 +530,12 @@
         "abstract": "Turbulent streamlines, vortex lines or magnetic field lines are usually chaotic, twisted, even apparently linked or knotted. In this lecture I shall address the problem of the complexity of turbulence in the context of quantum fluids, physical systems such as superfluid helium and atomic Bose-Einstein condensates which are studied in the laboratory at temperatures close to absolute zero. In quantum fluids, any rotational motion is constrained by quantum mechanics to individual (discrete) vortex lines of fixed (quantised) strength [1]. This is unlike what happens in ordinary fluids, where vorticity is a continuous field. Quantum turbulence, created by stirring a quantum fluid, is thus conceptually simpler than ordinary turbulence, consisting of a tangle of individual vortex lines rather than a disordered continuous vorticity field. After describing some surprising similarities between quantum turbulence [2] and ordinary turbulence in terms of energy spectrum and velocity statistics, I shall show how the geometry and the topology of quantum turbulence can be quantified in a relatively simple way [3, 4].",
         "video": null
     },
-    "86": {
-        "speaker_id": 85,
+    "84": {
+        "speaker_id": 83,
         "eventId": "0",
         "date": "September, 2022",
         "date2": "20220901",
-        "title": "USING WRITHE TO PRODUCE REALISTIC PROTEIN STRUCTURE PREDICTIONS FROM BIOSAXS DATA",
+        "title": "Using writhe to produce realistic protein structure predictions from biosaxs data",
         "keywords": [
             "writhe",
             "proteins",
@@ -40,7 +544,7 @@
         "abstract": "The writhe is a measure of global self entanglement of a curve. The usual technique for studying entanglement of protein backbones requires artificial or probabilistic closures, thus altering the geometry of the curve. By using the open curve definition of the writhe we can study the geometry of protein curves in a more natural way. In particular, I will present bounds on the amount of global entanglement as measured by both the writhe and absolute writhe. With these bounds, we can produce realistically folded structures from BioSAXS data[1] with a much higher chance of success when passed into an MD simulation. These bounds, inspired by work in the magnetic helicity community[2], give rise to interesting classifications of proteins for further study. By studying the writhe of subsections of the protein’s backbone, we are also able to highlight sites of interest such as highly flexible sections allowing large scale conformational changes or areas of maximal entanglement.",
         "video": null
     },
-    "85": {
+    "83": {
         "speaker_id": 15,
         "eventId": "0",
         "date": "September, 2022",
@@ -51,34 +555,7 @@
             "chirality",
             "cholesterics"
         ],
-        "abstract": "Cholesterics are a type of liquid crystal with a chiral structure, or intrinsic handedness, which imbues them with a great richness of textures. Recently, methods of contact geometry have been introduced to characterise the properties of cholesterics and understand their distinctive geometry and topology. I will describe our work on defects in cholesterics, covering point defects, a peculiar form of topological soliton and disclination lines. Time permitting, I will also describe briefly our work on chiral active liquid crystals, their vortex lattice states and odd elasticity.",
-        "video": null
-    },
-    "84": {
-        "speaker_id": 84,
-        "eventId": "-1",
-        "date": "June 7, 2021",
-        "date2": "20220507",
-        "title": "QAOA",
-        "keywords": [
-            "QAOA",
-            "optimization"
-        ],
-        "abstract": "QAOA is a quantum optimization algorithm.",
-        "video": null
-    },
-    "83": {
-        "speaker_id": 83,
-        "eventId": "-1",
-        "date": "June 05, 2021",
-        "date2": "20220505",
-        "title": "Quantum Support Vector Machines",
-        "keywords": [
-            "quantum computing",
-            "quantum ml",
-            "quantum support vector machines"
-        ],
-        "abstract": "Quantum support vector machines are the quantum version of the Support Vector Machines ML algorithm ",
+        "abstract": "Cholesterics are a type of liquid crystal with a chiral structure, or intrinsic handedness, which imbues them with a great richness of textures. Recently, methods of contact geometry have been introduced to characterise the properties of cholesterics and understand their distinctive geometry and topology [1-4]. I will describe our work on defects in cholesterics, covering point defects [2], a peculiar form of topological soliton [2] and disclination lines [3]. Time permitting, I will also describe briefly our work on chiral active liquid crystals, their vortex lattice states and odd elasticity [5].",
         "video": null
     },
     "82": {
