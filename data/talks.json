@@ -1,4 +1,19 @@
 {
+    "83": {
+        "speaker_id": 83,
+        "date": "January 27, 2023",
+        "date2": "20230127",
+        "title": "Topology of random 2-dimensional cubical complexes",
+        "keywords": [
+            "stochastic topology",
+            "cubical complexes",
+            "random groups",
+            "extremal topological combinatorics"
+        ],
+        "abstract": "We study a natural model of random 2-dimensional cubical complexes which are subcomplexes of an n-dimensional cube, and where every possible square (2-face) is included independently with probability p. Our main result exhibits a sharp threshold p=1/2 for homology vanishing as the dimension n goes to infinity. This is a 2-dimensional analogue of the Burtin and Erdős-Spencer theorems characterizing the connectivity threshold for random graphs on the 1-skeleton of the n-dimensional cube. Our main result can also be seen as a cubical counterpart to the Linial-Meshulam theorem for random 2-dimensional simplicial complexes. However, the models exhibit strikingly different behaviors. We show that if $p > 1 - \\sqrt{1/2} \\approx 0.2929$, then with high probability the fundamental group is a free group with one generator for every maximal 1-dimensional face. As a corollary, homology vanishing and simple connectivity have the same threshold. This is joint work with Matthew Kahle and Elliot Paquette.",
+        "season": "SPRING 2023",
+        "video": null
+    },
     "82": {
         "speaker_id": 82,
         "date": "January 13, 2023",
