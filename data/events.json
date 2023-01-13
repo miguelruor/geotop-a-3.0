@@ -1,15 +1,4 @@
 {
-    "1": {
-        "eventId": "1",
-        "eventName": "Quantum Latino 2022",
-        "date": "20221001",
-        "topNote": "October 3-7, 2022",
-        "category": "International Conference",
-        "season": "2021",
-        "talksIds": [
-            "123"
-        ]
-    },
     "0": {
         "eventId": "0",
         "eventName": "Topological Methods in Mathematical Physics 2022",
@@ -56,17 +45,6 @@
             "119",
             "120",
             "121"
-        ]
-    },
-    "-1": {
-        "eventId": "-1",
-        "eventName": "Qiskit Summer School 2021",
-        "date": "20210601",
-        "topNote": "June 05-20, 2021",
-        "category": "Advanced School",
-        "season": "2021",
-        "talksIds": [
-            "122"
         ]
     }
 }

@@ -1,30 +1,4 @@
 {
-    "124": {
-        "speaker_id": 110,
-        "eventId": "1",
-        "date": "October 3, 2021",
-        "date2": "20211003",
-        "title": "Quantum walks over genotype networks",
-        "keywords": [
-            "quantum walks",
-            "genetic mutations"
-        ],
-        "abstract": "A quantum model for genetic evolution based on continuous-time quantum walks.",
-        "video": null
-    },
-    "123": {
-        "speaker_id": 109,
-        "eventId": "-1",
-        "date": "July 7, 2021",
-        "date2": "20220710",
-        "title": "Quantum walks as a tool for quantum computing",
-        "keywords": [
-            "quantum walks",
-            "quantum computing"
-        ],
-        "abstract": "Quantum walks are the quantum version of random walks and are being applied for quantum algorithms.",
-        "video": null
-    },
     "122": {
         "speaker_id": 108,
         "date": "January 27, 2023",
