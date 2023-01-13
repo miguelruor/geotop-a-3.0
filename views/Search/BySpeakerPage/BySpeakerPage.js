@@ -41,6 +41,16 @@ export default function BySpeakerPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container} style={{ paddingTop: "10px", paddingBottom: "10px" }}>
+          <div style={{ color: "black", display: "flex", justifyContent: "space-evenly", alignItems: "center" }}>
+            <span style={{ display: "flex", alignItems: "center" }}>
+              <span style={{ height: "10px", width: "10px", backgroundColor: "purple", marginRight: "10px" }}></span>
+              <h3>GEOTOP-A seminar</h3>
+            </span>
+            <span style={{ display: "flex", alignItems: "center" }}>
+              <span style={{ height: "10px", width: "10px", backgroundColor: "red", marginRight: "10px" }}></span>
+              <h3>Other events</h3>
+            </span>
+          </div>
           <ListSpeakersSection speakers={props.speakers} lettersInSurname={props.lettersInSurname} speakersListByLetter={props.speakersListByLetter} />
         </div>
       </div>

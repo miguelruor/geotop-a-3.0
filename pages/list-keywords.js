@@ -36,7 +36,7 @@ export async function getStaticProps() {
         surname: speakers[talks[talk_id].speaker_id.toString()].surname,
         year: talks[talk_id].date2.slice(0, 4),
         url: talks[talk_id].eventId ? `event-talks/${talk_id}` : `previous-talks/${talk_id}`,
-        color: talks[talk_id].eventId && events[talks[talk_id].eventId].category === "Advanced School" ? "danger" : "primary"
+        color: talks[talk_id].eventId ? "danger" : "primary"
       });
     })
   })

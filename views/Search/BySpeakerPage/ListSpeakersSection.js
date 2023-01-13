@@ -81,20 +81,8 @@ export default function ListSpeakersSection(props) {
         setCount(count + 1);
     }
     return (
-        <>
-            <div style={{ color: "black", display: "flex", justifyContent: "space-evenly", alignItems: "center" }}>
-                <span style={{ display: "flex", alignItems: "center" }}>
-                    <span style={{ height: "10px", width: "10px", backgroundColor: "purple", marginRight: "10px" }}></span>
-                    <h3>International Conference</h3>
-                </span>
-                <span style={{ display: "flex", alignItems: "center" }}>
-                    <span style={{ height: "10px", width: "10px", backgroundColor: "red", marginRight: "10px" }}></span>
-                    <h3>Advanced School</h3>
-                </span>
-            </div>
-            <div className={classes.section}>
-                {listAlphabetical()}
-            </div>
-        </>
+        <div className={classes.section}>
+            {listAlphabetical()}
+        </div>
     );
 }

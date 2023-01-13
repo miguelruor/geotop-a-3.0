@@ -29,7 +29,7 @@ export async function getStaticProps() {
     speakersWithLetter[letter] = [];
 
     speakers_aux[speaker].talks = speakers_aux[speaker].talks.map(talkId => ({
-      color: talks[talkId.toString()].eventId && events[talks[talkId.toString()].eventId].category === "Advanced School" ? "danger" : "primary",
+      color: talks[talkId.toString()].eventId ? "danger" : "primary",
       url: talks[talkId.toString()].eventId ? `event-talks/${talkId}` : `previous-talks/${talkId}`,
       year: talks[talkId.toString()].date2.slice(0, 4)
     }));
