@@ -14,10 +14,26 @@ export async function getStaticProps() {
 
   var lastTalk = Object.keys(talks).length - 1;
 
-  while (
-    talks[lastTalk.toString()].eventId != undefined | talks[lastTalk.toString()].video == null
-  ) {
-    lastTalk -= 1;
+  let found = false; // flag to know when I found the last talk
+
+  while (!found) {
+    const currentTalkId = lastTalk.toString();
+
+    if (talks[currentTalkId] == undefined) {
+      lastTalk -= 1;
+      continue;
+    }
+    else if (talks[currentTalkId].eventId != undefined) {
+      lastTalk -= 1;
+      continue;
+    }
+    else if (talks[lastTalk.toString()].video == null) {
+      lastTalk -= 1;
+      continue;
+    }
+    else {
+      found = true;
+    }
   }
 
   const talk_id = lastTalk.toString();
