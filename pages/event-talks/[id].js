@@ -12,6 +12,7 @@ import styles from "../../assets/css/talkStyle.js";
 import classNames from "classnames";
 import style from "../../assets/css/talks.module.css";
 
+import backgroundImageHome from '../../public/img/img1.jpg'
 import speakers from '../../data/speakers.json';
 import talks from '../../data/talks.json';
 import events from '../../data/events.json';
@@ -40,7 +41,7 @@ export default function SingleTalkPage(props) {
                     color: "white"
                 }}
             />
-            <Parallax small filter style={{ backgroundColor: "black" }}>
+            <Parallax small filter image={backgroundImageHome}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
