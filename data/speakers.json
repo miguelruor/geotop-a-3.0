@@ -37,7 +37,7 @@
         "talks": [
             121
         ],
-        "image": false
+        "image": true
     },
     "106": {
         "surname": "Yeates",
@@ -187,7 +187,7 @@
         "talks": [
             100
         ],
-        "image": false
+        "image": true
     },
     "91": {
         "surname": "Lambropoulou",
@@ -218,7 +218,7 @@
         "talks": [
             95
         ],
-        "image": false
+        "image": true
     },
     "88": {
         "surname": "Guan",
@@ -228,7 +228,7 @@
         "talks": [
             94
         ],
-        "image": false
+        "image": true
     },
     "87": {
         "surname": "Fukumoto",
@@ -269,7 +269,7 @@
         "talks": [
             86
         ],
-        "image": false
+        "image": true
     },
     "83": {
         "surname": "Bale",
