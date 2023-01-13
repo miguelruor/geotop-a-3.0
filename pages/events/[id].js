@@ -26,7 +26,7 @@ export async function getStaticProps(context) {
             title: talks[talkId].title,
             subtitle: speakers[`${talks[talkId].speaker_id}`].completeName,
             link: `/event-talks/${talkId}`,
-            image: "/img/speakers/sp" + `${talks[talkId].speaker_id}` + ".png"
+            image: speakers[`${talks[talkId].speaker_id}`].image ? "/img/speakers/sp" + `${talks[talkId].speaker_id}` + ".png" : "/img/speakers/no-image.png"
         }
     ))
 

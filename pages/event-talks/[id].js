@@ -93,14 +93,14 @@ export default function SingleTalkPage(props) {
 export async function getStaticProps(context) {
     var talk_id = context.params.id;
 
-    const speakerID = talks[talk_id].speaker_id;
+    const speakerID = talks[talk_id].speaker_id.toString();
 
     return {
         props: {
             eventName: events[talks[talk_id].eventId].eventName,
-            speakerImage: '/img/speakers/sp' + speakerID.toString() + ".png",
+            speakerImage: speakers[speakerID].image ? '/img/speakers/sp' + speakerID + ".png" : "/img/speakers/no-image.png",
             date: talks[talk_id].date,
-            speaker: speakers[speakerID.toString()].completeName,
+            speaker: speakers[speakerID].completeName,
             title: talks[talk_id].title,
             keywords: talks[talk_id].keywords,
             abstract: talks[talk_id].abstract,
