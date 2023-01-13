@@ -2601,10 +2601,10 @@ react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-latex-next@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-latex-next/-/react-latex-next-2.1.0.tgz#26b20de6ab112ca1b7b17d8d163e17a829ab89e6"
-  integrity sha512-4eUswvn0gxlMIG2LWgl3ckUeZCtBGaVz8dJjgI0XvH/Sg2CxQEv9I+3kWf5cP+bZGpA5DjtEF8qnVjyeRqeaZw==
+react-latex-next@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-latex-next/-/react-latex-next-2.2.0.tgz#8f4839adfebe3ba70c05ef66f2b94112e564a4fa"
+  integrity sha512-tQqIuC+OQBgiEYQObDZeHugVy+gtiWdLnAb3hWbo4jlchLF8FR0tIAErtJz7t4VA2VO03rRr8LwSZVTGu0cCxg==
   dependencies:
     katex "^0.13.0"
 
