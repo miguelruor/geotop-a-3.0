@@ -1,17 +1,14 @@
-import ReactHtmlParser from "react";
-// @material-ui/core components
-
 // core components
 import NavPills from "./NavPills_v2";
 
-export default function LeftMenuSection(props){
+export default function LeftMenuSection(props) {
 
     var tabs = []
     var seasons = Object.keys(props.previousTalks).reverse();
 
-    seasons.forEach(season => tabs.push({tabButton: season}));
+    seasons.forEach(season => tabs.push({ tabButton: season }));
 
-    return(
+    return (
         <NavPills
             color="primary"
             horizontal={{
@@ -21,6 +18,6 @@ export default function LeftMenuSection(props){
             content={props.previousTalks}
             tabs={tabs}
             speakerImages={props.speakerImages}
-            />
+        />
     );
 }

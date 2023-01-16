@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-import ReactHtmlParser from 'react-html-parser';
+import 'katex/dist/katex.min.css'
+import Latex from "react-latex-next";
 import Image from 'next/image'
 
 // @material-ui/icons
@@ -32,8 +33,8 @@ export default function NextTalksSection(props) {
                 <GridContainer className={style.grid}>
                     <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
                         <div className={classes.imgContainer}>
-                            {talk.image ? 
-                                <Image src={'/img/speakers/sp'+talk.speaker_id.toString()+".png"} width={335} height={335} className={imageClasses} /> :
+                            {talk.image ?
+                                <Image src={'/img/speakers/sp' + talk.speaker_id.toString() + ".png"} width={335} height={335} className={imageClasses} /> :
                                 null}
                         </div>
                     </GridItem>
@@ -41,9 +42,9 @@ export default function NextTalksSection(props) {
                         <GridContainer>
                             <GridItem xs={12} sm={12} md={12}><h1 className={classes.speaker}>{talk.speaker}</h1></GridItem>
                             <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{talk.date}</b></p></GridItem>
-                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{talk.title}</p></GridItem>
-                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser(talk.abstract)}</p></GridItem>
-                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Keywords: "}</b> {talk.keywords.join(", ")}</p></GridItem>
+                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Title: </b> <Latex>{talk.title}</Latex></p></GridItem>
+                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Abstract: </b> <Latex>{talk.abstract}</Latex></p></GridItem>
+                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Keywords: </b> {talk.keywords.join(", ")}</p></GridItem>
                         </GridContainer>
                     </GridItem>
                 </GridContainer>

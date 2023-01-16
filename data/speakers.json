@@ -1,13 +1,265 @@
 {
-    "83": {
+    "108": {
         "surname": "Roldán",
         "completeName": "Érika Roldán",
         "middle_initial": null,
         "name": "Érika",
         "talks": [
-            83
+            122
         ],
         "image": true
+    },
+    "107": {
+        "surname": "Zuccher",
+        "completeName": "Simone Zuccher",
+        "middle_initial": null,
+        "name": "Simone",
+        "talks": [
+            121
+        ],
+        "image": true
+    },
+    "106": {
+        "surname": "Yeates",
+        "completeName": "Anthony R. Yeates",
+        "middle_initial": "R",
+        "name": "Anthony",
+        "talks": [
+            120
+        ],
+        "image": false
+    },
+    "105": {
+        "surname": "Yahalom",
+        "completeName": "Asher Yahalom",
+        "middle_initial": null,
+        "name": "Asher",
+        "talks": [
+            119
+        ],
+        "image": false
+    },
+    "104": {
+        "surname": "Voronov",
+        "completeName": "Alexander A. Voronov",
+        "middle_initial": "A",
+        "name": "Alexander",
+        "talks": [
+            118
+        ],
+        "image": false
+    },
+    "103": {
+        "surname": "Sutcliffe",
+        "completeName": "Paul Sutcliffe",
+        "middle_initial": null,
+        "name": "Paul",
+        "talks": [
+            116
+        ],
+        "image": false
+    },
+    "102": {
+        "surname": "Shonkwiler",
+        "completeName": "Clayton Shonkwiler",
+        "middle_initial": null,
+        "name": "Clayton",
+        "talks": [
+            114
+        ],
+        "image": false
+    },
+    "101": {
+        "surname": "Shimokowa",
+        "completeName": "Koya Shimokowa",
+        "middle_initial": null,
+        "name": "Koya",
+        "talks": [
+            113
+        ],
+        "image": false
+    },
+    "100": {
+        "surname": "Schreiber",
+        "completeName": "Urs Schreiber",
+        "middle_initial": null,
+        "name": "Urs",
+        "talks": [
+            112
+        ],
+        "image": false
+    },
+    "99": {
+        "surname": "Scharein",
+        "completeName": "Robert G. Scharein",
+        "middle_initial": "G",
+        "name": "Robert",
+        "talks": [
+            111
+        ],
+        "image": false
+    },
+    "98": {
+        "surname": "Sansonetto",
+        "completeName": "Nicola Sansonetto",
+        "middle_initial": null,
+        "name": "Nicola",
+        "talks": [
+            110
+        ],
+        "image": false
+    },
+    "97": {
+        "surname": "Prior",
+        "completeName": "Christopher Prior",
+        "middle_initial": null,
+        "name": "Christopher",
+        "talks": [
+            108
+        ],
+        "image": false
+    },
+    "96": {
+        "surname": "Nakayama",
+        "completeName": "Katsuyuki Nakayama",
+        "middle_initial": null,
+        "name": "Katsuyuki",
+        "talks": [
+            104
+        ],
+        "image": false
+    },
+    "95": {
+        "surname": "Minarčík",
+        "completeName": "Jiří Minarčík",
+        "middle_initial": null,
+        "name": "Jiří",
+        "talks": [
+            103
+        ],
+        "image": false
+    },
+    "94": {
+        "surname": "Manturov",
+        "completeName": "Vassily O. Manturov",
+        "middle_initial": "O",
+        "name": "Vassily",
+        "talks": [
+            102
+        ],
+        "image": false
+    },
+    "93": {
+        "surname": "MacTaggart",
+        "completeName": "David MacTaggart",
+        "middle_initial": null,
+        "name": "David",
+        "talks": [
+            101
+        ],
+        "image": false
+    },
+    "92": {
+        "surname": "Liu",
+        "completeName": "Xin Liu",
+        "middle_initial": null,
+        "name": "Xin",
+        "talks": [
+            100
+        ],
+        "image": true
+    },
+    "91": {
+        "surname": "Lambropoulou",
+        "completeName": "Sofia Lambropoulou",
+        "middle_initial": null,
+        "name": "Sofia",
+        "talks": [
+            99
+        ],
+        "image": false
+    },
+    "90": {
+        "surname": "Khesin",
+        "completeName": "Boris Khesin",
+        "middle_initial": null,
+        "name": "Boris",
+        "talks": [
+            87,
+            98
+        ],
+        "image": false
+    },
+    "89": {
+        "surname": "Hornig",
+        "completeName": "Gunnar Hornig",
+        "middle_initial": null,
+        "name": "Gunnar",
+        "talks": [
+            95
+        ],
+        "image": true
+    },
+    "88": {
+        "surname": "Guan",
+        "completeName": "Hao Guan",
+        "middle_initial": null,
+        "name": "Hao",
+        "talks": [
+            94
+        ],
+        "image": true
+    },
+    "87": {
+        "surname": "Fukumoto",
+        "completeName": "Yasuhide Fukumoto",
+        "middle_initial": null,
+        "name": "Fukumoto",
+        "talks": [
+            93
+        ],
+        "image": false
+    },
+    "86": {
+        "surname": "Foresti",
+        "completeName": "Matteo Foresti",
+        "middle_initial": null,
+        "name": "Matteo",
+        "talks": [
+            87,
+            92
+        ],
+        "image": false
+    },
+    "85": {
+        "surname": "Bode",
+        "completeName": "Benjamin Bode",
+        "middle_initial": null,
+        "name": "Benjamin",
+        "talks": [
+            88
+        ],
+        "image": false
+    },
+    "84": {
+        "surname": "Belloni",
+        "completeName": "Andrea Belloni",
+        "middle_initial": null,
+        "name": "Andrea",
+        "talks": [
+            86
+        ],
+        "image": true
+    },
+    "83": {
+        "surname": "Bale",
+        "completeName": "Arron N Bale",
+        "middle_initial": "N",
+        "name": "Arron",
+        "talks": [
+            84
+        ],
+        "image": false
     },
     "82": {
         "surname": "Chazal",
@@ -42,10 +294,11 @@
     "79": {
         "surname": "Barenghi",
         "completeName": "Carlo Barenghi",
-        "middle_initial": null,
+        "middle_initial": "F",
         "name": "Carlo",
         "talks": [
-            79
+            79,
+            85
         ],
         "image": true
     },
@@ -182,10 +435,11 @@
     "65": {
         "surname": "Kamien",
         "completeName": "Randall Kamien",
-        "middle_initial": null,
+        "middle_initial": "D",
         "name": "Randall",
         "talks": [
-            65
+            65,
+            96
         ],
         "image": true
     },
@@ -292,7 +546,7 @@
     "54": {
         "surname": "Thornton",
         "completeName": "Janet M. Thornton",
-        "middle_initial": "M.",
+        "middle_initial": "M",
         "name": "Janet",
         "talks": [
             54
@@ -345,7 +599,8 @@
         "middle_initial": "L",
         "name": "De Witt",
         "talks": [
-            0
+            0,
+            115
         ],
         "image": true
     },
@@ -395,7 +650,8 @@
         "middle_initial": "L",
         "name": "Renzo",
         "talks": [
-            5
+            5,
+            109
         ],
         "image": true
     },
@@ -415,7 +671,8 @@
         "middle_initial": null,
         "name": "Mark",
         "talks": [
-            "7"
+            "7",
+            91
         ],
         "image": true
     },
@@ -425,7 +682,8 @@
         "middle_initial": "H",
         "name": "Louis",
         "talks": [
-            8
+            8,
+            97
         ],
         "image": true
     },
@@ -494,7 +752,8 @@
         "middle_initial": null,
         "name": "Gareth",
         "talks": [
-            15
+            15,
+            83
         ],
         "image": true
     },
@@ -524,7 +783,8 @@
         "middle_initial": null,
         "name": "Jean-Luc",
         "talks": [
-            18
+            18,
+            117
         ],
         "image": true
     },
@@ -544,7 +804,8 @@
         "middle_initial": null,
         "name": "Jason",
         "talks": [
-            20
+            20,
+            90
         ],
         "image": true
     },
@@ -631,10 +892,11 @@
     "29": {
         "surname": "Niemi",
         "completeName": "Antti Niemi",
-        "middle_initial": null,
+        "middle_initial": "J",
         "name": "Antti",
         "talks": [
-            29
+            29,
+            106
         ],
         "image": true
     },
@@ -704,7 +966,8 @@
         "middle_initial": null,
         "name": "Mitchel",
         "talks": [
-            36
+            36,
+            87
         ],
         "image": true
     },
@@ -754,7 +1017,8 @@
         "middle_initial": null,
         "name": "Sergei",
         "talks": [
-            41
+            41,
+            105
         ],
         "institution": "Interdisciplinary Scientific Center Poncelet (CNRS UMI 2615) Moscow - Russia",
         "country": "",
@@ -834,7 +1098,8 @@
         "middle_initial": null,
         "name": "Daniel",
         "talks": [
-            45
+            45,
+            107
         ],
         "institution": "ICMAT - Spain",
         "country": "",
