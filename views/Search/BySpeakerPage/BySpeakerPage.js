@@ -22,7 +22,7 @@ export default function BySpeakerPage(props) {
         color="blue"
         //routes={dashboardRoutes}
         brand="Seminar GEOTOP-A"
-        rightLinks={<HeaderLinks/>}
+        rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 400,
@@ -31,18 +31,27 @@ export default function BySpeakerPage(props) {
       />
       <Parallax small filter image={backgroundImageHome}>
         <div className={classes.container}>
-            <GridContainer>
-                <GridItem xs={12} sm={12} md={6}>
-                    <h1 className={classes.title}>List of speakers</h1>
-                    <br />
-                </GridItem>
-            </GridContainer>
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={6}>
+              <h1 className={classes.title}>List of speakers</h1>
+              <br />
+            </GridItem>
+          </GridContainer>
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <div className={classes.container} style={{paddingTop:"10px", paddingBottom:"10px"}}>
-            <ListSpeakersSection talks={props.talks} speakers={props.speakers} speakersIDList={props.speakersIDList}
-       lettersInSurname={props.lettersInSurname} speakersListByLetter={props.speakersListByLetter} />
+        <div className={classes.container} style={{ paddingTop: "10px", paddingBottom: "10px" }}>
+          <div style={{ color: "black", display: "flex", justifyContent: "space-evenly", alignItems: "center" }}>
+            <span style={{ display: "flex", alignItems: "center" }}>
+              <span style={{ height: "10px", width: "10px", backgroundColor: "purple", marginRight: "10px" }}></span>
+              <h3>GEOTOP-A seminar</h3>
+            </span>
+            <span style={{ display: "flex", alignItems: "center" }}>
+              <span style={{ height: "10px", width: "10px", backgroundColor: "red", marginRight: "10px" }}></span>
+              <h3>Other events</h3>
+            </span>
+          </div>
+          <ListSpeakersSection speakers={props.speakers} lettersInSurname={props.lettersInSurname} speakersListByLetter={props.speakersListByLetter} />
         </div>
       </div>
       <Footer />

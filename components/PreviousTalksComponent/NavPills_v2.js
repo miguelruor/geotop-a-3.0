@@ -18,6 +18,8 @@ import Card from "../Card/Card.js";
 import Button from "../CustomButtons/Button.js";
 import Image from "next/image";
 import Link from "next/link";
+import 'katex/dist/katex.min.css'
+import Latex from "react-latex-next";
 
 const useStyles = makeStyles(styles);
 
@@ -93,7 +95,7 @@ export default function NavPills(props) {
         {tabs.map((prop, key) => {
           return (
             <div className={classes.tabContent} key={key}>
-              <GridContainer style={{justifyItems: "stretch"}}>
+              <GridContainer style={{ justifyItems: "stretch" }}>
                 {keySeason.length > 0 &&
                   content[keySeason[key]].map((talk) => {
                     return (
@@ -123,7 +125,7 @@ export default function NavPills(props) {
                               {talk["speaker"]}
                               <br />
                               <small className={classes.smallTitle}>
-                                {talk["title"]}
+                                <Latex>{talk["title"]}</Latex>
                               </small>
                             </h4>
                           </div>
