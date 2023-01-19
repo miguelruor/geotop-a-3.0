@@ -548,7 +548,7 @@
         ],
         "abstract": "Robust topological information commonly comes in the form of a set of persistence diagrams that can be seen as discrete measures and are uneasy to use in generic machine learning frameworks.</br></br>In this talk we will introduce a fast, learnt, unsupervised vectorization method, named ATOL, for measures in Euclidean spaces and use it for reflecting underlying changes in topological behaviour in machine learning contexts. The algorithm is simple and efficiently discriminates important space regions where meaningful differences to the mean measure arise. We will show that it is proven to be able to separate clusters of persistence diagrams. We will illustrate the strength and robustness of our approach on a few synthetic and real data sets. ",
         "season": "SPRING 2023",
-        "video": null
+        "video": "https://www.youtube.com/embed/dgwe2JwSf4Q"
     },
     "81": {
         "speaker_id": 81,
