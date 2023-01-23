@@ -27,7 +27,7 @@
         "talks": [
             120
         ],
-        "image": false
+        "image": true
     },
     "105": {
         "surname": "Yahalom",
@@ -37,7 +37,7 @@
         "talks": [
             119
         ],
-        "image": false
+        "image": true
     },
     "104": {
         "surname": "Voronov",
@@ -57,7 +57,7 @@
         "talks": [
             116
         ],
-        "image": false
+        "image": true
     },
     "102": {
         "surname": "Shonkwiler",
@@ -67,7 +67,7 @@
         "talks": [
             114
         ],
-        "image": false
+        "image": true
     },
     "101": {
         "surname": "Shimokowa",
@@ -87,7 +87,7 @@
         "talks": [
             112
         ],
-        "image": false
+        "image": true
     },
     "99": {
         "surname": "Scharein",
@@ -137,7 +137,7 @@
         "talks": [
             103
         ],
-        "image": false
+        "image": true
     },
     "94": {
         "surname": "Manturov",
@@ -198,7 +198,7 @@
         "talks": [
             95
         ],
-        "image": true
+        "image": false
     },
     "88": {
         "surname": "Guan",
@@ -229,7 +229,7 @@
             87,
             92
         ],
-        "image": false
+        "image": true
     },
     "85": {
         "surname": "Bode",
@@ -239,7 +239,7 @@
         "talks": [
             88
         ],
-        "image": false
+        "image": true
     },
     "84": {
         "surname": "Belloni",
