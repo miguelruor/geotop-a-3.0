@@ -57,7 +57,7 @@
         "talks": [
             118
         ],
-        "image": false
+        "image": true
     },
     "103": {
         "surname": "Sutcliffe",
@@ -80,14 +80,14 @@
         "image": true
     },
     "101": {
-        "surname": "Shimokowa",
-        "completeName": "Koya Shimokowa",
+        "surname": "Shimokawa",
+        "completeName": "Koya Shimokawa",
         "middle_initial": null,
         "name": "Koya",
         "talks": [
             113
         ],
-        "image": false
+        "image": true
     },
     "100": {
         "surname": "Schreiber",
@@ -107,7 +107,7 @@
         "talks": [
             111
         ],
-        "image": false
+        "image": true
     },
     "98": {
         "surname": "Sansonetto",
@@ -117,7 +117,7 @@
         "talks": [
             110
         ],
-        "image": false
+        "image": true
     },
     "97": {
         "surname": "Prior",
@@ -127,7 +127,7 @@
         "talks": [
             108
         ],
-        "image": false
+        "image": true
     },
     "96": {
         "surname": "Nakayama",
@@ -137,7 +137,7 @@
         "talks": [
             104
         ],
-        "image": false
+        "image": true
     },
     "95": {
         "surname": "Minarčík",
@@ -157,7 +157,7 @@
         "talks": [
             102
         ],
-        "image": false
+        "image": true
     },
     "93": {
         "surname": "MacTaggart",
@@ -167,7 +167,7 @@
         "talks": [
             101
         ],
-        "image": false
+        "image": true
     },
     "92": {
         "surname": "Liu",
@@ -187,7 +187,7 @@
         "talks": [
             99
         ],
-        "image": false
+        "image": true
     },
     "90": {
         "surname": "Khesin",
@@ -198,7 +198,7 @@
             87,
             98
         ],
-        "image": false
+        "image": true
     },
     "89": {
         "surname": "Hornig",
@@ -208,7 +208,7 @@
         "talks": [
             95
         ],
-        "image": false
+        "image": true
     },
     "88": {
         "surname": "Guan",
@@ -228,7 +228,7 @@
         "talks": [
             93
         ],
-        "image": false
+        "image": true
     },
     "86": {
         "surname": "Foresti",
@@ -269,7 +269,7 @@
         "talks": [
             84
         ],
-        "image": false
+        "image": true
     },
     "82": {
         "surname": "Chazal",
