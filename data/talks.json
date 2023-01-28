@@ -1,4 +1,21 @@
 {
+    "124": {
+        "speaker_id": 110,
+        "date": "Febrery 17, 2023",
+        "date2": "20230217",
+        "title": "Spaces of discrete vector fields and their applications to complex systems dynamics",
+        "keywords": [
+            "discrete vector fields",
+            "metric spaces",
+            "complex systems",
+            "dynamical systems",
+            "soft matter",
+            "materials science"
+        ],
+        "abstract": "A complex system is formed by entities that, through their interactions and dependencies, give rise to a unified whole with properties and behaviour distinct from those of its constituent parts. Examples of complex systems are the human brain, living cells, the Earth's global climate, organisms, smart materials, ecosystems and the economy. Modelling complex systems dynamics is challenging due to the high dimensionality and variety of the non-linear phenomena that these systems exhibit, such as network and pattern formation, evolution, adaptation and self-organisation.</br>In this talk, we will present a data-driven approach to studying complex systems using spaces of discrete vector fields. These spaces can be endowed with a family of metrics that allow us to keep track of the dynamics of complex systems.  We will show that this geometric framework can be used for dimensionality reduction, detection of stable and unstable global attractors, and quantification of physical properties. In particular, we will show applications to the analysis of data obtained from simulations and experiments of soft matter materials, and simulations of pattern formation on curved domains. This is part of joint works with M. Van Rossem, T. Orlova, N. Podoliak, T. Madeleine, H. Sohn, I. Smalyukh, G. D'Alessandro, M. Kaczmarek and J. Brodzki.",
+        "season": "SPRING 2023",
+        "video": null
+    },
     "123": {
         "speaker_id": 109,
         "date": "Febrery 10, 2023",
