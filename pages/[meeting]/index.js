@@ -24,7 +24,9 @@ export async function getStaticProps(context) {
     return {
         props: {
             images: images,
-            meeting: meeting
+            meeting: meeting,
+            meetingTitle: "Seminar GEOTOP-A",
+            shortDescription: "First presential meeting in Merida, Mexico"
         }
     }
 }
@@ -46,7 +48,7 @@ export default function Home(props) {
     const classes = useStyles();
 
     return (
-        <Background title="Seminar GEOTOP-A" meetingId={props.meeting} shortDescription="First presential meeting in Merida, Mexico">
+        <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h2>International School of Mathematics {"«Guido Stampacchia»"}</h2>
             <div className={classes.paragraphTitle}>
                 <h1>Topological Methods in Mathematical Physics</h1>
