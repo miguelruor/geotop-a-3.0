@@ -24,9 +24,7 @@ export async function getStaticProps(context) {
     return {
         props: {
             images: images,
-            meeting: meeting,
-            backgroundColor: "#a7a7a7",
-            header: "<<ETTORE MAJORANA>> FOUNDATION AND CENTRE FOR SCIENTIFIC CULTURE</br>TO PAY A PERMANENT TRIBUTE TO ARCHIMEDES AND GALILEO GALILEI, FOUNDERS OF MODERN SCIENCE</br>AND TO ENRICO FERMI, \"THE ITALIAN NAVIGATOR\", FATHER OF THE WEAK FORCES",
+            meeting: meeting
         }
     }
 }
