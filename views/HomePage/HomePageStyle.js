@@ -21,12 +21,43 @@ const landingPageStyle = {
     maxWidth: "500px",
     margin: "10px auto 0"
   },
+  containerContent: {
+    zIndex: "12",
+    paddingRight: "15px",
+    paddingTop: "50px",
+    paddingLeft: "15px",
+    marginRight: "auto",
+    marginLeft: "auto",
+    width: "100%",
+    "@media (min-width: 576px)": {
+      maxWidth: "540px"
+    },
+    "@media (min-width: 768px)": {
+      maxWidth: "720px"
+    },
+    "@media (min-width: 992px)": {
+      maxWidth: "960px"
+    },
+    "@media (min-width: 1200px)": {
+      maxWidth: "1640px"
+    }
+  },
+  paragraphTitle: {
+    marginRight: "5%",
+    minHeight: "30px",
+    textAlign: "center",
+    color: "#3C4858 !important",
+    margin: "1.75rem 0 0.875rem",
+    fontWeight: "bold !important",
+    fontFamily: "'Times New Roman', serif !important",
+    width: "100%",
+  },
   main: {
     background: "#FFFFFF",
     position: "relative",
-    zIndex: "3",
+    zIndex: "3"
   },
-  mainRaised: {    
+  mainRaised: {
     margin: "-60px 30px 0px",
     borderRadius: "6px",
     boxShadow:
