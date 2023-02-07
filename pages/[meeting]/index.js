@@ -89,5 +89,6 @@ export default function Home(props) {
             <TeamSection title="Scientific Committee" />
             <TeamSection title="Organising Committee" />
             <TeamSection title="Supporting Organisations" />
-        </Background>)
+        </Background>
+    )
 }
