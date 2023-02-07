@@ -28,6 +28,7 @@ const landingPageStyle = {
     paddingLeft: "15px",
     marginRight: "auto",
     marginLeft: "auto",
+    paddingBottom: "50px",
     width: "100%",
     "@media (min-width: 576px)": {
       maxWidth: "540px"
