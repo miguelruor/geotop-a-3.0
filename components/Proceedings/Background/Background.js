@@ -7,14 +7,10 @@ import Parallax from "../../Parallax/Parallax.js";
 import GridContainer from "../../Grid/GridContainer.js";
 import GridItem from "../../Grid/GridItem.js";
 import { makeStyles } from "@material-ui/core/styles";
-import Divider from '@material-ui/core/Divider';
 import styles from "../../../views/HomePage/HomePageStyle.js";
 
 // nodejs library that concatenates classes
 import classNames from "classnames";
-
-import SectionCarousel from "../../Carousel/carousel.js";
-import TeamSection from '../Team/TeamSection.js';
 
 const useStyles = makeStyles(styles);
 
