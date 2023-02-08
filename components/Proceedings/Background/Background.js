@@ -71,7 +71,9 @@ export default function Background(props) {
 
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div className={classes.containerContent} >
-                        {children}
+                        <div className={classes.containerContentAux}>
+                            {children}
+                        </div>
                     </div>
                 </div>
                 <Footer />
