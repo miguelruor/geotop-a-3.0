@@ -43,6 +43,12 @@ const landingPageStyle = {
       maxWidth: "1640px"
     }
   },
+  containerContentAux: {
+    padding: "0px 12% 0px 5%",
+    textAlign: "justify",
+    textJustify: "inter-word",
+
+  },
   paragraphTitle: {
     marginRight: "5%",
     minHeight: "30px",
