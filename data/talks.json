@@ -1,4 +1,21 @@
 {
+    "125": {
+        "speaker_id": 111,
+        "date": "March 3, 2023",
+        "date2": "20230303",
+        "title": "Simplicial complexes and the index lemma: A pathway to reach agreements fairly",
+        "keywords": [
+            "social choice",
+            "combinatorial topology",
+            "Arrow's impossibility theorem",
+            "index lemma",
+            "domain restriction",
+            "aggregating preferences"
+        ],
+        "abstract": "Aggregating individual preferences is a fundamental problem in democracy: How can we take collective decisions fairly based on individual preferences? Arrow's impossibility theorem (1951) proves that it is not possible to do it when we assume some apparently mild conditions. Fortunately, in some cases, aggregation is possible when the domain of individual preferences is restricted. That is, when voters can only report some preferences, good aggregation rules exist. However, no theorem characterizes the domains in which aggregation is possible, and the problem remains open.</br></br>Despite the Arrovian model being purely combinatorial, Baryshnikov (1993) used simplicial complexes and homology to prove Arrow's theorem and exposed a conjecture which characterized restricted domains through homology groups. The main drawback of using homology is that it is not affordable for most of the social scientists. Therefore, instead of homology, we have used combinatorial topology tools such as the Index Lemma (the combinatorial counterpart to Poincare's Lemma) to tackle the problem. First, we have proved the Arrow's impossibility theorem, showing that combinatorial topology is helpful for our purposes.</br></br>Second, we have characterized the domains allowing aggregation rules for the base case of two voters and three candidates. Our characterization proves that homology groups are not enough to characterize such domains. Our result gives us hope to obtain a general characterization of the good domains for aggregating preferences. Moreover, it could be implemented computationally, making it handled by practitioners in politics and economics.",
+        "season": "SPRING 2023",
+        "video": null
+    },
     "124": {
         "speaker_id": 110,
         "date": "February 17, 2023",
@@ -12,7 +29,7 @@
             "soft matter",
             "materials science"
         ],
-        "abstract": "A complex system is formed by entities that, through their interactions and dependencies, give rise to a unified whole with properties and behaviour distinct from those of its constituent parts. Examples of complex systems are the human brain, living cells, the Earth's global climate, organisms, smart materials, ecosystems and the economy. Modelling complex systems dynamics is challenging due to the high dimensionality and variety of the non-linear phenomena that these systems exhibit, such as network and pattern formation, evolution, adaptation and self-organisation.</br>In this talk, we will present a data-driven approach to studying complex systems using spaces of discrete vector fields. These spaces can be endowed with a family of metrics that allow us to keep track of the dynamics of complex systems.  We will show that this geometric framework can be used for dimensionality reduction, detection of stable and unstable global attractors, and quantification of physical properties. In particular, we will show applications to the analysis of data obtained from simulations and experiments of soft matter materials, and simulations of pattern formation on curved domains. This is part of joint works with M. Van Rossem, T. Orlova, N. Podoliak, T. Madeleine, H. Sohn, I. Smalyukh, G. D'Alessandro, M. Kaczmarek and J. Brodzki.",
+        "abstract": "A complex system is formed by entities that, through their interactions and dependencies, give rise to a unified whole with properties and behaviour distinct from those of its constituent parts. Examples of complex systems are the human brain, living cells, the Earth's global climate, organisms, smart materials, ecosystems and the economy. Modelling complex systems dynamics is challenging due to the high dimensionality and variety of the non-linear phenomena that these systems exhibit, such as network and pattern formation, evolution, adaptation and self-organisation.</br></br>In this talk, we will present a data-driven approach to studying complex systems using spaces of discrete vector fields. These spaces can be endowed with a family of metrics that allow us to keep track of the dynamics of complex systems.  We will show that this geometric framework can be used for dimensionality reduction, detection of stable and unstable global attractors, and quantification of physical properties. In particular, we will show applications to the analysis of data obtained from simulations and experiments of soft matter materials, and simulations of pattern formation on curved domains. This is part of joint works with M. Van Rossem, T. Orlova, N. Podoliak, T. Madeleine, H. Sohn, I. Smalyukh, G. D'Alessandro, M. Kaczmarek and J. Brodzki.",
         "season": "SPRING 2023",
         "video": null
     },
