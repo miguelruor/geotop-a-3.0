@@ -12,8 +12,11 @@ export async function getStaticProps() {
     }
     var date = talks[key].date2;
     date = new Date(date.slice(0, 4), date.slice(4, 6) - "01", date.slice(6, 8));
+    var today = new Date()
+    today.setHours(0, 0, 0, 0);
+    date.setHours(0, 0, 0, 0);
 
-    if (date > new Date()) {
+    if (date >= today) {
       return;
     }
 
