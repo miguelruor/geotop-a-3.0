@@ -1,36 +1,17 @@
-import Background from "../../components/Meetings/Background/background";
-import Typography from '@mui/material/Typography';
+import Background from '../../components/Proceedings/Background/Background';
+import { makeStyles } from "@material-ui/core/styles";
+import styles from "../../views/HomePage/HomePageStyle.js";
 
-
-export default function MeetingPage(props) {
-    return (
-        <Background {...props}>
-            <Typography paragraph>
-                Book of Abstracts
-            </Typography>
-            <Typography paragraph>
-                Consequat mauris nunc congue nisi vitae suscipit. Fringilla est ullamcorper
-                eget nulla facilisi etiam dignissim diam. Pulvinar elementum integer enim
-                neque volutpat ac tincidunt. Ornare suspendisse sed nisi lacus sed viverra
-                tellus. Purus sit amet volutpat consequat mauris. Elementum eu facilisis
-                sed odio morbi. Euismod lacinia at quis risus sed vulputate odio. Morbi
-                tincidunt ornare massa eget egestas purus viverra accumsan in. In hendrerit
-                gravida rutrum quisque non tellus orci ac. Pellentesque nec nam aliquam sem
-                et tortor. Habitant morbi tristique senectus et. Adipiscing elit duis
-                tristique sollicitudin nibh sit. Ornare aenean euismod elementum nisi quis
-                eleifend. Commodo viverra maecenas accumsan lacus vel facilisis. Nulla
-                posuere sollicitudin aliquam ultrices sagittis orci a.
-            </Typography>
-        </Background>
-    )
-}
+const useStyles = makeStyles(styles);
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
+
     return {
         props: {
             meeting: meeting,
-            backgroundColor: "#a7a7a7"
+            meetingTitle: "Seminar GEOTOP-A",
+            shortDescription: "First presential meeting in Merida, Mexico"
         }
     }
 }
@@ -45,4 +26,19 @@ export async function getStaticPaths() {
         paths: paths,
         fallback: false
     };
+}
+
+export default function AbstractSubmission(props) {
+
+    const classes = useStyles();
+
+    return (
+        <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
+            <h1 className={classes.paragraphTitle}>Book of Abstracts</h1>
+            <br />
+            <p>
+                The Book of Abstracts with name and email address of all the speakers collects titles and abstracts of the presentations in a single document. You can download the PDF directly from HERE.
+            </p>
+        </Background>
+    )
 }
