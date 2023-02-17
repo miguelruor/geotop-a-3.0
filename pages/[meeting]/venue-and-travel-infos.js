@@ -1,7 +1,6 @@
 import Background from '../../components/Proceedings/Background/Background';
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "../../views/HomePage/HomePageStyle.js";
-import Link from 'next/link';
 
 const useStyles = makeStyles(styles);
 
