@@ -1,36 +1,18 @@
-import Background from "../../components/Meetings/Background/background";
-import Typography from '@mui/material/Typography';
+import Background from '../../components/Proceedings/Background/Background';
+import { makeStyles } from "@material-ui/core/styles";
+import styles from "../../views/HomePage/HomePageStyle.js";
+import Link from 'next/link';
 
-
-export default function MeetingPage(props) {
-    return (
-        <Background {...props}>
-            <Typography paragraph>
-                Accomodation and Meals
-            </Typography>
-            <Typography paragraph>
-                Consequat mauris nunc congue nisi vitae suscipit. Fringilla est ullamcorper
-                eget nulla facilisi etiam dignissim diam. Pulvinar elementum integer enim
-                neque volutpat ac tincidunt. Ornare suspendisse sed nisi lacus sed viverra
-                tellus. Purus sit amet volutpat consequat mauris. Elementum eu facilisis
-                sed odio morbi. Euismod lacinia at quis risus sed vulputate odio. Morbi
-                tincidunt ornare massa eget egestas purus viverra accumsan in. In hendrerit
-                gravida rutrum quisque non tellus orci ac. Pellentesque nec nam aliquam sem
-                et tortor. Habitant morbi tristique senectus et. Adipiscing elit duis
-                tristique sollicitudin nibh sit. Ornare aenean euismod elementum nisi quis
-                eleifend. Commodo viverra maecenas accumsan lacus vel facilisis. Nulla
-                posuere sollicitudin aliquam ultrices sagittis orci a.
-            </Typography>
-        </Background>
-    )
-}
+const useStyles = makeStyles(styles);
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
+
     return {
         props: {
             meeting: meeting,
-            backgroundColor: "#a7a7a7"
+            meetingTitle: "Seminar GEOTOP-A",
+            shortDescription: "First presential meeting in Merida, Mexico"
         }
     }
 }
@@ -45,4 +27,46 @@ export async function getStaticPaths() {
         paths: paths,
         fallback: false
     };
+}
+
+export default function AbstractSubmission(props) {
+
+    const classes = useStyles();
+
+    return (
+        <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
+            <h1 className={classes.paragraphTitle}>Accomodation and Meals</h1>
+            <br />
+            <h2>Registration, Accomodation and Badge</h2>
+            <p>
+                Upon arrival all the participants will be registered at the Secretariat of the Centre located in the San Rocco
+                monastery (the Isidor Rabi Institute). With their welcome package they will be assigned lodging at one of the
+                monasteries of the Centre and they will receive a personal badge. This identification badge must be worn at all
+                times, also at restaurants (outside the Centre) for meals.
+            </p>
+            <h2>Breakfast</h2>
+            <p>
+                Residents living in one of the Majorana monasteries will have their breakfast readily available on a self-service
+                basis in the coffee room of the San Rocco monastery. The coffee room is located in the back of the courtyard on
+                the right-hand side under the staircase.
+            </p>
+            <p>
+                A selection of coffee, tea, milk, mineral water, fruit and sandwiches will be available (free of charge) in the coffee
+                room of the San Rocco monastery every day, at any time.
+            </p>
+            <h2>Lunch and dinner</h2>
+            <p>
+                Meals are included in the registration fees package and are offered by a selected list of recommended restaurants; this
+                list is displayed in the entrance hall of the San Rocco monastery. Opening and closing times of each restaurant are also
+                annotated. It is the participant’s responsibility to wear the personal badge for identification when visting the chosen
+                restaurant. The restaurant’s owner will ask the participant to sign a form, where the appropriate event must be indicated
+                (School & Workshop on Topological Methods in Mathematical Physics) as well as the participant’s name. Please make your
+                signature legible! Accompanying persons must fill and sign this form too.
+            </p>
+            <p>
+                To avoid queuing and have a faster service at the chosen restaurant (particularly over the short time interval for lunch)
+                participants are warmly invited to distribute themselves in small groups among the various recommended restaurants.
+            </p>
+        </Background>
+    )
 }
