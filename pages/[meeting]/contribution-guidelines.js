@@ -1,36 +1,18 @@
-import Background from "../../components/Meetings/Background/background";
-import Typography from '@mui/material/Typography';
+import Background from '../../components/Proceedings/Background/Background';
+import { makeStyles } from "@material-ui/core/styles";
+import styles from "../../views/HomePage/HomePageStyle.js";
+import Link from 'next/link';
 
-
-export default function MeetingPage(props) {
-    return (
-        <Background {...props}>
-            <Typography paragraph>
-                Guidelines for Contribution
-            </Typography>
-            <Typography paragraph>
-                Consequat mauris nunc congue nisi vitae suscipit. Fringilla est ullamcorper
-                eget nulla facilisi etiam dignissim diam. Pulvinar elementum integer enim
-                neque volutpat ac tincidunt. Ornare suspendisse sed nisi lacus sed viverra
-                tellus. Purus sit amet volutpat consequat mauris. Elementum eu facilisis
-                sed odio morbi. Euismod lacinia at quis risus sed vulputate odio. Morbi
-                tincidunt ornare massa eget egestas purus viverra accumsan in. In hendrerit
-                gravida rutrum quisque non tellus orci ac. Pellentesque nec nam aliquam sem
-                et tortor. Habitant morbi tristique senectus et. Adipiscing elit duis
-                tristique sollicitudin nibh sit. Ornare aenean euismod elementum nisi quis
-                eleifend. Commodo viverra maecenas accumsan lacus vel facilisis. Nulla
-                posuere sollicitudin aliquam ultrices sagittis orci a.
-            </Typography>
-        </Background>
-    )
-}
+const useStyles = makeStyles(styles);
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
+
     return {
         props: {
             meeting: meeting,
-            backgroundColor: "#a7a7a7"
+            meetingTitle: "Seminar GEOTOP-A",
+            shortDescription: "First presential meeting in Merida, Mexico"
         }
     }
 }
@@ -45,4 +27,36 @@ export async function getStaticPaths() {
         paths: paths,
         fallback: false
     };
+}
+
+export default function AbstractSubmission(props) {
+
+    const classes = useStyles();
+
+    return (
+        <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
+            <h1 className={classes.paragraphTitle}>Guidelines for Contribution</h1>
+            <br />
+            <p>
+                The scope of the meeting is to provide an interdisciplinary platform for cross-fertilization of concepts and techniques
+                used in various fields of mathematical physics. The programme will consist of keynote lectures by specialists and
+                oral contributions
+                from young researchers. According to its scope keynote lectures and contributions should consist of an introduction to
+                present concepts and techniques in a way accessible to non-specialists in the field followed by the presentation of some key results.
+            </p>
+            <p>
+                <li>Title and abstract should be prepared pasting text using this <a href="attachments/TEMPLATE.docx">TEMPLATE</a> file; </li>
+                <li>rename your file as SURNAME.docx;</li>
+                <li>submit your SURNAME.docx file as an attachment to this
+                    email <a href="mailto:renzo.ricca@unimib.it?subject=Erice%20Title%20and%20Abstract&body=Before%20sending%20this%20email%2C%20please%20attach%20the%20document%20renamed%20as%20indicated%20in%20the%20%22Guidelines%20for%20Contribution%22%20section.">HERE</a>.</li>
+            </p>
+            <p>
+                Please send your title and abstract as soon as possible, and in any case not later than <b>July 31, 2022</b>.
+            </p>
+            <p>
+                Accepted title and abstract contributions will be listed in alphabetical order and published online as SURNAME.pdf in
+                the <Link href={"/" + props.meeting + "/abstract-submission"}>Abstract Submission</Link> section of this website. {props.meeting + "/abstract-submission"}
+            </p>
+        </Background>
+    )
 }
