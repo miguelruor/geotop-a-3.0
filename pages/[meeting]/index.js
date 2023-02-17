@@ -3,22 +3,20 @@ import { makeStyles } from "@material-ui/core/styles";
 import Divider from '@material-ui/core/Divider';
 import styles from "../../views/HomePage/HomePageStyle.js";
 
-import data from '../../data/imageData.json';
-
 // nodejs library that concatenates classes
 import SectionCarousel from "../../components/Carousel/carousel.js";
-import TeamSection from '../../components/Proceedings/Team/TeamSection.js';
+import ImageCardGrid from '../../components/Proceedings/ImageCardGrid/ImageCardGrid.js';
 
 const useStyles = makeStyles(styles);
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
-    const totalImages = data.totalImages
+    const totalImages = 6
 
     var images = []
 
     for (var i = 1; i <= totalImages; i += 1) {
-        images.push('/img/imagesCarousel/img' + i.toString() + '.jpg')
+        images.push('/img/meetings/' + meeting + '/conference venue/img' + i.toString() + '.jpg')
     }
 
     return {
@@ -86,9 +84,28 @@ export default function Home(props) {
             <Divider variant="fullWidth" />
             <h1 className={classes.paragraphTitle}>Conference Venue</h1>
             <SectionCarousel images={props.images} />
-            <TeamSection title="Scientific Committee" />
-            <TeamSection title="Organising Committee" />
-            <TeamSection title="Supporting Organisations" />
+            <ImageCardGrid title="Scientific Committee" cardProps={[
+                { image: "img/organizers/org6.png", title: "Alicia Dickenstein", subtitle: "University of Buenos Aires, Argentina" },
+                { image: "img/organizers/org1.png", title: "José-Carlos Gómez-Larrañaga", subtitle: "CIMAT, Mexico" },
+                { image: "img/organizers/org2.png", title: "Kathryn Hess", subtitle: "École Polytechnique Fédérale de Lausanne, Switzerland" },
+                { image: "img/organizers/org3.png", title: "Neza Mramor-Kosta", subtitle: "University of Ljubljana, Slovenia" },
+                { image: "img/organizers/org4.png", title: "Renzo L. Ricca", subtitle: "University of Milano-Bicocca, Italy" },
+                { image: "img/organizers/org5.png", title: "De Witt L. Sumners", subtitle: "Florida State University, USA" }
+            ]} />
+            <ImageCardGrid title="Organising Committee" cardProps={[
+                { image: "img/organizers/org6.png", title: "Alicia Dickenstein", subtitle: "University of Buenos Aires, Argentina" },
+                { image: "img/organizers/org1.png", title: "José-Carlos Gómez-Larrañaga", subtitle: "CIMAT, Mexico" },
+                { image: "img/organizers/org2.png", title: "Kathryn Hess", subtitle: "École Polytechnique Fédérale de Lausanne, Switzerland" },
+                { image: "img/organizers/org3.png", title: "Neza Mramor-Kosta", subtitle: "University of Ljubljana, Slovenia" },
+                { image: "img/organizers/org4.png", title: "Renzo L. Ricca", subtitle: "University of Milano-Bicocca, Italy" },
+                { image: "img/organizers/org5.png", title: "De Witt L. Sumners", subtitle: "Florida State University, USA" }
+            ]} />
+            <ImageCardGrid title="Supporting Organisations" cardProps={[
+                { image: '/img/meetings/' + props.meeting + '/supporting organizations/organization1.png', title: "Department of Mathematics and Applications of UniMiB" },
+                { image: '/img/meetings/' + props.meeting + '/supporting organizations/organization2.png', title: "University of Milano-Bicocca (UniMiB)" },
+                { image: '/img/meetings/' + props.meeting + '/supporting organizations/organization3.png', title: "Gruppo Nazionale per la Fisica Matematica (GNFM), Istituto Nazionale di Alta Matematica (INdAM)" },
+                { image: '/img/meetings/' + props.meeting + '/supporting organizations/organization4.png', title: "Ettore Majorana Foundation and Centre for Scientific Culture (EMFCSC)" }
+            ]} />
         </Background>
     )
 }
