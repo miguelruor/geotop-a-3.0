@@ -7,7 +7,7 @@
     },
     {
       "date": "January 27",
-      "speaker": "Érika Roldán",
+      "speaker": "\u00c9rika Rold\u00e1n",
       "institution": "Max Planck Institute for Mathematics in the Sciences (MiS) Leipzig - Germany"
     },
     {
@@ -17,13 +17,13 @@
     },
     {
       "date": "February 17",
-      "speaker": "Ingrid Membrillo Solís",
+      "speaker": "Ingrid Membrillo Sol\u00eds",
       "institution": "University of Southampton - UK"
     },
     {
       "date": "March 3",
-      "speaker": "Armajac Raventós Pujol",
-      "institution": "Universidad Autónoma de Madrid - Spain"
+      "speaker": "Armajac Ravent\u00f3s Pujol",
+      "institution": "Universidad Aut\u00f3noma de Madrid - Spain"
     },
     {
       "date": "March 17",
@@ -52,13 +52,65 @@
     },
     {
       "date": "May 19",
-      "speaker": "Fernando Galaz-García",
+      "speaker": "Fernando Galaz-Garc\u00eda",
       "institution": "Durham University - UK"
     },
     {
       "date": "June 2",
-      "speaker": "Mónica Clapp",
-      "institution": "Instituto de Matemáticas UNAM - Mexico"
+      "speaker": "M\u00f3nica Clapp",
+      "institution": "Instituto de Matem\u00e1ticas UNAM - Mexico"
+    }
+  ],
+  "FALL 2023": [
+    {
+      "date": "August 18",
+      "speaker": "Yulia R. Gel",
+      "institution": "UT Dallas - USA"
+    },
+    {
+      "date": "September 1",
+      "speaker": "Ran Levi",
+      "institution": "University of Aberdeen - UK"
+    },
+    {
+      "date": "September 8",
+      "speaker": "Petar Pave\u0161i\u0107",
+      "institution": "University of Ljubljana - Slovenia"
+    },
+    {
+      "date": "September 22",
+      "speaker": "Isabel Darcy",
+      "institution": "University of Iowa - USA"
+    },
+    {
+      "date": "October 6",
+      "speaker": "Jens Eggers",
+      "institution": "University of Bristol - UK"
+    },
+    {
+      "date": "October 13",
+      "speaker": "Ximena Fern\u00e1ndez",
+      "institution": "University of Bremen - Germany"
+    },
+    {
+      "date": "October 20",
+      "speaker": "Dmitry Feichtner-Kozlov",
+      "institution": "Virginia Commonwealth University - USA"
+    },
+    {
+      "date": "November 3",
+      "speaker": "Allison Moore",
+      "institution": "Colorado State University - USA"
+    },
+    {
+      "date": "November 17",
+      "speaker": "Clayton Shonkwiler",
+      "institution": "KTH - Sweden"
+    },
+    {
+      "date": "December 1",
+      "speaker": "Wojciech Chacholski",
+      "institution": "University of Oxford - UK"
     }
   ]
 }
