@@ -90,26 +90,31 @@
     {
       "date": "October 13",
       "speaker": "Ximena Fern\u00e1ndez",
-      "institution": "University of Bremen - Germany"
+      "institution": "Durham University - UK"
     },
     {
       "date": "October 20",
       "speaker": "Dmitry Feichtner-Kozlov",
-      "institution": "Virginia Commonwealth University - USA"
+      "institution": "University of Bremen - Germany"
     },
     {
       "date": "November 3",
       "speaker": "Allison Moore",
-      "institution": "Colorado State University - USA"
+      "institution": "Virginia Commonwealth University - USA"
     },
     {
       "date": "November 17",
       "speaker": "Clayton Shonkwiler",
-      "institution": "KTH - Sweden"
+      "institution": "Colorado State University - USA"
     },
     {
       "date": "December 1",
       "speaker": "Wojciech Chacholski",
+      "institution": "KTH - Sweden"
+    },
+    {
+      "date": "December 8",
+      "speaker": "Alain Goriely",
       "institution": "University of Oxford - UK"
     }
   ]
