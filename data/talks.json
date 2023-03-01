@@ -1,4 +1,19 @@
 {
+    "126": {
+        "speaker_id": 112,
+        "date": "March 17, 2023",
+        "date2": "20230317",
+        "title": "Mapping Space Signatures",
+        "keywords": [
+            "path signature",
+            "differential forms",
+            "iterated integrals",
+            "universal and characteristic features"
+        ],
+        "abstract": "The path signature is a characterization of paths which has led to the development of rough paths in stochastic analysis, and a powerful set of novel tools for time series data in machine learning. In this talk, we begin with some background on signature methods in machine learning. We introduce the mapping space signature, a generalization of the path signature for maps from higher dimensional cubical domains (such as images or videos), which is motivated by the topological/geometric perspective of iterated integrals of differential forms by K. T. Chen. The mapping space signature shares many of the analytic and algebraic properties of the path signature, in particular it is universal and characteristic. This is joint work with Chad Giusti, Vidit Nanda, and Harald Oberhauser.",
+        "season": "SPRING 2023",
+        "video": null
+    },
     "125": {
         "speaker_id": 111,
         "date": "March 3, 2023",
