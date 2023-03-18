@@ -1,4 +1,21 @@
 {
+    "127": {
+        "speaker_id": 101,
+        "date": "March 31, 2023",
+        "date2": "20230331",
+        "title": "Applications of band surgery on knots and links",
+        "keywords": [
+            "DNA recombination",
+            "anti-parallel reconnection",
+            "vortex",
+            "band surgeries",
+            "knots",
+            "links"
+        ],
+        "abstract": "We consider local moves of knots and links, called band surgeries. A band surgery usually changes the topology of knots and links. Signatures, Jones polynomials, and other link invariants can be used to show the absence of band surgery between a given pair of links. A band surgery has been used for establishing mathematical models of DNA recombination and anti-parallel reconnection of vortex knots and links. In this talk, we discuss applications of results of band surgeries to the unlinking of DNA links by site-specific recombination and to the untying of vortex knots by anti-parallel reconnection.",
+        "season": "SPRING 2023",
+        "video": null
+    },
     "126": {
         "speaker_id": 112,
         "date": "March 17, 2023",
