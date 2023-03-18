@@ -61,7 +61,7 @@ export default function SingleTalkPage(props) {
                 <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{props.date}</b></p></GridItem>
                 <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Title: </b><Latex>{props.title}</Latex></p></GridItem>
                 <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Abstract: </b> <Latex>{props.abstract}</Latex></p></GridItem>
-                <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Keywords: </b> {props.keywords.join(", ")}</p></GridItem>
+                <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Keywords: </b> {props.keywords.join(", ")}.</p></GridItem>
                 {props.slides == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Slides:</b> <a href={props.slides} target="_blank">Click here</a></p></GridItem></>}
                 {props.warning == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Warning:</b> {props.warning}</p></GridItem></>}
               </GridContainer>

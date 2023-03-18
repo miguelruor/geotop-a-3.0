@@ -44,7 +44,7 @@ export default function NextTalksSection(props) {
                             <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{talk.date}</b></p></GridItem>
                             <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Title: </b> <Latex>{talk.title}</Latex></p></GridItem>
                             <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Abstract: </b> <Latex>{talk.abstract}</Latex></p></GridItem>
-                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Keywords: </b> {talk.keywords.join(", ")}</p></GridItem>
+                            <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Keywords: </b> {talk.keywords.join(", ")}.</p></GridItem>
                         </GridContainer>
                     </GridItem>
                 </GridContainer>
