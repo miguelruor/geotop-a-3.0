@@ -9,8 +9,28 @@ import GridItem from '../Grid/GridItem';
 import style from "../../assets/css/talks.module.css"
 import styles from "../../assets/css/talkStyle.js";
 
-
 const useStyles = makeStyles(styles);
+
+const formatStreamingTime = (cdmxHour) => {
+    const UTCMexicoCity = 360;
+    const StreamingTimeMexicoCity = cdmxHour * 60; //Sin considerar el cambio de horario de verano. Restar 60 en ese caso
+
+    const d = new Date();
+    const localOffset = d.getTimezoneOffset();
+
+    const timeLeftInMinutes = (StreamingTimeMexicoCity + UTCMexicoCity - localOffset + 1440) % 1440;
+
+    let hour = Math.floor(timeLeftInMinutes / 60);
+    if (hour < 10) hour = '0' + hour;
+
+    let minute = timeLeftInMinutes - 60 * hour;
+    if (minute < 10) minute = '0' + minute;
+
+    var timeZone = `${Intl.DateTimeFormat().resolvedOptions().timeZone.replace("_", " ")}`
+
+    return `${hour}:${minute} (${timeZone})`;
+}
+
 
 export default function TalkLayout(props) {
     const classes = useStyles();
@@ -35,7 +55,7 @@ export default function TalkLayout(props) {
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Keywords: </b> {props.keywords.join(", ")}.</p></GridItem>
                         {props.slides == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Slides:</b> <a href={props.slides} target="_blank">Click here</a></p></GridItem></>}
                         {props.warning == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Warning:</b> {props.warning}</p></GridItem></>}
-                        {props.streamingTime == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Special streaming time:</b> {props.streamingTime}</p></GridItem></>}
+                        {props.streamingTime == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Special streaming time:</b> {formatStreamingTime(props.streamingTime)}</p></GridItem></>}
                     </GridContainer>
                 </GridItem>
             </GridContainer>

@@ -3,26 +3,6 @@ import NextTalksPage from '../views/NextTalksPage/NextTalksPage'
 import speakers from '../data/speakers.json';
 import talks from '../data/talks.json';
 
-const formatStreamingTime = (cdmxHour) => {
-  const UTCMexicoCity = 360;
-  const StreamingTimeMexicoCity = cdmxHour * 60; //Sin considerar el cambio de horario de verano. Restar 60 en ese caso
-
-  const d = new Date();
-  const localOffset = d.getTimezoneOffset();
-
-  const timeLeftInMinutes = (StreamingTimeMexicoCity + UTCMexicoCity - localOffset + 1440) % 1440;
-
-  let hour = Math.floor(timeLeftInMinutes / 60);
-  if (hour < 10) hour = '0' + hour;
-
-  let minute = timeLeftInMinutes - 60 * hour;
-  if (minute < 10) minute = '0' + minute;
-
-  var timeZone = `${Intl.DateTimeFormat().resolvedOptions().timeZone.replace("_", " ")}`
-
-  return `${hour}:${minute} (${timeZone})`;
-}
-
 export async function getStaticProps() {
   let next_talks = []
 
@@ -54,7 +34,7 @@ export async function getStaticProps() {
       video: talks[talk_id].video,
       warning: typeof (talks[talk_id].warning) == "undefined" ? null : talks[talk_id].warning,
       slides: typeof (talks[talk_id].slides) == "undefined" ? null : talks[talk_id].slides,
-      streamingTime: typeof (talks[talk_id].streaming_time) == "undefined" ? null : formatStreamingTime(talks[talk_id].streaming_time), // this is an integer which means the hour of the day in CDMX time when the talk will be streamed (from 0 to 23)
+      streamingTime: typeof (talks[talk_id].streaming_time) == "undefined" ? null : talks[talk_id].streaming_time, // this is an integer which means the hour of the day in CDMX time when the talk will be streamed (from 0 to 23)
     })
   });
 
