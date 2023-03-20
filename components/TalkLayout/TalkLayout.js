@@ -35,6 +35,7 @@ export default function TalkLayout(props) {
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Keywords: </b> {props.keywords.join(", ")}.</p></GridItem>
                         {props.slides == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Slides:</b> <a href={props.slides} target="_blank">Click here</a></p></GridItem></>}
                         {props.warning == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Warning:</b> {props.warning}</p></GridItem></>}
+                        {props.streamingTime == null ? null : <><GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Special streaming time:</b> {props.streamingTime}</p></GridItem></>}
                     </GridContainer>
                 </GridItem>
             </GridContainer>
