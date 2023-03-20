@@ -4,7 +4,7 @@ import Parallax from '../../components/Parallax/Parallax';
 import GridContainer from '../../components/Grid/GridContainer';
 import GridItem from '../../components/Grid/GridItem';
 import Footer from '../../components/Footer/Footer';
-import NextTalkSection from './NextTalksSection';
+import TalkLayout from "../../components/TalkLayout/TalkLayout";
 import StreamingTimeSection from '../../components/StreamingTime/StreamingTimeSection.js';
 
 import backgroundImageHome from '../../public/img/img2.jpg'
@@ -18,20 +18,18 @@ const useStyles = makeStyles(styles);
 
 export default function NextTalksPage(props) {
   const classes = useStyles();
-  const { ...rest } = props;
+
   return (
     <div>
       <Header
         color="blue"
-        //routes={dashboardRoutes}
         brand="Seminar GEOTOP-A"
-        rightLinks={<HeaderLinks/>}
+        rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 400,
           color: "white"
         }}
-        {...rest}
       />
       <Parallax small filter image={backgroundImageHome}>
         <div className={classes.container}>
@@ -44,9 +42,11 @@ export default function NextTalksPage(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)} >
-        <div className={classes.containerContent} >
-          <NextTalkSection next_talks={props.next_talks}/>
-        </div>
+        {
+          props.next_talks.length > 0 ?
+            props.next_talks.map((talk, i) => (<TalkLayout key={i} {...talk} />))
+            :
+            <></>}
         <div className={classes.container}>
           <StreamingTimeSection />
         </div>
