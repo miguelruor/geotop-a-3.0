@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styles from './Times.module.css';
 
 const formatTime = (timeLeftInMinutes) => {
@@ -11,26 +11,25 @@ const formatTime = (timeLeftInMinutes) => {
   return `${hour}:${minute}`;
 }
 
-export default class Times extends Component {
+export default function Times(props) {
+  var timeZone = `${Intl.DateTimeFormat().resolvedOptions().timeZone.replace("_", " ")}`
 
-  render() {
-    return (
-      <div className={styles.times}>
-        <div className={styles.timescontent} style={{ backgroundColor: this.props.color, borderColor: this.props.bordercolor }}>
-          {`${Intl.DateTimeFormat().resolvedOptions().timeZone.replace("_", " ")}` == "America/Mexico City" ? 
+  return (
+    <div className={styles.times}>
+      <div className={styles.timescontent} style={{ backgroundColor: props.color, borderColor: props.bordercolor }}>
+        {timeZone == "America/Mexico City" ?
           <>
             <div className={styles.timerlabel2}>{"CDMX time:"}</div>
           </>
-          : 
+          :
           <>
-            <div className={styles.timerlabel}>{this.props.timeLabel+": "+formatTime(600)}</div>
-            <div className={styles.timerlabel2}>{`Your local time:`}</div> 
+            <div className={styles.timerlabel}>{"CDMX time: " + formatTime(600)}</div>
+            <div className={styles.timerlabel2}>{`Your local time:`}</div>
           </>
-          }
-          <span className={styles.timeleft}>{formatTime(this.props.timeLeftInMinutes)}</span>
-          <div className={styles.timeLabel2}>{`${Intl.DateTimeFormat().resolvedOptions().timeZone.replace("_", " ")}`}</div>
-        </div>
+        }
+        <span className={styles.timeleft}>{formatTime(props.timeLeftInMinutes)}</span>
+        <div className={styles.timeLabel2}>{timeZone}</div>
       </div>
-    )
-  }
+    </div>
+  )
 }

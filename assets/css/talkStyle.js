@@ -9,7 +9,6 @@ const landingPageStyle = {
   },
   containerContent: {
     zIndex: "12",
-    color: "#FFFFFF",
     paddingRight: "15px",
     paddingTop: "50px",
     paddingLeft: "15px",
@@ -60,7 +59,7 @@ const landingPageStyle = {
     position: "relative",
     zIndex: "3",
   },
-  mainRaised: {    
+  mainRaised: {
     margin: "-60px 30px 0px",
     borderRadius: "6px",
     boxShadow:
@@ -69,7 +68,7 @@ const landingPageStyle = {
       margin: "-60px 20px 0px"
     }
   },
-  imgContainer:{
+  imgContainer: {
     display: "block",
     textAlign: "center"
   },
