@@ -40,11 +40,14 @@ export default function TalkLayout(props) {
         classes.imgFluid,
     );
 
+    var srcSplitted = props.speakerImage.split("/");
+    var showImage = srcSplitted[srcSplitted.length - 1] != "no-image.png";
+
     return (
         <div className={classes.containerContent} >
             <GridContainer className={style.grid}>
                 <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
-                    <div className={classes.imgContainer}><Image src={props.speakerImage} width={380} height={380} className={imageClasses} /></div>
+                    <div className={classes.imgContainer}>{showImage && <Image src={props.speakerImage} width={380} height={380} className={imageClasses} />}</div>
                 </GridItem>
                 <GridItem xs={12} sm={12} md={7}>
                     <GridContainer>
