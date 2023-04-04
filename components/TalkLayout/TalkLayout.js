@@ -63,17 +63,17 @@ export default function TalkLayout(props) {
                 </GridItem>
             </GridContainer>
             <div>
-                {props.video ?
+                {props.video &&
                     <>
                         <h2 className={style.title}><a href={props.video} target="_blank">Video</a></h2>
                         <div className={style.video}>
                             <iframe src={props.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                    </> :
+                    </> /*:
                     <>
                         <h2 className={style.title}>Video</h2>
                         <p className={style.non_video}>Not available yet.</p>
-                    </>
+                    </>*/
                 }
             </div>
         </div>
