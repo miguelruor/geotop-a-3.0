@@ -1,5 +1,5 @@
 {
-    "112": {
+    "113": {
         "surname": "Rieck",
         "completeName": "Bastian Rieck",
         "middle_initial": null,
@@ -7,7 +7,17 @@
         "talks": [
             128
         ],
-        "image": false
+        "image": true
+    },
+    "112": {
+        "surname": "Lee",
+        "completeName": "Darrick Lee",
+        "middle_initial": null,
+        "name": "Darrick",
+        "talks": [
+            126
+        ],
+        "image": true
     },
     "111": {
         "surname": "Raventós Pujol",
