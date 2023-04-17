@@ -37,6 +37,8 @@ export default function AbstractSubmission(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={classes.paragraphTitle}>Financial Support</h1>
+            <h2>TBA</h2>
+            {/*
             <p>
                 Limited funds are available to provide partial support towards the participation of key speakers and young researchers.
                 Financial support is provided by the <a href="https://www.matapp.unimib.it">Department of Mathematics and Applications</a> of the University of Milano-Bicocca,
@@ -64,6 +66,7 @@ export default function AbstractSubmission(props) {
             iii) Include print-outs of online purchases, such as air tickets, or train tickets.<br />
             iv) Provide separate summaries of the total expenditure for your travel, and for your meals.<br />
             v) Keep a copy of the original documents for your reference, and send everything by postal mail to the address above.
+    */}
         </Background>
     )
 }

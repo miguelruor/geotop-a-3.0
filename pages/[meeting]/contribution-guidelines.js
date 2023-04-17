@@ -36,6 +36,8 @@ export default function AbstractSubmission(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={classes.paragraphTitle}>Guidelines for Contribution</h1>
+            <h2>TBA</h2>
+            {/*
             <br />
             <p>
                 The scope of the meeting is to provide an interdisciplinary platform for cross-fertilization of concepts and techniques
@@ -57,6 +59,7 @@ export default function AbstractSubmission(props) {
                 Accepted title and abstract contributions will be listed in alphabetical order and published online as SURNAME.pdf in
                 the <Link href={"/" + props.meeting + "/abstract-submission"}>Abstract Submission</Link> section of this website. {props.meeting + "/abstract-submission"}
             </p>
+    */}
         </Background>
     )
 }

@@ -93,6 +93,8 @@ export default function AbstractSubmission(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={classes.paragraphTitle}>List of Participants</h1>
+            <h2>TBA</h2>
+            {/*
             <br />
             <p>Lecturers and accompanying persons present at EMFCSC</p>
             <GridContainer>
@@ -135,7 +137,7 @@ export default function AbstractSubmission(props) {
                                 <Divider variant="fullWidth" />
                             </GridItem>
                         </Hidden>
-                        {/* Seccion Movil */}
+                        {/* Seccion Movil
                         <Hidden smUp>
                             <GridItem xs={12}>
                                 <p>{talk.participantNum}. {talk.familyName} {talk.firstName} - {talk.affiliation}, {talk.country}</p>
@@ -147,6 +149,7 @@ export default function AbstractSubmission(props) {
                     </Fragment>
                 ))}
             </GridContainer>
+                */}
         </Background>
     )
 }

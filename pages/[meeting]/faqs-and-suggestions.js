@@ -35,6 +35,8 @@ export default function AbstractSubmission(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={classes.paragraphTitle}>FAQs and Suggestions</h1>
+            <h2>TBA</h2>
+            {/*
             <br />
             <p>
                 <b>Q.: How do I find the driver of the shuttle to the Majorana Centre at the airport?</b>
@@ -51,6 +53,7 @@ export default function AbstractSubmission(props) {
                 <br />
                 A.: Call the Majorana Centre; dial the local number 0923 869 133 (keep this number with you at all times).
             </p>
+    */}
 
         </Background>
     )

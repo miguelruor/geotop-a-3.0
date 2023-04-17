@@ -35,6 +35,8 @@ export default function AbstractSubmission(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={classes.paragraphTitle}>Accomodation and Meals</h1>
+            <h2>TBA</h2>
+            {/*
             <br />
             <h2>Registration, Accomodation and Badge</h2>
             <p>
@@ -66,6 +68,7 @@ export default function AbstractSubmission(props) {
                 To avoid queuing and have a faster service at the chosen restaurant (particularly over the short time interval for lunch)
                 participants are warmly invited to distribute themselves in small groups among the various recommended restaurants.
             </p>
+    */}
         </Background>
     )
 }

@@ -39,6 +39,8 @@ export default function AbstractSubmission(props) {
             <div className={classes.paragraphTitle}>
                 <h1>Keynote Speakers</h1>
             </div>
+            <h2>TBA</h2>
+            {/*
             <ul>
                 <li>Gareth P Alexander (U Warwick)</li>
                 <li>Carlo Barenghi (Newcastle U)</li>
@@ -69,6 +71,7 @@ export default function AbstractSubmission(props) {
                 <li>Asher Yahalom (Ariel U)</li>
                 <li>Anthony Yeates (Durham U)</li>
             </ul>
+        */}
         </Background>
     )
 }

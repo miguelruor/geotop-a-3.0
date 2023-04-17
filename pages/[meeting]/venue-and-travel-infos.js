@@ -35,6 +35,8 @@ export default function AbstractSubmission(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={classes.paragraphTitle}>Venue and Travel Infos</h1>
+            <h2>TBA</h2>
+            {/*
             <br />
             <h2>The Majorana Centre in Erice</h2>
             <p>
@@ -54,6 +56,7 @@ export default function AbstractSubmission(props) {
                     <li>the ancient monastery of San Francesco (now the Eugene Wigner Institute) and the Ciclope (today the Victor Weisskopf Institute) host several other lecture rooms including the Enrico Fermi Lecture Hall.</li>
                 </ul>
             </p>
+                */}
         </Background>
     )
 }

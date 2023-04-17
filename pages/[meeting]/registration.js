@@ -37,6 +37,8 @@ export default function AbstractSubmission(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={classes.paragraphTitle}>Deadlines and Registration</h1>
+            <h2>TBA</h2>
+            {/*
             <h2>Deadlines</h2>
             <ul>
                 <li>Conference Grant requests: <b>June 15, 2022</b></li>
@@ -92,7 +94,7 @@ export default function AbstractSubmission(props) {
                 <li><b>After July 20, 2022</b>: no refund will be possible</li>
             </ul>
             <p>Should you need a refund please click <a href="mailto:renzo.ricca@unimib.it?subject=Conference%20Request%20Refund&body=Please%20fill%20in%20the%20requested%20information%20and%20return%20this%20message%20by%20standard%20email%20as%20soon%20as%20possible.%0APlease%20note%20that%20requests%20of%20refunds%20are%20subject%20to%20the%20following%20conditions%3A%20%0A%E2%80%A2%20On%20or%20before%20June%2030%2C%202022%3A%C2%A0refund%20subject%20to%20a%205%25%20credit%20card%20handling%20fee%0A%E2%80%A2%20June%2030%20-%20July%2015%2C%202022%3A%C2%A0refund%20subject%20to%20a%20cancellation%20fee%20of%20EUR%20200.00%0A%E2%80%A2%20After%20July%2015%2C%202022%3A%C2%A0no%20refund%20will%20be%20possible%0A%0ABasic%20information%0A%E2%80%A2%20Family%20name%20%28capital%20letters%29%3A%0A%E2%80%A2%20First%20name%3A%0A%E2%80%A2%20Affiliation%3A%20%0A%E2%80%A2%20Department%3A%0A%E2%80%A2%20Email%20address%3A%0A%0ASupporting%20information%0A%E2%80%A2%20Reasons%20for%20refund%20request%20%28please%20specify%29%3A">REQUEST REFUND</a>.</p>
-
+    */}
         </Background>
     )
 }
