@@ -11,12 +11,12 @@ const useStyles = makeStyles(styles);
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
-    const totalImages = 6
+    const totalImages = 4
 
     var images = []
 
     for (var i = 1; i <= totalImages; i += 1) {
-        images.push('/img/meetings/' + meeting + '/conference venue/img' + i.toString() + '.jpg')
+        images.push('/img/meetings/' + meeting + '/conference venue/img' + i.toString() + '.png')
     }
 
     return {
@@ -24,7 +24,7 @@ export async function getStaticProps(context) {
             images: images,
             meeting: meeting,
             meetingTitle: "Seminar GEOTOP-A",
-            shortDescription: "First presential meeting in Merida, Mexico"
+            shortDescription: "Web-seminar series on Applications of Geometry and Topology"
         }
     }
 }
@@ -47,43 +47,37 @@ export default function Home(props) {
 
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
-            <h2>International School of Mathematics {"«Guido Stampacchia»"}</h2>
-            <div className={classes.paragraphTitle}>
-                <h1>Topological Methods in Mathematical Physics</h1>
 
+            <div className={classes.paragraphTitle}>
+                <h1>GEOTOP-A International Conference</h1>
+                <h2>Applications of Geometry and Topology</h2>
             </div>
-            <h2>Erice, Italy</h2>
+            <h2>January 8-12, 2024<br />Mérida (Yucatán), México</h2>
             <p>
-                This worskhop wants to provide an international forum for discussion and presentation of some of the most recent advances in applications of geometric and
-                topological methods in various fields of modern mathematical physics. Particular emphasis will be put on applications of technicques from knot theory and
-                low dimensional topology to understand physical aspects of knotted fields and complex systems. Focus will be put on the study of kinetic and magnetic helicity,
-                role of geometric and topological phases, minimal surfaces, energy-complexity relations and topological change due to reconnection mechanisms in physical and
-                biological systems, topological cascade and energy relaxation in dynamical systems. Applications will range from vortex dynamics, magnetohydrodynamics and
-                superfluids to geometric optics, defect dynamics, string theory and DNA topology, with the aim to present the most updated results in rapidly growing fields that
-                are at the forefront of current research in topological field theory.
+                Some of the leading experts in applications of geometric and topological methods will gather in Mérida to present and discuss some of the most recent advances in various areas of mathematical sciences. Six thematic sessions will focus on hot topics that are marking current progress in active research areas, from topological data analysis to applications in artificial intelligence, from topological methods in field theory to applications of geometry and topology to DNA biology.
             </p>
             <p>
-                The Workshop will host keynote lectures by renowned experts in the field, and several oral contributions from young researchers. The scientific programme will
-                include 33 presentations given in person, and 5 given virtually by remote connections from USA, Russia and China.
+                This conference will also provide a wonderful occasion to celebrate five years of activity of the international web-seminar series GEOTOP-A, launched in August 2018.
             </p>
-            <h2>Main Topics</h2>
+            <h3>Thematic Sessions</h3>
             <ul>
-                <li>Multi-valued gauge theory</li>
-                <li>Physical knot theory and homological techniques</li>
-                <li>Kinetic and magnetic helicity of fluid flows</li>
-                <li>Geometric and topological phases</li>
-                <li>Seifert surfaces and minimal surfaces</li>
-                <li>Energy bounds by topological complexity</li>
-                <li>Topological changes due to reconnection</li>
-                <li>Topological cascade and energy relaxation</li>
+                <li>Topological Data Analysis (TDA)</li>
+                <li>Topological Complexity and LS Category (TCLS)</li>
+                <li>Applications of Geometry and Topology to Biology (DNA)</li>
+                <li>Applications in Physical Sciences (PHYS)</li>
+                <li>Combinatorial Topology of Relational Structures (CTRS)</li>
+                <li>Data Analysis, Machine Learning and AI (DAMLAI)</li>
             </ul>
-            <h2>Formats</h2>
+            <h3>Format</h3>
             <p>
-                Keynote Lectures (60 minutes, including questions) and Oral Contributions (30 minutes, including questions).
+                Keynote lectures (45 minutes, including questions), Oral Contributions (25 minutes, including questions) and Poster presentations (5 minutes)
             </p>
             <Divider variant="fullWidth" />
             <h1 className={classes.paragraphTitle}>Conference Venue</h1>
             <SectionCarousel images={props.images} />
+            <p>Universidad Autónoma de Yucatán (UADY, Edificio Central), Mérida</p>
+            <Divider variant="fullWidth" />
+            {/*
             <ImageCardGrid title="Scientific Committee" cardProps={[
                 { image: "img/organizers/org6.png", title: "Alicia Dickenstein", subtitle: "University of Buenos Aires, Argentina" },
                 { image: "img/organizers/org1.png", title: "José-Carlos Gómez-Larrañaga", subtitle: "CIMAT, Mexico" },
@@ -100,12 +94,46 @@ export default function Home(props) {
                 { image: "img/organizers/org4.png", title: "Renzo L. Ricca", subtitle: "University of Milano-Bicocca, Italy" },
                 { image: "img/organizers/org5.png", title: "De Witt L. Sumners", subtitle: "Florida State University, USA" }
             ]} />
-            <ImageCardGrid title="Supporting Organisations" cardProps={[
-                { image: '/img/meetings/' + props.meeting + '/supporting organizations/organization1.png', title: "Department of Mathematics and Applications of UniMiB" },
-                { image: '/img/meetings/' + props.meeting + '/supporting organizations/organization2.png', title: "University of Milano-Bicocca (UniMiB)" },
-                { image: '/img/meetings/' + props.meeting + '/supporting organizations/organization3.png', title: "Gruppo Nazionale per la Fisica Matematica (GNFM), Istituto Nazionale di Alta Matematica (INdAM)" },
-                { image: '/img/meetings/' + props.meeting + '/supporting organizations/organization4.png', title: "Ettore Majorana Foundation and Centre for Scientific Culture (EMFCSC)" }
+            */}
+            <h1 className={classes.paragraphTitle}>Scientific Committee</h1>
+            <ul style={{ fontStyle: "italic" }}>
+                <li>Paweł Dłotko (Dioscuri Centre, Poland)</li>
+                <li>Michael Farber (Queen Mary University of London, UK)</li>
+                <li>José-Carlos Gómez-Larrañaga (CIMAT-Mérida, México)</li>
+                <li>Jesús González-Espino-Barros (CINVESTAV, México)</li>
+                <li>Eric Goubault (École Polytechnique, France)</li>
+                <li>Ingrid Membrillo-Solís (University of Southampton, UK)</li>
+                <li>Neza Mramor-Kosta (U Ljubljana, Slovenia)</li>
+                <li>Sergio Rajsbaum-Gorodezky (Instituto de Matemáticas, UNAM, México)</li>
+                <li>Renzo L. Ricca (U Milano-Bicocca, Italy)</li>
+                <li>Radmila Sazdanovic (North Carolina State U, USA)</li>
+                <li>De Witt Sumners (Florida State U, USA)</li>
+            </ul>
+            <Divider variant="fullWidth" />
+
+            <h1 className={classes.paragraphTitle}>Local Organizing Committee</h1>
+            <ul style={{ fontStyle: "italic" }}>
+                <li>Martha-Gabriela Araujo-Pardo (Sociedad Matemática Mexicana & IM-UNAM, México)</li>
+                <li>José-María Cantarero-López (CIMAT-Mérida, México)</li>
+                <li>Luis-Celso Chan-Palomo (FMAT-UADY, México)</li>
+                <li>José-Carlos Gómez-Larrañaga (CIMAT-Mérida, México)</li>
+                <li>Ernesto-Antonio Guerrero-Lara (FMAT-UADY, México)</li>
+                <li>Ingrid Membrillo-Solís (University of Southampton, UK)</li>
+                <li>Jesús-Rogelio Pérez-Buendía (CIMAT-Mérida, México)</li>
+                <li>Antonio Rieser (CIMAT-Guanajuato, México)</li>
+                <li>Jesús Rodríguez-Viorato (CIMAT-Guanajuato, México)</li>
+                <li>Pablo Suárez-Serrato (IM-UNAM, México)</li>
+            </ul>
+            <Divider variant="fullWidth" />
+
+            <ImageCardGrid title="Supporting Organizations" cardProps={[
+                { image: '/img/meetings/' + props.meeting + '/supporting organizations/CIMAT.jpg', title: "" },
+                { image: '/img/meetings/' + props.meeting + '/supporting organizations/CINVESTAV.jpg', title: "" },
+                { image: '/img/meetings/' + props.meeting + '/supporting organizations/CONACYT.jpg', title: "" },
+                { image: '/img/meetings/' + props.meeting + '/supporting organizations/UNAM.jpg', title: "" },
+                { image: '/img/meetings/' + props.meeting + '/supporting organizations/SMM.jpg', title: "" },
+                { image: '/img/meetings/' + props.meeting + '/supporting organizations/UAY.jpg', title: "" }
             ]} />
-        </Background>
+        </Background >
     )
 }

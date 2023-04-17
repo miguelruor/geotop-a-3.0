@@ -55,7 +55,7 @@ export default function Background(props) {
                     }}
                 />
 
-                <Parallax filter image={"/img/meetings/" + meetingId + "/banner.jpg"}>
+                <Parallax style={{ backgroundSize: "auto 100%", backgroundRepeat: "no-repeat", backgroundPosition: "center center", backgroundColor: "black" }} filter image={"/img/meetings/" + meetingId + "/banner.png"}>
                     <div className={classes.container}>
                         <GridContainer>
                             <GridItem xs={12} sm={12} md={6}>
@@ -76,9 +76,8 @@ export default function Background(props) {
                         </div>
                     </div>
                 </div>
-                <Footer />
+                <Footer image={"/img/meetings/" + meetingId + "/footer.png"} />
             </div>
-            <br />
         </div >
     )
 }

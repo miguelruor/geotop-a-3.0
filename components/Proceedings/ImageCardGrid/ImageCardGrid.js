@@ -19,8 +19,9 @@ export default function ImageCardGrid(props) {
   const { title, cardProps } = props;
   const classes = useStyles();
   const imageClasses = classNames(
-    classes.imgRaised,
-    classes.imgRoundedCircle,
+    classes.imgRaised2,
+    //classes.imgRaised,
+    //classes.imgRoundedCircle,
     classes.imgFluid,
     classes.organizer_img
   );

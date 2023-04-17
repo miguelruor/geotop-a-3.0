@@ -4,12 +4,7 @@ import React from "react";
 import PropTypes from "prop-types";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-// material-ui core components
-import { List, ListItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-
-// @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
 
 import styles from "../../assets/jss/material-kit-react/components/footerStyle.js";
 
@@ -22,18 +17,25 @@ export default function Footer(props) {
     [classes.footer]: true,
     [classes.footerWhiteFont]: whiteFont
   });
-  const aClasses = classNames({
-    [classes.a]: true,
-    [classes.footerWhiteFont]: whiteFont
-  });
+  var style = {}
+  if (props.image !== undefined) {
+    var style = {
+      height: "100px",
+      backgroundImage: "url(" + props.image + ")",
+      backgroundSize: "auto 100%",
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "center center",
+      backgroundColor: "black"
+    }
+  }
   return (
-    <footer className={footerClasses}>
-      <div className={classes.container}>
+    <footer style={style} className={footerClasses}>
+      <div className={classes.container} >
         <div className={classes.right}>
-          Seminar GEOTOP-A: Applications of geometry and topology
+          {props.image === undefined ? "Seminar GEOTOP-A: Applications of geometry and topology" : null}
         </div>
-      </div>
-    </footer>
+      </div >
+    </footer >
   );
 }
 

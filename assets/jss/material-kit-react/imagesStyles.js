@@ -13,6 +13,10 @@ const imagesStyles = {
     boxShadow:
       "0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
   },
+  imgRaised2: {
+    boxShadow:
+      "15px 15px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
+  },
   imgGallery: {
     width: "100%",
     marginBottom: "2.142rem"
