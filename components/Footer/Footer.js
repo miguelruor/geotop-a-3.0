@@ -20,7 +20,7 @@ export default function Footer(props) {
   var style = {}
   if (props.image !== undefined) {
     var style = {
-      height: "100px",
+      height: "60px",
       backgroundImage: "url(" + props.image + ")",
       backgroundSize: "auto 100%",
       backgroundRepeat: "no-repeat",
