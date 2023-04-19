@@ -114,7 +114,6 @@ export default function Home(props) {
             <h1 className={classes.paragraphTitle}>Local Organizing Committee</h1>
             <ul style={{ fontStyle: "italic" }}>
                 <li>Martha-Gabriela Araujo-Pardo (Sociedad Matemática Mexicana & IM-UNAM, México)</li>
-                <li>José-María Cantarero-López (CIMAT-Mérida, México)</li>
                 <li>Luis-Celso Chan-Palomo (FMAT-UADY, México)</li>
                 <li>José-Carlos Gómez-Larrañaga (CIMAT-Mérida, México)</li>
                 <li>Ernesto-Antonio Guerrero-Lara (FMAT-UADY, México)</li>
