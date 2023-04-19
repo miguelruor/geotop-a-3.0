@@ -70,6 +70,7 @@ export default function Header(props) {
           )}
         </div>
         <IconButton
+          className={classes.menuButtonStyle}
           color="inherit"
           aria-label="open drawer"
           onClick={handleDrawerToggle}

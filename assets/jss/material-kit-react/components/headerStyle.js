@@ -32,6 +32,11 @@ const headerStyle = {
     position: "relative",
     zIndex: "unset"
   },
+  menuButtonStyle: {
+    '@media (min-width: 500px)': {
+      transform: "scale(1.7)",
+    }
+  },
   absolute: {
     position: "absolute",
     zIndex: "1100"
