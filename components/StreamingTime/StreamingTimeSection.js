@@ -13,7 +13,7 @@ export default function StreamingTime() {
     const classes = useStyles();
 
     const UTCMexicoCity = 360;
-    const StreamingTimeMexicoCity = 600; //Antes del cambio de horario de verano: 600 - despues del cambio de horario de verano: 540
+    const StreamingTimeMexicoCity = 600 - 60; //10 am CDMX time: antes del cambio de horario de verano: 600 - despues del cambio de horario de verano: 540
 
     const d = new Date();
     const localOffset = d.getTimezoneOffset();
