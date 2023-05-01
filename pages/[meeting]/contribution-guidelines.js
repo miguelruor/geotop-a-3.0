@@ -3,24 +3,20 @@ import { makeStyles } from "@material-ui/core/styles";
 import styles from "../../views/HomePage/HomePageStyle.js";
 import Link from 'next/link';
 
+import meetingData from "../../data/meeting.json";
+
 const useStyles = makeStyles(styles);
 
-export async function getStaticProps(context) {
-    const meeting = context.params.meeting;
-
+export async function getStaticProps() {
     return {
-        props: {
-            meeting: meeting,
-            meetingTitle: "Seminar GEOTOP-A",
-            shortDescription: "First presential meeting in Merida, Mexico"
-        }
+        props: meetingData
     }
 }
 
 
 export async function getStaticPaths() {
 
-    var paths = [{ params: { meeting: "merida24" } }]
+    var paths = [{ params: { meeting: meetingData.meetingId } }]
     //paths = [{params: {meeting: "0"}}, {params:{meeting: "1"}}, {params:{meeting: "2"}}]
 
     return {
@@ -34,32 +30,54 @@ export default function AbstractSubmission(props) {
     const classes = useStyles();
 
     return (
-        <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
+        <Background title={props.meetingTitle} meetingId={props.meetingId} shortDescription={props.shortDescription}>
             <h1 className={classes.paragraphTitle}>Guidelines for Contribution</h1>
-            <h2>TBA</h2>
-            {/*
-            <br />
             <p>
-                The scope of the meeting is to provide an interdisciplinary platform for cross-fertilization of concepts and techniques
-                used in various fields of mathematical physics. The programme will consist of keynote lectures by specialists and
-                oral contributions
-                from young researchers. According to its scope keynote lectures and contributions should consist of an introduction to
-                present concepts and techniques in a way accessible to non-specialists in the field followed by the presentation of some key results.
+                This conference is organized in 6 thematic sessions:
+                <ul>
+                    <li>Applications of Geometry and Topology to Biology (DNA)</li>
+                    <li>Applications in Physical Sciences (PHYS)</li>
+                    <li>Combinatorial Topology of Relational Structures (CTRS)</li>
+                    <li>Data Analysis, Machine Learning and AI (DAMLAI)</li>
+                    <li>Topological Complexity and LS Category (TCLS)</li>
+                    <li>Topological Data Analysis (TDA)</li>
+                </ul>
             </p>
             <p>
-                <li>Title and abstract should be prepared pasting text using this <a href="attachments/TEMPLATE.docx">TEMPLATE</a> file; </li>
-                <li>rename your file as SURNAME.docx;</li>
-                <li>submit your SURNAME.docx file as an attachment to this
-                    email <a href="mailto:renzo.ricca@unimib.it?subject=Erice%20Title%20and%20Abstract&body=Before%20sending%20this%20email%2C%20please%20attach%20the%20document%20renamed%20as%20indicated%20in%20the%20%22Guidelines%20for%20Contribution%22%20section.">HERE</a>.</li>
+                In order to make each session accessible and useful to everybody, especially the young
+                researchers, an effort should be made to present the material in an accessible way to
+                non-specialists. Given the wide variety of topics covered it is of paramount importance
+                to leave time for questions.
+            </p>
+            <h2>Keynote lectures - 45 mins</h2>
+            <p>
+                Keynote Lectures are kindly requested to keep their presentation to 40 minutes, leaving 5 minutes for questions. It would be beneficial to include a
+                short introduction accessible to non-specialists, possibly outlining the key concepts and the methodology used.
             </p>
             <p>
-                Please send your title and abstract as soon as possible, and in any case not later than <b>July 31, 2022</b>.
+                To prepare the Abstract please follow the format as indicated in the <Link href={"/" + props.meetingId + "/abstract-submission"}>Abstract Submission</Link> page.
+            </p>
+            <h2>Oral Contributions - 25 mins</h2>
+            <p>
+                Speakers contributing with an oral presentation are kindly requested to keep their talk
+                to 20 minutes, leaving 5 minutes for questions. It would be beneficial to include a very short entry to the key concepts,
+                so to make accessible the contents of the talk to non-specialists.
+
+                minutes for questions. It would be beneficial to include a short introduction accessible to non-
+                specialists, possibly outlining the key concepts and the methodology used.
             </p>
             <p>
-                Accepted title and abstract contributions will be listed in alphabetical order and published online as SURNAME.pdf in
-                the <Link href={"/" + props.meeting + "/abstract-submission"}>Abstract Submission</Link> section of this website. {props.meeting + "/abstract-submission"}
+                To prepare the Abstract please follow the format as indicated in the <Link href={"/" + props.meetingId + "/abstract-submission"}>Abstract Submission</Link> page.
             </p>
-    */}
+            <h2>Poster presentations - 5 mins</h2>
+            <p>
+                Presenters of posters are kindly requested to keep strictly to the allocated 5-minute time for
+                their oral presentation. They are also kindly requested to stand by their poster during the
+                poster session (as indicated in the Scientific Program) so to be available for questions.
+            </p>
+            <p>
+                To prepare the Abstract please follow the format as indicated in the <Link href={"/" + props.meetingId + "/abstract-submission"}>Abstract Submission</Link> page.
+            </p>
         </Background>
     )
 }

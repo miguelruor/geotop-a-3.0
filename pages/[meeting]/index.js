@@ -7,6 +7,8 @@ import styles from "../../views/HomePage/HomePageStyle.js";
 import SectionCarousel from "../../components/Carousel/carousel.js";
 import ImageCardGrid from '../../components/Proceedings/ImageCardGrid/ImageCardGrid.js';
 
+import meetingData from "../../data/meeting.json";
+
 const useStyles = makeStyles(styles);
 
 export async function getStaticProps(context) {
@@ -23,8 +25,7 @@ export async function getStaticProps(context) {
         props: {
             images: images,
             meeting: meeting,
-            meetingTitle: "Seminar GEOTOP-A",
-            shortDescription: "Web-seminar series on Applications of Geometry and Topology"
+            ...meetingData,
         }
     }
 }
@@ -32,7 +33,7 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
 
-    var paths = [{ params: { meeting: "merida24" } }]
+    var paths = [{ params: { meeting: meetingData.meetingId } }]
     //paths = [{params: {meeting: "0"}}, {params:{meeting: "1"}}, {params:{meeting: "2"}}]
 
     return {
@@ -61,12 +62,12 @@ export default function Home(props) {
             </p>
             <h3>Thematic Sessions</h3>
             <ul>
-                <li>Topological Data Analysis (TDA)</li>
-                <li>Topological Complexity and LS Category (TCLS)</li>
                 <li>Applications of Geometry and Topology to Biology (DNA)</li>
                 <li>Applications in Physical Sciences (PHYS)</li>
                 <li>Combinatorial Topology of Relational Structures (CTRS)</li>
                 <li>Data Analysis, Machine Learning and AI (DAMLAI)</li>
+                <li>Topological Complexity and LS Category (TCLS)</li>
+                <li>Topological Data Analysis (TDA)</li>
             </ul>
             <h3>Format</h3>
             <p>
@@ -77,24 +78,7 @@ export default function Home(props) {
             <SectionCarousel images={props.images} />
             <p>Universidad Autónoma de Yucatán (UADY, Edificio Central), Mérida</p>
             <Divider variant="fullWidth" />
-            {/*
-            <ImageCardGrid title="Scientific Committee" cardProps={[
-                { image: "img/organizers/org6.png", title: "Alicia Dickenstein", subtitle: "University of Buenos Aires, Argentina" },
-                { image: "img/organizers/org1.png", title: "José-Carlos Gómez-Larrañaga", subtitle: "CIMAT, Mexico" },
-                { image: "img/organizers/org2.png", title: "Kathryn Hess", subtitle: "École Polytechnique Fédérale de Lausanne, Switzerland" },
-                { image: "img/organizers/org3.png", title: "Neza Mramor-Kosta", subtitle: "University of Ljubljana, Slovenia" },
-                { image: "img/organizers/org4.png", title: "Renzo L. Ricca", subtitle: "University of Milano-Bicocca, Italy" },
-                { image: "img/organizers/org5.png", title: "De Witt L. Sumners", subtitle: "Florida State University, USA" }
-            ]} />
-            <ImageCardGrid title="Organising Committee" cardProps={[
-                { image: "img/organizers/org6.png", title: "Alicia Dickenstein", subtitle: "University of Buenos Aires, Argentina" },
-                { image: "img/organizers/org1.png", title: "José-Carlos Gómez-Larrañaga", subtitle: "CIMAT, Mexico" },
-                { image: "img/organizers/org2.png", title: "Kathryn Hess", subtitle: "École Polytechnique Fédérale de Lausanne, Switzerland" },
-                { image: "img/organizers/org3.png", title: "Neza Mramor-Kosta", subtitle: "University of Ljubljana, Slovenia" },
-                { image: "img/organizers/org4.png", title: "Renzo L. Ricca", subtitle: "University of Milano-Bicocca, Italy" },
-                { image: "img/organizers/org5.png", title: "De Witt L. Sumners", subtitle: "Florida State University, USA" }
-            ]} />
-            */}
+
             <h1 className={classes.paragraphTitle}>Scientific Committee</h1>
             <ul style={{ fontStyle: "italic" }}>
                 <li>Paweł Dłotko (Dioscuri Centre, Poland)</li>

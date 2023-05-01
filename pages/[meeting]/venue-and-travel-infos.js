@@ -1,25 +1,22 @@
 import Background from '../../components/Proceedings/Background/Background';
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "../../views/HomePage/HomePageStyle.js";
+import Image from 'next/image';
+
+import meetingData from "../../data/meeting.json";
 
 const useStyles = makeStyles(styles);
 
-export async function getStaticProps(context) {
-    const meeting = context.params.meeting;
-
+export async function getStaticProps() {
     return {
-        props: {
-            meeting: meeting,
-            meetingTitle: "Seminar GEOTOP-A",
-            shortDescription: "First presential meeting in Merida, Mexico"
-        }
+        props: meetingData
     }
 }
 
 
 export async function getStaticPaths() {
 
-    var paths = [{ params: { meeting: "merida24" } }]
+    var paths = [{ params: { meeting: meetingData.meetingId } }]
     //paths = [{params: {meeting: "0"}}, {params:{meeting: "1"}}, {params:{meeting: "2"}}]
 
     return {
@@ -33,30 +30,99 @@ export default function AbstractSubmission(props) {
     const classes = useStyles();
 
     return (
-        <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
+        <Background title={props.meetingTitle} meetingId={props.meetingId} shortDescription={props.shortDescription}>
             <h1 className={classes.paragraphTitle}>Venue and Travel Infos</h1>
-            <h2>TBA</h2>
-            {/*
-            <br />
-            <h2>The Majorana Centre in Erice</h2>
+            <h2>Yucatán</h2>
+            <div style={{ display: "flex", alignItems: "center" }}>
+                <div style={{ width: "60%", paddingRight: "30px" }}>
+                    <p>
+                        México is amongst the most popular holiday destinations in the world, and Yucatán is arguably
+                        one of its most exciting states to visit, with some of México’s most popular tourist attractions and
+                        destinations: from Mérida to Chichen Itza, from Cancún to Playa Del Carmen, Tulum, Cozumel
+                        and many other.
+                    </p>
+                    <p>
+                        Click <a href="https://drive.google.com/file/d/16NyLjacUX-zxw_vS3whVJNEDHpua2J1h/view?usp=share_link" target='_blank'>HERE</a> to see the key
+                        places and the typical driving times on the map.
+                    </p>
+                    <p>
+                        For a quick, updated travel guide click <a href="https://brbgonesomewhereepic.com/yucatan-mexico-travel-guide/" target='_blank'>HERE</a>.
+                        For a guide to some of its most beautiful beaches click <a href="https://traveltomerida.com/best-merida-mexico-beaches-in-yucatan/" target='_blank'>HERE</a>.
+                    </p>
+                </div>
+                <div style={{ width: "35%", paddingLeft: "30px" }}>
+                    <Image src="/img/meetings/merida24/others/maya.jpg" width={500} height={350} />
+                </div>
+            </div>
+
+            <h2>Mérida</h2>
+            <div style={{ display: "flex", alignItems: "center" }}>
+                <div style={{ width: "60%", paddingRight: "30px" }}>
+                    <p>
+                        This is the capital city of Yucatán, about 4 hours driving from Cancún International Airport and about
+                        40 minutes driving from Progreso and the nearby coastline beaches (click <a href="https://drive.google.com/file/d/16NyLjacUX-zxw_vS3whVJNEDHpua2J1h/view?usp=share_link" target='_blank'>HERE</a> to see the
+                        typical driving times on the map).
+                    </p>
+                    <p>
+                        Mérida is a city of about 1.3 million inhabitants. The Autonomous University of Yucatán (UADY) and the
+                        conference hall located in the city centre are at a walking distance from the major tourist attractions,
+                        hotels and night life places. Click <a href="https://drive.google.com/file/d/1PoLkC44Z13b0GNKHrT7OUwKDlGzQuqa2/view?usp=share_link" target='_blank'>HERE</a> to see the local map.
+                    </p>
+                </div>
+
+                <div style={{ width: "35%", paddingLeft: "30px" }}>
+                    <Image src="/img/meetings/merida24/others/Merida.png" width={500} height={350} />
+                </div>
+            </div>
+
+
+            <h2>Conference Venue</h2>
             <p>
-                The Ettore Majorana Foundation and Centre for Scientific Culture is named after the outstanding Italian
-                physicist born in Sicily in 1906. It was founded by the Italian physicist Antonino Zichichi (now 92
-                years-old!) in Geneva in 1962, and it moved to the pre-medieval town of Erice the following year. Ever
-                since the Centre has actively promoted and hosted several workshops every year covering a wide variety of
-                disciplines, ranging from fundamental physics, mathematics, medicine, chemistry, life sciences and many
-                others applied fields to present day. Since its foundation the Centre has represented an important meeting
-                place for hundreds of scientists from all over the world.
+                The conference will be hosted by the Autonomous University of Yucatán (UADY), and it will take place
+                in one of its auditoriums, in the central buildings.
+            </p>
+
+            <h2>How to get to Mérida from Cancún International Airport</h2>
+            {/*<p>
+                Major international airlines as well as charter companies have direct flights into Cancún
+                International Airport from all over the world, and from more than 40 cities in the United States
+                and more than 20 cities in Europe. You can check some key information on operating airlines
+                and flights <a href="https://www.cancunairport.com/" target='_blank'>HERE</a>.
+            </p>*/}
+            <p>
+                From Cancún International Airport there is the possibility to reach Mérida by taking a small hopper plane by <a href="https://www.mayair.com.mx/" target="_blank">MayAir</a> in the airport commuter terminal.
+                There are a few direct flights from US and Canadian cities to Mérida (Houston, Miami, Toronto, ...).
             </p>
             <p>
-                The Majorana centre is distributed over several, ancient monasteries (see the map here below):
-                <ul>
-                    <li>the San Rocco monastery (now renamed the Isidor Rabi Institute) hosts the Directorate and the main Secretariat of the centre;</li>
-                    <li>the former monastery of San Domenico (now the Patrick Blackett Institute) hosts 3 lecture rooms named after Paul Dirac, Robert Hofstadter and John von Neumann;</li>
-                    <li>the ancient monastery of San Francesco (now the Eugene Wigner Institute) and the Ciclope (today the Victor Weisskopf Institute) host several other lecture rooms including the Enrico Fermi Lecture Hall.</li>
-                </ul>
+                The overland connection to Mérida by car is a journey
+                that varies from 4 hours, by a hired private shuttle
+                service or a car rental, to 6-8 hours using local bus
+                services offered, for example, by <a href="https://www.ado.com.mx/" target="_blank">ADO</a>,
+                the largest bus
+                company in Mexico). Since roads in Yucatán are of high
+                quality, driving standards are generally good and fuel is
+                extremely cheap, renting a car may be the best option.
             </p>
-                */}
+            <p>
+                To have an idea of the average time and cost of service for various transport solutions
+                click <a href="https://drive.google.com/file/d/1i53y2mYIvCA-YLX9JD8wyEMobrehWcCb/view?usp=share_link" target="_blank">HERE</a> to see a reference table.
+            </p>
+            <div style={{ display: "flex", alignItems: "center" }}>
+                <div style={{ width: "60%", paddingRight: "30px" }}>
+                    <p>
+                        A fast train connection provided by the <a href="https://www.alstom.com/mayan-train-project" target="_blank">Mayan Train</a> between the cities of Mérida
+                        and Cancún is expected to be operational from December 2023. This
+                        project will connect the states of Chiapas, Tabasco,
+                        Campeche, Yucatán and Quintana Roo, totaling 1.545
+                        kilometres of train line. If available, this would be a
+                        very good solution.
+                    </p>
+                </div>
+                <div style={{ width: "35%", paddingLeft: "30px" }}>
+                    <Image src="/img/meetings/merida24/others/MayaTrain_map.jpg" width={500} height={350} />
+                </div>
+            </div>
+
         </Background>
     )
 }
