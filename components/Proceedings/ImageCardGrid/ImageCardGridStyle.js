@@ -13,7 +13,8 @@ const teamStyle = {
     textDecoration: "none",
     "@media (max-width: 400px)": {
       fontSize: "23px"
-    }
+    },
+    color: "#000000",
   },
   ...imagesStyle,
   cardTitle,
