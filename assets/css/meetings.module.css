@@ -1,0 +1,10 @@
+.paragraphTitle {
+    margin-right: 5%;
+    min-height: 30px;
+    text-align: center;
+    color: black;
+    margin: 1.75rem 0 0.875rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    width: 100%;
+}
