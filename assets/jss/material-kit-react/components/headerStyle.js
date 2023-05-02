@@ -32,6 +32,11 @@ const headerStyle = {
     position: "relative",
     zIndex: "unset"
   },
+  menuButtonStyle: {
+    '@media (min-width: 500px)': {
+      transform: "scale(1.7)",
+    }
+  },
   absolute: {
     position: "absolute",
     zIndex: "1100"
@@ -147,7 +152,7 @@ const headerStyle = {
     right: "0",
     left: "auto",
     visibility: "visible",
-    overflowY: "visible",
+    overflowY: "scroll",
     borderTop: "none",
     textAlign: "left",
     paddingRight: "0px",
