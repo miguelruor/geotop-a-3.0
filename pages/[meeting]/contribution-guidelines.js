@@ -1,11 +1,8 @@
 import Background from '../../components/Proceedings/Background/Background';
-import { makeStyles } from "@material-ui/core/styles";
-import styles from "../../views/HomePage/HomePageStyle.js";
+import style from "../../assets/css/meetings.module.css";
 import Link from 'next/link';
 
 import meetingData from "../../data/meeting.json";
-
-const useStyles = makeStyles(styles);
 
 export async function getStaticProps() {
     return {
@@ -27,11 +24,9 @@ export async function getStaticPaths() {
 
 export default function AbstractSubmission(props) {
 
-    const classes = useStyles();
-
     return (
         <Background title={props.meetingTitle} meetingId={props.meetingId} shortDescription={props.shortDescription}>
-            <h1 className={classes.paragraphTitle}>Guidelines for Contribution</h1>
+            <h1 className={style.paragraphTitle}>Guidelines for Contribution</h1>
             <p>
                 This conference is organized in 6 thematic sessions:
                 <ul>
@@ -62,9 +57,6 @@ export default function AbstractSubmission(props) {
                 Speakers contributing with an oral presentation are kindly requested to keep their talk
                 to 20 minutes, leaving 5 minutes for questions. It would be beneficial to include a very short entry to the key concepts,
                 so to make accessible the contents of the talk to non-specialists.
-
-                minutes for questions. It would be beneficial to include a short introduction accessible to non-
-                specialists, possibly outlining the key concepts and the methodology used.
             </p>
             <p>
                 To prepare the Abstract please follow the format as indicated in the <Link href={"/" + props.meetingId + "/abstract-submission"}>Abstract Submission</Link> page.

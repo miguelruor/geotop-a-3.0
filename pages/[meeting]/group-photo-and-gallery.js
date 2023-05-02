@@ -1,8 +1,5 @@
 import Background from '../../components/Proceedings/Background/Background';
-import { makeStyles } from "@material-ui/core/styles";
-import styles from "../../views/HomePage/HomePageStyle.js";
-
-const useStyles = makeStyles(styles);
+import style from "../../assets/css/meetings.module.css";
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
@@ -30,11 +27,9 @@ export async function getStaticPaths() {
 
 export default function AbstractSubmission(props) {
 
-    const classes = useStyles();
-
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
-            <h1 className={classes.paragraphTitle}>Group Photo and Gallery</h1>
+            <h1 className={style.paragraphTitle}>Group Photo and Gallery</h1>
             <h2>TBA</h2>
             {/*
             <br />

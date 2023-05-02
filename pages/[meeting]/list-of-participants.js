@@ -1,17 +1,12 @@
 import { Fragment } from 'react';
 
 import Background from '../../components/Proceedings/Background/Background';
-import { makeStyles } from "@material-ui/core/styles";
-import styles from "../../views/HomePage/HomePageStyle.js";
+import style from "../../assets/css/meetings.module.css";
 
 import Hidden from '@material-ui/core/Hidden';
 import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
 import Divider from '@material-ui/core/Divider';
-
-// nodejs library that concatenates classes
-
-const useStyles = makeStyles(styles);
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
@@ -88,11 +83,9 @@ export default function AbstractSubmission(props) {
 
     const { submissions } = props;
 
-    const classes = useStyles();
-
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
-            <h1 className={classes.paragraphTitle}>List of Participants</h1>
+            <h1 className={style.paragraphTitle}>List of Participants</h1>
             <h2>TBA</h2>
             {/*
             <br />

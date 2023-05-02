@@ -1,7 +1,6 @@
 import Background from '../../components/Proceedings/Background/Background';
-import { makeStyles } from "@material-ui/core/styles";
 import Divider from '@material-ui/core/Divider';
-import styles from "../../views/HomePage/HomePageStyle.js";
+import style from "../../assets/css/meetings.module.css";
 
 // nodejs library that concatenates classes
 import SectionCarousel from "../../components/Carousel/carousel.js";
@@ -9,7 +8,6 @@ import ImageCardGrid from '../../components/Proceedings/ImageCardGrid/ImageCardG
 
 import meetingData from "../../data/meeting.json";
 
-const useStyles = makeStyles(styles);
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
@@ -44,12 +42,10 @@ export async function getStaticPaths() {
 
 export default function Home(props) {
 
-    const classes = useStyles();
-
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
 
-            <div className={classes.paragraphTitle}>
+            <div className={style.paragraphTitle}>
                 <h1>GEOTOP-A International Conference</h1>
                 <h2>Applications of Geometry and Topology</h2>
             </div>
@@ -71,15 +67,15 @@ export default function Home(props) {
             </ul>
             <h3>Format</h3>
             <p>
-                Keynote lectures (45 minutes, including questions), Oral Contributions (25 minutes, including questions) and Poster presentations (5 minutes)
+                Keynote lectures (45 minutes, including questions), Oral contributions (25 minutes, including questions) and Poster presentations (5 minutes)
             </p>
             <Divider variant="fullWidth" />
-            <h1 className={classes.paragraphTitle}>Conference Venue</h1>
+            <h1 className={style.paragraphTitle}>Conference Venue</h1>
             <SectionCarousel images={props.images} />
             <p>Universidad Autónoma de Yucatán (UADY, Edificio Central), Mérida</p>
             <Divider variant="fullWidth" />
 
-            <h1 className={classes.paragraphTitle}>Scientific Committee</h1>
+            <h1 className={style.paragraphTitle}>Scientific Committee</h1>
             <ul style={{ fontStyle: "italic" }}>
                 <li>Paweł Dłotko (Dioscuri Centre, Poland)</li>
                 <li>Michael Farber (Queen Mary University of London, UK)</li>
@@ -95,7 +91,7 @@ export default function Home(props) {
             </ul>
             <Divider variant="fullWidth" />
 
-            <h1 className={classes.paragraphTitle}>Local Organizing Committee</h1>
+            <h1 className={style.paragraphTitle}>Local Organizing Committee</h1>
             <ul style={{ fontStyle: "italic" }}>
                 <li>Martha-Gabriela Araujo-Pardo (Sociedad Matemática Mexicana & IM-UNAM, México)</li>
                 <li>Luis-Celso Chan-Palomo (FMAT-UADY, México)</li>

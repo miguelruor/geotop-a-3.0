@@ -1,11 +1,8 @@
 import Background from '../../components/Proceedings/Background/Background';
-import { makeStyles } from "@material-ui/core/styles";
-import styles from "../../views/HomePage/HomePageStyle.js";
+import style from "../../assets/css/meetings.module.css";
 import Image from 'next/image';
 
 import meetingData from "../../data/meeting.json";
-
-const useStyles = makeStyles(styles);
 
 export async function getStaticProps() {
     return {
@@ -27,11 +24,9 @@ export async function getStaticPaths() {
 
 export default function AbstractSubmission(props) {
 
-    const classes = useStyles();
-
     return (
         <Background title={props.meetingTitle} meetingId={props.meetingId} shortDescription={props.shortDescription}>
-            <h1 className={classes.paragraphTitle}>Venue and Travel Infos</h1>
+            <h1 className={style.paragraphTitle}>Venue and Travel Infos</h1>
             <h2>Yucatán</h2>
             <div style={{ display: "flex", alignItems: "center" }}>
                 <div style={{ width: "60%", paddingRight: "30px" }}>
@@ -64,7 +59,7 @@ export default function AbstractSubmission(props) {
                         typical driving times on the map).
                     </p>
                     <p>
-                        Mérida is a city of about 1.3 million inhabitants. The Autonomous University of Yucatán (UADY) and the
+                        Mérida is a city of about 1.1 million inhabitants. The Autonomous University of Yucatán (UADY) and the
                         conference hall located in the city centre are at a walking distance from the major tourist attractions,
                         hotels and night life places. Click <a href="https://drive.google.com/file/d/1PoLkC44Z13b0GNKHrT7OUwKDlGzQuqa2/view?usp=share_link" target='_blank'>HERE</a> to see the local map.
                     </p>
@@ -90,26 +85,23 @@ export default function AbstractSubmission(props) {
                 and flights <a href="https://www.cancunairport.com/" target='_blank'>HERE</a>.
             </p>*/}
             <p>
-                From Cancún International Airport there is the possibility to reach Mérida by taking a small hopper plane by <a href="https://www.mayair.com.mx/" target="_blank">MayAir</a> in the airport commuter terminal.
-                There are a few direct flights from US and Canadian cities to Mérida (Houston, Miami, Toronto, ...).
-            </p>
-            <p>
                 The overland connection to Mérida by car is a journey
                 that varies from 4 hours, by a hired private shuttle
                 service or a car rental, to 6-8 hours using local bus
                 services offered, for example, by <a href="https://www.ado.com.mx/" target="_blank">ADO</a>,
-                the largest bus
-                company in Mexico). Since roads in Yucatán are of high
-                quality, driving standards are generally good and fuel is
-                extremely cheap, renting a car may be the best option.
+                the largest bus company in Mexico. Since roads in Yucatan are of high quality, driving standards
+                are generally good and fuel is extremely cheap if you compare with European prices, renting a car
+                may be the best option. However, do not expect high quality rental cars.
             </p>
             <p>
                 To have an idea of the average time and cost of service for various transport solutions
-                click <a href="https://drive.google.com/file/d/1i53y2mYIvCA-YLX9JD8wyEMobrehWcCb/view?usp=share_link" target="_blank">HERE</a> to see a reference table.
+                click <a href="https://drive.google.com/file/d/1i53y2mYIvCA-YLX9JD8wyEMobrehWcCb/view?usp=share_link" target="_blank">HERE</a> to see
+                a reference table in US dollars.
             </p>
             <div style={{ display: "flex", alignItems: "center" }}>
-                <div style={{ width: "60%", paddingRight: "30px" }}>
+                <div style={{ width: "55%", paddingRight: "30px" }}>
                     <p>
+                        There are a few direct flights from US and Canadian cities to Merida (Dallas, Houston, Miami, Toronto, ...).
                         A fast train connection provided by the <a href="https://www.alstom.com/mayan-train-project" target="_blank">Mayan Train</a> between the cities of Mérida
                         and Cancún is expected to be operational from December 2023. This
                         project will connect the states of Chiapas, Tabasco,
@@ -118,8 +110,8 @@ export default function AbstractSubmission(props) {
                         very good solution.
                     </p>
                 </div>
-                <div style={{ width: "35%", paddingLeft: "30px" }}>
-                    <Image src="/img/meetings/merida24/others/MayaTrain_map.jpg" width={500} height={350} />
+                <div style={{ width: "45%", paddingLeft: "30px" }}>
+                    <Image src="/img/meetings/merida24/others/MayaTrain_map.jpg" width={700} height={350} />
                 </div>
             </div>
 

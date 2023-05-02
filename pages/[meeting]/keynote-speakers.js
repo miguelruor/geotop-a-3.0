@@ -1,10 +1,5 @@
 import Background from '../../components/Proceedings/Background/Background';
-import { makeStyles } from "@material-ui/core/styles";
-import styles from "../../views/HomePage/HomePageStyle.js";
-
-// nodejs library that concatenates classes
-
-const useStyles = makeStyles(styles);
+import style from "../../assets/css/meetings.module.css";
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
@@ -32,11 +27,9 @@ export async function getStaticPaths() {
 
 export default function AbstractSubmission(props) {
 
-    const classes = useStyles();
-
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
-            <div className={classes.paragraphTitle}>
+            <div className={style.paragraphTitle}>
                 <h1>Keynote Speakers</h1>
             </div>
             <h2>TBA</h2>
