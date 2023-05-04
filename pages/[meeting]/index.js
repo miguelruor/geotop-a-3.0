@@ -49,7 +49,7 @@ export default function Home(props) {
                 <h1>GEOTOP-A International Conference</h1>
                 <h2>Applications of Geometry and Topology</h2>
             </div>
-            <h2>January 8-12, 2024<br />Mérida (Yucatán), México</h2>
+            <h2>January 8-13, 2024<br />Mérida (Yucatán), México</h2>
             <p>
                 Some of the leading experts in applications of geometric and topological methods will gather in Mérida to present and discuss some of the most recent advances in various areas of mathematical sciences. Six thematic sessions will focus on hot topics that are marking current progress in active research areas, from topological data analysis to applications in artificial intelligence, from topological methods in field theory to applications of geometry and topology to DNA biology.
             </p>
