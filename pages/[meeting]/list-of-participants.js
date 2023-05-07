@@ -1,12 +1,5 @@
-import { Fragment } from 'react';
-
 import Background from '../../components/Proceedings/Background/Background';
 import style from "../../assets/css/meetings.module.css";
-
-import Hidden from '@material-ui/core/Hidden';
-import GridContainer from "../../components/Grid/GridContainer.js";
-import GridItem from "../../components/Grid/GridItem.js";
-import Divider from '@material-ui/core/Divider';
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
@@ -86,63 +79,36 @@ export default function AbstractSubmission(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={style.paragraphTitle}>List of Participants</h1>
-            <h2>TBA</h2>
-            {/*
             <br />
-            <p>Lecturers and accompanying persons present at EMFCSC</p>
-            <GridContainer>
-                <Hidden only="xs">
-                    <GridItem sm={1}>
-                        <h4>#</h4>
-                    </GridItem>
-                    <GridItem sm={4}>
-                        <h4>FAMILY NAME<br />First Name</h4>
-                    </GridItem>
-                    <GridItem sm={3}>
-                        <h4>Affiliation<br />Country</h4>
-                    </GridItem>
-                    <GridItem sm={2}>
-                        <h4>Arrival<br />at - dd time</h4>
-                    </GridItem>
-                    <GridItem sm={2}>
-                        <h4>Departure<br />at - dd time</h4>
-                    </GridItem>
-                </Hidden>
-                {submissions.map(talk => (
-                    <Fragment key={talk.speaker}>
-                        <Hidden xsDown>
-                            <GridItem sm={1}>
-                                <p>{talk.participantNum}</p>
-                            </GridItem>
-                            <GridItem sm={4}>
-                                <p>{talk.familyName} <br /> {talk.firstName}</p>
-                            </GridItem>
-                            <GridItem sm={3}>
-                                <p>{talk.affiliation}<br />{talk.country}</p>
-                            </GridItem>
-                            <GridItem sm={2}>
-                                <p>{talk.arrival}<br />{talk.arrivalTime}</p>
-                            </GridItem>
-                            <GridItem sm={2}>
-                                <p>{talk.departure ? <>{talk.departure}<br />{talk.departureTime}</> : "-"}</p>
-                            </GridItem>
-                            <GridItem sm={12}>
-                                <Divider variant="fullWidth" />
-                            </GridItem>
-                        </Hidden>
-                        {/* Seccion Movil
-                        <Hidden smUp>
-                            <GridItem xs={12}>
-                                <p>{talk.participantNum}. {talk.familyName} {talk.firstName} - {talk.affiliation}, {talk.country}</p>
-                            </GridItem>
-                            <GridItem xs={12}>
-                                <Divider variant="fullWidth" />
-                            </GridItem>
-                        </Hidden>
-                    </Fragment>
-                ))}
-            </GridContainer>
-                */}
+            <h3>Applications of Geometry and Topology to Biology (DNA)</h3>
+            <ul>
+                <li>Sophie Jackson</li>
+                <li>Cristian Micheletti</li>
+                <li>Davide Michieletto</li>
+                <li>Ken Millett</li>
+                <li>Lynn Zechiedrich</li>
+            </ul>
+            <h3>Applications in Physical Sciences (PHYS)</h3>
+            <h3>Combinatorial Topology of Relational Structures (CTRS)</h3>
+            <h3>Data Analysis, Machine Learning and AI (DAMLAI)</h3>
+            <ul>
+                <li>Ingrid Membrillo-Solís</li>
+                <li>Radmila Sazdanovic</li>
+            </ul>
+            <h3>Topological Complexity and LS Category (TCLS)</h3>
+            <ul>
+                <li>Dan Cohen</li>
+                <li>Jose Manuel García-Calcines</li>
+                <li>Dan Guralnik</li><li>Norio Iwase</li>
+                <li>Ben Knudsen</li>
+                <li>Stephan Mescher</li>
+                <li>Amit Kumar Paul</li>
+                <li>Petar Pavesic</li>
+                <li>Rekha Santhanam</li>
+                <li>Lucile Vandembroucq</li>
+            </ul>
+            <h3>Topological Data Analysis (TDA)</h3>
+
         </Background>
     )
 }
