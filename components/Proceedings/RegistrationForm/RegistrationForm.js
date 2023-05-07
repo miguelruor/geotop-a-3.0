@@ -9,6 +9,7 @@ import Select from '@mui/material/Select';
 import Box from '@mui/material/Box';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
+import { CircularProgress } from '@material-ui/core';
 import style from "../../../assets/css/RegistrationForm.module.css";
 
 const RegistrationForm = ({ meetingId }) => {
@@ -49,7 +50,13 @@ const RegistrationForm = ({ meetingId }) => {
             accepted: false,
         }).then((e) => {
             setIsLoading(false);
-        }).catch((e) => { setErrorAlert(true); });
+            setSuccess(true);
+            setErrorAlert(false);
+        }).catch((e) => {
+            setIsLoading(false);
+            setSuccess(false);
+            setErrorAlert(true);
+        });
     }
 
     return (
@@ -173,7 +180,12 @@ const RegistrationForm = ({ meetingId }) => {
                 />
             </div>
 
-            <Button color="primary" type='submit' form="contact_form">Send submission</Button>
+            <span style={{ display: "flex", alignItems: "center" }}>
+                <Button color="primary" type='submit' form="contact_form">Send submission</Button>
+                {isLoading ? <CircularProgress style={{ marginLeft: "30px" }} /> : null}
+                {errorAlert ? <span style={{ color: "red", marginLeft: "30px" }}>Error. Please try again.</span> : null}
+                {success ? <span style={{ color: "green", marginLeft: "30px" }}>Information was successfully submitted!</span> : null}
+            </span>
         </form >
     )
 };
