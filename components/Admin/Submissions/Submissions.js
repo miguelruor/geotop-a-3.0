@@ -1,6 +1,6 @@
 import Background from "../Background/Background"
 import { useContext } from 'react';
-import { FirebaseContext } from '../../../auth/FirebaseContext';
+import { FirebaseContext } from '../../../firebase/FirebaseContext';
 
 const Submissions = () => {
     const { logout } = useContext(FirebaseContext);

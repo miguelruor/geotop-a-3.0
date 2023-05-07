@@ -9,7 +9,7 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Background from '../Background/Background';
 import { useContext } from 'react';
-import { FirebaseContext } from '../../../auth/FirebaseContext';
+import { FirebaseContext } from '../../../firebase/FirebaseContext';
 
 const theme = createTheme();
 
