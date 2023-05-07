@@ -13,14 +13,14 @@ const useStyles = makeStyles(styles);
 
 export default function Parallax(props) {
   const [windowScrollTop, setWindowScrollTop] = React.useState(0);
-  React.useEffect(()=>{
+  React.useEffect(() => {
     if (window.innerWidth >= 768) {
       setWindowScrollTop(window.pageYOffset / 3);
     } else {
       setWindowScrollTop(0);
     }
   });
-  
+
   const [transform, setTransform] = React.useState(
     "translate3d(0," + windowScrollTop + "px,0)"
   );
@@ -64,7 +64,7 @@ Parallax.propTypes = {
   className: PropTypes.string,
   filter: PropTypes.bool,
   children: PropTypes.node,
-  style: PropTypes.string,
+  style: PropTypes.object,
   image: PropTypes.string,
   small: PropTypes.bool
 };

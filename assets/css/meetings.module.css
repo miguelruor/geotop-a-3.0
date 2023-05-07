@@ -8,3 +8,36 @@
     font-family: 'Times New Roman', serif;
     width: 100%;
 }
+
+.imageAndText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.sideImageText {
+    width: 47%;
+}
+
+.sideImage {
+    width: 47%;
+}
+
+.centeredImage {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .sideImageText {
+        width: 100%;
+    }
+}
+
+@media (min-width: 960px) {
+    .sideImageText {
+        padding-right: 50px;
+    }
+
+}

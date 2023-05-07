@@ -45,6 +45,12 @@ const landingPageStyle = {
   },
   containerContentAux: {
     padding: "0px 12% 0px 5%",
+    "@media (min-width: 600px)": {
+      paddingRight: "8%"
+    },
+    "@media (min-width: 900px)": {
+      paddingRight: "5%"
+    },
     textAlign: "justify",
     textJustify: "inter-word",
 
