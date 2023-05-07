@@ -49,26 +49,17 @@ export default function AbstractSubmission(props) {
                 Keynote Lectures are kindly requested to keep their presentation to 40 minutes, leaving 5 minutes for questions. It would be beneficial to include a
                 short introduction accessible to non-specialists, possibly outlining the key concepts and the methodology used.
             </p>
-            <p>
-                To prepare the Abstract please follow the format as indicated in the <Link href={"/" + props.meetingId + "/abstract-submission"}>Abstract Submission</Link> page.
-            </p>
             <h2>Oral Contributions - 25 mins</h2>
             <p>
                 Speakers contributing with an oral presentation are kindly requested to keep their talk
                 to 20 minutes, leaving 5 minutes for questions. It would be beneficial to include a very short entry to the key concepts,
                 so to make accessible the contents of the talk to non-specialists.
             </p>
-            <p>
-                To prepare the Abstract please follow the format as indicated in the <Link href={"/" + props.meetingId + "/abstract-submission"}>Abstract Submission</Link> page.
-            </p>
             <h2>Poster presentations - 5 mins</h2>
             <p>
                 Presenters of posters are kindly requested to keep strictly to the allocated 5-minute time for
                 their oral presentation. They are also kindly requested to stand by their poster during the
                 poster session (as indicated in the Scientific Program) so to be available for questions.
-            </p>
-            <p>
-                To prepare the Abstract please follow the format as indicated in the <Link href={"/" + props.meetingId + "/abstract-submission"}>Abstract Submission</Link> page.
             </p>
         </Background>
     )
