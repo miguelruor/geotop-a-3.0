@@ -36,7 +36,6 @@ export default function Background(props) {
                             { text: "Keynote Speakers", url: "/" + meetingId + "/keynote-speakers" },
                             { text: "Deadlines and Registration", url: "/" + meetingId + "/registration" },
                             { text: "Guidelines for Contribution", url: "/" + meetingId + "/contribution-guidelines" },
-                            { text: "Abstract Submission", url: "/" + meetingId + "/abstract-submission" },
                             { text: "Venue and Travel Infos", url: "/" + meetingId + "/venue-and-travel-infos" },
                             { text: "Accomodation and Meals", url: "/" + meetingId + "/accomodation-and-meals" },
                             { text: "Social Programme", url: "/" + meetingId + "/social-programme" },
