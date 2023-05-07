@@ -17,7 +17,7 @@
     "classnames": "^2.2.6",
     "clsx": "^1.1.1",
     "emailjs-com": "^2.6.4",
-    "firebase": "^8.3.2",
+    "firebase": "^9.21.0",
     "fs": "0.0.1-security",
     "next": "^10.0.6",
     "next-images": "^1.7.0",
