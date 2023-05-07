@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut, getAuth } from "firebase/auth";
+import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { createContext, useEffect, useState } from 'react';
 
 const firebaseConfig = {
@@ -20,6 +21,7 @@ const FirebaseContext = createContext();
 
 const FirebaseProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  const db = getFirestore(app);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (authUser) => {
@@ -41,10 +43,15 @@ const FirebaseProvider = ({ children }) => {
     await signOut(auth);
   };
 
+  const writeDoc = (collection_name, data) => {
+    return addDoc(collection(db, collection_name), data);
+  }
+
   const value = {
     user,
     login,
     logout,
+    writeDoc
   };
 
   return (

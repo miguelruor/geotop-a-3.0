@@ -2,6 +2,7 @@ import Background from '../../components/Proceedings/Background/Background';
 import style from "../../assets/css/meetings.module.css";
 import Link from "next/link";
 import RegistrationForm from '../../components/Proceedings/RegistrationForm/RegistrationForm';
+import { FirebaseProvider } from '../../firebase/FirebaseContext';
 
 import meetingData from "../../data/meeting.json";
 
@@ -24,7 +25,6 @@ export async function getStaticPaths() {
 }
 
 export default function AbstractSubmission(props) {
-
     return (
         <Background title={props.meetingTitle} meetingId={props.meetingId} shortDescription={props.shortDescription}>
             <h1 className={style.paragraphTitle}>Deadlines and Registration</h1>
@@ -44,7 +44,9 @@ export default function AbstractSubmission(props) {
                 large, there will be NO REGISTRATION FEE to attend this conference.
             </p>
 
-            <RegistrationForm />
+            <FirebaseProvider>
+                <RegistrationForm meetingId={props.meetingId} />
+            </FirebaseProvider>
 
         </Background>
     )

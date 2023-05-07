@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { FirebaseContext } from "../../../firebase/FirebaseContext";
 import CustomInput from "../../CustomInput/CustomInput.js";
 import Button from "../../CustomButtons/Button.js";
-
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -11,10 +11,14 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import style from "../../../assets/css/RegistrationForm.module.css";
 
-const RegistrationForm = () => {
+const RegistrationForm = ({ meetingId }) => {
 
     const [session, setSession] = useState("");
     const [contribution, setContribution] = useState("");
+    const [isLoading, setIsLoading] = useState(false);
+    const [errorAlert, setErrorAlert] = useState(false);
+    const [success, setSuccess] = useState(false);
+    const { writeDoc } = useContext(FirebaseContext);
 
     const handleChange = (event, select) => {
         if (select === "session") {
@@ -25,13 +29,27 @@ const RegistrationForm = () => {
         }
     };
 
-
     function handleSubmit(e) {
         e.preventDefault();
 
         const data = new FormData(e.currentTarget);
 
-        console.log(data);
+        setIsLoading(true);
+
+        writeDoc(meetingId, {
+            surname: data.get('surname'),
+            name: data.get('name'),
+            country: data.get('country'),
+            institution: data.get('institution'),
+            email: data.get('email'),
+            invited: data.get('invited') === "on" ? true : false,
+            session: data.get('session'),
+            contribution: data.get('contribution'),
+            abstract: data.get('abstract'),
+            accepted: false,
+        }).then((e) => {
+            setIsLoading(false);
+        }).catch((e) => { setErrorAlert(true); });
     }
 
     return (
@@ -139,7 +157,7 @@ const RegistrationForm = () => {
             </Box>
 
             <h3>Abstract:</h3>
-            <div style={{ height: "500px", overflowY: "scroll", border: "1px solid grey", marginBottom: "25px", padding: "0px 10px" }}>
+            <div style={{ height: "300px", overflowY: "scroll", border: "1px solid grey", marginBottom: "25px", padding: "0px 10px" }}>
                 <CustomInput
                     labelText="Write here. You can use LaTeX syntax."
                     id="abstract"
@@ -154,7 +172,6 @@ const RegistrationForm = () => {
                     }}
                 />
             </div>
-
 
             <Button color="primary" type='submit' form="contact_form">Send submission</Button>
         </form >
