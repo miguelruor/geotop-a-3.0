@@ -40,6 +40,7 @@ const RegistrationForm = ({ meetingId }) => {
         writeDoc(meetingId, {
             surname: data.get('surname'),
             name: data.get('name'),
+            completeName: data.get('name') + " " + data.get('surname'),
             country: data.get('country'),
             institution: data.get('institution'),
             email: data.get('email'),
