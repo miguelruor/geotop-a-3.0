@@ -1,6 +1,8 @@
 import Background from '../../components/Proceedings/Background/Background';
 import style from "../../assets/css/meetings.module.css";
 import Link from "next/link";
+import RegistrationForm from '../../components/Proceedings/RegistrationForm/RegistrationForm';
+import { FirebaseProvider } from '../../firebase/FirebaseContext';
 
 import meetingData from "../../data/meeting.json";
 
@@ -23,7 +25,6 @@ export async function getStaticPaths() {
 }
 
 export default function AbstractSubmission(props) {
-
     return (
         <Background title={props.meetingTitle} meetingId={props.meetingId} shortDescription={props.shortDescription}>
             <h1 className={style.paragraphTitle}>Deadlines and Registration</h1>
@@ -38,16 +39,14 @@ export default function AbstractSubmission(props) {
             </ul>
 
             <h2>Registration</h2>
-            <h3 style={{ textAlign: "center" }}>Under construction</h3>
-            {/*
             <p>
-                Participants are kindly requested to register their details online by filling this form (not yet available).
-            </p>
-            */}
-            <p>
-                In order to encourage the participation of post-docs and the community of researchers at
+                Participants are kindly requested to register their details online by filling this form. In order to encourage the participation of post-docs and the community of researchers at
                 large, there will be NO REGISTRATION FEE to attend this conference.
             </p>
+
+            <FirebaseProvider>
+                <RegistrationForm meetingId={props.meetingId} />
+            </FirebaseProvider>
 
         </Background>
     )

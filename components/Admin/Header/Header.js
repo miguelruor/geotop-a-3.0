@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
+import { FirebaseContext } from "../../../firebase/FirebaseContext";
 import classNames from "classnames";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
+import LogoutIcon from '@mui/icons-material/Logout';
+import IconButton from '@mui/material/IconButton';
 import styles from "../../../assets/jss/material-kit-react/components/headerStyle";
 
 const useStyles = makeStyles(styles);
 
 export default function Header(props) {
   const classes = useStyles();
-  const [mobileOpen, setMobileOpen] = React.useState(false);
   React.useEffect(() => {
     if (props.changeColorOnScroll) {
       window.addEventListener("scroll", headerColorChange);
@@ -22,9 +24,6 @@ export default function Header(props) {
       }
     };
   });
-  const handleDrawerToggle = () => {
-    setMobileOpen(!mobileOpen);
-  };
   const headerColorChange = () => {
     const { color, changeColorOnScroll } = props;
     const windowsScrollTop = window.pageYOffset;
@@ -44,7 +43,7 @@ export default function Header(props) {
         .classList.remove(classes[changeColorOnScroll.color]);
     }
   };
-  const { color, brand, fixed, absolute } = props;
+  const { color, brand, fixed, absolute, showLogOutButton } = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
     [classes[color]]: color,
@@ -52,12 +51,28 @@ export default function Header(props) {
     [classes.fixed]: fixed
   });
   const brandComponent = <Button className={classes.title}>{brand}</Button>;
+
+  const { logout } = useContext(FirebaseContext);
+
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
         <div className={classes.flex}>
           {brandComponent}
         </div>
+        {
+          showLogOutButton &&
+          <IconButton
+            size="large"
+            aria-label="account of current user"
+            aria-controls="menu-appbar"
+            aria-haspopup="true"
+            onClick={() => logout()}
+            color="inherit"
+          >
+            <LogoutIcon />
+          </IconButton>
+        }
       </Toolbar>
     </AppBar>
   );
