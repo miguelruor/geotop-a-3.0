@@ -19,7 +19,6 @@ const Submissions = ({ meetingId }) => {
 
     useEffect(() => {
         getSubmissions(meetingId).then((querySnapshot) => {
-            console.log(querySnapshot.docs[0].data());
             setSubmissions(
                 querySnapshot.docs.map((doc) => processDoc(doc))
             );
