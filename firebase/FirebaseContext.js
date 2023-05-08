@@ -35,12 +35,12 @@ const FirebaseProvider = ({ children }) => {
     return unsubscribe;
   }, []);
 
-  const login = async (email, password) => {
-    await signInWithEmailAndPassword(auth, email, password);
+  const login = (email, password) => {
+    return signInWithEmailAndPassword(auth, email, password);
   };
 
-  const logout = async () => {
-    await signOut(auth);
+  const logout = () => {
+    return signOut(auth);
   };
 
   const writeDoc = (collection_name, data) => {
