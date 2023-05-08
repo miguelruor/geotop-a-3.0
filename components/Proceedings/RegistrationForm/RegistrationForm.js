@@ -107,7 +107,7 @@ const RegistrationForm = ({ meetingId }) => {
                 }}
             />
             <CustomInput
-                labelText="Email (institutional, if possible)"
+                labelText="e-mail"
                 id="email"
                 formControlProps={{
                     fullWidth: true
@@ -118,7 +118,7 @@ const RegistrationForm = ({ meetingId }) => {
                 }}
             />
 
-            <FormControlLabel style={{ padding: "20px 0px" }} control={<Checkbox name="invited" />} label="Invited by committee" />
+            <FormControlLabel style={{ padding: "20px 0px" }} control={<Checkbox name="invited" />} label="Invited by Scientific Committee" />
 
             <Box style={{ marginTop: "25px", width: "120px", height: "80px" }} >
                 <FormControl fullWidth>
@@ -146,7 +146,7 @@ const RegistrationForm = ({ meetingId }) => {
 
             <Box style={{ marginTop: "25px", width: "200px", height: "80px" }} >
                 <FormControl fullWidth>
-                    <InputLabel id="contribution-select-label" required>Type of contribution</InputLabel>
+                    <InputLabel id="contribution-select-label" required>Type of Contribution</InputLabel>
                     <Select
                         name="contribution"
                         labelId="contribution-select-label"
