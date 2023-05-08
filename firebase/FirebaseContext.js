@@ -21,14 +21,17 @@ const FirebaseContext = createContext();
 
 const FirebaseProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  const [loadingUser, setLoadingUser] = useState(true);
   const db = getFirestore(app);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (authUser) => {
       if (authUser) {
         setUser(authUser);
+        setLoadingUser(false);
       } else {
         setUser(null);
+        setLoadingUser(false);
       }
     });
 
@@ -57,6 +60,7 @@ const FirebaseProvider = ({ children }) => {
 
   const value = {
     user,
+    loadingUser,
     login,
     logout,
     writeDoc,
