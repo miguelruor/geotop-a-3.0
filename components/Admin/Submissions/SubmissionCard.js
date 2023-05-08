@@ -49,7 +49,7 @@ const SubmissionCard = ({ meetingId, submission }) => {
         });
     }
     return (
-        <Card sx={{ minWidth: 275 }}>
+        <Card sx={{ minWidth: 275, margin: "20px 0px" }}>
             <CardContent style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                 <div>
                     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
