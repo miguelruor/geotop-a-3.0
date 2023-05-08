@@ -8,14 +8,15 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Background from '../Background/Background';
-import { useContext } from 'react';
-import { FirebaseContext } from '../../../auth/FirebaseContext';
+import { useContext, useState } from 'react';
+import { FirebaseContext } from '../../../firebase/FirebaseContext';
 
 const theme = createTheme();
 
 export default function Login() {
 
     const { login } = useContext(FirebaseContext);
+    const [error, setError] = useState(false);
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -25,7 +26,13 @@ export default function Login() {
         var email = data.get('email');
         var password = data.get('password');
 
-        login(email, password);
+        login(email, password).then(
+            (value) => {
+                setError(false);
+            }).catch(
+                (error) => {
+                    setError(true);
+                });
     };
 
     return (
@@ -76,6 +83,7 @@ export default function Login() {
                             >
                                 Sign In
                             </Button>
+                            {error && <Typography style={{ marginTop: "20px" }} component="h3" color="red">There was an error with your login. Try again.</Typography>}
                         </Box>
                     </Box>
                 </Container>

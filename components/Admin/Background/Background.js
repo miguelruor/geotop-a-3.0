@@ -14,7 +14,7 @@ import classNames from "classnames";
 const useStyles = makeStyles(styles);
 
 export default function Background(props) {
-    const { title, children } = props;
+    const { title, children, showLogOutButton } = props;
 
     const classes = useStyles();
 
@@ -30,6 +30,7 @@ export default function Background(props) {
                     color="blue"
                     brand="Admin site"
                     fixed
+                    showLogOutButton={showLogOutButton}
                     changeColorOnScroll={{
                         height: 400,
                         color: "white"

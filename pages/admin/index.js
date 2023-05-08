@@ -1,5 +1,5 @@
 import AdminSite from "../../components/Admin/AdminSite/AdminSite.js";
-import { FirebaseProvider } from '../../auth/FirebaseContext';
+import { FirebaseProvider } from '../../firebase/FirebaseContext';
 
 const AuthPage = () => {
 
