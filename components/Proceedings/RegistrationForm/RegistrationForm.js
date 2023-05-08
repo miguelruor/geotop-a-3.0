@@ -38,6 +38,7 @@ const RegistrationForm = ({ meetingId }) => {
         setIsLoading(true);
 
         writeDoc(meetingId, {
+            createdAt: new Date(),
             surname: data.get('surname'),
             name: data.get('name'),
             completeName: data.get('name') + " " + data.get('surname'),
