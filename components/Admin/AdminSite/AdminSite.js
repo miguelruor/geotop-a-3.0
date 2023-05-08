@@ -7,7 +7,7 @@ const AdminSite = () => {
 
     const { user } = useContext(FirebaseContext);
 
-    return user ? <Submissions /> : <Login />
+    return user ? <Submissions meetingId="merida24" /> : <Login />
 }
 
 export default AdminSite;

@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut, getAuth } from "firebase/auth";
-import { getFirestore, collection, addDoc } from "firebase/firestore";
+import { getFirestore, collection, addDoc, getDocs, updateDoc, doc } from "firebase/firestore";
 import { createContext, useEffect, useState } from 'react';
 
 const firebaseConfig = {
@@ -47,11 +47,21 @@ const FirebaseProvider = ({ children }) => {
     return addDoc(collection(db, collection_name), data);
   }
 
+  const getSubmissions = (meetingId) => {
+    return getDocs(collection(db, meetingId));
+  }
+
+  const setAcceptedSubmission = (meetingId, submissionId, accepted) => {
+    return updateDoc(doc(db, meetingId, submissionId), { accepted: accepted });
+  }
+
   const value = {
     user,
     login,
     logout,
-    writeDoc
+    writeDoc,
+    getSubmissions,
+    setAcceptedSubmission
   };
 
   return (
