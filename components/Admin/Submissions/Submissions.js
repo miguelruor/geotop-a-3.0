@@ -4,7 +4,7 @@ import { FirebaseContext } from '../../../firebase/FirebaseContext';
 
 const Submissions = () => {
     const { logout } = useContext(FirebaseContext);
-    return (<Background title={"Admin site GEOTOP-A"}>
+    return (<Background title={"Admin site GEOTOP-A"} showLogOutButton>
         <h1>Admin site</h1>
         <button onClick={() => logout()}>Logout</button>
     </Background>)
