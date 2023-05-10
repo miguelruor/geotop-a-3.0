@@ -38,6 +38,19 @@ export async function getStaticProps() {
     })
   });
 
+  // order netx_talks by date
+  next_talks.sort((a, b) => {
+    if (a.date < b.date) {
+      return -1;
+    }
+    else if (a.date > b.date) {
+      return 1;
+    }
+    else {
+      return 0;
+    }
+  });
+
   return {
     props: {
       next_talks: next_talks
