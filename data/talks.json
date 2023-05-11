@@ -1,4 +1,16 @@
 {
+    "132": {
+        "speaker_id": 115,
+        "date": "June 2, 2023",
+        "date2": "20230602",
+        "title": "TBA",
+        "keywords": [
+            "TBA"
+        ],
+        "abstract": "TBA",
+        "season": "SPRING 2023",
+        "video": null
+    },
     "131": {
         "speaker_id": 114,
         "date": "May 19, 2023",
@@ -16,8 +28,8 @@
     },
     "130": {
         "speaker_id": 89,
-        "date": "May 26, 2023",
-        "date2": "20230526",
+        "date": "June 16, 2023",
+        "date2": "20230616",
         "title": "Magnetohydrodynamic relaxation, helicity and minimum energy states in magnetised plasmas",
         "keywords": [
             "magnetic fields",

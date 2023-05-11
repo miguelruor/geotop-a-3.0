@@ -27,6 +27,7 @@ export async function getStaticProps() {
     next_talks.push({
       speakerImage: speakers[speakerID].image ? '/img/speakers/sp' + speakerID + ".png" : "/img/speakers/no-image.png",
       date: talks[talk_id].date,
+      date2: talks[talk_id].date2,
       speaker: speakers[speakerID].completeName,
       title: talks[talk_id].title,
       keywords: talks[talk_id].keywords,
@@ -40,10 +41,10 @@ export async function getStaticProps() {
 
   // order netx_talks by date
   next_talks.sort((a, b) => {
-    if (a.date < b.date) {
+    if (a.date2 < b.date2) {
       return -1;
     }
-    else if (a.date > b.date) {
+    else if (a.date2 > b.date2) {
       return 1;
     }
     else {
