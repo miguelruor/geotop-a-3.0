@@ -34,12 +34,12 @@ export default function Background(props) {
                         [
                             { text: "Homepage", url: "/" + meetingId },
                             { text: "Keynote Speakers", url: "/" + meetingId + "/keynote-speakers" },
+                            { text: "List of Participants", url: "/" + meetingId + "/list-of-participants" },
                             { text: "Deadlines and Registration", url: "/" + meetingId + "/registration" },
                             { text: "Guidelines for Contribution", url: "/" + meetingId + "/contribution-guidelines" },
                             { text: "Venue and Travel Infos", url: "/" + meetingId + "/venue-and-travel-infos" },
                             { text: "Accomodation and Meals", url: "/" + meetingId + "/accomodation-and-meals" },
                             { text: "Social Programme", url: "/" + meetingId + "/social-programme" },
-                            { text: "List of Participants", url: "/" + meetingId + "/list-of-participants" },
                             { text: "Scientific Programme", url: "/" + meetingId + "/scientific-programme" },
                             { text: "Book of Abstracts", url: "/" + meetingId + "/book-of-abstracts" },
                             { text: "Group Photo and Gallery", url: "/" + meetingId + "/group-photo-and-gallery" },
