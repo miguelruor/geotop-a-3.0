@@ -106,8 +106,12 @@ export default function AbstractSubmission(props) {
                 <li>Petar Pavesic</li>
                 <li>Rekha Santhanam</li>
                 <li>Lucile Vandembroucq</li>
+                <li>Alexander Dranishnikov</li>
             </ul>
             <h3>Topological Data Analysis (TDA)</h3>
+            <ul>
+                <li>Yusu Wang</li>
+            </ul>
 
         </Background>
     )
