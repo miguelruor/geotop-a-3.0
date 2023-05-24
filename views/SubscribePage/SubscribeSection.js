@@ -66,10 +66,10 @@ export default function SubscribeSection() {
 
     emailjs
       .send(
-        "service_qtjgu2b",
+        process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID,
         "geotop_form",
         params,
-        "user_ACWbrTNybMU7EJa0oRaUL"
+        process.env.NEXT_PUBLIC_EMAIL_JS_KEY
       )
       .then(
         (result) => {
@@ -86,9 +86,11 @@ export default function SubscribeSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 style={{margin: "0px 0px 50px 0px", minHeight:"32px", textDecoration:"none", 
-          textAlign:"center", color:"#3C4858", fontWeight: "bold", fontFamily: `"Roboto Slab", "Times New Roman", "serif"`, 
-          fontSize:"2rem"}}>Subscribe to GEOTOP-A</h2>
+          <h2 style={{
+            margin: "0px 0px 50px 0px", minHeight: "32px", textDecoration: "none",
+            textAlign: "center", color: "#3C4858", fontWeight: "bold", fontFamily: `"Roboto Slab", "Times New Roman", "serif"`,
+            fontSize: "2rem"
+          }}>Subscribe to GEOTOP-A</h2>
           <h4 className={classes.description}>
             Send us your details to receive automatic reminders of upcoming seminars.
           </h4>
