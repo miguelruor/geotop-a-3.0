@@ -28,7 +28,8 @@ import Latex from "react-latex-next";
 const contributionName = {
     "keynote": "Keynote lecture",
     "oral": "Oral contribution",
-    "poster": "Poster presentation"
+    "poster": "Poster presentation",
+    "participant": "Attendee"
 };
 
 const SubmissionCard = ({ meetingId, submission }) => {
@@ -59,7 +60,7 @@ const SubmissionCard = ({ meetingId, submission }) => {
                         {submission.completeName} ({submission.email})
                     </Typography>
                     <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                        {submission.session} - {contributionName[submission.contribution]} {submission.invited ? "- Invited by Scientific Committee" : null}
+                        {contributionName[submission.contribution]} {submission.contribution != "participant" && "-"} {submission.session} {submission.invited ? "- Invited by Scientific Committee" : null}
                     </Typography>
                     <Typography variant="body2">
                         Submitted on {submission.createdAt.toLocaleString()}
@@ -69,7 +70,7 @@ const SubmissionCard = ({ meetingId, submission }) => {
                     <span>
                         Accepted: <Checkbox checked={accepted} onChange={onAcceptSubmission} /> {wasError && <ErrorIcon style={{ color: "red" }} />}
                     </span>
-                    <span>
+                    {submission.contribution != "participant" && <span>
                         Show abstract: <ExpandMore
                             expand={expanded}
                             onClick={() => setExpanded(!expanded)}
@@ -78,7 +79,7 @@ const SubmissionCard = ({ meetingId, submission }) => {
                         >
                             <ExpandMoreIcon className={classes.icon} />
                         </ExpandMore>
-                    </span>
+                    </span>}
                 </CardActions>
             </CardContent>
             <Collapse in={expanded} timeout="auto" unmountOnExit>
