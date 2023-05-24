@@ -11,10 +11,12 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import { CircularProgress } from '@material-ui/core';
 import style from "../../../assets/css/RegistrationForm.module.css";
+import emailjs from "emailjs-com";
 
 const RegistrationForm = ({ meetingId }) => {
 
     const [session, setSession] = useState("");
+    const [invited, setInvited] = useState(false);
     const [contribution, setContribution] = useState("");
     const [isLoading, setIsLoading] = useState(false);
     const [errorAlert, setErrorAlert] = useState(false);
@@ -33,27 +35,60 @@ const RegistrationForm = ({ meetingId }) => {
     function handleSubmit(e) {
         e.preventDefault();
 
-        const data = new FormData(e.currentTarget);
+        const formData = new FormData(e.currentTarget);
+
+        const data = {
+            createdAt: new Date(),
+            surname: formData.get('surname'),
+            name: formData.get('name'),
+            completeName: formData.get('name') + " " + formData.get('surname'),
+            country: formData.get('country'),
+            institution: formData.get('institution'),
+            email: formData.get('email'),
+            invited: formData.get('invited') === "on" ? true : false,
+            session: formData.get('session'),
+            contribution: formData.get('contribution'),
+            abstract: formData.get('abstract'),
+            accepted: false,
+        }
+
+        // restrictions before submitting
+        if (!data.invited && data.contribution == "keynote") {
+            setIsLoading(false);
+            setSuccess(false);
+            setErrorAlert(true);
+
+            return;
+        }
+
+        if (data.contribution != "participant" && (data.abstract == "" || data.session == "")) {
+            setIsLoading(false);
+            setSuccess(false);
+            setErrorAlert(true);
+
+            return;
+        }
 
         setIsLoading(true);
+        setSuccess(false);
+        setErrorAlert(false);
 
-        writeDoc(meetingId, {
-            createdAt: new Date(),
-            surname: data.get('surname'),
-            name: data.get('name'),
-            completeName: data.get('name') + " " + data.get('surname'),
-            country: data.get('country'),
-            institution: data.get('institution'),
-            email: data.get('email'),
-            invited: data.get('invited') === "on" ? true : false,
-            session: data.get('session'),
-            contribution: data.get('contribution'),
-            abstract: data.get('abstract'),
-            accepted: false,
-        }).then((e) => {
+        writeDoc(meetingId, data).then((e) => {
             setIsLoading(false);
             setSuccess(true);
             setErrorAlert(false);
+        }).then((e) => {
+            // send confirmation email
+            emailjs
+                .send(
+                    process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID,
+                    meetingId,
+                    {
+                        completeName: data.completeName,
+                        email: data.email,
+                    },
+                    process.env.NEXT_PUBLIC_EMAIL_JS_KEY
+                )
         }).catch((e) => {
             setIsLoading(false);
             setSuccess(false);
@@ -119,53 +154,67 @@ const RegistrationForm = ({ meetingId }) => {
                 }}
             />
 
-            <FormControlLabel style={{ padding: "20px 0px" }} control={<Checkbox name="invited" />} label="Invited by Scientific Committee" />
+            <FormControlLabel
+                style={{ padding: "20px 0px" }}
+                control={
+                    <Checkbox name="invited" checked={invited} onChange={() => setInvited(!invited)} />
+                }
+                label="Invited by Scientific Committee"
+            />
 
-            <Box style={{ marginTop: "25px", width: "120px", height: "80px" }} >
-                <FormControl fullWidth>
-                    <InputLabel id="session-select-label" required>Session</InputLabel>
-                    <Select
-                        name="session"
-                        labelId="session-select-label"
-                        id="session_select"
-                        value={session}
-                        onChange={(e) => handleChange(e, "session")}
-                        autoWidth
-                        variant="standard"
-                        required
-                    >
-                        <MenuItem className={style.MenuItemSelect} value={"DNA"}>DNA</MenuItem>
-                        <MenuItem className={style.MenuItemSelect} value={"PHYS"}>PHYS</MenuItem>
-                        <MenuItem className={style.MenuItemSelect} value={"CTRS"}>CTRS</MenuItem>
-                        <MenuItem className={style.MenuItemSelect} value={"DAMLAI"}>DAMLAI</MenuItem>
-                        <MenuItem className={style.MenuItemSelect} value={"TCLS"}>TCLS</MenuItem>
-                        <MenuItem className={style.MenuItemSelect} value={"TDA"}>TDA</MenuItem>
+            <span style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}>
+                <Box style={{ marginTop: "25px", width: "200px", height: "80px" }} >
+                    <FormControl fullWidth>
+                        <InputLabel id="contribution-select-label" required>Type of participation</InputLabel>
+                        <Select
+                            name="contribution"
+                            labelId="contribution-select-label"
+                            id="contribution"
+                            value={contribution}
+                            onChange={(e) => handleChange(e, "contribution")}
+                            autoWidth
+                            variant="standard"
+                            required
+                        >
+                            <MenuItem className={style.MenuItemSelect} value={"participant"}>Attendee</MenuItem>
+                            <MenuItem className={style.MenuItemSelect} value={"keynote"}>Keynote lecture</MenuItem>
+                            <MenuItem className={style.MenuItemSelect} value={"oral"}>Oral contribution</MenuItem>
+                            <MenuItem className={style.MenuItemSelect} value={"poster"}>Poster presentation</MenuItem>
+                        </Select>
+                    </FormControl>
+                </Box>
+                {(contribution === "keynote" && !invited) && <span style={{ color: "red", marginLeft: "20px", fontSize: "15px" }}>Only invited participants can select "Keynote lecture"</span>}
+            </span>
 
-                    </Select>
-                </FormControl>
-            </Box>
+            <span style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}>
 
-            <Box style={{ marginTop: "25px", width: "200px", height: "80px" }} >
-                <FormControl fullWidth>
-                    <InputLabel id="contribution-select-label" required>Type of Contribution</InputLabel>
-                    <Select
-                        name="contribution"
-                        labelId="contribution-select-label"
-                        id="contribution"
-                        value={contribution}
-                        onChange={(e) => handleChange(e, "contribution")}
-                        autoWidth
-                        variant="standard"
-                        required
-                    >
-                        <MenuItem className={style.MenuItemSelect} value={"keynote"}>Keynote lecture</MenuItem>
-                        <MenuItem className={style.MenuItemSelect} value={"oral"}>Oral contribution</MenuItem>
-                        <MenuItem className={style.MenuItemSelect} value={"poster"}>Poster presentation</MenuItem>
-                    </Select>
-                </FormControl>
-            </Box>
+                <Box style={{ marginTop: "25px", width: "120px", height: "80px" }} >
+                    <FormControl fullWidth>
+                        <InputLabel id="session-select-label">Session</InputLabel>
+                        <Select
+                            name="session"
+                            labelId="session-select-label"
+                            id="session_select"
+                            value={session}
+                            onChange={(e) => handleChange(e, "session")}
+                            autoWidth
+                            variant="standard"
+                        >
+                            <MenuItem value=""><em>None</em></MenuItem>
+                            <MenuItem className={style.MenuItemSelect} value={"DNA"}>DNA</MenuItem>
+                            <MenuItem className={style.MenuItemSelect} value={"PHYS"}>PHYS</MenuItem>
+                            <MenuItem className={style.MenuItemSelect} value={"CTRS"}>CTRS</MenuItem>
+                            <MenuItem className={style.MenuItemSelect} value={"DAMLAI"}>DAMLAI</MenuItem>
+                            <MenuItem className={style.MenuItemSelect} value={"TCLS"}>TCLS</MenuItem>
+                            <MenuItem className={style.MenuItemSelect} value={"TDA"}>TDA</MenuItem>
 
-            <h3>Abstract:</h3>
+                        </Select>
+                    </FormControl>
+                </Box>
+                <span style={{ marginLeft: "20px", fontSize: "15px" }}>(only for contributing participants)</span>
+            </span>
+
+            <span style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}><h3>Abstract:</h3> <p style={{ marginLeft: "20px", fontSize: "15px" }}>(only for contributing participants)</p></span>
             <div style={{ height: "300px", overflowY: "scroll", border: "1px solid grey", marginBottom: "25px", padding: "0px 10px" }}>
                 <CustomInput
                     labelText="Write here. You can use LaTeX syntax."
@@ -174,7 +223,6 @@ const RegistrationForm = ({ meetingId }) => {
                         fullWidth: true
                     }}
                     inputProps={{
-                        required: true,
                         multiline: true,
                         rows: 100,
                         name: "abstract"
