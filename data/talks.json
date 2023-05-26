@@ -28,7 +28,7 @@
         ],
         "abstract": "The Yamabe equation on a Riemannian manifold $(M, g)$ is of relevance in differential geometry. A positive solution to it gives rise to a metric on $M$ which has constant scalar curvature and is conformally equivalent to the given metric $g$. </br>An optimal $l$-partition for the Yamabe equation is a cover of $M$ by $l$ pairwise disjoint open subsets such that the Yamabe equation with Dirichlet boundary condition has a least energy solution on each one of these sets, and the sum of the energies of these solutions is minimal. Such a partition induces a <i>generalized metric</i> that vanishes on a set of measure zero and is conformally equivalent to $g$ in the complement. </br>I will present some results obtained in collaboration with Angela Pistoia (La Sapienza Universit`a di Roma) and Hugo Tavares (Universidade de Lisboa) that ensure the existence and establish qualitative properties of this type of partitions. To do this, we use some ideas from physics.",
         "season": "SPRING 2023",
-        "video": null
+        "video": "https://www.youtube.com/embed/g9Tiv2C6TNQ"
     },
     "130": {
         "speaker_id": 89,
