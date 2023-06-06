@@ -115,6 +115,7 @@ export default function AbstractSubmission(props) {
             <h3>Topological Data Analysis (TDA)</h3>
             <ul>
                 <li>Yusu Wang</li>
+                <li>Heather Harrington</li>
             </ul>
 
         </Background>
