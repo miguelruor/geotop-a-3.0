@@ -12,7 +12,7 @@ export async function getStaticProps() {
     images.push('/img/imagesCarousel/img' + i.toString() + '.jpg')
   }
 
-  var lastTalk = Object.keys(talks).length - 1;
+  var lastTalk = Object.keys(talks).length; // WARNING; this is the last index because 89 index is missing in talks json
 
   let found = false; // flag to know when I found the last talk
 
