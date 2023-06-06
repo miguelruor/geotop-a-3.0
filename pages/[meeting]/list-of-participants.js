@@ -87,9 +87,13 @@ export default function AbstractSubmission(props) {
                 <li>Davide Michieletto</li>
                 <li>Ken Millett</li>
                 <li>Lynn Zechiedrich</li>
+                <li>Mariel Vázquez (not confirmed)</li>
             </ul>
             <h3>Applications in Physical Sciences (PHYS)</h3>
             <h3>Combinatorial Topology of Relational Structures (CTRS)</h3>
+            <ul>
+                <li>Ismar Volić</li>
+            </ul>
             <h3>Data Analysis, Machine Learning and AI (DAMLAI)</h3>
             <ul>
                 <li>Ingrid Membrillo-Solís</li>

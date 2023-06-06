@@ -13,7 +13,7 @@
         ],
         "abstract": "Persistence diagrams are central objects in topological data analysis. They are pictorial representations of persistence homology modules and describe topological features of a data set at different scales. In this talk, I will discuss the geometry of spaces of persistence diagrams and connections with the theory of Alexandrov spaces, which are metric generalizations of complete Riemannian manifolds with sectional curvature bounded below. In particular, I will discuss how one can assign to a metric pair $(X,A)$ a one-parameter family of pointed metric spaces of (generalized) persistence diagrams $D_p(X,A)$ with points in $(X,A)$ via a family of functors $D_p$ with $p\\in [1,\\infty]$. These spaces are equipped with the p-Wasserstein distance when $p\\geq 1$ and the bottleneck distance when $p=\\infty$. The functors $D_p$ preserve natural metric properties of the space $X$, including non-negative curvature in the triangle comparison sense when $p=2$. When $p=\\infty$, the functor $D_\\infty$ is sequentially continuous with respect to a suitable notion of Gromov–Hausdorff convergence of metric pairs. When $(X,A) = (\\mathbb{R}^2,\\Delta)$, where $\\Delta$ is the diagonal of $\\mathbb{R}^2$, one recovers previously known properties of the usual spaces of persistence diagrams. This is joint work with Mauricio Che, Luis Guijarro, Ingrid Membrillo Solis, and Motiejus Valiunas. </br></br><a href=\"https://arxiv.org/abs/2109.14697\">https://arxiv.org/abs/2109.14697</a></br><a href=\"https://arxiv.org/abs/2205.09718\">https://arxiv.org/abs/2205.09718</a>",
         "season": "SPRING 2023",
-        "video": null
+        "video": "https://www.youtube.com/embed/qobrDyof2Rg"
     },
     "131": {
         "speaker_id": 114,
