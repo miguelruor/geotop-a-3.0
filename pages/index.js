@@ -14,9 +14,11 @@ export async function getStaticProps() {
 
   var lastTalk = Object.keys(talks).length; // WARNING; this is the last index because 89 index is missing in talks json
 
-  let found = false; // flag to know when I found the last talk
+  // search last video (sorted by date) in the last 20 records, because we assume there will not be more than 20 talks in a semester
+  var MAX_TALKS_IN_SEMESTER = 20;
+  var talksIDToSearch = [];
 
-  while (!found) {
+  while (talksIDToSearch.length < MAX_TALKS_IN_SEMESTER) {
     const currentTalkId = lastTalk.toString();
 
     if (talks[currentTalkId] == undefined) {
@@ -27,16 +29,21 @@ export async function getStaticProps() {
       lastTalk -= 1;
       continue;
     }
-    else if (talks[lastTalk.toString()].video == null) {
+    else if (talks[currentTalkId].video == null) {
       lastTalk -= 1;
       continue;
     }
     else {
-      found = true;
+      lastTalk -= 1;
+      talksIDToSearch.push(currentTalkId);
     }
   }
 
-  const talk_id = lastTalk.toString();
+  talksIDToSearch.sort((talkID1, talkID2) => talks[talkID1].date2 < talks[talkID2].date2 ? 1 : -1);
+
+  const talk_id = talksIDToSearch[0];
+
+  console.log(talksIDToSearch)
 
   return {
     props: {
