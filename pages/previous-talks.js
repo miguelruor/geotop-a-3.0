@@ -51,7 +51,7 @@ export async function getStaticProps() {
 
 
   for (var season in seasons_aux) {
-    seasons_aux[season].reverse()
+    seasons_aux[season].sort((talk1, talk2) => talks[talk1.talkID].date2 < talks[talk2.talkID].date2 ? 1 : -1);
   }
 
   return {
