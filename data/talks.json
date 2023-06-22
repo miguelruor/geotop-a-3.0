@@ -56,7 +56,7 @@
         ],
         "abstract": "During the turbulent relaxation of a plasma with a high magnetic Reynolds number, the magnetic energy is typically dissipated faster than the magnetic helicity. Hence one can attempt to describe the result of such a relaxation as a state that minimises the energy while preserving the magnetic helicity. Mathematically the relation between magnetic helicity and energy is defined by an inequality, $|H(B)| \\le (2/C) E(B)$, a result that was first shown in a classical paper by V.I. Arnold (1974) for simply connected domains. The formula shows how a non-trivial magnetic field topology (a non-zero helicity) forms a lower bound for the magnetic energy. The formula contains a constant C, which is the smallest possible eigenvalue of the curl operator in a magnetically closed domain. The corresponding eigenfield is a state of maximum helicity for a given energy. We will discuss under which circumstances these maximum helicity (minimum energy) states can be reached, show how Arnold’s formula can be applied to non-simply connected domains, and how one can modify Arnold’s formula to find lower bounds for the energy even if $H(B)=0$.</br></br>References:</br></br>-Arnold, V.I., The asymptotic Hopf invariant and its application, Sel. Math. Sov., 5, 327 (1986) </br>-Candelaresi, S., Pontin, D. I., Hornig, G., & Podger, B. Topological Constraints in the reconnection of vortex braids, Physics of Fluids, (33), 056101 (2021) </br>-Yeates, A.R., Hornig, G. and Wilmot-Smith, A.L. Topological Constraints on Magnetic Relaxation, Phys. Rev. Lett., 105, 085002 (2010)",
         "season": "SPRING 2023",
-        "video": null
+        "video": "https://www.youtube.com/embed/qvYwpHAckUI"
     },
     "129": {
         "speaker_id": 92,
