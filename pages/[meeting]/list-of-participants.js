@@ -87,35 +87,45 @@ export default function AbstractSubmission(props) {
                 <li>Davide Michieletto</li>
                 <li>Ken Millett</li>
                 <li>Lynn Zechiedrich</li>
-                <li>Mariel Vázquez (not confirmed)</li>
             </ul>
             <h3>Applications in Physical Sciences (PHYS)</h3>
+            <ul>
+                <li>Mitchell Berger</li>
+            </ul>
             <h3>Combinatorial Topology of Relational Structures (CTRS)</h3>
             <ul>
+                <li>Marco Tulio Angulo</li>
+                <li>Armando Casteñeda</li>
+                <li>Dmitry Feichtner-Kozlov</li>
+                <li>Matthias Függer</li>
+                <li>Maurice Herlihy</li>
+                <li>Jeremy Ledent</li>
+                <li>Thomas Nowak</li>
                 <li>Ismar Volić</li>
             </ul>
             <h3>Data Analysis, Machine Learning and AI (DAMLAI)</h3>
             <ul>
-                <li>Ingrid Membrillo-Solís</li>
                 <li>Radmila Sazdanovic</li>
+                <li>Ingrid Membrillo-Solís</li>
             </ul>
             <h3>Topological Complexity and LS Category (TCLS)</h3>
             <ul>
                 <li>Dan Cohen</li>
+                <li>Alexander Dranishnikov</li>
                 <li>Jose Manuel García-Calcines</li>
-                <li>Dan Guralnik</li><li>Norio Iwase</li>
+                <li>Dan Guralnik</li>
+                <li>Norio Iwase</li>
                 <li>Ben Knudsen</li>
                 <li>Stephan Mescher</li>
                 <li>Amit Kumar Paul</li>
                 <li>Petar Pavesic</li>
                 <li>Rekha Santhanam</li>
                 <li>Lucile Vandembroucq</li>
-                <li>Alexander Dranishnikov</li>
             </ul>
             <h3>Topological Data Analysis (TDA)</h3>
             <ul>
-                <li>Yusu Wang</li>
                 <li>Heather Harrington</li>
+                <li>Yusu Wang</li>
             </ul>
 
         </Background>
