@@ -32,14 +32,14 @@ export default function AbstractSubmission(props) {
             <div className={style.paragraphTitle}>
                 <h1>Keynote Speakers</h1>
             </div>
-            <ul style={{ textAlign: "center", listStyleType: "none", fontSize: "1.3em" }}>
-                <li>Cristian Micheletti (DNA)</li>
-                <li>Mitchell Berger (PHYS)</li>
-                <li>Ismar Volić (CTRS)</li>
-                <li>Radmila Sazdanovic (DAMLAI)</li>
-                <li>Alexander Dranishnikov (TCLS)</li>
-                <li>Yusu Wang (TDA)</li>
-            </ul>
+            <div style={{ width: "100%", textAlign: "center", fontSize: "1.4em" }}>
+                Cristian Micheletti (DNA)<br />
+                Mitchell Berger (PHYS)<br />
+                Ismar Volić (CTRS)<br />
+                Radmila Sazdanovic (DAMLAI)<br />
+                Alexander Dranishnikov (TCLS)<br />
+                Yusu Wang (TDA)<br />
+            </div>
         </Background>
     )
 }
