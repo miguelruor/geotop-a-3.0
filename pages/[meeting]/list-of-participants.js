@@ -105,8 +105,8 @@ export default function AbstractSubmission(props) {
             </ul>
             <h3>Data Analysis, Machine Learning and AI (DAMLAI)</h3>
             <ul>
-                <li>Radmila Sazdanovic</li>
                 <li>Ingrid Membrillo-Solís</li>
+                <li>Radmila Sazdanovic</li>
             </ul>
             <h3>Topological Complexity and LS Category (TCLS)</h3>
             <ul>
@@ -116,16 +116,21 @@ export default function AbstractSubmission(props) {
                 <li>Dan Guralnik</li>
                 <li>Norio Iwase</li>
                 <li>Ben Knudsen</li>
-                <li>Stephan Mescher</li>
                 <li>Amit Kumar Paul</li>
+                <li>Stephan Mescher</li>
                 <li>Petar Pavesic</li>
-                <li>Rekha Santhanam</li>
                 <li>Lucile Vandembroucq</li>
             </ul>
             <h3>Topological Data Analysis (TDA)</h3>
             <ul>
                 <li>Heather Harrington</li>
                 <li>Yusu Wang</li>
+            </ul>
+
+            <h1 className={style.paragraphTitle}>Registered Attendees</h1>
+            <br />
+            <ul>
+                <li>Carlos Pompeyo-Gutierrez</li>
             </ul>
 
         </Background>

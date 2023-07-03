@@ -57,14 +57,32 @@ export default function Home(props) {
                 This conference will also provide a wonderful occasion to celebrate five years of activity of the international web-seminar series GEOTOP-A, launched in August 2018.
             </p>
             <h3>Thematic Sessions</h3>
-            <ul>
-                <li>Applications of Geometry and Topology to Biology (DNA)</li>
-                <li>Applications in Physical Sciences (PHYS)</li>
-                <li>Combinatorial Topology of Relational Structures (CTRS)</li>
-                <li>Data Analysis, Machine Learning and AI (DAMLAI)</li>
-                <li>Topological Complexity and LS Category (TCLS)</li>
-                <li>Topological Data Analysis (TDA)</li>
-            </ul>
+            <h4 style={{ textAlign: "center" }}>Applications of Geometry and Topology to Biology (DNA)</h4>
+            <p>
+                This session will present modern applications of geometry and topology to the structure and mechanism of DNA, proteins and viruses.
+            </p>
+            <h4 style={{ textAlign: "center" }}>Applications in Physical Sciences (PHYS)</h4>
+            <p>
+                In recent years there has been an increased interest in applications of geometric and topological techniques to physical systems, especially in the mathematical formalism of dynamical systems, in the study of vortex flows, magnetic fields, polymer physics and complex systems. Some of the most prominent advances in these various research areas will be presented and discussed in this session.
+            </p>
+            <h4 style={{ textAlign: "center" }}>Combinatorial Topology of Relational Structures (CTRS)</h4>
+            <p>
+                Simplicial complexes have been used very successfully in more and more situations recently, as a model where objects interact in some way. The reason is that they are higher dimensional generalizations of graphs, that can represent relations not only about pairs of objects, but of sets of objects of any cardinality.
+                <br />Once a situation is modeled as a simplicial complex, or even a more general relational structure such as a simplicial set, it emerges that topological properties about the object capture properties about the underlying application, such as agents in a political structure, species in an ecological system, neurons in the brain, or computers interacting through a network or multicore shared memory system. The session will gather researchers that have already worked on the topology of relational structures, as well as others that are interesting in learning about these fascinating applications.
+            </p>
+            <h4 style={{ textAlign: "center" }}>Data Analysis, Machine Learning and AI (DAMLAI)</h4>
+            <p>
+                Modern and novel applications of Data Analysis, Machine Learning and AI to the sciences and in particular to pure mathematics will be presented.
+            </p>
+            <h4 style={{ textAlign: "center" }}>Topological Complexity and LS Category (TCLS)</h4>
+            <p>
+                Topological complexity is a numerical homotopy invariant of a topological space that gives a measure of the complexity of motion planning algorithms in robotics. This recently created research area is located within the burgeoning field of applied algebraic topology. With an originally applied motivation and, at the same time, a strong connection to classical subjects of algebraic topology like Lusternik-Schnirelmann category, this field has rapidly evolved due to contributions of many topologists. Recently, more applied flavoured results have begun to emerge, and nowadays the subject is a vibrant, highly active and fruitful ground for scientific activity, ready to face the current technological needs of our society. This session aims at bringing together specialists as well as early career mathematicians to discuss recent advances, and to set future lines of research in the area.
+            </p>
+            <h4 style={{ textAlign: "center" }}>Topological Data Analysis (TDA)</h4>
+            <p>
+                The 21st century witnessed the emergence of synergy between topology and data science. The two-way relation between the two lead to successful applications and new data driven theoretical results. The goal of this session is to facilitate conversations and new collaborations between researchers on the whole theoretical-applied continuum.
+            </p>
+
             <h3>Format</h3>
             <p>
                 Keynote lectures (45 minutes, including questions), Oral contributions (25 minutes, including questions) and Poster presentations (5 minutes)
