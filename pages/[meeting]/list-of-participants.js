@@ -116,8 +116,8 @@ export default function AbstractSubmission(props) {
                 <li>Dan Guralnik</li>
                 <li>Norio Iwase</li>
                 <li>Ben Knudsen</li>
-                <li>Amit Kumar Paul</li>
                 <li>Stephan Mescher</li>
+                <li>Amit Kumar Paul</li>
                 <li>Petar Pavesic</li>
                 <li>Lucile Vandembroucq</li>
             </ul>
