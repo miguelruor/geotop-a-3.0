@@ -1,5 +1,7 @@
 import Background from '../../components/Proceedings/Background/Background';
 import style from "../../assets/css/meetings.module.css";
+import Image from 'next/image';
+import Hidden from '@material-ui/core/Hidden';
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
@@ -32,14 +34,32 @@ export default function AbstractSubmission(props) {
             <div className={style.paragraphTitle}>
                 <h1>Keynote Speakers</h1>
             </div>
-            <div style={{ width: "100%", textAlign: "center", fontSize: "1.4em" }}>
-                Cristian Micheletti (DNA)<br />
-                Mitchell Berger (PHYS)<br />
-                Ismar Volić (CTRS)<br />
-                Radmila Sazdanovic (DAMLAI)<br />
-                Alexander Dranishnikov (TCLS)<br />
-                Yusu Wang (TDA)<br />
+            <Hidden mdUp>
+                <div className={style.centeredImage}>
+                    <Image src="/img/meetings/merida24/others/merida_letras.png" objectFit='contain' width={500} height={350} />
+                </div>
+            </Hidden>
+            <div className={style.imageAndText}>
+                <Hidden smDown className={style.sideImage}>
+                    <Image src="/img/meetings/merida24/others/merida_letras.png" objectFit='contain' width={500} height={400} />
+                </Hidden>
+                <p className={style.textSideImages}>
+                    Cristian Micheletti (DNA)<br />
+                    Mitchell Berger (PHYS)<br />
+                    Ismar Volić (CTRS)<br />
+                    Radmila Sazdanovic (DAMLAI)<br />
+                    Alexander Dranishnikov (TCLS)<br />
+                    Yusu Wang (TDA)<br />
+                </p>
+                <Hidden smDown className={style.sideImage}>
+                    <Image src="/img/meetings/merida24/others/cenote.jpg" objectFit='contain' width={500} height={400} />
+                </Hidden>
             </div>
+            <Hidden mdUp>
+                <div className={style.centeredImage}>
+                    <Image src="/img/meetings/merida24/others/cenote.jpg" objectFit='contain' width={500} height={350} />
+                </div>
+            </Hidden>
         </Background>
     )
 }
