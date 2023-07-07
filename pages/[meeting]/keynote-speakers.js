@@ -44,12 +44,24 @@ export default function AbstractSubmission(props) {
                     <Image src="/img/meetings/merida24/others/merida_letras.png" objectFit='contain' width={500} height={400} />
                 </Hidden>
                 <p className={style.textSideImages}>
-                    Cristian Micheletti (DNA)<br />
-                    Mitchell Berger (PHYS)<br />
-                    Ismar Volić (CTRS)<br />
-                    Radmila Sazdanovic (DAMLAI)<br />
-                    Alexander Dranishnikov (TCLS)<br />
-                    Yusu Wang (TDA)<br />
+                    <strong>Cristian Micheletti</strong><br />
+                    (DNA)<br /><br />
+
+                    <strong>Mitchell Berger</strong><br />
+                    (PHYS)<br /><br />
+
+                    <strong>Ismar Volić</strong><br />
+                    (CTRS)<br /><br />
+
+                    <strong>Radmila Sazdanovic</strong><br />
+                    (DAMLAI)<br /><br />
+
+                    <strong>Alexander Dranishnikov</strong><br />
+                    (TCLS)<br /><br />
+
+                    <strong>Yusu Wang</strong><br />
+                    (TDA)<br /><br />
+
                 </p>
                 <Hidden smDown className={style.sideImage}>
                     <Image src="/img/meetings/merida24/others/cenote.jpg" objectFit='contain' width={500} height={400} />
