@@ -126,7 +126,7 @@ export default function Home(props) {
             <ImageCardGrid title="Supporting Organizations" cardProps={[
                 { image: '/img/meetings/' + props.meeting + '/supporting organizations/CIMAT.jpg', title: "" },
                 { image: '/img/meetings/' + props.meeting + '/supporting organizations/CINVESTAV.jpg', title: "" },
-                { image: '/img/meetings/' + props.meeting + '/supporting organizations/CONACYT.jpg', title: "" },
+                { image: '/img/meetings/' + props.meeting + '/supporting organizations/CONAHCYT.png', title: "" },
                 { image: '/img/meetings/' + props.meeting + '/supporting organizations/UNAM.jpg', title: "" },
                 { image: '/img/meetings/' + props.meeting + '/supporting organizations/SMM.jpg', title: "" },
                 { image: '/img/meetings/' + props.meeting + '/supporting organizations/UAY.jpg', title: "" }
