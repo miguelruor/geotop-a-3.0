@@ -91,6 +91,12 @@ export default function AbstractSubmission(props) {
             <h3>Applications in Physical Sciences (PHYS)</h3>
             <ul>
                 <li>Mitchell Berger</li>
+                <li>J. Cantarella</li>
+                <li>L.H. Kauffman</li>
+                <li>X. Liu</li>
+                <li>R.L. Ricca</li>
+                <li>T. Sakajo</li>
+                <li>K. Shimokawa</li>
             </ul>
             <h3>Combinatorial Topology of Relational Structures (CTRS)</h3>
             <ul>
