@@ -101,7 +101,7 @@ export default function AbstractSubmission(props) {
             <h3>Combinatorial Topology of Relational Structures (CTRS)</h3>
             <ul>
                 <li>Marco Tulio Angulo</li>
-                <li>Armando Casteñeda</li>
+                <li>Armando Castañeda</li>
                 <li>Dmitry Feichtner-Kozlov</li>
                 <li>Matthias Függer</li>
                 <li>Maurice Herlihy</li>
