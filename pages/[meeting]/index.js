@@ -109,7 +109,7 @@ export default function Home(props) {
             </ul>
             <Divider variant="fullWidth" />
 
-            <h1 className={style.paragraphTitle}>Local Organizing Committee</h1>
+            <h1 className={style.paragraphTitle}>Organizing Committee</h1>
             <ul style={{ fontStyle: "italic" }}>
                 <li>Martha-Gabriela Araujo-Pardo (Sociedad Matemática Mexicana & IM-UNAM, México)</li>
                 <li>Luis-Celso Chan-Palomo (FMAT-UADY, México)</li>
