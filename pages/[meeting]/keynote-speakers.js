@@ -44,7 +44,8 @@ export default function AbstractSubmission(props) {
                     <Image src="/img/meetings/merida24/others/merida_letras.png" objectFit='contain' width={500} height={400} />
                 </Hidden>
                 <p className={style.textSideImages}>
-                    <strong>Cristian Micheletti, Sophie Jackson</strong><br />
+                    <strong>Sophie Jackson</strong><br />
+                    <strong>Cristian Micheletti</strong><br />
                     (DNA)<br /><br />
 
                     <strong>Mitchell Berger</strong><br />

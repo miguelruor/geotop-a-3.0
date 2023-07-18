@@ -104,6 +104,7 @@ export default function AbstractSubmission(props) {
                 <li>Armando Castañeda</li>
                 <li>Dmitry Feichtner-Kozlov</li>
                 <li>Matthias Függer</li>
+                <li>Emmanuel Godard</li>
                 <li>Maurice Herlihy</li>
                 <li>Jeremy Ledent</li>
                 <li>Thomas Nowak</li>
