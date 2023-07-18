@@ -49,6 +49,7 @@ export default function AbstractSubmission(props) {
                     (DNA)<br /><br />
 
                     <strong>Mitchell Berger</strong><br />
+                    <strong>Louis Kauffman</strong><br />
                     (PHYS)<br /><br />
 
                     <strong>Ismar Volić</strong><br />
