@@ -106,6 +106,7 @@ export default function AbstractSubmission(props) {
                 <li>Matthias Függer</li>
                 <li>Emmanuel Godard</li>
                 <li>Maurice Herlihy</li>
+                <li>Sophia Knight</li>
                 <li>Jeremy Ledent</li>
                 <li>Thomas Nowak</li>
                 <li>Ismar Volić</li>
@@ -130,6 +131,8 @@ export default function AbstractSubmission(props) {
             </ul>
             <h3>Topological Data Analysis (TDA)</h3>
             <ul>
+                <li>Paweł Dłotko</li>
+                <li>Alexander Smith</li>
                 <li>Yusu Wang</li>
             </ul>
 
