@@ -71,11 +71,43 @@
 
 .poster {
     position: relative;
-    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 450px) {
     .poster {
-        height: 50vh;
+        height: 60vh;
+    }
+}
+
+@media (min-width: 450px) {
+    .poster {
+        height: 70vh;
+    }
+}
+
+@media (min-width: 525px) {
+    .poster {
+        height: 80vh;
+    }
+}
+
+@media (min-width: 600px) {
+    .poster {
+        height: 90vh;
+    }
+}
+
+@media (min-width: 770px) {
+    .poster {
+        height: 130vh;
+    }
+}
+
+@media (min-width: 1000px) {
+    .poster {
+        height: 200vh;
     }
 }
