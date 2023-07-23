@@ -65,5 +65,17 @@
         padding-right: 50px;
         padding-left: 50px;
     }
+}
 
+/* Poster */
+
+.poster {
+    position: relative;
+    height: 90vh;
+}
+
+@media (max-width: 765px) {
+    .poster {
+        height: 50vh;
+    }
 }

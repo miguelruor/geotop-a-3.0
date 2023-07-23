@@ -39,10 +39,12 @@ export default function Background(props) {
                             { text: "Guidelines for Contribution", url: "/" + meetingId + "/contribution-guidelines" },
                             { text: "Venue and Travel Infos", url: "/" + meetingId + "/venue-and-travel-infos" },
                             { text: "Accomodation and Meals", url: "/" + meetingId + "/accomodation-and-meals" },
-                            { text: "Social Programme", url: "/" + meetingId + "/social-programme" },
+                            { text: "Culture and Tourism", url: "/" + meetingId + "/culture-tourism" },
+                            //{ text: "Social Programme", url: "/" + meetingId + "/social-programme" },
                             { text: "Scientific Programme", url: "/" + meetingId + "/scientific-programme" },
                             { text: "Book of Abstracts", url: "/" + meetingId + "/book-of-abstracts" },
                             { text: "Group Photo and Gallery", url: "/" + meetingId + "/group-photo-and-gallery" },
+                            { text: "Poster", url: "/" + meetingId + "/poster" },
                         ]
                     } />}
                     fixed
