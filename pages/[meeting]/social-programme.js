@@ -30,11 +30,8 @@ export default function AbstractSubmission(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={style.paragraphTitle}>Social Programme</h1>
-
             <br />
-            <p>
-                Mexican folklore culture: <a href="https://fb.watch/k_mHwL2LmT/?mibextid=VhDh1V" target='_blank'>click here</a>
-            </p>
+            TBA
         </Background>
     )
 }
