@@ -113,6 +113,8 @@ export default function AbstractSubmission(props) {
             </ul>
             <h3>Data Analysis, Machine Learning and AI (DAMLAI)</h3>
             <ul>
+                <li>Manuel Mellado Cuerno</li>
+                <li>José Angel Frías</li>
                 <li>Ingrid Membrillo-Solís</li>
                 <li>Radmila Sazdanovic</li>
             </ul>
@@ -140,6 +142,9 @@ export default function AbstractSubmission(props) {
             <br />
             <ul>
                 <li>Carlos Pompeyo-Gutierrez</li>
+                <li>Alberto Mario Jorge Gutierrez Flores</li>
+                <li>Luis Josue Diaz Alvarez</li>
+                <li>Adrian Alberto De Flon Gasca</li>
             </ul>
 
         </Background>
