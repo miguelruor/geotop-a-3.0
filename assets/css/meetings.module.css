@@ -20,6 +20,10 @@
     width: 47%;
 }
 
+.sideImageTextRight {
+    width: 47%;
+}
+
 .sideImage {
     width: 47%;
 }
@@ -33,6 +37,10 @@
     .sideImageText {
         width: 100%;
     }
+
+    .sideImageTextRight {
+        width: 100%;
+    }
 }
 
 @media (min-width: 960px) {
@@ -40,6 +48,9 @@
         padding-right: 50px;
     }
 
+    .sideImageTextRight {
+        padding-left: 50px;
+    }
 }
 
 .textSideImages {

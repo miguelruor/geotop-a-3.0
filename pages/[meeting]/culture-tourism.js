@@ -60,7 +60,7 @@ export default function AbstractSubmission(props) {
                 <Hidden smDown className={style.sideImage}>
                     <Image src="/img/meetings/merida24/tourism/casa_montejo_1.jpg" objectFit='contain' width={500} height={350} />
                 </Hidden>
-                <div className={style.sideImageText}>
+                <div className={style.sideImageTextRight}>
                     <p>
                         This house was built a few years after the founding of the city in 1542, by order of Francisco de Montejo, one of the first conquerors to arrive on the peninsula from Spain. The building has undergone several modifications in more than four centuries, according to the stylistic fashions of the time. Today you can appreciate the interior decoration in its site museum. It retains its original Plateresque façade and remains one of the few examples of Renaissance civil architecture from the 16th century. It operates as a cultural historical space, where temporary exhibitions are exhibited and various complementary activities are shown, such as conferences, seminars, book presentations and workshops.
                     </p>
@@ -94,7 +94,7 @@ export default function AbstractSubmission(props) {
                 <Hidden smDown className={style.sideImage}>
                     <Image src="/img/meetings/merida24/tourism/casa_museo_montes_molina.jpg" objectFit='contain' width={500} height={350} />
                 </Hidden>
-                <div className={style.sideImageText}>
+                <div className={style.sideImageTextRight}>
                     <p>
                         Inside the Montes Molina House Museum, you will be able to admire European furniture, Carrara marble floors, precious Baccarat and Murano glass chandeliers, antique clocks, Art Deco pieces, porcelain and alabaster sculptures, family tableware and all kinds of furniture, ornaments and antiques. The rooms and bathrooms keep the elegance and European taste, a marked influence at that time. In the basement is the kitchen, laundry room, cistern, cellars, old cellar and utility rooms. This magnificent house passed into the hands of the Montes Molina family in 1915 and has been preserved with all the original furniture from that time, through the four generations that have lived and still live in it.
                     </p>
@@ -131,7 +131,7 @@ export default function AbstractSubmission(props) {
                         <figcaption>Cenote X-batun</figcaption>
                     </figure>
                 </Hidden>
-                <div className={style.sideImageText}>
+                <div className={style.sideImageTextRight}>
                     <p>
                         Cenotes are one-of-a-kind natural wonders found in the Yucatan Peninsula. Their peculiarity encourages tourists from all over the world to come to visit this area of the country to enjoy these beautiful bodies of fresh water, along with the coasts of the Mexican Caribbean.
                         The main theory of the emergence of cenotes dates back to the extinction of the dinosaurs, since the meteorite that hit the coast of Chicxulub, Yucatan would be responsible for creating these natural wonders. The following are cenotes near Merida:
@@ -143,7 +143,10 @@ export default function AbstractSubmission(props) {
                     </p>
                     <Hidden mdUp>
                         <div className={style.centeredImage}>
-                            <Image src="/img/meetings/merida24/tourism/xbatun.jpg" objectFit='contain' width={500} height={350} />
+                            <figure>
+                                <Image src="/img/meetings/merida24/tourism/xbatun.jpg" objectFit='contain' width={500} height={350} />
+                                <figcaption>Cenote X-batun</figcaption>
+                            </figure>
                         </div>
                     </Hidden>
                 </div>
@@ -163,6 +166,80 @@ export default function AbstractSubmission(props) {
                 </div>
                 <Hidden smDown className={style.sideImage}>
                     <Image src="/img/meetings/merida24/tourism/paseo-montejo.jpg" objectFit='contain' width={500} height={350} />
+                </Hidden>
+            </div>
+
+            <h2>Uxmal</h2>
+            <div className={style.imageAndText}>
+                <Hidden smDown className={style.sideImage}>
+                    <Image src="/img/meetings/merida24/tourism/uxmal.jpg" objectFit='contain' width={500} height={350} />
+                </Hidden>
+                <div className={style.sideImageTextRight}>
+                    <p>
+                        To the south of Yucatan, 62 km from Merida, the archaeological zone of Uxmal emerges spectacularly, declared a World Heritage Site by UNESCO. It is one of the archaeological zones of the Mayan culture whose architecture is one of the most majestic in Yucatan.
+                        Its beauty is characterized by having low and horizontal palaces, placed around patios or quadrangles, which are rich in decorations of highly detailed sculptures made with thousands of small stones perfectly polished and adjusted, forming geometric mosaics
+                        of perfection unmatched in the entire Mayan area.
+                    </p>
+                    <Hidden mdUp>
+                        <div className={style.centeredImage}>
+                            <Image src="/img/meetings/merida24/tourism/uxmal.jpg" objectFit='contain' width={500} height={350} />
+                        </div>
+                    </Hidden>
+                </div>
+            </div>
+
+            <h2>Puerto Progreso</h2>
+            <div className={style.imageAndText}>
+                <div className={style.sideImageText}>
+                    <p>
+                        Puerto Progreso is the ideal complement to the cultural experience that traveling to Merida represents. While you are in Merida, you will surely feel like escaping to the beach at some point. This is when Puerto Progreso becomes relevant. Puerto Progreso is just over 40 km from Merida, so in less than an hour you will have arrived.
+                        This beautiful coastal town is home to the most important port in the state and is the gateway to the Yucatecan peninsula from the Gulf of Mexico. In addition to a relaxed and familiar atmosphere that invites you to rest and disconnect, Puerto Progreso offers an extensive menu of water activities, tasty gastronomic proposals and some lodging options.
+                    </p>
+                    <Hidden mdUp>
+                        <div className={style.centeredImage}>
+                            <Image src="/img/meetings/merida24/tourism/puerto-progreso.jpg" objectFit='contain' width={500} height={350} />
+                        </div>
+                    </Hidden>
+                </div>
+                <Hidden smDown className={style.sideImage}>
+                    <Image src="/img/meetings/merida24/tourism/puerto-progreso.jpg" objectFit='contain' width={500} height={350} />
+                </Hidden>
+            </div>
+
+            <h2>Izamal</h2>
+            <div className={style.imageAndText}>
+                <Hidden smDown className={style.sideImage}>
+                    <Image src="/img/meetings/merida24/tourism/izamal.jpg" objectFit='contain' width={500} height={350} />
+                </Hidden>
+                <div className={style.sideImageTextRight}>
+                    <p>
+                        Izamal is a beautiful colonial city founded in the mid-16th century on the remains of an ancient Mayan city. This place is known as "City of the Hills", recalling the covered pyramids that were there at the arrival of the Spanish, as well as "The City of the Three Cultures" because it combines features of its pre-Hispanic past, of the colonial period and of the present time.
+                    </p>
+                    <p>
+                        Currently, all painted yellow and white by the will of the authorities and neighbors, it maintains an image of elegance and charm from bygone eras that distinguish and define it with a stately air in the regional context. In its neat patterned streets, horse-drawn carriages take the visitor on a charming tour of its squares and parks and its historic suburbs. Izamal is located 72 km east of the city of Mérida.
+                    </p>
+                    <Hidden mdUp>
+                        <div className={style.centeredImage}>
+                            <Image src="/img/meetings/merida24/tourism/izamal.jpg" objectFit='contain' width={500} height={350} />
+                        </div>
+                    </Hidden>
+                </div>
+            </div>
+
+            <h2>Rio Lagartos</h2>
+            <div className={style.imageAndText}>
+                <div className={style.sideImageText}>
+                    <p>
+                        Rio Lagartos is a beach located to the East of the Yucatan peninsula that is characterized by all the diversity of fauna and flora that surrounds it, as well as by all the landscapes and views it offers. It is considered one of the biggest tourist attractions that Yucatan has, since it is a unique place where you can do different activities that allow you to fully coexist with nature and also have a very pleasant time. There are different tours that can take you to the Rio Lagartos Biosphere Reserve to see the flamingos, crocodiles, pelicans, seagulls, different types of fish, among others.
+                    </p>
+                    <Hidden mdUp>
+                        <div className={style.centeredImage}>
+                            <Image src="/img/meetings/merida24/tourism/rio-lagartos.jpg" objectFit='contain' width={500} height={350} />
+                        </div>
+                    </Hidden>
+                </div>
+                <Hidden smDown className={style.sideImage}>
+                    <Image src="/img/meetings/merida24/tourism/rio-lagartos.jpg" objectFit='contain' width={500} height={350} />
                 </Hidden>
             </div>
 
