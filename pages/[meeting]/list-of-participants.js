@@ -117,6 +117,7 @@ export default function AbstractSubmission(props) {
                 <li>José Angel Frías</li>
                 <li>Ingrid Membrillo-Solís</li>
                 <li>Radmila Sazdanovic</li>
+                <li>Pablo Suárez-Serrato</li>
             </ul>
             <h3>Topological Complexity and LS Category (TCLS)</h3>
             <ul>
