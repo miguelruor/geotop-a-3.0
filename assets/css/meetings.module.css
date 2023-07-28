@@ -111,3 +111,35 @@
         height: 200vh;
     }
 }
+
+.mapResponsive {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.mapResponsive iframe {
+    height: 480px;
+    width: 640px;
+}
+
+@media (max-width: 850px) {
+    .mapResponsive iframe {
+        height: 376px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .mapResponsive {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+        height: 300px;
+    }
+
+    .mapResponsive iframe {
+        height: 100%;
+        width: 100%;
+    }
+}
