@@ -1,6 +1,7 @@
 import Background from '../../components/Proceedings/Background/Background';
 import style from "../../assets/css/meetings.module.css";
 import Hidden from '@material-ui/core/Hidden';
+import Image from 'next/image';
 
 export async function getStaticProps(context) {
     const meeting = context.params.meeting;
@@ -35,6 +36,12 @@ export default function AbstractSubmission(props) {
 
             <div className={style.imageAndText}>
                 <div className={style.sideImageText}>
+                    <Hidden mdUp>
+                        <figure>
+                            <Image src="/img/meetings/merida24/others/hacienda.png" objectFit='contain' width={500} height={400} />
+                            <figcaption>Hacienda Santa Cruz</figcaption>
+                        </figure>
+                    </Hidden>
                     <p>
                         Less than 10 minutes walking distance from the central buildings of the Autonomous University of Yucatán (UADY):
                         <ul>
@@ -52,26 +59,36 @@ export default function AbstractSubmission(props) {
                         </ul>
                     </p>
                     <p>We recommend to check <a href='https://www.booking.com/' target='_blank'>Booking.com</a>. For families, check <a href='https://www.airbnb.com/?locale=en&_set_bev_on_new_domain=1689563765_MjQ0Njc5M2I1ZjEz&country_override=US&display_currency=USD' target='_blank'>Airbnb</a>.</p>
-                    <Hidden mdUp>
-                        <figure>
-                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Hpy78Jhaqk5y6T743FZulFUAzBTcZLQ&ehbc=2E312F" width="640" height="480"></iframe>
-                            <figcaption>Click on purple icons to see detailed information.</figcaption>
-                        </figure>
-                    </Hidden>
                 </div>
                 <Hidden smDown className={style.sideImage}>
-                    <figure>
-                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Hpy78Jhaqk5y6T743FZulFUAzBTcZLQ&ehbc=2E312F" width="640" height="480"></iframe>
-                        <figcaption>Click on purple icons to see detailed information.</figcaption>
-                    </figure>
+                    <div className={style.centeredImage}>
+                        <figure>
+                            <Image src="/img/meetings/merida24/others/hacienda.png" objectFit='contain' width={500} height={400} />
+                            <figcaption>Hacienda Santa Cruz</figcaption>
+                        </figure>
+                    </div>
                 </Hidden>
             </div>
+
+            <figure className={style.mapResponsive}>
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Hpy78Jhaqk5y6T743FZulFUAzBTcZLQ&ehbc=2E312F"></iframe>
+                <figcaption>Click on purple icons to see detailed information.</figcaption>
+            </figure>
 
 
             <h2>Restaurants and bars</h2>
 
             <div className={style.imageAndText}>
                 <div className={style.sideImageText}>
+                    <Hidden mdUp>
+                        <div className={style.centeredImage}>
+                            <figure>
+                                <Image src="/img/meetings/merida24/others/cochinita.png" objectFit='contain' width={500} height={400} />
+                                <figcaption>Cochinita Pibil, typical Yucatecan dish</figcaption>
+                            </figure>
+                        </div>
+                    </Hidden>
+
                     <p>
                         Some recommendations of restaurants and bars:
                         <ul>
@@ -104,20 +121,21 @@ export default function AbstractSubmission(props) {
                             <li><a href='https://latratto.mx/' target='_blank'>La Tratto</a></li>
                         </ul>
                     </p>
-                    <Hidden mdUp>
-                        <figure>
-                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LeG1WWSNu0Vj35KjC4fUio8rqv1bL6E&ehbc=2E312F" width="640" height="480"></iframe>
-                            <figcaption>Click on purple icons to see detailed information.</figcaption>
-                        </figure>
-                    </Hidden>
                 </div>
                 <Hidden smDown className={style.sideImage}>
-                    <figure>
-                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LeG1WWSNu0Vj35KjC4fUio8rqv1bL6E&ehbc=2E312F" width="640" height="480"></iframe>
-                        <figcaption>Click on purple icons to see detailed information.</figcaption>
-                    </figure>
+                    <div className={style.centeredImage}>
+                        <figure>
+                            <Image src="/img/meetings/merida24/others/cochinita.png" objectFit='contain' width={500} height={400} />
+                            <figcaption>Cochinita Pibil, typical Yucatecan dish</figcaption>
+                        </figure>
+                    </div>
                 </Hidden>
             </div>
+
+            <figure className={style.mapResponsive}>
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LeG1WWSNu0Vj35KjC4fUio8rqv1bL6E&ehbc=2E312F" width="640" height="480"></iframe>
+                <figcaption>Click on purple icons to see detailed information.</figcaption>
+            </figure>
         </Background>
     )
 }
