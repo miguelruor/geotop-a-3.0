@@ -116,6 +116,7 @@ export default function AbstractSubmission(props) {
                 <li>Manuel Mellado Cuerno</li>
                 <li>José Angel Frías</li>
                 <li>Ingrid Membrillo-Solís</li>
+                <li>Jesús Rodríguez-Viorato</li>
                 <li>Radmila Sazdanovic</li>
                 <li>Pablo Suárez-Serrato</li>
             </ul>
