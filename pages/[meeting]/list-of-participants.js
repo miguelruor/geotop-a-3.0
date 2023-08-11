@@ -148,6 +148,7 @@ export default function AbstractSubmission(props) {
                 <li>Luis Josue Diaz Alvarez</li>
                 <li>Adrian Alberto De Flon Gasca</li>
                 <li>Gilda Rosa Bolaños Evia</li>
+                <li>Luis Angel Castillo López</li>
             </ul>
 
         </Background>
