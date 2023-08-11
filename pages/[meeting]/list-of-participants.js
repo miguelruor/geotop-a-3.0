@@ -86,6 +86,7 @@ export default function AbstractSubmission(props) {
                 <li>Cristian Micheletti</li>
                 <li>Davide Michieletto</li>
                 <li>Ken Millett</li>
+                <li>De Witt Sumners</li>
                 <li>Lynn Zechiedrich</li>
             </ul>
             <h3>Applications in Physical Sciences (PHYS)</h3>
@@ -101,6 +102,7 @@ export default function AbstractSubmission(props) {
             <h3>Combinatorial Topology of Relational Structures (CTRS)</h3>
             <ul>
                 <li>Marco Tulio Angulo</li>
+                <li>Gilberto Calvillo Vives</li>
                 <li>Armando Castañeda</li>
                 <li>Dmitry Feichtner-Kozlov</li>
                 <li>Matthias Függer</li>
