@@ -30,25 +30,112 @@ export default function AbstractSubmission(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={style.paragraphTitle}>FAQs and Suggestions</h1>
-            <h2>TBA</h2>
-            {/*
             <br />
+            <h2>Reaching Merida</h2>
+
+            <h3>I. From USA and Canada</h3>
             <p>
-                <b>Q.: How do I find the driver of the shuttle to the Majorana Centre at the airport?</b>
-                <br />
-                A.: Just outside the baggage claim (either at Palermo or Trapani airport) look for a driver with a plate bearing the name of the Majorana Centre and the event you are attending. The driver is instructed to collect a group of participants at given time slots during the whole day of September 1.
+                There are some direct flights from a few USA/Canada cities. (Dallas, Houston, Miami, Toronto, LA, ...)
             </p>
+
+            <ol>
+                <li>
+                    At Merida airport, take an authorized taxi to your hotel.
+                    <br /><br />
+                    <ul style={{ marginLeft: "-25px" }}>
+                        <li>
+                            <span style={{ color: "grey" }}>Cost:</span> Around 30 US dollars.
+                        </li>
+                        <li>
+                            <span style={{ color: "grey" }}>Credit cards:</span> Yes.
+                        </li>
+                        <li>
+                            <span style={{ color: "grey" }}>Note:</span> Taxis at the airport are expensive, not in the city.
+
+                        </li>
+                    </ul>
+                </li>
+
+                <br />
+                <li>
+                    Also, take a 'Va y Ven' route of buses (<a href='https://vayven.yucatan.gob.mx/rutaaeropuerto' target='_blank'>click here</a> to see more information). A couple of bus stations are close to recommended hotels.
+                    <br /><br />
+                    <ul style={{ marginLeft: "-25px" }}>
+                        <li>
+                            <span style={{ color: "grey" }}>Cost:</span> Around 2.50 US dollars.
+                        </li>
+                        <li>
+                            <span style={{ color: "grey" }}>Credit cards:</span> No.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3>II. From Europe</h3>
             <p>
-                <b>Q.: Can I get a transfer to/from the Majorana Centre any other day during the workshop?</b>
-                <br />
-                A.: Yes, just contact the Centre directly to organize the transfer. Call the local number 0923 869 133. The service is NOT free of charge and for this you should pay the Centre (ask for an invoice if you need reimbursement).
+                Fly to Cancun airport. Many direct flights from Paris, Frankfurt, Munich, London, Madrid, ...
             </p>
+
+            <ol>
+                <li>
+                    Rent a car. Drive to your hotel in Merida (4 hours).
+                    <br /><br />
+                    <ul style={{ marginLeft: "-25px" }}>
+                        <li>
+                            <span style={{ color: "grey" }}>Distance:</span> 300 km. It is a long drive after a flight from Europe.
+                        </li>
+                        <li>
+                            <span style={{ color: "grey" }}>Notes:</span> Buy full insurance even so, it is expensive. Book in advance
+                            with a serious company. Book a hotel with free parking places.
+                            With a car, you can visit fantastic places around Merida.
+                            Gas is half of the price than in Europe. Driving conditions to Merida
+                            are good. Gas stations are sparse.
+                        </li>
+                    </ul>
+                </li>
+
+                <br />
+                <li>
+                    Take an ADO bus (<a href='https://www.ado.com.mx/viajes/terminal-aeropuerto-cancun-t3-a-ciudad-merida-yuc' target='_blank'>click here</a> to see more information).
+                    <br /><br />
+                    <ul style={{ marginLeft: "-25px" }}>
+                        <li>
+                            <span style={{ color: "grey" }}>Cost:</span> Around 45 US Dollars.
+                        </li>
+                        <li>
+                            <span style={{ color: "grey" }}>Credit cards:</span> Yes.
+                        </li>
+                        <li>
+                            <span style={{ color: "grey" }}>Time:</span> 5 hours.
+                        </li>
+                        <li>
+                            <span style={{ color: "grey" }}>Notes:</span> There are a few direct ADO buses from Cancun airport to Merida. The best terminal in Merida for hotels is Terminal Paseo 60. Otherwise, take an ADO bus to Cancun central ADO station and connect to other ADO bus to Merida. You buy both tickets at the airport. It is a long journey after a flight from Europe.
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    Take the Maya train. It is advertised to start running in December 2023. It would be a fantastic way to move from Cancun to Merida. However, there is no information available yet.
+                </li>
+            </ol>
+
             <p>
-                <b>Q.: What do I do in case of need or help?</b>
-                <br />
-                A.: Call the Majorana Centre; dial the local number 0923 869 133 (keep this number with you at all times).
+                You could spend a few days in Cancun area (Cancun, Riviera Maya, Puerto Morelos, Holbox, Playa del Carmen, Cozumel ...) before or after the Conference.
+                In this case, book a hotel with free transportation airport-hotel. Taxi cost to Cancun hotels: 100 US dollars and much more to other places.
             </p>
-    */}
+
+            <p>
+                Cancun airport is 100% tourist oriented. A bit chaotic and crowded. Services at the airport
+                are very expensive, as mentioned including taxis. January is high season as Winter is hard in EUROPE/USA/Canada.
+                Book any service in advance as shopping there is like in a "mercado", i.e. like a street market
+                in any big city.
+            </p>
+
+            <h3>III. From Asia</h3>
+
+            <p>
+                Fly to Mexico City (flights from Tokyo, Shanghai and Seoul with stops in Tijuana or Monterrey, no change of plane) and then to Merida. Also, fly to an USA city like Houston or Dallas and then to Merida.
+            </p>
 
         </Background>
     )
