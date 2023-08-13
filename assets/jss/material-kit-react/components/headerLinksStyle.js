@@ -11,7 +11,8 @@ const headerLinksStyle = theme => ({
     listStyle: "none",
     paddingTop: "0",
     paddingBottom: "0",
-    color: "inherit"
+    color: "inherit",
+    overflowY: "scroll"
   },
   listItem: {
     float: "left",
