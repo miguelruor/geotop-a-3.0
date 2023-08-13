@@ -42,6 +42,7 @@ export default function Background(props) {
                             { text: "Culture and Tourism", url: "/" + meetingId + "/culture-tourism" },
                             //{ text: "Social Programme", url: "/" + meetingId + "/social-programme" },
                             { text: "Scientific Programme", url: "/" + meetingId + "/scientific-programme" },
+                            { text: "FAQs and Suggestions", url: "/" + meetingId + "/faqs-and-suggestions" },
                             { text: "Book of Abstracts", url: "/" + meetingId + "/book-of-abstracts" },
                             { text: "Group Photo and Gallery", url: "/" + meetingId + "/group-photo-and-gallery" },
                             { text: "Poster", url: "/" + meetingId + "/poster" },
