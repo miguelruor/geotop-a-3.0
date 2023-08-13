@@ -114,6 +114,7 @@ export default function AbstractSubmission(props) {
                     </ul>
                 </li>
 
+                <br />
                 <li>
                     Take the Maya train. It is advertised to start running in December 2023. It would be a fantastic way to move from Cancun to Merida. However, there is no information available yet.
                 </li>
