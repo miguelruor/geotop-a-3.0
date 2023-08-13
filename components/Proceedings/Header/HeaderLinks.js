@@ -20,7 +20,7 @@ export default function HeaderLinks(props) {
             <Button
               type="button"
               color="transparent"
-              className={classes.navLink}
+              className={classes.navLinkLessPadding}
               round>
               {option.text}
             </Button>
