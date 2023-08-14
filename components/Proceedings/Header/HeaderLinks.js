@@ -14,8 +14,8 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      {menuOptions.map((option) => (
-        <Link href={option.url}>
+      {menuOptions.map((option, index) => (
+        <Link key={index} href={option.url}>
           <ListItem className={classes.listItem}>
             <Button
               type="button"
