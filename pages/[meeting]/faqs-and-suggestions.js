@@ -31,6 +31,17 @@ export default function AbstractSubmission(props) {
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={style.paragraphTitle}>FAQs and Suggestions</h1>
             <br />
+
+            <h3>Any support for students and young researchers?</h3>
+            <p>
+                Unfortunately no. Some Mexican institutions will support their students for attending the Conference. The goal is to have at least 20 students as attendees.
+            </p>
+
+            <h3>Any support for accommodation of speakers or attendees?</h3>
+            <p>
+                Unfortunately no. The only support that we will have for promoting the attendance is no registration fee. However, visit Merida and the peninsula of Yucatan, you will return for sure in the future.
+            </p>
+
             <h2>Reaching Merida</h2>
 
             <h3>I. From USA and Canada</h3>
