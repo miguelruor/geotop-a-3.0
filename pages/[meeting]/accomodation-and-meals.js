@@ -30,7 +30,7 @@ export async function getStaticPaths() {
 export default function AbstractSubmission(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
-            <h1 className={style.paragraphTitle}>Accomodation and Meals</h1>
+            <h1 className={style.paragraphTitle}>Accommodation and Meals</h1>
 
             <h2>Hotels</h2>
 

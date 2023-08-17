@@ -42,6 +42,24 @@ export default function AbstractSubmission(props) {
                 Unfortunately no. The only support that we will have for promoting the attendance is no registration fee. However, visit Merida and the peninsula of Yucatan, you will return for sure in the future.
             </p>
 
+            <h3>What is the weather like in Yucatan Mexico in January?</h3>
+            <p>
+                January is the best month to visit Yucatan. The daily temperatures in this month reach pleasant 28 °C (83 °F). The temperature of the sea will be perfect at 26 °C (78 °F). At night, temperatures hover around a pleasant 19 °C (65 °F).
+            </p>
+
+            <h3>What is the registration fee?</h3>
+            <p>
+                Free registration fee.
+            </p>
+
+            <h3>Should the Attendees be registered in advance?</h3>
+            <p>
+                Yes. Registration is important for the issuance of the certificate of participation.
+                <ul style={{ marginLeft: "-25px" }}>
+                    <li><span style={{ color: "grey" }}>Deadline for registration for Attendees:</span> November 30</li>
+                </ul>
+            </p>
+
             <h2>Reaching Merida</h2>
 
             <h3>I. From USA and Canada</h3>

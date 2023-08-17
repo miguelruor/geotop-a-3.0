@@ -111,6 +111,7 @@ export default function AbstractSubmission(props) {
                 <li>Sophia Knight</li>
                 <li>Jeremy Ledent</li>
                 <li>Thomas Nowak</li>
+                <li>Pablo Soberón</li>
                 <li>Ismar Volić</li>
             </ul>
             <h3>Data Analysis, Machine Learning and AI (DAMLAI)</h3>
