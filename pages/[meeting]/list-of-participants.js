@@ -139,6 +139,8 @@ export default function AbstractSubmission(props) {
             <h3>Topological Data Analysis (TDA)</h3>
             <ul>
                 <li>Paweł Dłotko</li>
+                <li>Davide Gurnari</li>
+                <li>Michał Lipiński</li>
                 <li>Alexander Smith</li>
                 <li>Yusu Wang</li>
             </ul>
