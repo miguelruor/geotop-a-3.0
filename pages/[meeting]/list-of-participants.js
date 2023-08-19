@@ -156,6 +156,7 @@ export default function AbstractSubmission(props) {
                 <li>Israel Monjaraz Ramírez</li>
                 <li>Miguel Angel Ruiz Ortiz</li>
                 <li>Leslie Janeth Quincosa Ramirez</li>
+                <li>Jacob Guynee</li>
             </ul>
 
         </Background>
