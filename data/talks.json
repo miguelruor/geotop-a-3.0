@@ -1,4 +1,18 @@
 {
+    "134": {
+        "speaker_id": 117,
+        "date": "September 1, 2023",
+        "date2": "20230901",
+        "title": "Differential Calculus for Modules over Posets",
+        "keywords": [
+            "persistence modules",
+            "discrete calculus on graphs",
+            "spectral graph theory"
+        ],
+        "abstract": "The concept of a persistence module was introduced in the context of topological data analysis. In its original incarnation a persistence module is defined to be a functor from the poset of nonnegative real numbers with theory natural order to the category of vector spaces and homomorphisms. These are referred to as single parameter persistence modules and are a fundamental and useful concept in topological data analysis when the source data depends on a single parameter. The concept naturally lends itself to generalisation, and one may consider persistence modules as functors from an arbitrary poset (or more generally an arbitrary small category) to some abelian target category. In other words, a persistence module is simply a representation of the source category in the target abelian category. As such much research was dedicated to studying persistence modules in this context. Unsurprisingly, it turns out that when the source category is more general than a linear order, then its representation type is generally wild. In particular, keeping in mind that persistence module theory is supposed to be applicable, computability of general persistence modules is very limited. In this talk I will describe the background and motivation for persistence module theory and introduce a new set of ideas for local analysis of persistence module by methods borrowed from spectral graph theory and multivariable calculus.",
+        "season": "FALL 2023",
+        "video": null
+    },
     "133": {
         "speaker_id": 116,
         "date": "August 18, 2023",

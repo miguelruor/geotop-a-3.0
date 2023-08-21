@@ -33,9 +33,9 @@ export default function AbstractSubmission(props) {
                 For the preparation of your abstract please follow the <Link href={"/" + props.meetingId + "/contribution-guidelines"}>Guidelines for Contribution</Link>.
             </p>
             <ul>
-                <li>Deadline for the submission of abstracts (Keynote lectures - 45 mins): October 31</li>
                 <li>Deadline for the submission of abstracts (Oral contributions - 25 mins): September 30</li>
                 <li>Deadline for the submission of abstracts (Poster presentations - 5 mins): September 30</li>
+                <li>Deadline for the submission of abstracts (Keynote lectures - 45 mins): October 31</li>
                 <li>Deadline for registration for attendees: November 30</li>
             </ul>
 
