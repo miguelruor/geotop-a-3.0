@@ -83,6 +83,8 @@ export default function AbstractSubmission(props) {
             <h3>Applications of Geometry and Topology to Biology (DNA)</h3>
             <ul>
                 <li>Sophie Jackson</li>
+                <li>Natasha Jonoska</li>
+                <li>Alexander Klotz</li>
                 <li>Cristian Micheletti</li>
                 <li>Davide Michieletto</li>
                 <li>Ken Millett</li>
