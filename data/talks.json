@@ -1,4 +1,20 @@
 {
+    "135": {
+        "speaker_id": 118,
+        "date": "September 1, 2023",
+        "date2": "20230901",
+        "title": "Singularity-free motion planning for redundant parallel manipulators",
+        "keywords": [
+            "motion planning",
+            "topological complexity",
+            "complexity of a kinematic map",
+            "parallel mechanisms",
+            "singularity-free"
+        ],
+        "abstract": "Some twenty years ago Michael Farber defined the topological complexity of robot motion planning as a measure of the difficulty to construct predictable motion plans for mechanical devices (like robots) that are allowed to move in a given work space. More recently, we defined the complexity of a kinematic map that takes into account the kinematic relation between the internal states of a serial mechanism and its spatial poses. In our talk we will discuss a more general motion planning for parallel mechanisms. In particular, we will consider mechanisms that are redundant in the sense that the dimension of their joint space is strictly bigger than the dimension of their work space. The additional degrees of freedom allow motion paths that avoid critical configurations of joints, and we will discuss how difficult it is to construct predictable singularity-free motion plans that perform a given set of tasks. This is joint work with Edward Haug and Adrian Peidro.",
+        "season": "FALL 2023",
+        "video": null
+    },
     "134": {
         "speaker_id": 117,
         "date": "September 1, 2023",
