@@ -60,6 +60,11 @@ export default function AbstractSubmission(props) {
                 </ul>
             </p>
 
+            <h3>What is the general scheme of the scientific program?</h3>
+            <p>
+                A tentative scheme is this: <a href='https://drive.google.com/file/d/1lr3MPEPzrIgVHFFkbSm-L70tuu47UrTP/view?usp=sharing' target='_blank'>click here</a>.
+            </p>
+
             <h2>Reaching Merida</h2>
 
             <h3>I. From USA and Canada</h3>
