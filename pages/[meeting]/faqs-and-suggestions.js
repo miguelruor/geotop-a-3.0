@@ -34,7 +34,7 @@ export default function AbstractSubmission(props) {
 
             <h3>Any support for students and young researchers?</h3>
             <p>
-                Unfortunately no. Some Mexican institutions will support their students for attending the Conference. The goal is to have at least 20 students as attendees.
+                Unfortunately no. Some Mexican institutions will support their students for attending the Conference. The goal is to have at least 30 students as attendees.
             </p>
 
             <h3>Any support for accommodation of speakers or attendees?</h3>
