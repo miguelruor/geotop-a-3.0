@@ -1,6 +1,18 @@
 import Background from '../../components/Proceedings/Background/Background';
 import style from "../../assets/css/meetings.module.css";
 
+export async function getStaticProps(context) {
+    const meeting = context.params.meeting;
+
+    return {
+        props: {
+            meeting: meeting,
+            meetingTitle: "Seminar GEOTOP-A",
+            shortDescription: "First presential meeting in Merida, Mexico",
+        }
+    }
+}
+
 
 export async function getStaticPaths() {
 
