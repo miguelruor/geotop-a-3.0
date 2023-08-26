@@ -42,7 +42,7 @@
         ],
         "abstract": "Graph Neural Networks (GNNs) are proven to be a powerful machinery for learning  complex dependencies in multivariate spatio-temporal processes. However, most existing GNNs have inherently static architectures, and as a result, do not explicitly account for time dependencies of the encoded knowledge and are limited in their ability to simultaneously infer latent time-conditioned relations among entities. We postulate that such hidden time-conditioned properties may be captured by the tools of multipersistence, i.e., an emerging machinery in topological data analysis which allows us to quantify dynamics of the data shape along multiple geometric dimensions. We propose to summarize inherent time-conditioned topological properties of the data as time-aware multipersistence Euler-Poincaré surface and prove its stability. We then construct a supragraph convolution module which simultaneously accounts for the extracted intra- and inter-dependencies in the data.  We illustrate the utility of the proposed approach in application to forecasting highway traffic flow, blockchain Ethereum token prices, and COVID-19 hospitalizations.",
         "season": "FALL 2023",
-        "video": null
+        "video": "https://www.youtube.com/embed/t-xYOeCot9s?si=F-hsAqzgg6B0bk0a&amp;controls=0"
     },
     "132": {
         "speaker_id": 115,
