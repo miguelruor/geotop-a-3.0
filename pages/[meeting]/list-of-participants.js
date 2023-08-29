@@ -118,6 +118,7 @@ export default function AbstractSubmission(props) {
                 <li>Sacbe García García</li>
                 <li>Edith Alejandra Ramírez Esqueda</li>
                 <li>Ma. Isabel Hernández</li>
+                <li>Angel Avila Zapata</li>
             </ul>
 
         </Background>
