@@ -27,7 +27,7 @@ export async function getStaticPaths() {
     };
 }
 
-export default function AbstractSubmission(props) {
+export default function AccommodationAndMeals(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={style.paragraphTitle}>Accommodation and Meals</h1>
