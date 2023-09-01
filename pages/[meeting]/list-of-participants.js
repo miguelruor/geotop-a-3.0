@@ -1,5 +1,4 @@
 import Background from '../../components/Proceedings/Background/Background';
-import style from "../../assets/css/meetings.module.css";
 import { FirebaseProvider } from '../../firebase/FirebaseContext';
 import ListOfParticipants from '../../components/Proceedings/ListParticipants/list-of-participants';
 
@@ -32,7 +31,7 @@ export default function ParticipantsPage(props) {
     return (
         <FirebaseProvider>
             <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
-                <ListOfParticipants />
+                <ListOfParticipants meetingId={props.meeting} />
             </Background>
         </FirebaseProvider>
     )

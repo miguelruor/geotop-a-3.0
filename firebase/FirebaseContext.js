@@ -55,7 +55,7 @@ const FirebaseProvider = ({ children }) => {
   }
 
   const getAcceptedSubmissions = (meetingId) => {
-    return getDocs(query(collection(db, meetingId), where("accepted", "==", true), orderBy("createdAt", "desc")));
+    return getDocs(query(collection(db, meetingId), where("accepted", "==", true), orderBy("createdAt", "asc")));
   }
 
   const setAcceptedSubmission = (meetingId, submissionId, accepted) => {

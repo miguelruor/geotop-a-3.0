@@ -1,7 +1,38 @@
 import style from "../../../assets/css/meetings.module.css";
+import { useContext, useEffect, useState } from 'react';
+import { FirebaseContext } from '../../../firebase/FirebaseContext';
+import CenteredCircularProgress from "../../CenteredCircularProgress/CenteredCircularProgress.js";
 
+const processDoc = (doc) => {
+    var data = doc.data();
+    data["createdAt"] = data["createdAt"].toDate();
+    return {
+        id: doc.id,
+        ...data
+    }
+}
 
-export default function ListOfParticipants(props) {
+export default function ListOfParticipants({ meetingId }) {
+    const { getAcceptedSubmissions } = useContext(FirebaseContext);
+    const [submissions, setSubmissions] = useState([]);
+    const [error, setError] = useState(false);
+    const [loadingData, setLoadingData] = useState(true);
+
+    useEffect(() => {
+        getAcceptedSubmissions(meetingId).then((querySnapshot) => {
+            setSubmissions(
+                querySnapshot.docs.map((doc) => processDoc(doc))
+            );
+            setError(false);
+            setLoadingData(false);
+        }).catch((error) => {
+            console.log(error);
+            setError(true);
+            setLoadingData(false);
+        });
+    }, []);
+
+    const orderOfSessions = ["DNA", "PHYS", "CTRS", "DAMLAI", "TCLS", "TDA"];
 
     return (
         <>
@@ -75,7 +106,14 @@ export default function ListOfParticipants(props) {
 
             <h1 className={style.paragraphTitle}>Registered Attendees</h1>
             <br />
+
+            {loadingData && <CenteredCircularProgress />}
+            {error && <h3 style={{ textAlign: "center" }}>Error loading submissions. Try again.</h3>}
             <ul>
+                {submissions.filter((submission => submission.contribution == "participant")).map((submission) => (
+                    <li>{submission.completeName}</li>
+                ))}
+                {/* 
                 <li>Carlos Pompeyo-Gutierrez</li>
                 <li>Alberto Mario Jorge Gutierrez Flores</li>
                 <li>Luis Josue Diaz Alvarez</li>
@@ -99,6 +137,7 @@ export default function ListOfParticipants(props) {
                 <li>David Arturo Aké Canul</li>
                 <li>Bryan Gutiérrez Rodríguez</li>
                 <li>Sergio Damian Ek Dzib</li>
+                */}
             </ul>
 
         </>
