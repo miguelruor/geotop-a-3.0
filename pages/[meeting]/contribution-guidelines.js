@@ -22,7 +22,7 @@ export async function getStaticPaths() {
     };
 }
 
-export default function AbstractSubmission(props) {
+export default function ContributionGuidelines(props) {
 
     return (
         <Background title={props.meetingTitle} meetingId={props.meetingId} shortDescription={props.shortDescription}>
