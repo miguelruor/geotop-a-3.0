@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut, getAuth } from "firebase/auth";
-import { getFirestore, collection, addDoc, getDocs, updateDoc, doc, query, orderBy } from "firebase/firestore";
+import { getFirestore, collection, addDoc, getDocs, updateDoc, doc, query, orderBy, where } from "firebase/firestore";
 import { createContext, useEffect, useState } from 'react';
 
 const firebaseConfig = {
@@ -54,6 +54,10 @@ const FirebaseProvider = ({ children }) => {
     return getDocs(query(collection(db, meetingId), orderBy("createdAt", "desc")));
   }
 
+  const getAcceptedSubmissions = (meetingId) => {
+    return getDocs(query(collection(db, meetingId), where("accepted", "==", true), orderBy("createdAt", "desc")));
+  }
+
   const setAcceptedSubmission = (meetingId, submissionId, accepted) => {
     return updateDoc(doc(db, meetingId, submissionId), { accepted: accepted });
   }
@@ -65,6 +69,7 @@ const FirebaseProvider = ({ children }) => {
     logout,
     writeDoc,
     getSubmissions,
+    getAcceptedSubmissions,
     setAcceptedSubmission
   };
 
