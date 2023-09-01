@@ -119,6 +119,12 @@ export default function AbstractSubmission(props) {
                 <li>Edith Alejandra Ramírez Esqueda</li>
                 <li>Ma. Isabel Hernández</li>
                 <li>Angel Avila Zapata</li>
+                <li>Raúl David Gorocica Polanco</li>
+                <li>José Fernando Dzul Lopez</li>
+                <li>Anilu Castillo Mendez</li>
+                <li>David Arturo Aké Canul</li>
+                <li>Bryan Gutiérrez Rodríguez</li>
+                <li>Sergio Damian Ek Dzib</li>
             </ul>
 
         </Background>
