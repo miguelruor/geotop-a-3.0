@@ -45,11 +45,15 @@ const RegistrationForm = ({ meetingId }) => {
             country: formData.get('country'),
             institution: formData.get('institution'),
             email: formData.get('email'),
-            invited: formData.get('invited') === "on" ? true : false,
+            invited: invited,
             session: formData.get('session'),
             contribution: formData.get('contribution'),
             abstract: formData.get('abstract'),
             accepted: false,
+        };
+
+        if (data.contribution == "participant") {
+            data.session = "";
         }
 
         // restrictions before submitting
