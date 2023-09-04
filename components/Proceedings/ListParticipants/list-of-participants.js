@@ -99,6 +99,7 @@ export default function ListOfParticipants({ meetingId }) {
             <ul>
                 <li>Paweł Dłotko</li>
                 <li>Davide Gurnari</li>
+                <li>Sara Kalisink Hintz</li>
                 <li>Michał Lipiński</li>
                 <li>Alexander Smith</li>
                 <li>Yusu Wang</li>
