@@ -1,4 +1,18 @@
 {
+    "136": {
+        "speaker_id": 119,
+        "date": "September 22, 2023",
+        "date2": "20230922",
+        "title": "Modelling knotted proteins with tangles",
+        "keywords": [
+            "knots",
+            "tangle model",
+            "proteins"
+        ],
+        "abstract": "We prove using the mathematics of tangles that if a protein terminus passing through a single loop results in a locally knotted protein, then Taylor's twisted hairpin model is the most likely method for creating such knots. In this case the knotted products will all be twist knots. If we assume a right-handed chirality bias, which is common in proteins, then  the majority of these twist knots will be  right-handed trefoils ($+3_1$), followed by left-handed trefoils ($-3_1$), achiral figure eight knots ($4_1$) and right-handed five crossing twist knots ($-5_2$). An alternative pathway has been observed computationally where a terminus passes through two loops.  We use 3-string tangle analysis to model this pathway.  This is joint work with Garrett Jones and Puttipong Pongtanapaisan.",
+        "season": "FALL 2023",
+        "video": null
+    },
     "135": {
         "speaker_id": 118,
         "date": "September 8, 2023",
