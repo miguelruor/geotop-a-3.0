@@ -55,6 +55,7 @@ export default function KeynoteSpeakers(props) {
                     <strong>Ismar Volić</strong><br />
                     (CTRS)<br /><br />
 
+                    <strong>Paweł Dłotko</strong><br />
                     <strong>Radmila Sazdanovic</strong><br />
                     (DAMLAI)<br /><br />
 
