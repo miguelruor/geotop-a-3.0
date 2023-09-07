@@ -77,8 +77,8 @@ export default function ListOfParticipants({ meetingId }) {
             <h3>Data Analysis, Machine Learning and AI (DAMLAI)</h3>
             <ul>
                 <li>Manuel Mellado Cuerno</li>
+                <li>Paweł Dłotko</li>
                 <li>José Angel Frías</li>
-                <li>Ingrid Membrillo-Solís</li>
                 <li>Jesús Rodríguez-Viorato</li>
                 <li>Radmila Sazdanovic</li>
                 <li>Pablo Suárez-Serrato</li>
@@ -97,12 +97,14 @@ export default function ListOfParticipants({ meetingId }) {
             </ul>
             <h3>Topological Data Analysis (TDA)</h3>
             <ul>
-                <li>Paweł Dłotko</li>
                 <li>Davide Gurnari</li>
                 <li>Sara Kalisink Hintz</li>
                 <li>Michał Lipiński</li>
+                <li>Ingrid Membrillo-Solís</li>
                 <li>Alexander Smith</li>
                 <li>Yusu Wang</li>
+                <li>Iris Yoon</li>
+                <li>Lori Ziegelmaier</li>
             </ul>
 
             <h1 className={style.paragraphTitle}>Registered Attendees</h1>
@@ -114,31 +116,6 @@ export default function ListOfParticipants({ meetingId }) {
                 {submissions.filter((submission => submission.contribution == "participant")).map((submission) => (
                     <li>{submission.completeName}</li>
                 ))}
-                {/* 
-                <li>Carlos Pompeyo-Gutierrez</li>
-                <li>Alberto Mario Jorge Gutierrez Flores</li>
-                <li>Luis Josue Diaz Alvarez</li>
-                <li>Adrian Alberto De Flon Gasca</li>
-                <li>Gilda Rosa Bolaños Evia</li>
-                <li>Luis Angel Castillo López</li>
-                <li>Rodrigo Robles Montero</li>
-                <li>Israel Monjaraz Ramírez</li>
-                <li>Miguel Angel Ruiz Ortiz</li>
-                <li>Leslie Janeth Quincosa Ramirez</li>
-                <li>Jacob Guynee</li>
-                <li>José Matías Navarro Soza</li>
-                <li>Abraham Jiménez</li>
-                <li>Sacbe García García</li>
-                <li>Edith Alejandra Ramírez Esqueda</li>
-                <li>Ma. Isabel Hernández</li>
-                <li>Angel Avila Zapata</li>
-                <li>Raúl David Gorocica Polanco</li>
-                <li>José Fernando Dzul Lopez</li>
-                <li>Anilu Castillo Mendez</li>
-                <li>David Arturo Aké Canul</li>
-                <li>Bryan Gutiérrez Rodríguez</li>
-                <li>Sergio Damian Ek Dzib</li>
-                */}
             </ul>
 
         </>
