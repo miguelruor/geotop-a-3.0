@@ -71,7 +71,7 @@ const SubmissionCard = ({ meetingId, submission }) => {
                         Accepted: <Checkbox checked={accepted} onChange={onAcceptSubmission} /> {wasError && <ErrorIcon style={{ color: "red" }} />}
                     </span>
                     {submission.contribution != "participant" && <span>
-                        Show abstract: <ExpandMore
+                        Show title & abstract: <ExpandMore
                             expand={expanded}
                             onClick={() => setExpanded(!expanded)}
                             aria-expanded={expanded}
@@ -84,6 +84,9 @@ const SubmissionCard = ({ meetingId, submission }) => {
             </CardContent>
             <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
+                    <Typography align='center' variant='h6'>
+                        <strong><Latex>{submission.title ?? 'No title'}</Latex></strong>
+                    </Typography>
                     <Typography paragraph>
                         <Latex>{submission.abstract}</Latex>
                     </Typography>

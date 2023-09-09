@@ -50,6 +50,7 @@ const RegistrationForm = ({ meetingId }) => {
             contribution: formData.get('contribution'),
             abstract: formData.get('abstract'),
             accepted: false,
+            title: formData.get('title'),
         };
 
         if (data.contribution == "participant") {
@@ -65,7 +66,7 @@ const RegistrationForm = ({ meetingId }) => {
             return;
         }
 
-        if (data.contribution != "participant" && (data.abstract == "" || data.session == "")) {
+        if (data.contribution != "participant" && (data.abstract == "" || data.session == "" || data.title == "")) {
             setIsLoading(false);
             setSuccess(false);
             setErrorAlert(true);
@@ -218,6 +219,21 @@ const RegistrationForm = ({ meetingId }) => {
                 <span style={{ marginLeft: "20px", fontSize: "15px" }}>(only for contributing participants)</span>
             </span>
 
+            <span style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}><h3>Title:</h3> <p style={{ marginLeft: "20px", fontSize: "15px" }}>(only for contributing participants)</p></span>
+            <div style={{ height: "100px" }}>
+                <CustomInput
+                    labelText="Write here. You can use LaTeX syntax."
+                    id="title"
+                    formControlProps={{
+                        fullWidth: true
+                    }}
+                    inputProps={{
+                        multiline: false,
+                        name: "title"
+                    }}
+                />
+            </div>
+
             <span style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}><h3>Abstract:</h3> <p style={{ marginLeft: "20px", fontSize: "15px" }}>(only for contributing participants)</p></span>
             <div style={{ height: "300px", overflowY: "scroll", border: "1px solid grey", marginBottom: "25px", padding: "0px 10px" }}>
                 <CustomInput
@@ -237,7 +253,7 @@ const RegistrationForm = ({ meetingId }) => {
             <span style={{ display: "flex", alignItems: "center" }}>
                 <Button color="primary" type='submit' form="contact_form">Send submission</Button>
                 {isLoading ? <CircularProgress style={{ marginLeft: "30px" }} /> : null}
-                {errorAlert ? <span style={{ color: "red", marginLeft: "30px" }}>Error. Please try again.</span> : null}
+                {errorAlert ? <span style={{ color: "red", marginLeft: "30px" }}>Error, something is wrong with your registration data. Please try again.</span> : null}
                 {success ? <span style={{ color: "green", marginLeft: "30px" }}>Information was successfully submitted!</span> : null}
             </span>
         </form >
