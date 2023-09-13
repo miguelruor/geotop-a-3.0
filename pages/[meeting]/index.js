@@ -102,7 +102,7 @@ export default function Home(props) {
                 <li>Eric Goubault (École Polytechnique, France)</li>
                 <li>Ingrid Membrillo-Solís (University of Southampton, UK)</li>
                 <li>Neza Mramor-Kosta (U Ljubljana, Slovenia)</li>
-                <li>Sergio Rajsbaum (Instituto de Matemáticas, UNAM, México)</li>
+                <li>Sergio Rajsbaum (Instituto de Matemáticas, UNAM, México & IRIF, France)</li>
                 <li>Renzo L. Ricca (U Milano-Bicocca, Italy)</li>
                 <li>Radmila Sazdanovic (North Carolina State U, USA)</li>
                 <li>De Witt Sumners (Florida State U, USA)</li>
