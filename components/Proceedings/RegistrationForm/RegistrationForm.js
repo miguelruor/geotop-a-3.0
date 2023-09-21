@@ -115,7 +115,7 @@ const RegistrationForm = ({ meetingId }) => {
                 }}
             />
             <CustomInput
-                labelText="Name"
+                labelText="First name"
                 id="name"
                 formControlProps={{
                     fullWidth: true
