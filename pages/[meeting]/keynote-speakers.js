@@ -52,6 +52,7 @@ export default function KeynoteSpeakers(props) {
                     <strong>Louis Kauffman</strong><br />
                     (PHYS)<br /><br />
 
+                    <strong>Pablo Soberón</strong><br />
                     <strong>Ismar Volić</strong><br />
                     (CTRS)<br /><br />
 
