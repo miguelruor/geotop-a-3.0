@@ -55,6 +55,7 @@ const RegistrationForm = ({ meetingId }) => {
 
         if (data.contribution == "participant") {
             data.session = "";
+            data.invited = false;
         }
 
         // restrictions before submitting
