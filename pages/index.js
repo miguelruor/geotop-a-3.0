@@ -43,8 +43,6 @@ export async function getStaticProps() {
 
   const talk_id = talksIDToSearch[0];
 
-  console.log(talksIDToSearch)
-
   return {
     props: {
       images: images,
