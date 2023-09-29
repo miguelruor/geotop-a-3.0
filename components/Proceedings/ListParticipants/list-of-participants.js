@@ -53,6 +53,7 @@ export default function ListOfParticipants({ meetingId }) {
             <ul>
                 <li>Mitchell Berger</li>
                 <li>J. Cantarella</li>
+                <li>Yasuhide Fukumoto</li>
                 <li>L.H. Kauffman</li>
                 <li>X. Liu</li>
                 <li>R.L. Ricca</li>
@@ -67,7 +68,6 @@ export default function ListOfParticipants({ meetingId }) {
                 <li>Dmitry Feichtner-Kozlov</li>
                 <li>Matthias Függer</li>
                 <li>Emmanuel Godard</li>
-                <li>Maurice Herlihy</li>
                 <li>Sophia Knight</li>
                 <li>Jeremy Ledent</li>
                 <li>Thomas Nowak</li>
