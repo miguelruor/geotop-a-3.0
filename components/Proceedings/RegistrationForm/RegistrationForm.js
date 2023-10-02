@@ -58,16 +58,16 @@ const RegistrationForm = ({ meetingId }) => {
             data.invited = false;
         }
 
-        // restrictions before submitting
-        if (!data.invited && data.contribution == "keynote") {
-            setIsLoading(false);
-            setSuccess(false);
-            setErrorAlert(true);
-
-            return;
+        if (data.contribution == "poster") {
+            data.invited = false;
         }
 
-        if (data.contribution != "participant" && (data.abstract == "" || data.session == "" || data.title == "")) {
+        // restrictions before submitting
+        if (
+            (!data.invited && data.contribution == "keynote") ||
+            ((contribution === "oral" || contribution === "poster") && !invited) ||
+            (data.contribution != "participant" && (data.abstract == "" || data.session == "" || data.title == ""))
+        ) {
             setIsLoading(false);
             setSuccess(false);
             setErrorAlert(true);
@@ -185,11 +185,12 @@ const RegistrationForm = ({ meetingId }) => {
                             <MenuItem className={style.MenuItemSelect} value={"participant"}>Attendee</MenuItem>
                             <MenuItem className={style.MenuItemSelect} value={"keynote"}>Keynote lecture</MenuItem>
                             <MenuItem className={style.MenuItemSelect} value={"oral"}>Oral contribution</MenuItem>
-                            <MenuItem className={style.MenuItemSelect} value={"poster"}>Poster presentation</MenuItem>
+                            {/*<MenuItem className={style.MenuItemSelect} value={"poster"}>Poster presentation</MenuItem>*/}
                         </Select>
                     </FormControl>
                 </Box>
                 {(contribution === "keynote" && !invited) && <span style={{ color: "red", marginLeft: "20px", fontSize: "15px" }}>Only invited participants can select "Keynote lecture"</span>}
+                {((contribution === "oral" || contribution === "poster") && !invited) && <span style={{ color: "red", marginLeft: "20px", fontSize: "15px" }}>Only invited participants can send information their information because the deadline has already passed.</span>}
             </span>
 
             <span style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}>
