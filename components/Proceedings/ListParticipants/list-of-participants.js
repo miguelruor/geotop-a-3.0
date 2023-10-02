@@ -32,7 +32,47 @@ export default function ListOfParticipants({ meetingId }) {
         });
     }, []);
 
-    const orderOfSessions = ["DNA", "PHYS", "CTRS", "DAMLAI", "TCLS", "TDA"];
+    const sessions = ["DNA", "PHYS", "CTRS", "DAMLAI", "TCLS", "TDA"];
+    const notRegisteredParticipantsPerSession = {
+        'DNA': [
+            { 'completeName': "Sophie Jackson", 'surname': 'Jackson' },
+            { 'completeName': "Natasha Jonoska", 'surname': 'Jonoska' },
+            { 'completeName': "Alexander Klotz", 'surname': 'Klotz' },
+            { 'completeName': "Cristian Micheletti", 'surname': 'Micheletti' },
+            { 'completeName': "Davide Michieletto", 'surname': 'Michieletto' },
+            { 'completeName': "Ken Millett", 'surname': 'Millett' },
+            { 'completeName': "De Witt Sumners", 'surname': 'Sumners' },
+            { 'completeName': "Lynn Zechiedrich", 'surname': 'Zechiedrich' }
+        ],
+        'PHYS': [
+            { 'completeName': "Mitchell Berger", 'surname': '' },
+            { 'completeName': "J. Cantarella", 'surname': '' },
+            { 'completeName': "Yasuhide Fukumoto", 'surname': '' },
+            { 'completeName': "L.H. Kauffman", 'surname': '' },
+            { 'completeName': "X. Liu", 'surname': '' },
+            { 'completeName': "R.L. Ricca", 'surname': '' },
+            { 'completeName': "T. Sakajo", 'surname': '' },
+            { 'completeName': "K. Shimokawa", 'surname': '' }
+        ],
+        'CTRS': [
+
+        ]
+    };
+
+
+    var submissionsPerSession = Object.fromEntries(
+        sessions.map(session => [session, new Set(
+            submissions.filter(
+                (submission => (submission.contribution == "oral" || submission.contribution == "poster") && submission.session == session)
+            ).map(submission => Object.fromEntries([['completeName', submission.completeName], ['surname', submission.surname]]))
+        )])
+    );
+
+    sessions.forEach((session) => {
+        submissionsPerSession[session] = Array.from(submissionsPerSession[session]);
+        submissionsPerSession[session].sort(((a, b) => a.surname <= b.surname));
+    })
+
 
     return (
         <>
@@ -79,6 +119,7 @@ export default function ListOfParticipants({ meetingId }) {
                 <li>Manuel Mellado Cuerno</li>
                 <li>Paweł Dłotko</li>
                 <li>José Angel Frías</li>
+                <li>Marissa Masden</li>
                 <li>Jesús Rodríguez-Viorato</li>
                 <li>Radmila Sazdanovic</li>
                 <li>Pablo Suárez-Serrato</li>
