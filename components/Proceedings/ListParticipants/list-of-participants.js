@@ -12,19 +12,111 @@ const processDoc = (doc) => {
     }
 }
 
+const sessions = ["DNA", "PHYS", "CTRS", "DAMLAI", "TCLS", "TDA"];
+
+const notRegisteredParticipantsPerSession = {
+    'DNA': [
+        { 'completeName': "Sophie Jackson", 'surname': 'Jackson' },
+        { 'completeName': "Natasha Jonoska", 'surname': 'Jonoska' },
+        { 'completeName': "Alexander Klotz", 'surname': 'Klotz' },
+        { 'completeName': "Cristian Micheletti", 'surname': 'Micheletti' },
+        { 'completeName': "Davide Michieletto", 'surname': 'Michieletto' },
+        { 'completeName': "Ken Millett", 'surname': 'Millett' },
+        { 'completeName': "De Witt Sumners", 'surname': 'Sumners' },
+        { 'completeName': "Lynn Zechiedrich", 'surname': 'Zechiedrich' }
+    ],
+    'PHYS': [
+        { 'completeName': "Mitchell Berger", 'surname': 'Berger' },
+        { 'completeName': "J. Cantarella", 'surname': 'Cantarella' },
+        { 'completeName': "Yasuhide Fukumoto", 'surname': 'Fukumoto' },
+        { 'completeName': "L.H. Kauffman", 'surname': 'Kauffman' },
+        { 'completeName': "X. Liu", 'surname': 'Liu' },
+        { 'completeName': "R.L. Ricca", 'surname': 'Ricca' },
+        { 'completeName': "T. Sakajo", 'surname': 'Sakajo' },
+        { 'completeName': "K. Shimokawa", 'surname': 'Shimokawa' }
+    ],
+    'CTRS': [
+        { 'completeName': 'Marco Tulio Angulo', 'surname': 'Angulo' },
+        { 'completeName': 'Gilberto Calvillo Vives', 'surname': 'Vives' },
+        { 'completeName': 'Armando Castañeda', 'surname': 'Castañeda' },
+        { 'completeName': 'Dmitry Feichtner-Kozlov', 'surname': 'Feichtner-Kozlov' },
+        { 'completeName': 'Matthias Függer', 'surname': 'Függer' },
+        { 'completeName': 'Emmanuel Godard', 'surname': 'Godard' },
+        { 'completeName': 'Sophia Knight', 'surname': 'Knight' },
+        { 'completeName': 'Jeremy Ledent', 'surname': 'Ledent' },
+        { 'completeName': 'Thomas Nowak', 'surname': 'Nowak' },
+        { 'completeName': 'Pablo Soberón', 'surname': 'Soberón' },
+        { 'completeName': 'Ismar Volić', 'surname': 'Volić' },
+    ],
+    'DAMLAI': [
+        { 'completeName': 'Manuel Mellado Cuerno', 'surname': 'Cuerno' },
+        { 'completeName': 'Paweł Dłotko', 'surname': 'Dłotko' },
+        { 'completeName': 'José Angel Frías', 'surname': 'Frías' },
+        { 'completeName': 'Marissa Masden', 'surname': 'Masden' },
+        { 'completeName': 'Jesús Rodríguez-Viorato', 'surname': 'Rodríguez-Viorato' },
+        { 'completeName': 'Radmila Sazdanovic', 'surname': 'Sazdanovic' },
+        { 'completeName': 'Pablo Suárez-Serrato', 'surname': 'Suárez-Serrato' },
+    ],
+    'TCLS': [
+        { 'completeName': 'Dan Cohen', 'surname': 'Cohen' },
+        { 'completeName': 'Alexander Dranishnikov', 'surname': 'Dranishnikov' },
+        { 'completeName': 'Jose Manuel García-Calcines', 'surname': 'García-Calcines' },
+        { 'completeName': 'Dan Guralnik', 'surname': 'Guralnik' },
+        { 'completeName': 'Norio Iwase', 'surname': 'Iwase' },
+        { 'completeName': 'Stephan Mescher', 'surname': 'Mescher' },
+        { 'completeName': 'Amit Kumar Paul', 'surname': 'Paul' },
+        { 'completeName': 'Petar Pavesic', 'surname': 'Pavesic' },
+        { 'completeName': 'Lucile Vandembroucq', 'surname': 'Vandembroucq' },
+    ],
+    'TDA': [
+        { 'completeName': 'Davide Gurnari', 'surname': 'Gurnari' },
+        { 'completeName': 'Sara Kalisink Hintz', 'surname': 'Kalisink Hintz' },
+        { 'completeName': 'Michał Lipiński', 'surname': 'Lipiński' },
+        { 'completeName': 'Ingrid Membrillo-Solís', 'surname': 'Membrillo-Solís' },
+        { 'completeName': 'Alexander Smith', 'surname': 'Smith' },
+        { 'completeName': 'Yusu Wang', 'surname': 'Wang' },
+        { 'completeName': 'Iris Yoon', 'surname': 'Yoon' },
+        { 'completeName': 'Lori Ziegelmaier', 'surname': 'Ziegelmaier' },
+    ]
+};
+
 export default function ListOfParticipants({ meetingId }) {
     const { getAcceptedSubmissions } = useContext(FirebaseContext);
-    const [submissions, setSubmissions] = useState([]);
+    const [attendees, setAttendees] = useState([]);
+    const [submissionsPerSession, setSubmissionsPerSession] = useState(Object.fromEntries(
+        sessions.map(session => [session, []])));
     const [error, setError] = useState(false);
     const [loadingData, setLoadingData] = useState(true);
 
     useEffect(() => {
         getAcceptedSubmissions(meetingId).then((querySnapshot) => {
-            setSubmissions(
-                querySnapshot.docs.map((doc) => processDoc(doc))
+
+            var submissions = querySnapshot.docs.map((doc) => processDoc(doc));
+
+            setAttendees(
+                submissions.filter(submission => submission.contribution == "participant")
             );
+
+            var submissionsPerSessionAux = Object.fromEntries(
+                sessions.map(session => [session, new Set(
+                    submissions.filter(
+                        (submission => (submission.contribution == "oral" || submission.contribution == "poster") && submission.session == session)
+                    ).map(submission => JSON.stringify(Object.fromEntries([['completeName', submission.completeName], ['surname', submission.surname]])))
+                )])
+            );
+
+            sessions.forEach((session) => {
+                notRegisteredParticipantsPerSession[session].forEach(submission => submissionsPerSessionAux[session].add(JSON.stringify(submission)));
+                submissionsPerSessionAux[session] = Array.from(submissionsPerSessionAux[session]).map(submission => JSON.parse(submission));
+                submissionsPerSessionAux[session].sort(((a, b) => a.surname >= b.surname));
+            });
+
+            setSubmissionsPerSession(submissionsPerSessionAux);
+
             setError(false);
             setLoadingData(false);
+
+
         }).catch((error) => {
             console.log(error);
             setError(true);
@@ -32,120 +124,57 @@ export default function ListOfParticipants({ meetingId }) {
         });
     }, []);
 
-    const sessions = ["DNA", "PHYS", "CTRS", "DAMLAI", "TCLS", "TDA"];
-    const notRegisteredParticipantsPerSession = {
-        'DNA': [
-            { 'completeName': "Sophie Jackson", 'surname': 'Jackson' },
-            { 'completeName': "Natasha Jonoska", 'surname': 'Jonoska' },
-            { 'completeName': "Alexander Klotz", 'surname': 'Klotz' },
-            { 'completeName': "Cristian Micheletti", 'surname': 'Micheletti' },
-            { 'completeName': "Davide Michieletto", 'surname': 'Michieletto' },
-            { 'completeName': "Ken Millett", 'surname': 'Millett' },
-            { 'completeName': "De Witt Sumners", 'surname': 'Sumners' },
-            { 'completeName': "Lynn Zechiedrich", 'surname': 'Zechiedrich' }
-        ],
-        'PHYS': [
-            { 'completeName': "Mitchell Berger", 'surname': '' },
-            { 'completeName': "J. Cantarella", 'surname': '' },
-            { 'completeName': "Yasuhide Fukumoto", 'surname': '' },
-            { 'completeName': "L.H. Kauffman", 'surname': '' },
-            { 'completeName': "X. Liu", 'surname': '' },
-            { 'completeName': "R.L. Ricca", 'surname': '' },
-            { 'completeName': "T. Sakajo", 'surname': '' },
-            { 'completeName': "K. Shimokawa", 'surname': '' }
-        ],
-        'CTRS': [
-
-        ]
-    };
-
-
-    var submissionsPerSession = Object.fromEntries(
-        sessions.map(session => [session, new Set(
-            submissions.filter(
-                (submission => (submission.contribution == "oral" || submission.contribution == "poster") && submission.session == session)
-            ).map(submission => Object.fromEntries([['completeName', submission.completeName], ['surname', submission.surname]]))
-        )])
-    );
-
-    sessions.forEach((session) => {
-        submissionsPerSession[session] = Array.from(submissionsPerSession[session]);
-        submissionsPerSession[session].sort(((a, b) => a.surname <= b.surname));
-    })
-
-
     return (
         <>
             <h1 className={style.paragraphTitle}>List of Participants</h1>
             <br />
             <h3>Applications of Geometry and Topology to Biology (DNA)</h3>
+            {loadingData && <CenteredCircularProgress />}
+            {error && <h3 style={{ textAlign: "center" }}>Error loading submissions. Try again.</h3>}
             <ul>
-                <li>Sophie Jackson</li>
-                <li>Natasha Jonoska</li>
-                <li>Alexander Klotz</li>
-                <li>Cristian Micheletti</li>
-                <li>Davide Michieletto</li>
-                <li>Ken Millett</li>
-                <li>De Witt Sumners</li>
-                <li>Lynn Zechiedrich</li>
+                {submissionsPerSession['DNA'].map((submission) => (
+                    <li key={submission.surname}>{submission.completeName}</li>
+                ))}
             </ul>
             <h3>Applications in Physical Sciences (PHYS)</h3>
+            {loadingData && <CenteredCircularProgress />}
+            {error && <h3 style={{ textAlign: "center" }}>Error loading submissions. Try again.</h3>}
             <ul>
-                <li>Mitchell Berger</li>
-                <li>J. Cantarella</li>
-                <li>Yasuhide Fukumoto</li>
-                <li>L.H. Kauffman</li>
-                <li>X. Liu</li>
-                <li>R.L. Ricca</li>
-                <li>T. Sakajo</li>
-                <li>K. Shimokawa</li>
+                {submissionsPerSession['PHYS'].map((submission) => (
+                    <li key={submission.surname}>{submission.completeName}</li>
+                ))}
             </ul>
             <h3>Combinatorial Topology of Relational Structures (CTRS)</h3>
+            {loadingData && <CenteredCircularProgress />}
+            {error && <h3 style={{ textAlign: "center" }}>Error loading submissions. Try again.</h3>}
             <ul>
-                <li>Marco Tulio Angulo</li>
-                <li>Gilberto Calvillo Vives</li>
-                <li>Armando Castañeda</li>
-                <li>Dmitry Feichtner-Kozlov</li>
-                <li>Matthias Függer</li>
-                <li>Emmanuel Godard</li>
-                <li>Sophia Knight</li>
-                <li>Jeremy Ledent</li>
-                <li>Thomas Nowak</li>
-                <li>Pablo Soberón</li>
-                <li>Ismar Volić</li>
+                {submissionsPerSession['CTRS'].map((submission) => (
+                    <li key={submission.surname}>{submission.completeName}</li>
+                ))}
             </ul>
             <h3>Data Analysis, Machine Learning and AI (DAMLAI)</h3>
+            {loadingData && <CenteredCircularProgress />}
+            {error && <h3 style={{ textAlign: "center" }}>Error loading submissions. Try again.</h3>}
             <ul>
-                <li>Manuel Mellado Cuerno</li>
-                <li>Paweł Dłotko</li>
-                <li>José Angel Frías</li>
-                <li>Marissa Masden</li>
-                <li>Jesús Rodríguez-Viorato</li>
-                <li>Radmila Sazdanovic</li>
-                <li>Pablo Suárez-Serrato</li>
+                {submissionsPerSession['DAMLAI'].map((submission) => (
+                    <li key={submission.surname}>{submission.completeName}</li>
+                ))}
             </ul>
             <h3>Topological Complexity and LS Category (TCLS)</h3>
+            {loadingData && <CenteredCircularProgress />}
+            {error && <h3 style={{ textAlign: "center" }}>Error loading submissions. Try again.</h3>}
             <ul>
-                <li>Dan Cohen</li>
-                <li>Alexander Dranishnikov</li>
-                <li>Jose Manuel García-Calcines</li>
-                <li>Dan Guralnik</li>
-                <li>Norio Iwase</li>
-                <li>Stephan Mescher</li>
-                <li>Amit Kumar Paul</li>
-                <li>Petar Pavesic</li>
-                <li>Lucile Vandembroucq</li>
+                {submissionsPerSession['TCLS'].map((submission) => (
+                    <li key={submission.surname}>{submission.completeName}</li>
+                ))}
             </ul>
             <h3>Topological Data Analysis (TDA)</h3>
+            {loadingData && <CenteredCircularProgress />}
+            {error && <h3 style={{ textAlign: "center" }}>Error loading submissions. Try again.</h3>}
             <ul>
-                <li>Davide Gurnari</li>
-                <li>Sara Kalisink Hintz</li>
-                <li>Michał Lipiński</li>
-                <li>Ingrid Membrillo-Solís</li>
-                <li>Alexander Smith</li>
-                <li>Yusu Wang</li>
-                <li>Iris Yoon</li>
-                <li>Lori Ziegelmaier</li>
+                {submissionsPerSession['TDA'].map((submission) => (
+                    <li key={submission.surname}>{submission.completeName}</li>
+                ))}
             </ul>
 
             <h1 className={style.paragraphTitle}>Registered Attendees</h1>
@@ -154,8 +183,8 @@ export default function ListOfParticipants({ meetingId }) {
             {loadingData && <CenteredCircularProgress />}
             {error && <h3 style={{ textAlign: "center" }}>Error loading submissions. Try again.</h3>}
             <ul>
-                {submissions.filter((submission => submission.contribution == "participant")).map((submission) => (
-                    <li>{submission.completeName}</li>
+                {attendees.map((submission) => (
+                    <li key={submission.surname}>{submission.completeName}</li>
                 ))}
             </ul>
 
