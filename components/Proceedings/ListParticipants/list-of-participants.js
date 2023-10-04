@@ -63,7 +63,6 @@ const notRegisteredParticipantsPerSession = {
         { 'completeName': 'Alexander Dranishnikov', 'surname': 'Dranishnikov' },
         { 'completeName': 'Jose Manuel García-Calcines', 'surname': 'García-Calcines' },
         { 'completeName': 'Dan Guralnik', 'surname': 'Guralnik' },
-        { 'completeName': 'Norio Iwase', 'surname': 'Iwase' },
         { 'completeName': 'Stephan Mescher', 'surname': 'Mescher' },
         { 'completeName': 'Amit Kumar Paul', 'surname': 'Paul' },
         { 'completeName': 'Petar Pavesic', 'surname': 'Pavesic' },
