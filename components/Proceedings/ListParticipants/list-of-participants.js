@@ -2,6 +2,7 @@ import style from "../../../assets/css/meetings.module.css";
 import { useContext, useEffect, useState } from 'react';
 import { FirebaseContext } from '../../../firebase/FirebaseContext';
 import CenteredCircularProgress from "../../CenteredCircularProgress/CenteredCircularProgress.js";
+import removeAccents from "remove-accents"
 
 const processDoc = (doc) => {
     var data = doc.data();
@@ -108,7 +109,15 @@ export default function ListOfParticipants({ meetingId }) {
             sessions.forEach((session) => {
                 notRegisteredParticipantsPerSession[session].forEach(submission => submissionsPerSessionAux[session].add(JSON.stringify(submission)));
                 submissionsPerSessionAux[session] = Array.from(submissionsPerSessionAux[session]).map(submission => JSON.parse(submission));
-                submissionsPerSessionAux[session].sort(((a, b) => a.surname >= b.surname));
+                submissionsPerSessionAux[session].sort(((a, b) => {
+                    if (removeAccents(a.surname) > removeAccents(b.surname)) {
+                        return 1;
+                    }
+                    else if (removeAccents(b.surname) > removeAccents(a.surname)) {
+                        return -1;
+                    }
+                    return 0;
+                }));
             });
 
             setSubmissionsPerSession(submissionsPerSessionAux);
