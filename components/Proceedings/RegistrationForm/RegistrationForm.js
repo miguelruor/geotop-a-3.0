@@ -35,6 +35,10 @@ const RegistrationForm = ({ meetingId }) => {
     function handleSubmit(e) {
         e.preventDefault();
 
+        setIsLoading(true);
+        setSuccess(false);
+        setErrorAlert(false);
+
         const formData = new FormData(e.currentTarget);
 
         const data = {
@@ -74,10 +78,6 @@ const RegistrationForm = ({ meetingId }) => {
 
             return;
         }
-
-        setIsLoading(true);
-        setSuccess(false);
-        setErrorAlert(false);
 
         writeDoc(meetingId, data).then((e) => {
             setIsLoading(false);
@@ -253,7 +253,7 @@ const RegistrationForm = ({ meetingId }) => {
             </div>
 
             <span style={{ display: "flex", alignItems: "center" }}>
-                <Button color="primary" type='submit' form="contact_form">Send submission</Button>
+                <Button color="primary" type='submit' form="contact_form" disabled={isLoading || success}>Send submission</Button>
                 {isLoading ? <CircularProgress style={{ marginLeft: "30px" }} /> : null}
                 {errorAlert ? <span style={{ color: "red", marginLeft: "30px" }}>Error, something is wrong with your registration data. Please try again.</span> : null}
                 {success ? <span style={{ color: "green", marginLeft: "30px" }}>Information was successfully submitted!</span> : null}
