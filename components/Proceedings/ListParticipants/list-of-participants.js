@@ -38,7 +38,7 @@ const notRegisteredParticipantsPerSession = {
     ],
     'CTRS': [
         { 'completeName': 'Marco Tulio Angulo', 'surname': 'Angulo' },
-        { 'completeName': 'Gilberto Calvillo Vives', 'surname': 'Vives' },
+        { 'completeName': 'Gilberto Calvillo Vives', 'surname': 'Calvillo Vives' },
         { 'completeName': 'Armando Castañeda', 'surname': 'Castañeda' },
         { 'completeName': 'Dmitry Feichtner-Kozlov', 'surname': 'Feichtner-Kozlov' },
         { 'completeName': 'Matthias Függer', 'surname': 'Függer' },
@@ -48,6 +48,7 @@ const notRegisteredParticipantsPerSession = {
         { 'completeName': 'Thomas Nowak', 'surname': 'Nowak' },
         { 'completeName': 'Pablo Soberón', 'surname': 'Soberón' },
         { 'completeName': 'Ismar Volić', 'surname': 'Volić' },
+        { 'completeName': 'Yuliy Baryshnikov', 'surname': 'Baryshnikov' },
     ],
     'DAMLAI': [
         { 'completeName': 'Manuel Mellado Cuerno', 'surname': 'Cuerno' },
