@@ -1,4 +1,20 @@
 {
+    "139": {
+        "speaker_id": 122,
+        "date": "October 20, 2023",
+        "date2": "20231020",
+        "title": "Simplicial Methods in Distributed Computing",
+        "keywords": [
+            "distributed computing",
+            "simplicial methods",
+            "standard distributed tasks",
+            "complexity",
+            "Weak Symmetry Breaking distributed task"
+        ],
+        "abstract": "We will give a brief introduction to the subject. The survey of main ideas and tools will be complemented with applications to specific standard distributed tasks. We will conclude with stating an open problem in combinatorial topology which is related to the complexity of the Weak Symmetry Breaking distributed task.",
+        "season": "FALL 2023",
+        "video": null
+    },
     "138": {
         "speaker_id": 121,
         "date": "October 13, 2023",
