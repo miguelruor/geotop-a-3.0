@@ -35,7 +35,7 @@ export default function AbstractSubmission(props) {
             <ul>
                 <li>Deadline for the submission of abstracts (Oral contributions - 25 mins): September 30 (<span style={{ color: 'red' }}>CLOSED</span>)</li>
                 <li>Deadline for the submission of abstracts (Poster presentations - 5 mins): September 30 (<span style={{ color: 'red' }}>CLOSED</span>)</li>
-                <li>Deadline for the submission of abstracts (Keynote lectures - 45 mins): October 31</li>
+                <li>Deadline for the submission of abstracts (Keynote lectures - 45 mins and Invited speakers - 25 minutes): October 31</li>
                 <li>Deadline for registration for attendees: November 30</li>
             </ul>
 
