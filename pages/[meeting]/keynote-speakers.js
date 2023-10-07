@@ -49,6 +49,7 @@ export default function KeynoteSpeakers(props) {
                     (DNA)<br /><br />
 
                     <strong>Mitchell Berger</strong><br />
+                    <strong>Louis Kauffman</strong><br />
                     (PHYS)<br /><br />
 
                     <strong>Yuliy Baryshnikov</strong><br />
