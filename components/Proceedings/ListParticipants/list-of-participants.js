@@ -33,7 +33,8 @@ const notRegisteredParticipantsPerSession = {
         { 'completeName': "X. Liu", 'surname': 'Liu' },
         { 'completeName': "R.L. Ricca", 'surname': 'Ricca' },
         { 'completeName': "T. Sakajo", 'surname': 'Sakajo' },
-        { 'completeName': "K. Shimokawa", 'surname': 'Shimokawa' }
+        { 'completeName': "K. Shimokawa", 'surname': 'Shimokawa' },
+        { 'completeName': "L.H. Kauffman", 'surname': 'Kauffman' },
     ],
     'CTRS': [
         { 'completeName': 'Marco Tulio Angulo', 'surname': 'Angulo' },
@@ -58,6 +59,7 @@ const notRegisteredParticipantsPerSession = {
         { 'completeName': 'Jesús Rodríguez-Viorato', 'surname': 'Rodríguez-Viorato' },
         { 'completeName': 'Radmila Sazdanovic', 'surname': 'Sazdanovic' },
         { 'completeName': 'Pablo Suárez-Serrato', 'surname': 'Suárez-Serrato' },
+        { 'completeName': 'Ingrid Membrillo-Solís', 'surname': 'Membrillo-Solís' },
     ],
     'TCLS': [
         { 'completeName': 'Dan Cohen', 'surname': 'Cohen' },
@@ -73,7 +75,6 @@ const notRegisteredParticipantsPerSession = {
         { 'completeName': 'Davide Gurnari', 'surname': 'Gurnari' },
         { 'completeName': 'Sara Kalisink Hintz', 'surname': 'Kalisink Hintz' },
         { 'completeName': 'Michał Lipiński', 'surname': 'Lipiński' },
-        { 'completeName': 'Ingrid Membrillo-Solís', 'surname': 'Membrillo-Solís' },
         { 'completeName': 'Alexander Smith', 'surname': 'Smith' },
         { 'completeName': 'Yusu Wang', 'surname': 'Wang' },
         { 'completeName': 'Iris Yoon', 'surname': 'Yoon' },
