@@ -30,7 +30,6 @@ const notRegisteredParticipantsPerSession = {
         { 'completeName': "Mitchell Berger", 'surname': 'Berger' },
         { 'completeName': "J. Cantarella", 'surname': 'Cantarella' },
         { 'completeName': "Yasuhide Fukumoto", 'surname': 'Fukumoto' },
-        { 'completeName': "L.H. Kauffman", 'surname': 'Kauffman' },
         { 'completeName': "X. Liu", 'surname': 'Liu' },
         { 'completeName': "R.L. Ricca", 'surname': 'Ricca' },
         { 'completeName': "T. Sakajo", 'surname': 'Sakajo' },
@@ -49,6 +48,7 @@ const notRegisteredParticipantsPerSession = {
         { 'completeName': 'Pablo Soberón', 'surname': 'Soberón' },
         { 'completeName': 'Ismar Volić', 'surname': 'Volić' },
         { 'completeName': 'Yuliy Baryshnikov', 'surname': 'Baryshnikov' },
+        { 'completeName': 'Joseph Root', 'surname': 'Root' },
     ],
     'DAMLAI': [
         { 'completeName': 'Manuel Mellado Cuerno', 'surname': 'Cuerno' },
@@ -78,6 +78,7 @@ const notRegisteredParticipantsPerSession = {
         { 'completeName': 'Yusu Wang', 'surname': 'Wang' },
         { 'completeName': 'Iris Yoon', 'surname': 'Yoon' },
         { 'completeName': 'Lori Ziegelmaier', 'surname': 'Ziegelmaier' },
+        { 'completeName': 'Javier Arsuaga', 'surname': 'Arsuaga' },
     ]
 };
 
