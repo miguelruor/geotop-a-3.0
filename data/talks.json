@@ -1,4 +1,19 @@
 {
+    "140": {
+        "speaker_id": 123,
+        "date": "November 3, 2023",
+        "date2": "20231103",
+        "title": "Entanglement and invariants of theta-curves",
+        "keywords": [
+            "knot",
+            "spatial graph",
+            "theta-curve",
+            "unknotting number"
+        ],
+        "abstract": "A theta-curve is a spatial embedding of the unique graph with two vertices joined by three parallel edges. Like knots and links, theta-curves and their mathematical properties are relevant to the mathematical modeling of biopolymers. In this talk, we will investigate unknotting operations and define new invariants of theta-curves. We will also generalize the statement that 'unknotting number one knots are prime' to theta-curves. This is joint work with several sets of authors.",
+        "season": "FALL 2023",
+        "video": null
+    },
     "139": {
         "speaker_id": 122,
         "date": "October 20, 2023",
