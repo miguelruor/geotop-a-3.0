@@ -1,4 +1,14 @@
 {
+    "123": {
+        "surname": "Moore",
+        "completeName": "Allison Moore",
+        "middle_initial": null,
+        "name": "Allison",
+        "talks": [
+            140
+        ],
+        "image": true
+    },
     "122": {
         "surname": "Feichtner-Kozlov",
         "completeName": "Dmitry Feichtner-Kozlov",
