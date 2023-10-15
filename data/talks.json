@@ -59,7 +59,7 @@
         ],
         "abstract": "Cusp shapes are widely observed in nature, most famously as the bright caustic lines on the inside of a coffee cup. This can be understood from the fact that a cusp arises from the smooth deformation of a parameterized curve. Remarkably, the same generic cusp can be formed on the surface of a viscous fluid with surface tension, as demonstrated by Jeong and Moffatt [J. Fluid Mech. 241, 1, (1992)], using complex mapping techniques. However, their observation is limited to very specific and idealized geometries. Here we demonstrate that cusps are indeed local solutions to the Stokes equation with surface tension, regardless of the global flow.",
         "season": "FALL 2023",
-        "video": null,
+        "video": "https://www.youtube.com/embed/xveoauQx7o4?si=7qXBxvP6CXw-rJez",
         "streaming_time": 9
     },
     "136": {

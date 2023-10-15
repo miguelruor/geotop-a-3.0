@@ -44,7 +44,6 @@ const notRegisteredParticipantsPerSession = {
         { 'completeName': 'Matthias Függer', 'surname': 'Függer' },
         { 'completeName': 'Emmanuel Godard', 'surname': 'Godard' },
         { 'completeName': 'Sophia Knight', 'surname': 'Knight' },
-        { 'completeName': 'Jeremy Ledent', 'surname': 'Ledent' },
         { 'completeName': 'Thomas Nowak', 'surname': 'Nowak' },
         { 'completeName': 'Pablo Soberón', 'surname': 'Soberón' },
         { 'completeName': 'Ismar Volić', 'surname': 'Volić' },
