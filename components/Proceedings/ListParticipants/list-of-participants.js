@@ -21,7 +21,6 @@ const notRegisteredParticipantsPerSession = {
         { 'completeName': "Natasha Jonoska", 'surname': 'Jonoska' },
         { 'completeName': "Alexander Klotz", 'surname': 'Klotz' },
         { 'completeName': "Cristian Micheletti", 'surname': 'Micheletti' },
-        { 'completeName': "Davide Michieletto", 'surname': 'Michieletto' },
         { 'completeName': "Ken Millett", 'surname': 'Millett' },
         { 'completeName': "De Witt Sumners", 'surname': 'Sumners' },
         { 'completeName': "Lynn Zechiedrich", 'surname': 'Zechiedrich' }
