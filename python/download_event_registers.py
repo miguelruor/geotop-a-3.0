@@ -15,7 +15,7 @@ def create_markdown_file_with_registers(eventId: str, session: str, file_name: s
     type_contribution = {"oral": "Oral contribution", "poster": "Poster", "keynote": "Keynote speaker"}
     
     with open("files/" + file_name, "w") as f:
-        f.write("# PHYS\n\n")
+        f.write(f"# {session}\n\n")
         
         for doc in docs:
             f.write(f"<b>Name</b>: {doc['completeName']}  \n")
@@ -29,8 +29,8 @@ def create_markdown_file_with_registers(eventId: str, session: str, file_name: s
 
 if __name__ == "__main__":
     EVENT_ID = "merida24"
-    SESSION = "PHYS"
-    FILE_NAME = "geotop-a-merida-PHYS.md"
+    SESSION = "CTRS"
+    FILE_NAME = f"geotop-a-merida-{SESSION}.md"
     
     create_markdown_file_with_registers(EVENT_ID, SESSION, FILE_NAME)
     
