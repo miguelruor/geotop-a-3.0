@@ -27,7 +27,6 @@ const notRegisteredParticipantsPerSession = {
     ],
     'PHYS': [
         { 'completeName': "Mitchell Berger", 'surname': 'Berger' },
-        { 'completeName': "J. Cantarella", 'surname': 'Cantarella' },
         { 'completeName': "Yasuhide Fukumoto", 'surname': 'Fukumoto' },
         { 'completeName': "X. Liu", 'surname': 'Liu' },
         { 'completeName': "R.L. Ricca", 'surname': 'Ricca' },
