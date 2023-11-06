@@ -160,13 +160,13 @@ const RegistrationForm = ({ meetingId }) => {
                 }}
             />
 
-            <FormControlLabel
+            {/*<FormControlLabel
                 style={{ padding: "20px 0px" }}
                 control={
                     <Checkbox name="invited" checked={invited} onChange={() => setInvited(!invited)} />
                 }
                 label="Invited by Scientific Committee"
-            />
+            />*/}
 
             <span style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}>
                 <Box style={{ marginTop: "25px", width: "200px", height: "80px" }} >
@@ -183,8 +183,8 @@ const RegistrationForm = ({ meetingId }) => {
                             required
                         >
                             <MenuItem className={style.MenuItemSelect} value={"participant"}>Attendee</MenuItem>
-                            <MenuItem className={style.MenuItemSelect} value={"keynote"}>Keynote lecture</MenuItem>
-                            <MenuItem className={style.MenuItemSelect} value={"oral"}>Oral contribution</MenuItem>
+                            {/*<MenuItem className={style.MenuItemSelect} value={"keynote"}>Keynote lecture</MenuItem>*/}
+                            {/*<MenuItem className={style.MenuItemSelect} value={"oral"}>Oral contribution</MenuItem>*/}
                             {/*<MenuItem className={style.MenuItemSelect} value={"poster"}>Poster presentation</MenuItem>*/}
                         </Select>
                     </FormControl>
@@ -193,7 +193,7 @@ const RegistrationForm = ({ meetingId }) => {
                 {((contribution === "oral" || contribution === "poster") && !invited) && <span style={{ color: "red", marginLeft: "20px", fontSize: "15px" }}>Only invited participants can send information their information because the deadline has already passed.</span>}
             </span>
 
-            <span style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}>
+            {/*<span style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}>
 
                 <Box style={{ marginTop: "25px", width: "120px", height: "80px" }} >
                     <FormControl fullWidth>
@@ -250,7 +250,7 @@ const RegistrationForm = ({ meetingId }) => {
                         name: "abstract"
                     }}
                 />
-            </div>
+                </div>*/}
 
             <span style={{ display: "flex", alignItems: "center" }}>
                 <Button color="primary" type='submit' form="contact_form" disabled={isLoading || success}>Send submission</Button>
