@@ -100,7 +100,7 @@ export default function Home(props) {
                 <li>José-Carlos Gómez-Larrañaga (CIMAT-Mérida, México)</li>
                 <li>Jesús González-Espino-Barros (CINVESTAV, México)</li>
                 <li>Eric Goubault (École Polytechnique, France)</li>
-                <li>Ingrid Membrillo-Solís (University of Southampton, UK)</li>
+                <li>Ingrid Membrillo-Solís (University of Westminster, UK)</li>
                 <li>Neza Mramor-Kosta (U Ljubljana, Slovenia)</li>
                 <li>Sergio Rajsbaum (Instituto de Matemáticas, UNAM, México & IRIF, France)</li>
                 <li>Renzo L. Ricca (U Milano-Bicocca, Italy)</li>
