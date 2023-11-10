@@ -17,25 +17,25 @@ const sessions = ["DNA", "PHYS", "CTRS", "DAMLAI", "TCLS", "TDA"];
 
 const notRegisteredParticipantsPerSession = {
     'DNA': [
-        { 'completeName': "Sophie Jackson", 'surname': 'Jackson' },
+        /*{ 'completeName': "Sophie Jackson", 'surname': 'Jackson' },
         { 'completeName': "Natasha Jonoska", 'surname': 'Jonoska' },
         { 'completeName': "Alexander Klotz", 'surname': 'Klotz' },
         { 'completeName': "Cristian Micheletti", 'surname': 'Micheletti' },
         { 'completeName': "Ken Millett", 'surname': 'Millett' },
         { 'completeName': "De Witt Sumners", 'surname': 'Sumners' },
-        { 'completeName': "Lynn Zechiedrich", 'surname': 'Zechiedrich' }
+        { 'completeName': "Lynn Zechiedrich", 'surname': 'Zechiedrich' }*/
     ],
     'PHYS': [
-        { 'completeName': "Mitchell Berger", 'surname': 'Berger' },
+        /*{ 'completeName': "Mitchell Berger", 'surname': 'Berger' },
         { 'completeName': "Yasuhide Fukumoto", 'surname': 'Fukumoto' },
         { 'completeName': "X. Liu", 'surname': 'Liu' },
         { 'completeName': "R.L. Ricca", 'surname': 'Ricca' },
         { 'completeName': "T. Sakajo", 'surname': 'Sakajo' },
         { 'completeName': "K. Shimokawa", 'surname': 'Shimokawa' },
-        { 'completeName': "L.H. Kauffman", 'surname': 'Kauffman' },
+        { 'completeName': "L.H. Kauffman", 'surname': 'Kauffman' },*/
     ],
     'CTRS': [
-        { 'completeName': 'Marco Tulio Angulo', 'surname': 'Angulo' },
+        /*{ 'completeName': 'Marco Tulio Angulo', 'surname': 'Angulo' },
         { 'completeName': 'Gilberto Calvillo Vives', 'surname': 'Calvillo Vives' },
         { 'completeName': 'Armando Castañeda', 'surname': 'Castañeda' },
         { 'completeName': 'Dmitry Feichtner-Kozlov', 'surname': 'Feichtner-Kozlov' },
@@ -46,37 +46,37 @@ const notRegisteredParticipantsPerSession = {
         { 'completeName': 'Pablo Soberón', 'surname': 'Soberón' },
         { 'completeName': 'Ismar Volić', 'surname': 'Volić' },
         { 'completeName': 'Yuliy Baryshnikov', 'surname': 'Baryshnikov' },
-        { 'completeName': 'Joseph Root', 'surname': 'Root' },
+        { 'completeName': 'Joseph Root', 'surname': 'Root' },*/
     ],
     'DAMLAI': [
-        { 'completeName': 'Manuel Mellado Cuerno', 'surname': 'Cuerno' },
-        { 'completeName': 'Paweł Dłotko', 'surname': 'Dłotko' },
-        { 'completeName': 'José Angel Frías', 'surname': 'Frías' },
-        { 'completeName': 'Marissa Masden', 'surname': 'Masden' },
-        { 'completeName': 'Jesús Rodríguez-Viorato', 'surname': 'Rodríguez-Viorato' },
-        { 'completeName': 'Radmila Sazdanovic', 'surname': 'Sazdanovic' },
-        { 'completeName': 'Pablo Suárez-Serrato', 'surname': 'Suárez-Serrato' },
-        { 'completeName': 'Ingrid Membrillo-Solís', 'surname': 'Membrillo-Solís' },
+        /*{ 'completeName': 'Manuel Mellado Cuerno', 'surname': 'Cuerno' },
+         { 'completeName': 'Paweł Dłotko', 'surname': 'Dłotko' },
+         { 'completeName': 'José Angel Frías', 'surname': 'Frías' },
+         { 'completeName': 'Marissa Masden', 'surname': 'Masden' },
+         { 'completeName': 'Jesús Rodríguez-Viorato', 'surname': 'Rodríguez-Viorato' },
+         { 'completeName': 'Radmila Sazdanovic', 'surname': 'Sazdanovic' },
+         { 'completeName': 'Pablo Suárez-Serrato', 'surname': 'Suárez-Serrato' },
+         { 'completeName': 'Ingrid Membrillo-Solís', 'surname': 'Membrillo-Solís' },*/
     ],
     'TCLS': [
-        { 'completeName': 'Dan Cohen', 'surname': 'Cohen' },
+        /*{ 'completeName': 'Dan Cohen', 'surname': 'Cohen' },
         { 'completeName': 'Alexander Dranishnikov', 'surname': 'Dranishnikov' },
         { 'completeName': 'Jose Manuel García-Calcines', 'surname': 'García-Calcines' },
         { 'completeName': 'Dan Guralnik', 'surname': 'Guralnik' },
         { 'completeName': 'Stephan Mescher', 'surname': 'Mescher' },
         { 'completeName': 'Amit Kumar Paul', 'surname': 'Paul' },
         { 'completeName': 'Petar Pavesic', 'surname': 'Pavesic' },
-        { 'completeName': 'Lucile Vandembroucq', 'surname': 'Vandembroucq' },
+        { 'completeName': 'Lucile Vandembroucq', 'surname': 'Vandembroucq' },*/
     ],
     'TDA': [
-        { 'completeName': 'Davide Gurnari', 'surname': 'Gurnari' },
+        /*{ 'completeName': 'Davide Gurnari', 'surname': 'Gurnari' },
         { 'completeName': 'Sara Kalisink Hintz', 'surname': 'Kalisink Hintz' },
         { 'completeName': 'Michał Lipiński', 'surname': 'Lipiński' },
         { 'completeName': 'Alexander Smith', 'surname': 'Smith' },
         { 'completeName': 'Yusu Wang', 'surname': 'Wang' },
         { 'completeName': 'Iris Yoon', 'surname': 'Yoon' },
         { 'completeName': 'Lori Ziegelmaier', 'surname': 'Ziegelmaier' },
-        { 'completeName': 'Javier Arsuaga', 'surname': 'Arsuaga' },
+        { 'completeName': 'Javier Arsuaga', 'surname': 'Arsuaga' },*/
     ]
 };
 
