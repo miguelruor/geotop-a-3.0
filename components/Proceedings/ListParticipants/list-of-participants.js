@@ -100,7 +100,7 @@ export default function ListOfParticipants({ meetingId }) {
             var submissionsPerSessionAux = Object.fromEntries(
                 sessions.map(session => [session, new Set(
                     submissions.filter(
-                        (submission => (submission.contribution == "oral" || submission.contribution == "poster") && submission.session == session)
+                        (submission => submission.contribution != "participant" && submission.session == session)
                     ).map(submission => JSON.stringify(Object.fromEntries([['completeName', submission.completeName], ['surname', submission.surname]])))
                 )])
             );
