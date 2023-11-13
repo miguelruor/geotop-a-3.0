@@ -1,4 +1,19 @@
 {
+    "142": {
+        "speaker_id": 124,
+        "date": "December 1, 2023",
+        "date2": "20231201",
+        "title": "Data, geometry, and homology",
+        "keywords": [
+            "topological data analysis",
+            "geometrical representations of data",
+            "homology",
+            "stable ranks"
+        ],
+        "abstract": "For a successful analysis a suitable representation of data by objects amenable for statistical methods is fundamental. There has been an explosion of applications in which homological representations of data played a significant role. I will present one such representation called stable rank and introduce various novel ways of using it to encode geometry, and then analyse, data. I will provide several illustrative examples of how to use stable ranks to find meaningful results. ",
+        "season": "FALL 2023",
+        "video": null
+    },
     "141": {
         "speaker_id": 102,
         "date": "November 17, 2023",
