@@ -1,4 +1,19 @@
 {
+    "143": {
+        "speaker_id": 125,
+        "date": "December 15, 2023",
+        "date2": "20231215",
+        "title": "The geometry and mechanics of chirality: from Maxwell's perversion to Feynman's obsession",
+        "keywords": [
+            "symmetry",
+            "chirality",
+            "curves and knots",
+            "mechanics"
+        ],
+        "abstract": "Many natural structures such as proteins, climbing vines, and seashells exhibit a well defined chirality, some are left-handed, some are right-handed, some are both. The ultimate origin of chirality is one of Nature's great mystery. However, geometry and mechanics play a fundamental role in assigning chirality and carrying this information from microscopic to macroscopic scales. In this talk, I will discuss the general problem of chirality, chirality measure, and chirality transfer, trace its history, and use examples from chemistry and biology to obtain general principles with some surprising twists.",
+        "season": "FALL 2023",
+        "video": null
+    },
     "142": {
         "speaker_id": 124,
         "date": "December 1, 2023",
