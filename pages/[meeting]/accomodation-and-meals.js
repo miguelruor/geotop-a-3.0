@@ -119,6 +119,7 @@ export default function AccommodationAndMeals(props) {
                             <li><a href='https://www.facebook.com/piensarosa.merida/' target='_blank'>Piensarosa</a></li>
                             <li><a href='https://www.apoala.mx/' target='_blank'>Apoala</a></li>
                             <li><a href='https://latratto.mx/' target='_blank'>La Tratto</a></li>
+                            <li><a href='https://www.facebook.com/kioyuskylounge/' target='_blank'>Kioyú Sky Lounge</a></li>
                         </ul>
                     </p>
                 </div>
