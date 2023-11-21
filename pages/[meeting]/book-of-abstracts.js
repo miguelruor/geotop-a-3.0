@@ -30,13 +30,10 @@ export default function BookOfAbstracts(props) {
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
             <h1 className={style.paragraphTitle}>Book of Abstracts</h1>
-            <h2>TBA</h2>
-            {/*
             <br />
             <p>
-                The Book of Abstracts with name and email address of all the speakers collects titles and abstracts of the presentations in a single document. You can download the PDF directly from HERE.
+                The Book of Abstracts collects titles and abstracts of the presentations in a single document. You can download the PDF directly from <a href="https://drive.google.com/file/d/19nXbr7KG4MaLH9nuqC89cg7tEmmall9k/view?usp=sharing" target='_blank'>HERE</a>.
             </p>
-    */}
         </Background>
     )
 }

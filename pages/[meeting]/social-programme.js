@@ -33,7 +33,7 @@ export default function SocialProgramme(props) {
             <h1 className={style.paragraphTitle}>Social Programme</h1>
             <br />
             <p>
-                <b>Important: All tickets should be acquired at Registration Desk no later than Monday January 8. Number of places available limited. First come first serve basis. Note: Just cash in mxn (Mexican pesos) accepted.</b>
+                <b>Important: All tickets should be acquired at Registration Desk no later than Monday January 8. Number of places available limited. First come first serve basis.</b>
             </p>
             <h3>January 7, Friends Gathering (19:00 - 21:00)</h3>
             <p>Hotel Boutique Piedra de Agua (location at <Link href={"/" + props.meeting + "/accomodation-and-meals"}>Accommodation and Meals</Link>)</p>
@@ -74,6 +74,10 @@ export default function SocialProgramme(props) {
                 <li>20 places available for non-students. Cost $600.00 mxn.</li>
             </ul>
 
-        </Background>
+            <hr />
+
+            <p><b>Note: Just cash in mxn (Mexican pesos) accepted.</b></p>
+
+        </Background >
     )
 }
