@@ -251,9 +251,10 @@ export default function CultureAndTourism(props) {
             <div className={style.mapResponsive}>
                 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_4QOtwoA_rUpcqDrzeFCqrVZKjmjZYY&ehbc=2E312F" width="640" height="480"></iframe>
             </div>
-            {/*<p>
-                Mexican folklore culture: <a href="https://fb.watch/k_mHwL2LmT/?mibextid=VhDh1V" target='_blank'>click here</a>
-            </p>*/}
+
+            <p>
+                At Registration Desk, we will count with a Cortesy Desk runned by <a href='https://drive.google.com/file/d/1dOCoJ5-AM5YJw05qFlPleyA0KicraDva/view?usp=sharing' target='_blank'>Patricia Viajes</a>, travel agency where you can find tourist information such as amusing tours and good rates for hotels and rental cars.
+            </p>
         </Background>
     )
 }
