@@ -7,6 +7,8 @@ import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from
 import Paper from '@mui/material/Paper';
 import program from '../../data/program.json';
 import { Fragment } from 'react';
+import Fab from '@mui/material/Fab';
+import NavigationIcon from '@mui/icons-material/Navigation';
 
 // For latex rendering
 import 'katex/dist/katex.min.css'
@@ -103,7 +105,9 @@ export default function ScientificProgramme(props) {
 
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
-            <h1 className={style.paragraphTitle}>Scientific Programme</h1>
+            <h1 id="programme" className={style.paragraphTitle}>Scientific Programme</h1>
+
+            <p>You can download the Book of Abstracts and programme directly from <a href="https://drive.google.com/file/d/19nXbr7KG4MaLH9nuqC89cg7tEmmall9k/view?usp=sharing" target='_blank'>HERE</a>.</p>
 
             <TableContainer component={Paper}>
                 <Table stickyHeader sx={{ minWidth: 700 }} aria-label="customized table" style={{ width: 1800 }}>
@@ -232,6 +236,13 @@ export default function ScientificProgramme(props) {
                 </Fragment>
                 )
             }
+
+            <a href="#programme" style={{ textDecoration: "none", color: "inherit" }}>
+                <Fab variant="extended" style={{ padding: "10px", position: "fixed", bottom: "20px", right: "40px", backgroundColor: "white" }}>
+                    <NavigationIcon sx={{ mr: 1 }} />
+                    Go back
+                </Fab>
+            </a>
         </Background>
     )
 }
