@@ -42,7 +42,7 @@
         ],
         "abstract": "Frames are overcomplete systems of vectors in Hilbert spaces. They were originally introduced in the 1950s in the context of non-harmonic Fourier series, and came to renewed prominence in the 1980s in signal processing applications. More recently, there has been burgeoning interest in frames in finite-dimensional Hilbert spaces, with applications to signal processing, quantum information, and compressed sensing. </br></br>In this talk, I will describe some ways in which tools from differential, Riemannian, and symplectic geometry can be applied to problems in frame theory. Some key tools that crop up are Hamiltonian actions, the Cartan decomposition, and geometric invariant theory. This is joint work with Tom Needham and partially with Dustin Mixon and Soledad Villar.",
         "season": "FALL 2023",
-        "video": null
+        "video": "https://www.youtube.com/embed/tuFUxcJU2A8?si=Vpx8DcPzsHU4of9f"
     },
     "140": {
         "speaker_id": 123,
