@@ -110,6 +110,10 @@ export default function ScientificProgramme(props) {
 
             <p>You can download the Book of Abstracts and programme directly from <a href="https://drive.google.com/file/d/19nXbr7KG4MaLH9nuqC89cg7tEmmall9k/view?usp=sharing" target='_blank'>HERE</a>.</p>
 
+            <p>
+                AR = Audiovisual Room “Dr. Eduardo Urzaiz”, AUD1 = Auditorium 1 “Manuel Cepeda Peraza”, AUD2 = Auditorium 2 “Salón de Consejo”
+            </p>
+
             <TableContainer component={Paper} style={{ maxHeight: 500 }}>
                 <Table stickyHeader sx={{ minWidth: 700 }} aria-label="customized table" style={{ width: 1800 }}>
                     <TableHead>
