@@ -52,7 +52,7 @@ export async function getStaticProps(context) {
     const submissions = await getDocs(
         query(collection(db, meeting), where("accepted", "==", true))
     ).then((querySnapshot) => {
-        var submissions = querySnapshot.docs.map((doc) => processDoc(doc)).filter((doc) => doc.contribution != "participant");
+        var submissions = querySnapshot.docs.map((doc) => processDoc(doc)).filter((doc) => doc.contribution != "participant" && doc.number != 52); // quitar asistentes y platica 52 de Rodrigo Fritz
         submissions.sort((a, b) => {
             if (a["number"] < b["number"]) {
                 return -1;
@@ -101,7 +101,8 @@ export async function getStaticPaths() {
 
 export default function ScientificProgramme(props) {
 
-    const cellStyle = { border: "1px solid rgba(224, 224, 224, 1)" };
+    const cellStyleBase = { border: "1px solid rgba(224, 224, 224, 1)" };
+    const headerStyle = { ...cellStyleBase, backgroundColor: "rgba(250, 250, 250, 1)" };
 
     return (
         <Background title={props.meetingTitle} meetingId={props.meeting} shortDescription={props.shortDescription}>
@@ -109,18 +110,18 @@ export default function ScientificProgramme(props) {
 
             <p>You can download the Book of Abstracts and programme directly from <a href="https://drive.google.com/file/d/19nXbr7KG4MaLH9nuqC89cg7tEmmall9k/view?usp=sharing" target='_blank'>HERE</a>.</p>
 
-            <TableContainer component={Paper}>
+            <TableContainer component={Paper} style={{ maxHeight: 500 }}>
                 <Table stickyHeader sx={{ minWidth: 700 }} aria-label="customized table" style={{ width: 1800 }}>
                     <TableHead>
                         <TableRow>
-                            <TableCell align="center" style={cellStyle} size='medium'></TableCell>
-                            <TableCell align="center" style={cellStyle}><b>January 7</b></TableCell>
-                            <TableCell align="center" style={cellStyle} colSpan={2}><b>January 8</b></TableCell>
-                            <TableCell align="center" style={cellStyle}><b>January 9</b></TableCell>
-                            <TableCell align="center" style={cellStyle} colSpan={2}><b>January 10</b></TableCell>
-                            <TableCell align="center" style={cellStyle} colSpan={2}><b>January 11</b></TableCell>
-                            <TableCell align="center" style={cellStyle}><b>January 12</b></TableCell>
-                            <TableCell align="center" style={cellStyle}><b>January 13</b></TableCell>
+                            <TableCell align="center" style={headerStyle}></TableCell>
+                            <TableCell align="center" style={headerStyle}><b>January 7</b></TableCell>
+                            <TableCell align="center" style={headerStyle} colSpan={2}><b>January 8</b></TableCell>
+                            <TableCell align="center" style={headerStyle}><b>January 9</b></TableCell>
+                            <TableCell align="center" style={headerStyle} colSpan={2}><b>January 10</b></TableCell>
+                            <TableCell align="center" style={headerStyle} colSpan={2}><b>January 11</b></TableCell>
+                            <TableCell align="center" style={headerStyle}><b>January 12</b></TableCell>
+                            <TableCell align="center" style={headerStyle}><b>January 13</b></TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
@@ -133,7 +134,7 @@ export default function ScientificProgramme(props) {
                                         const keyCell = `cell_${idx}_${cellIdx}`;
                                         const doubleCols = new Set([2, 5, 7]);
                                         const rowSpanProp = { rowSpan: 2 };
-                                        const noLinksWords = new Set(["DINNER ", "TOUR  ", "PARTY "]);
+                                        const specialCells = new Set(["Welcome Words", "<i>AUD1</i>"]);
 
                                         if (cell == "-") {
                                             return null;
@@ -141,9 +142,10 @@ export default function ScientificProgramme(props) {
 
                                         var modifiedCell;
 
+                                        var cellStyle = cellIdx > 0 ? cellStyleBase : headerStyle;
 
                                         const separation = cell.split("(");
-                                        if (separation.length == 2 && !noLinksWords.has(separation[0])) {
+                                        if (separation.length == 2 && separation[1].length < 4) {
                                             var talkId = separation[1].split(")")[0];
                                             modifiedCell = `<a href="#talk_${talkId}">${cell}</a>`;
                                         }
@@ -154,8 +156,9 @@ export default function ScientificProgramme(props) {
                                         if (
                                             (doubleCols.has(cellIdx) && row[cellIdx + 1] == "-" && idx > 0 && props.program[idx - 1][cellIdx + 1].slice(3, 11) != "Keynote:")
                                             || (idx > 0 && props.program[idx - 1][cellIdx].slice(3, 11) == "Keynote:")
-                                            || cell == "Welcome Words"
+                                            || (specialCells.has(cell) && doubleCols.has(cellIdx) && idx == 0 && cellIdx < 7)
                                         ) {
+
                                             return <TableCell key={keyCell} align="center" style={cellStyle} colSpan={2} {...(cell.length > 11 && cell.slice(3, 11) == "Keynote:" ? rowSpanProp : {})} >
                                                 <Latex>{modifiedCell}</Latex>
                                             </TableCell>;

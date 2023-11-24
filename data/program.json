@@ -1,6 +1,19 @@
 {
     "rows": {
         "0": [
+            "<i>Hour/Place</i>",
+            "",
+            "<i>AUD1</i>",
+            "-",
+            "<i>AUD1</i>",
+            "<i>AUD1</i>",
+            "-",
+            "<i>AUD1</i>",
+            "<i>AUD2</i>",
+            "<i>AUD1</i>",
+            "<i>AUD1</i>"
+        ],
+        "1": [
             "8:45-8:55",
             "",
             "Welcome Words",
@@ -13,7 +26,7 @@
             "",
             ""
         ],
-        "1": [
+        "2": [
             "",
             "",
             "<b>PHYS 1</b>",
@@ -26,7 +39,7 @@
             "<b>TDA 1</b>",
             "<b>DAMLAI 1</b>"
         ],
-        "2": [
+        "3": [
             "9:00-9:30 ",
             "",
             "<b>Keynote:</b><br/>Louis H Kauffman (4)",
@@ -39,7 +52,7 @@
             "<b>Keynote:</b></br>Yusu Wang (11)",
             "<b>Keynote:</b></br>Radmila Sazdanovic (9)"
         ],
-        "3": [
+        "4": [
             "9:30-10:00",
             "",
             "-",
@@ -52,7 +65,7 @@
             "-",
             "-"
         ],
-        "4": [
+        "5": [
             "10:00-10:30",
             "",
             "Benjamin Bode (22)",
@@ -65,7 +78,7 @@
             "Sara Kali\u0161nik Hintz (78)",
             "Jes\u00fas Rodr\u00edguez-Viorato (57)"
         ],
-        "5": [
+        "6": [
             "10:30-11:00",
             "",
             "Takashi Sakajo (30)",
@@ -78,7 +91,7 @@
             "Alexander Smith (82)",
             "Manuel Mellado Cuerno (49)"
         ],
-        "6": [
+        "7": [
             "11:00-11:30",
             "",
             "Break",
@@ -91,7 +104,7 @@
             "Break",
             "Break"
         ],
-        "7": [
+        "8": [
             "11:30-12:00",
             "",
             "Yusuhide Fukumoto (23)",
@@ -104,7 +117,7 @@
             "Micha\u0142 Lipi\u0144ski (79)",
             "Pablo Su\u00e1rez-Serrato (59)"
         ],
-        "8": [
+        "9": [
             "12:00-12:30",
             "",
             "Max Lipton (25)",
@@ -117,7 +130,7 @@
             "Iris Yoon (86)",
             "Astrid Arena Olave Herrera (56)"
         ],
-        "9": [
+        "10": [
             "12:30-13:00",
             "",
             "",
@@ -130,7 +143,7 @@
             "Lori Ziegelmaier (87)",
             "Eduardo Vel\u00e1zquez (60)"
         ],
-        "10": [
+        "11": [
             "13:00-15:00",
             "",
             "Lunch",
@@ -143,7 +156,20 @@
             "Lunch",
             "Lunch"
         ],
-        "11": [
+        "12": [
+            "<i>Hour/Place</i>",
+            "<i>AR</i>",
+            "<i>AUD1</i>",
+            "<i>AUD2</i>",
+            "<i>AUD1</i>",
+            "<i>AUD1</i>",
+            "<i>AUD2</i>",
+            "<i>AUD1</i>",
+            "<i>AUD2</i>",
+            "<i>AUD1</i>",
+            "<i>AUD1</i>"
+        ],
+        "13": [
             "",
             "",
             "<b>DNA 1</b>",
@@ -156,7 +182,7 @@
             "<b>TDA 2</b>",
             "<b>DAMLAI 2</b>"
         ],
-        "12": [
+        "14": [
             "15:00-15:30",
             "Registration ",
             "<b>Keynote:</b><br/>Cristian Micheletti (2)",
@@ -169,7 +195,7 @@
             "Javier Arsuaga (73)",
             "Mauricio Che Moguel (50)"
         ],
-        "13": [
+        "15": [
             "15:30-16:00",
             "Registration ",
             "-",
@@ -182,7 +208,7 @@
             "Francesca Tombari (83)",
             "Juan Carlos D\u00edaz Pati\u00f1o (51)"
         ],
-        "14": [
+        "16": [
             "16:00-16:30",
             "Registration ",
             "Lynn Zechiedrich (21)",
@@ -195,7 +221,7 @@
             "Gregory Henselman-Petrusek (77)",
             "Jos\u00e9 Angel Fr\u00edas (53)"
         ],
-        "15": [
+        "17": [
             "16:30-17:00",
             "Registration ",
             "Break",
@@ -208,7 +234,7 @@
             "Break",
             "Break"
         ],
-        "16": [
+        "18": [
             "17:00-17:30",
             "Registration ",
             "De Witt Sumners (20)",
@@ -221,7 +247,7 @@
             "Ziga Virk (85)",
             "<b>Keynote:</b></br>Pawel Dlotko (8)"
         ],
-        "17": [
+        "19": [
             "17:30-18:00",
             "Registration ",
             "James Bozeman (13)",
@@ -234,7 +260,7 @@
             "Greg DePaul (74)",
             "-"
         ],
-        "18": [
+        "20": [
             "18:00-18:30",
             "",
             "Noureen Khan (16)",
@@ -247,7 +273,7 @@
             "Posters TDA/DAMLAI:</br><a href=\"#talk_88\">M. Ruiz (88)</a></br><a href=\"#talk_89\">E. Amaya (89)</a></br><a href=\"#talk_90\">E. Flores-Bautista (90)</a>",
             "Closing Words 18:10-18:20"
         ],
-        "19": [
+        "21": [
             "18:30-19:00",
             "",
             "Arron Bale (12)",
@@ -260,38 +286,12 @@
             "Posters TDA/DAMLAI:</br><a href=\"#talk_91\">R. Kindelan (91)</a></br><a href=\"#talk_92\">F. Marchant (92)</a>",
             ""
         ],
-        "20": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        "21": [
-            "19:00-20:00",
-            "Friends Gathering 1",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "DINNER (19:30-22:00)",
-            "",
-            "",
-            "PARTY (19:30-22:00)"
-        ],
         "22": [
-            "20:00-21:00",
             "",
             "",
             "",
-            "Friends Gathering 2",
+            "",
+            "",
             "",
             "",
             "",
@@ -300,6 +300,32 @@
             ""
         ],
         "23": [
+            "19:00-20:00",
+            "<a href=\"/merida24/social-programme\">Friends Gathering 1</a> (19:00-21:00)",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "<a href=\"/merida24/social-programme\">DINNER</a> (19:30-22:00)",
+            "",
+            "",
+            "<a href=\"/merida24/social-programme\">PARTY</a> (19:30-22:00)"
+        ],
+        "24": [
+            "20:00-21:00",
+            "",
+            "",
+            "",
+            "<a href=\"/merida24/social-programme\">Friends Gathering 2</a> (20:00-22:00)",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "25": [
             "21:00-22:00",
             "",
             "",
@@ -309,7 +335,7 @@
             "",
             "",
             "",
-            "TOUR  (13:00-20:00)",
+            "<a href=\"/merida24/social-programme\">TOUR</a> (13:00-20:00)",
             ""
         ]
     }
