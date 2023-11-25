@@ -248,6 +248,8 @@ export default function CultureAndTourism(props) {
             <a id="tourism-map"><h2>Map</h2></a>
             <p>Click on purple icons to see detailed information.</p>
 
+            <div id={"map"} style={{ height: "60px", width: "20px" }}></div>
+
             <div className={style.mapResponsive}>
                 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_4QOtwoA_rUpcqDrzeFCqrVZKjmjZYY&ehbc=2E312F" width="640" height="480"></iframe>
             </div>

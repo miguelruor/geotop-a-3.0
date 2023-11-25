@@ -70,6 +70,8 @@ export default function AccommodationAndMeals(props) {
                 </Hidden>
             </div>
 
+            <div id={"map_hotels"} style={{ height: "60px", width: "20px" }}></div>
+
             <figure className={style.mapResponsive}>
                 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Hpy78Jhaqk5y6T743FZulFUAzBTcZLQ&ehbc=2E312F"></iframe>
                 <figcaption>Click on purple icons to see detailed information.</figcaption>
@@ -132,6 +134,8 @@ export default function AccommodationAndMeals(props) {
                     </div>
                 </Hidden>
             </div>
+
+            <div id={"map_bars"} style={{ height: "60px", width: "20px" }}></div>
 
             <figure className={style.mapResponsive}>
                 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LeG1WWSNu0Vj35KjC4fUio8rqv1bL6E&ehbc=2E312F" width="640" height="480"></iframe>
