@@ -36,9 +36,10 @@ export default function AbstractSubmission(props) {
                 <li>Deadline for the submission of abstracts (Oral contributions - 25 mins): September 30 (<span style={{ color: 'red' }}>CLOSED</span>)</li>
                 <li>Deadline for the submission of abstracts (Poster presentations - 5 mins): September 30 (<span style={{ color: 'red' }}>CLOSED</span>)</li>
                 <li>Deadline for the submission of abstracts (Keynote lectures - 45 mins and Invited speakers - 25 minutes): October 31 (<span style={{ color: 'red' }}>CLOSED</span>)</li>
-                <li>Deadline for registration for attendees: November 30</li>
+                <li>Deadline for registration for attendees: November 30 (<span style={{ color: 'red' }}>CLOSED</span>)</li>
             </ul>
 
+            {/*
             <h2>Registration</h2>
             <p>
                 Participants are kindly requested to register their details online by filling this form. In order to encourage the participation of post-docs and the community of researchers at
@@ -48,6 +49,7 @@ export default function AbstractSubmission(props) {
             <FirebaseProvider>
                 <RegistrationForm meetingId={props.meetingId} />
             </FirebaseProvider>
+            */}
 
         </Background>
     )
