@@ -55,5 +55,57 @@
       "speaker": "Alain Goriely",
       "institution": "University of Oxford - UK"
     }
+  ],
+  "SPRING 2024": [
+    {
+      "date": "February 2",
+      "speaker": "Athea Monad",
+      "institution": "Imperial College - UK"
+    },
+    {
+      "date": "February 16",
+      "speaker": "Dmitriy Morozov",
+      "institution": "Lawrence Berkeley National Laboratory - USA"
+    },
+    {
+      "date": "March 1",
+      "speaker": "Jörn Dunkel",
+      "institution": "Mathematics, MIT - USA"
+    },
+    {
+      "date": "March 15",
+      "speaker": "Chris Sotero",
+      "institution": "Mathematics U Saskatchewan - Canada"
+    },
+    {
+      "date": "April 5",
+      "speaker": "Francesco Vaccarino",
+      "institution": "Politecnico di Torino - Italy"
+    },
+    {
+      "date": "April 19",
+      "speaker": "Iris Yoon",
+      "institution": "Wesleyan University - USA"
+    },
+    {
+      "date": "April 26",
+      "speaker": "Pablo Suárez Serrato",
+      "institution": "UNAM - Mexico"
+    },
+    {
+      "date": "Mayo 3",
+      "speaker": "Yuanan Diao",
+      "institution": "UNC Charlote -USA"
+    },
+    {
+      "date": "Mayo 17",
+      "speaker": "Tamas Kalman",
+      "institution": "Mathematics, Tokyo Institute of Technology - Japan"
+    },
+    {
+      "date": "Mayo 31",
+      "speaker": "Eric Goubault",
+      "institution": "Ecole Polytechnique - France"
+    }
   ]
 }
