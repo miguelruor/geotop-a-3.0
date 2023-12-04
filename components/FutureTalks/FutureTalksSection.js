@@ -11,6 +11,7 @@ import Divider from '@material-ui/core/Divider';
 import styles2 from "./FutureTalksSection.module.css"
 import styles from "./FutureTalksStyle.js";
 import future_talks from "../../data/future_talks.json";
+import Link from "next/link";
 
 const useStyles = makeStyles(styles);
 
@@ -21,6 +22,9 @@ export default function FutureTalks() {
         <>
             {Object.keys(future_talks).map((key) => (
                 <div key={key} className={styles2.titleFutureTalks} style={{ paddingTop: 20 }}>
+                    <h1><Link href="/merida24" target="_blank">GEOTOP-A International Conference 2024</Link></h1>
+                    <h3 className={classes.subtitle} style={{ "textAlign": "center" }}>Mérida (Yucatán), México</h3>
+
                     <h1>{key} TALKS</h1>
                     <div className={styles2.talks} styles={{ justifyContent: 'center' }}>
                         <GridContainer>
