@@ -22,8 +22,11 @@ export default function FutureTalks() {
         <>
             {Object.keys(future_talks).map((key) => (
                 <div key={key} className={styles2.titleFutureTalks} style={{ paddingTop: 20 }}>
-                    <h3 className={classes.subtitle} style={{ "textAlign": "center" }}><Link href="/merida24" target="_blank">January 8-13, 2024. Mérida, Yucatán, México</Link></h3>
-
+                    {key == "SPRING 2024" ?
+                        <>
+                            <h1>GEOTOP-A Conference</h1>
+                            <h3 className={classes.subtitle} style={{ "textAlign": "center" }}><Link href="/merida24" target="_blank">January 8-13, 2024. Mérida, Yucatán, México</Link></h3>
+                        </> : null}
                     <h1>{key} TALKS</h1>
                     <div className={styles2.talks} styles={{ justifyContent: 'center' }}>
                         <GridContainer>
