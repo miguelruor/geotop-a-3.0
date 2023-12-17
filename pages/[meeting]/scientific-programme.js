@@ -149,7 +149,7 @@ export default function ScientificProgramme(props) {
                                         var cellStyle = cellIdx > 0 ? cellStyleBase : headerStyle;
 
                                         const separation = cell.split("(");
-                                        if (separation.length == 2 && separation[1].length < 4) {
+                                        if (separation.length == 2 && separation[1].split(")")[0].length < 4) {
                                             var talkId = separation[1].split(")")[0];
                                             modifiedCell = `<a href="#talk_${talkId}">${cell}</a>`;
                                         }
