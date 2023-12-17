@@ -1,6 +1,7 @@
 import Background from '../../components/Proceedings/Background/Background';
 import Divider from '@material-ui/core/Divider';
 import style from "../../assets/css/meetings.module.css";
+import Link from "next/link"
 
 // nodejs library that concatenates classes
 import SectionCarousel from "../../components/Carousel/carousel.js";
@@ -55,6 +56,10 @@ export default function Home(props) {
             </p>
             <p>
                 This conference will also provide a wonderful occasion to celebrate five years of activity of the international web-seminar series GEOTOP-A, launched in August 2018.
+            </p>
+            <h3>Announcement</h3>
+            <p>
+                The Keynote Lectures of the Conference will be broadcast on the CIMAT YouTube channel. Links can be found on the <Link href={"/" + props.meeting + "/scientific-programme"}>Scientific Programme</Link>.
             </p>
             <h3>Thematic Sessions</h3>
             <h4 style={{ textAlign: "center" }}>Applications of Geometry and Topology to Biology (DNA)</h4>
