@@ -117,9 +117,9 @@ export default function NextTalksPage(props) {
           </p>
         </div>
 
-        <div className={classes.container}>
+        {/*<div className={classes.container}>
           <StreamingTimeSection />
-        </div>
+        </div>*/}
       </div>
       <Footer />
 
