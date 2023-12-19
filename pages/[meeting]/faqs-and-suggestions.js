@@ -60,11 +60,6 @@ export default function FaqsAndSuggestions(props) {
                 </ul>
             </p>
 
-            <h3>What is the general scheme of the scientific program?</h3>
-            <p>
-                A tentative scheme is this: <a href='https://drive.google.com/file/d/1lr3MPEPzrIgVHFFkbSm-L70tuu47UrTP/view?usp=sharing' target='_blank'>click here</a>.
-            </p>
-
             <h2>Reaching Merida</h2>
 
             <h3>I. From USA and Canada</h3>
@@ -78,14 +73,13 @@ export default function FaqsAndSuggestions(props) {
                     <br /><br />
                     <ul style={{ marginLeft: "-25px" }}>
                         <li>
-                            <span style={{ color: "grey" }}>Cost:</span> Around 30 US dollars.
+                            <span style={{ color: "grey" }}>Cost:</span> 15 US dollars at ADO desk.
                         </li>
                         <li>
                             <span style={{ color: "grey" }}>Credit cards:</span> Yes.
                         </li>
                         <li>
                             <span style={{ color: "grey" }}>Note:</span> Taxis at the airport are expensive, not in the city.
-
                         </li>
                     </ul>
                 </li>

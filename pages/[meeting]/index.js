@@ -57,7 +57,7 @@ export default function Home(props) {
             <p>
                 This conference will also provide a wonderful occasion to celebrate five years of activity of the international web-seminar series GEOTOP-A, launched in August 2018.
             </p>
-            <h3>Announcement</h3>
+            <h3>Announcement (<span style={{ color: 'red' }}>New keynote transmissions!</span>)</h3>
             <p>
                 The Keynote Lectures of the Conference will be broadcast on the CIMAT YouTube channel. Links can be found on the <Link href={"/" + props.meeting + "/scientific-programme"}>Scientific Programme</Link>.
             </p>
