@@ -130,7 +130,7 @@ export default function VenueAndTravelInfo(props) {
 
             <h2>Update</h2>
             <p>
-                No information about trips Cancún-Mérida available yet.
+                No information about Mayan Train trips Cancún-Mérida available yet.
             </p>
 
         </Background>
