@@ -128,6 +128,11 @@ export default function VenueAndTravelInfo(props) {
                 </Hidden>
             </div>
 
+            <h2>Update</h2>
+            <p>
+                No information about trips Cancún-Mérida available yet.
+            </p>
+
         </Background>
     )
 }
