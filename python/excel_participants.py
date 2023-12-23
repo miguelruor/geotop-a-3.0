@@ -39,7 +39,23 @@ def main(eventId: str):
         for doc in docs
     ]
 
-    pd.DataFrame(data).to_excel("files/datos_participantes.xlsx", index=False)
+    df = pd.DataFrame(data)
+    df.to_excel("files/datos_todos.xlsx", index=False)
+    df[df["Categoría"] == "Attendee"].to_excel(
+        "files/datos_asistentes.xlsx", index=False
+    )
+    df[df["Categoría"] == "Keynote speaker"].to_excel(
+        "files/datos_keynote_speakers.xlsx", index=False
+    )
+    df[df["Categoría"] == "Poster presentation"].to_excel(
+        "files/datos_posters.xlsx", index=False
+    )
+    df[df["Categoría"] == "Oral contribution"].to_excel(
+        "files/datos_speakers.xlsx", index=False
+    )
+    df[df["Categoría"] == "Oral contribution invited by Scientific Committee"].to_excel(
+        "files/datos_invited_speakers.xlsx", index=False
+    )
 
 
 if __name__ == "__main__":
