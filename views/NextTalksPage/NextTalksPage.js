@@ -50,14 +50,17 @@ export default function NextTalksPage(props) {
             <></>}
         <div className={classes.containerContent} style={{ color: "black", paddingBottom: "10px" }}>
           <div style={{ paddingRight: "40px" }}>
-            <h2>
-              Keynote talks at GEOTOP-A Conference - January 8-13, 2024. Mérida, Yucatán, México
+            <h2 style={{ textAlign: "center" }}>
+              Keynote talks at GEOTOP-A Conference - January 8-13, 2024.
+            </h2>
+            <h2 style={{ textAlign: "center" }}>
+              Mérida, Yucatán, México
             </h2>
             <p>
               See abstracts and transmissions links on the <Link href={"/merida24/scientific-programme"}>Scientific Programme</Link>.
             </p>
             <p>
-              Schedule in CDMX time.
+              Schedule in CDMX time (GMT-6).
             </p>
             <p>
               <ul>
