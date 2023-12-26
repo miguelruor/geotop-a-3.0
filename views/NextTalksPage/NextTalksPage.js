@@ -75,7 +75,7 @@ export default function NextTalksPage(props) {
                   <b>Dynamics and mechanics of knotted DNA and RNAs: insights from molecular dynamics simulations</b> <br />
                 </li>
                 <li style={{ marginBottom: "10px" }}>
-                  Monday January 8. 5:00 - 6:00 pm. <br />
+                  Monday January 8. 6:00 - 7:00 pm. <br />
                   Yuliy Baryshnikov - University of Illinois at Urbana-Champaign <br />
                   <b>On Spaces of Coverings</b> <br />
                 </li>
