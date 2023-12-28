@@ -40,6 +40,7 @@ def main(eventId: str):
     ]
 
     df = pd.DataFrame(data)
+    df.sort_values(by="Nombre", inplace=True)
     df.to_excel("files/datos_todos.xlsx", index=False)
     df[df["Categoría"] == "Attendee"].to_excel(
         "files/datos_asistentes.xlsx", index=False
