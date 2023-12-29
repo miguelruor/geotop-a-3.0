@@ -66,8 +66,8 @@ export default function NextTalksPage(props) {
               <ul>
                 <li style={{ marginBottom: "10px" }}>
                   Monday January 8. 9:00 - 10:00 am. <br />
-                  Louis H Kauffman - University of Illinois at Chicago <br />
-                  <b>Reconnection Numbers of Knotted Vortices</b> <br />
+                  Mitchell Berger - University of Exeter <br />
+                  <b>Continuous topological measures: helicity, winding, and higher order winding</b> <br />
                 </li>
                 <li style={{ marginBottom: "10px" }}>
                   Monday January 8. 3:00 - 4:00 pm. <br />
@@ -101,8 +101,8 @@ export default function NextTalksPage(props) {
                 </li>
                 <li style={{ marginBottom: "10px" }}>
                   Thursday January 11. 3:00 - 4:00 pm. <br />
-                  Mitchell Berger - University of Exeter <br />
-                  <b>Continuous topological measures: helicity, winding, and higher order winding</b> <br />
+                  Louis H Kauffman - University of Illinois at Chicago <br />
+                  <b>Reconnection Numbers of Knotted Vortices</b> <br />
                 </li>
                 <li style={{ marginBottom: "10px" }}>
                   Friday January 12. 9:00 - 10:00 am. <br />
