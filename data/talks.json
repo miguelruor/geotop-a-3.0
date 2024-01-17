@@ -1,4 +1,20 @@
 {
+    "144": {
+        "speaker_id": 126,
+        "date": "February 2, 2024",
+        "date2": "20240202",
+        "title": "Tropical Geometry of Phylogenetic Tree Space",
+        "keywords": [
+            "BHV Tree space",
+            "Generalized Hilbert projective metric",
+            "Phylogenetic trees",
+            "Tropical geometry",
+            "Tropical Grassmannian"
+        ],
+        "abstract": "BHV space is a well-studied moduli space of phylogenetic trees that appears in many scientific disciplines, including computational biology, computer vision, combinatorics, and category theory. Speyer and Sturmfels identify a homeomorphism between BHV space and a version of the Grassmannian using tropical geometry, endowing the space of phylogenetic trees with a tropical structure, which turns out to be advantageous for computational studies. In this talk, I will present the coincidence between BHV space and the tropical Grassmannian. I will then give an overview of some recent work I have done that studies the tropical Grassmannian as a metric space and the practical implications of these results on probabilistic and statistical studies on sets of phylogenetic trees.",
+        "season": "SPRING 2024",
+        "video": null
+    },
     "143": {
         "speaker_id": 125,
         "date": "December 15, 2023",
