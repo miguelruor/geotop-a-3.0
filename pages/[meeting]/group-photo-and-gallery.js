@@ -71,7 +71,6 @@ export default function GroupPhotoAndGallery(props) {
     useEffect(() => {
         // window is accessible here.
         setNumCols(window.innerWidth < 1000 ? 1 : 3);
-        console.log("hey there")
     }, []);
 
     return (
