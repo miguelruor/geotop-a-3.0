@@ -26,6 +26,7 @@ const photos = {
         "IMG_0346 Medium.jpeg",
         "IMG_0352 Medium.jpeg",
         "IMG_0368 Medium.jpeg",
+        "GroupPhoto.jpeg"
     ],
     academic: [
         "Angulo Medium.jpeg",
@@ -40,6 +41,12 @@ const photos = {
         "Sophie Medium.jpeg",
         "Volic Medium.jpeg",
         "jason Medium.jpeg",
+        "PawelTalk2.jpeg",
+        "MembrilloTalk.jpeg",
+        "RenzoTalk.jpeg",
+        "SoberonTalk.jpeg",
+        "PawelTalk.jpeg",
+        "RenzoTalk2.jpeg"
     ],
     social: [
         "Bernardo Jose Medium.jpeg",
@@ -54,10 +61,12 @@ const photos = {
         "Social Grupal Medium.jpeg",
         "Sophie social Medium.jpeg",
         "Virk Tombari Medium.jpeg",
+        "SkyLounge.jpeg"
     ],
     others: [
         "Gilda Esteban Medium.jpeg",
         "Sabina Medium.jpeg",
+        "UADY.jpeg"
     ]
 };
 
