@@ -1,4 +1,18 @@
 {
+    "145": {
+        "speaker_id": 127,
+        "date": "February 16, 2024",
+        "date2": "20240216",
+        "title": "From Descriptive to Operational Topological Data Analysis",
+        "keywords": [
+            "Operational Topological Data Analysis",
+            "optimization",
+            "algorithms"
+        ],
+        "abstract": "Topological data analysis evolved over the past two decades into a primarily descriptive field. Almost all applications aim to quantify the topology of data and use the resulting descriptors to build a model for classification or regression. Recently, a new line of applications emerged, one that uses topology to guide optimization and thus modify the data or the model directly. After reviewing the descriptive view of TDA, we will discuss the structure of the optimization problem and demonstrate how understanding it leads to better optimization algorithms.",
+        "season": "SPRING 2024",
+        "video": null
+    },
     "144": {
         "speaker_id": 126,
         "date": "February 2, 2024",
