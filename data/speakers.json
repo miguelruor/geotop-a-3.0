@@ -1,4 +1,14 @@
 {
+    "127": {
+        "surname": "Morozov",
+        "completeName": "Dmitriy Morozov",
+        "middle_initial": null,
+        "name": "Dmitriy",
+        "talks": [
+            145
+        ],
+        "image": true
+    },
     "126": {
         "surname": "Monod",
         "completeName": "Anthea Monod",
