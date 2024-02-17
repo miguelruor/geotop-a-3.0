@@ -13,8 +13,8 @@ export default function StreamingTime() {
     const classes = useStyles();
 
     const UTCMexicoCity = 360;
-    const StreamingTimeMexicoCity = 660; //10 am CDMX time: antes del cambio de horario de verano: 600 
-    //despues del cambio de horario de verano: 540. Cada 60 es una hr
+    const StreamingTimeMexicoCity = 600; //10 am CDMX time: antes del cambio de horario de verano: 600 
+    //despues del cambio de horario de verano: 540. Cada 60 es una hr (son minutos)
 
     const d = new Date();
     const localOffset = d.getTimezoneOffset();
