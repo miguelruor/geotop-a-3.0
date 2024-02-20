@@ -27,7 +27,7 @@
         ],
         "abstract": "Topological data analysis evolved over the past two decades into a primarily descriptive field. Almost all applications aim to quantify the topology of data and use the resulting descriptors to build a model for classification or regression. Recently, a new line of applications emerged, one that uses topology to guide optimization and thus modify the data or the model directly. After reviewing the descriptive view of TDA, we will discuss the structure of the optimization problem and demonstrate how understanding it leads to better optimization algorithms.",
         "season": "SPRING 2024",
-        "video": null
+        "video": "https://www.youtube.com/embed/Acw7MDXGZPg?si=pzqdUhe7X199jQjM"
     },
     "144": {
         "speaker_id": 126,
