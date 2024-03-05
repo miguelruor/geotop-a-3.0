@@ -25,7 +25,7 @@
         ],
         "abstract": "Complex disordered matter is of central importance to a wide range of disciplines, from bacterial colonies and embryonic tissues in biology to foams and granular media in materials science to stellar configurations in astrophysics. Because of the vast differences in composition and scale, comparing structural features across such disparate systems remains challenging. Here, by using the statistical properties of Delaunay tessellations, we introduce a mathematical framework for measuring topological distances between two- or three-dimensional point clouds. The resulting system-agnostic metric reveals subtle structural differences between bacterial biofilms as well as between zebrafish brain regions, and it recovers temporal ordering of embryonic development. We apply the metric to construct a universal topological atlas encompassing bacterial biofilms, snowflake yeast, plant shoots, zebrafish brain matter, organoids, and embryonic tissues as well as foams, colloidal packings, glassy materials, and stellar configurations. Living systems localize within a bounded island-like region of the atlas, reflecting that biological growth mechanisms result in characteristic topological properties.",
         "season": "SPRING 2024",
-        "video": null
+        "video": "https://www.youtube.com/embed/M_iCE34We5g?si=ml7L5ZNDXDAUhtQr"
     },
     "145": {
         "speaker_id": 127,
