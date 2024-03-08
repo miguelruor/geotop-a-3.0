@@ -3,11 +3,17 @@
         "speaker_id": 129,
         "date": "March 15, 2024",
         "date2": "20240305",
-        "title": "TBA",
+        "title": "Establishing that Knots and Links are Localized for Ring polymers in nanochannels",
         "keywords": [
-            "TBA"
+            "knots",
+            "links",
+            "lattices",
+            "entanglement",
+            "polymers",
+            "localization",
+            "nanochannels"
         ],
-        "abstract": "TBA",
+        "abstract": "Lattice models have proved useful for studying the entanglement complexity of polymers.  In 1988 Sumners and Whittington used a lattice model to prove that knotting is inevitable for sufficiently long ring polymers and that knot complexity increases with polymer length. In the lattice model, a ring polymer is represented by a polygon on the simple cubic lattice.   Subsequently, Monte Carlo simulations of lattice polygons led to a 1996 conjecture consistent with the idea that knots occur in a localized way in fixed knot-type polygons. That is, the \"knotted part\" is expected to be small relative to the length of the polygon.  Recently a first proof of this conjecture has been established for the special case of polygons confined to an infinity x 2 x 1  lattice tube.   The proof relies on a combination of novel knot theory and lattice combinatorics, and  the results also extend to non-split links. Monte Carlo simulations support that the conjecture also holds for  larger lattice tubes.  Thus one expects that knots and links will also be localized for  DNA in nano channel experiments.  A lattice tube model has also been used to study the entanglement complexity of two polygons which both span the tube, a scenario for which it is known that linking is inevitable.  In this case, evidence suggest that knots are still localized but the linked part is not.  I will review some of the proofs and Monte Carlo results for these lattice tube models and highlight some of the remaining open questions.",
         "season": "SPRING 2024",
         "video": null
     },
