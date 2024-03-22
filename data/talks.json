@@ -1,4 +1,20 @@
 {
+    "149": {
+        "speaker_id": 131,
+        "date": "April 19, 2024",
+        "date2": "20240419",
+        "title": "Topological tracing of encoded circular coordinates between neural populations",
+        "keywords": [
+            "encoded circular coordinates",
+            "neuroimaging",
+            "neural systems",
+            "physiological activity",
+            "analogous bars"
+        ],
+        "abstract": "Recent developments in in vivo neuroimaging in animal models have made possible the study of information coding in large populations of neurons and even how that coding evolves in different neural systems. Topological methods, in particular, are effective at detecting periodic, quasi-periodic, or circular features in neural systems. Once we detect the presence of circular structures, we face the problem of assigning semantics: what do the circular structures in a neural population encode? Are they reflections of an underlying physiological activity, or are they driven by an external stimulus? If so, which specific features of the stimulus are encoded by the neurons? To address this problem, we introduced the method of analogous bars (Yoon, Ghrist, Giusti 2023). Given two related systems, say a stimulus system and a neural population, or two related neural populations, we utilize the dissimilarity between the two systems and Dowker complexes to find shared features between the two systems. We then leverage this information to identify related features between the two systems. In this talk, I will briefly explain the mathematics underlying the analogous bars method. I will then present applications of the method in studying neural population coding and propagation on simulated and experimental datasets. This work is joint work with Gregory Henselman-Petrusek, Lori Ziegelmeier, Robert Ghrist, Spencer Smith, Yiyi Yu, and Chad Giusti.",
+        "season": "SPRING 2024",
+        "video": null
+    },
     "148": {
         "speaker_id": 130,
         "date": "April 5, 2024",
@@ -31,7 +47,7 @@
         ],
         "abstract": "Lattice models have proved useful for studying the entanglement complexity of polymers.  In 1988 Sumners and Whittington used a lattice model to prove that knotting is inevitable for sufficiently long ring polymers and that knot complexity increases with polymer length. In the lattice model, a ring polymer is represented by a polygon on the simple cubic lattice.   Subsequently, Monte Carlo simulations of lattice polygons led to a 1996 conjecture consistent with the idea that knots occur in a localized way in fixed knot-type polygons. That is, the \"knotted part\" is expected to be small relative to the length of the polygon.  Recently a first proof of this conjecture has been established for the special case of polygons confined to an infinity x 2 x 1  lattice tube.   The proof relies on a combination of novel knot theory and lattice combinatorics, and  the results also extend to non-split links. Monte Carlo simulations support that the conjecture also holds for  larger lattice tubes.  Thus one expects that knots and links will also be localized for  DNA in nano channel experiments.  A lattice tube model has also been used to study the entanglement complexity of two polygons which both span the tube, a scenario for which it is known that linking is inevitable.  In this case, evidence suggest that knots are still localized but the linked part is not.  I will review some of the proofs and Monte Carlo results for these lattice tube models and highlight some of the remaining open questions.",
         "season": "SPRING 2024",
-        "video": null
+        "video": "https://www.youtube.com/embed/qsh3MCojrLY?si=kKWWKVRpwNbM9RRB"
     },
     "146": {
         "speaker_id": 128,
