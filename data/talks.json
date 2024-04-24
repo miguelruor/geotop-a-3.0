@@ -1,4 +1,18 @@
 {
+    "151": {
+        "speaker_id": 133,
+        "date": "May 3, 2024",
+        "date2": "20240503",
+        "title": "Braid index and Ropelength of alternating knots",
+        "keywords": [
+            "ropelength",
+            "alternating knots and links",
+            "Braid index"
+        ],
+        "abstract": "A long standing conjecture states that the ropelength of any alternating link is at least proportional to its crossing number. That is, there exists a constant $b_0>0$ such that $R(K)\\ge b_0Cr(K)$ for any alternating link $K$, where $R(K)$ is the ropelength of $K$ and $Cr(K)$ is the crossing number of $K$. This conjecture has been recently proved affirmatively for the case of alternating knots. In this talk I will present the main results/ideas leading to the proof of this result, where the braid index served as the key bridge between the minimum crossing number and the ropelength of the knot.",
+        "season": "SPRING 2024",
+        "video": null
+    },
     "150": {
         "speaker_id": 132,
         "date": "April 26, 2024",
@@ -29,7 +43,7 @@
         ],
         "abstract": "Recent developments in in vivo neuroimaging in animal models have made possible the study of information coding in large populations of neurons and even how that coding evolves in different neural systems. Topological methods, in particular, are effective at detecting periodic, quasi-periodic, or circular features in neural systems. Once we detect the presence of circular structures, we face the problem of assigning semantics: what do the circular structures in a neural population encode? Are they reflections of an underlying physiological activity, or are they driven by an external stimulus? If so, which specific features of the stimulus are encoded by the neurons? To address this problem, we introduced the method of analogous bars (Yoon, Ghrist, Giusti 2023). Given two related systems, say a stimulus system and a neural population, or two related neural populations, we utilize the dissimilarity between the two systems and Dowker complexes to find shared features between the two systems. We then leverage this information to identify related features between the two systems. In this talk, I will briefly explain the mathematics underlying the analogous bars method. I will then present applications of the method in studying neural population coding and propagation on simulated and experimental datasets. This work is joint work with Gregory Henselman-Petrusek, Lori Ziegelmeier, Robert Ghrist, Spencer Smith, Yiyi Yu, and Chad Giusti.",
         "season": "SPRING 2024",
-        "video": null
+        "video": "https://www.youtube.com/embed/LmBXDR79lIA?si=rMKpzTdVdUUJZ0Bd"
     },
     "148": {
         "speaker_id": 130,
