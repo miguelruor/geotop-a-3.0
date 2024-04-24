@@ -1,4 +1,18 @@
 {
+    "151": {
+        "speaker_id": 133,
+        "date": "May 3, 2024",
+        "date2": "20240503",
+        "title": "Braid index and Ropelength of alternating knots",
+        "keywords": [
+            "ropelength",
+            "alternating knots and links",
+            "Braid index"
+        ],
+        "abstract": "A long standing conjecture states that the ropelength of any alternating link is at least proportional to its crossing number. That is, there exists a constant $b_0>0$ such that $R(K)\\ge b_0Cr(K)$ for any alternating link $K$, where $R(K)$ is the ropelength of $K$ and $Cr(K)$ is the crossing number of $K$. This conjecture has been recently proved affirmatively for the case of alternating knots. In this talk I will present the main results/ideas leading to the proof of this result, where the braid index served as the key bridge between the minimum crossing number and the ropelength of the knot.",
+        "season": "SPRING 2024",
+        "video": null
+    },
     "150": {
         "speaker_id": 132,
         "date": "April 26, 2024",
