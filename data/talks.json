@@ -1,4 +1,18 @@
 {
+    "152": {
+        "speaker_id": 134,
+        "date": "May 17, 2024",
+        "date2": "20240517",
+        "title": "Knotted and branching defects in ordered media",
+        "keywords": [
+            "liquid crystal",
+            "defect",
+            "spatial graph"
+        ],
+        "abstract": "I will discuss a homotopy classification of the global defect in ordered media, with a particular emphasis on the example of biaxial nematic liquid crystals. These are systems in which the order parameter space is the quotient of the $3$-sphere $S^3$ by the quaternion group $Q$, and an important feature of them is that disclination lines may branch and form graphs. Therefore as a model, I will consider continuous maps from complements of spatial graphs to $S^3/Q$ modulo a certain equivalence relation, and find that the equivalence classes are enumerated by the six subgroups of $Q$. Via monodromy around meridional loops, the edges of our spatial graphs are marked by conjugacy classes of $Q$; once one passes to planar diagrams, these labels can be refined to elements of $Q$ associated to each arc. The same classification scheme applies not only in the case of $Q$ but also to arbitrary groups. This research is joint with Yuta Nozaki, Yuya Koda, and Masakazu Teragaito.",
+        "season": "SPRING 2024",
+        "video": null
+    },
     "151": {
         "speaker_id": 133,
         "date": "May 3, 2024",
@@ -27,7 +41,7 @@
         ],
         "abstract": "Similarly to the growth of Applied Topology, the uses and applications of Geometry are now expanding into scientific, computational, and engineering domains. First, we'll review the recent history of this expanding Applied Geometry area. I'll mention several collaborations. Developing and implementing algorithms inspired by the marked length spectrum that classifies complex networks (with Eliassi-Rad and Torres) and analyzing digital images using a variant of curve-shortening flow (with Velazquez Richards). As well as a definition I proposed of a global convolution on manifolds of arbitrary topology, relevant for deep learning on manifolds. Furthermore, I'll present our joint work with Evangelista and Ruiz Pantaleón on computational Poisson geometry. This work includes a practical application in learning symbolic expressions of Hamiltonian systems. We've developed and released two Python packages that are instrumental in this process. These packages enable symbolic and numerical computations of objects in Poisson geometry, and they're compatible with the deep learning frameworks NumPy, TensorFlow, and PyTorch. We've utilized these packages to train neural networks, particularly hybrids with CNN and LSTM components, that learn symbolic expressions of Hamiltonian vector fields. I'll present a tutorial on our computational Poisson Geometry modules if time allows.",
         "season": "SPRING 2024",
-        "video": null
+        "video": "https://www.youtube.com/embed/5I-9IOnqEK4?si=RKiVnnrp4CtIRrMs"
     },
     "149": {
         "speaker_id": 131,
