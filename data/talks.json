@@ -41,7 +41,7 @@
         ],
         "abstract": "Similarly to the growth of Applied Topology, the uses and applications of Geometry are now expanding into scientific, computational, and engineering domains. First, we'll review the recent history of this expanding Applied Geometry area. I'll mention several collaborations. Developing and implementing algorithms inspired by the marked length spectrum that classifies complex networks (with Eliassi-Rad and Torres) and analyzing digital images using a variant of curve-shortening flow (with Velazquez Richards). As well as a definition I proposed of a global convolution on manifolds of arbitrary topology, relevant for deep learning on manifolds. Furthermore, I'll present our joint work with Evangelista and Ruiz Pantaleón on computational Poisson geometry. This work includes a practical application in learning symbolic expressions of Hamiltonian systems. We've developed and released two Python packages that are instrumental in this process. These packages enable symbolic and numerical computations of objects in Poisson geometry, and they're compatible with the deep learning frameworks NumPy, TensorFlow, and PyTorch. We've utilized these packages to train neural networks, particularly hybrids with CNN and LSTM components, that learn symbolic expressions of Hamiltonian vector fields. I'll present a tutorial on our computational Poisson Geometry modules if time allows.",
         "season": "SPRING 2024",
-        "video": null
+        "video": "https://www.youtube.com/embed/5I-9IOnqEK4?si=RKiVnnrp4CtIRrMs"
     },
     "149": {
         "speaker_id": 131,
