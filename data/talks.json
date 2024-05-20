@@ -24,7 +24,7 @@
         ],
         "abstract": "I will discuss a homotopy classification of the global defect in ordered media, with a particular emphasis on the example of biaxial nematic liquid crystals. These are systems in which the order parameter space is the quotient of the $3$-sphere $S^3$ by the quaternion group $Q$, and an important feature of them is that disclination lines may branch and form graphs. Therefore as a model, I will consider continuous maps from complements of spatial graphs to $S^3/Q$ modulo a certain equivalence relation, and find that the equivalence classes are enumerated by the six subgroups of $Q$. Via monodromy around meridional loops, the edges of our spatial graphs are marked by conjugacy classes of $Q$; once one passes to planar diagrams, these labels can be refined to elements of $Q$ associated to each arc. The same classification scheme applies not only in the case of $Q$ but also to arbitrary groups. This research is joint with Yuta Nozaki, Yuya Koda, and Masakazu Teragaito.",
         "season": "SPRING 2024",
-        "video": null
+        "video": "https://www.youtube.com/embed/Rf176eznHI4?si=3_PHDPhpX2tfHKC-"
     },
     "151": {
         "speaker_id": 133,
