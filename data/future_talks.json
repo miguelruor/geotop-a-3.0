@@ -1,54 +1,59 @@
 {
-  "SPRING 2024": [
+  "FALL 2024": [
     {
-      "date": "February 9",
-      "speaker": "Anthea Monod",
-      "institution": "Imperial College - UK"
+      "date": "August 23",
+      "speaker": "Natasha Jonoska",
+      "institution": "University of South Florida - USA"
     },
     {
-      "date": "February 16",
-      "speaker": "Dmitriy Morozov",
-      "institution": "Lawrence Berkeley National Laboratory - USA"
+      "date": "September 6",
+      "speaker": "Lucile Vandembroucq",
+      "institution": "Universidade do Minho - Portugal"
     },
     {
-      "date": "March 1",
-      "speaker": "Jörn Dunkel",
-      "institution": "Mathematics, MIT - USA"
+      "date": "September 13",
+      "speaker": "Claus Ernst",
+      "institution": "Western Kentucky University - USA"
     },
     {
-      "date": "March 15",
-      "speaker": "Chris Soteros",
-      "institution": "Mathematics U Saskatchewan - Canada"
+      "date": "September 27",
+      "speaker": "Uta Ziegler",
+      "institution": "Western Kentucky University - USA"
     },
     {
-      "date": "April 5",
-      "speaker": "Francesco Vaccarino",
-      "institution": "Politecnico di Torino - Italy"
+      "date": "October 11",
+      "speaker": "Max Lipton",
+      "institution": "MIT - USA"
     },
     {
-      "date": "April 19",
-      "speaker": "Iris Yoon",
-      "institution": "Wesleyan University - USA"
+      "date": "October 18",
+      "speaker": "Jacek Brodzki",
+      "institution": "University of Southampton - United Kingdom"
     },
     {
-      "date": "April 26",
-      "speaker": "Pablo Suárez Serrato",
-      "institution": "UNAM - Mexico"
+      "date": "October 25",
+      "speaker": "Hannah Santa Cruz",
+      "institution": "Penn State University - USA"
     },
     {
-      "date": "May 3",
-      "speaker": "Yuanan Diao",
-      "institution": "UNC Charlotte -USA"
+      "date": "November 8",
+      "speaker": "Mike Lesnick",
+      "institution": "Suny Albany - USA"
     },
     {
-      "date": "May 17",
-      "speaker": "Tamas Kalman",
-      "institution": "Mathematics, Tokyo Institute of Technology - Japan"
+      "date": "November 22",
+      "speaker": "María José Jiménez Rodríguez",
+      "institution": "Universidad de Sevilla - Spain"
     },
     {
-      "date": "May 31",
-      "speaker": "Eric Goubault",
-      "institution": "Ecole Polytechnique - France"
+      "date": "December 6",
+      "speaker": "Luis Vega",
+      "institution": "BCAM - Spain"
+    },
+    {
+      "date": "December 13",
+      "speaker": " Pablo Soberón",
+      "institution": "CUNY - USA"
     }
   ]
 }
