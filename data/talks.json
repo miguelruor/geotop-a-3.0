@@ -22,7 +22,7 @@
         ],
         "abstract": "In this talk, I will give a self-contained account of a construction for a directed homology theory based on modules over algebras, linking it to both persistence homology and natural homology. </br></br>Persistence modules have been introduced originally for topological data analysis, where the data set seen at different « resolutions »  is organized as a filtration of spaces. This has been further generalized to multidimensional persistence and « generalized » persistence, where a persistence module was defined to be any functor from a partially ordered set, or more generally a preordered set, to an arbitrary category (in general, a category of vector spaces).  </br></br>This talk will be concerned with a more « classical » construction of directed homology, mostly for precubical sets here, based on (bi)modules over (path) algebras, making it closer to classical homology with value in modules over rings, and of the techniques introduced for persistence modules. Still, this construction retains the essential information that natural homology is unveiling. Of particular interest will be the role of restriction and extension of scalars functors, that will be central to the discussion of Kunneth formulas, Mayer-Vietoris and relative homology sequences. If time permits as well, we will discuss some « tameness » issues, for dealing with practical calculations. ",
         "season": "SPRING 2024",
-        "video": null
+        "video": "https://www.youtube.com/embed/4t0xOap5zL0?si=WES_4CbgXzzyuq4s"
     },
     "152": {
         "speaker_id": 134,
