@@ -38,10 +38,11 @@ export default function Parallax(props) {
     var windowScrollTop = window.pageYOffset / 3;
     setTransform("translate3d(0," + windowScrollTop + "px,0)");
   };
-  const { filter, className, children, style, image, small } = props;
+  const { filter, className, children, style, image, small, home } = props;
   const classes = useStyles();
   const parallaxClasses = classNames({
-    [classes.parallax]: true,
+    ...(home === true ? { [classes.parallaxHome]: true } : { [classes.parallax]: true }),
+    //[classes.parallax]: true,
     [classes.filter]: filter,
     [classes.small]: small,
     [className]: className !== undefined

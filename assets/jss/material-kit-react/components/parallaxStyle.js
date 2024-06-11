@@ -12,6 +12,31 @@ const parallaxStyle = {
     display: "flex",
     alignItems: "center"
   },
+  parallaxHome: {
+    height: "70vh",
+    "@media (max-width: 1550px)": {
+      height: "60vh"
+    },
+    "@media (max-width: 1300px)": {
+      height: "50vh"
+    },
+    "@media (max-width: 900px)": {
+      height: "40vh"
+    },
+    "@media (max-width: 550px)": {
+      height: "370px"
+    },
+    maxHeight: "1000px",
+    overflow: "hidden",
+    position: "relative",
+    backgroundPosition: "center center",
+    backgroundSize: "cover",
+    margin: "0",
+    padding: "0",
+    border: "0",
+    display: "flex",
+    alignItems: "center"
+  },
   filter: {
     "&:before": {
       background: "rgba(0, 0, 0, 0.5)"
