@@ -24,7 +24,10 @@ const parallaxStyle = {
       height: "40vh"
     },
     "@media (max-width: 550px)": {
-      height: "370px"
+      height: "30vh"
+    },
+    "@media (max-width: 420px)": {
+      height: "25vh"
     },
     maxHeight: "1000px",
     overflow: "hidden",
