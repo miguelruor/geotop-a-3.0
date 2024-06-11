@@ -1,16 +1,11 @@
-import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import HeaderLinks from "../../components/Header/HeaderLinks";
 import Parallax from "../../components/Parallax/Parallax.js";
-import GridContainer from "../../components/Grid/GridContainer.js";
-import GridItem from "../../components/Grid/GridItem.js";
-import Button from "../../components/CustomButtons/Button.js";
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "./HomePageStyle.js";
-import Link from "next/link"
 
-import backgroundImageHome from '../../public/img/img1.jpg';
+import backgroundImageHome from '../../public/img/banner.jpg';
 
 // nodejs library that concatenates classes
 import classNames from "classnames";
@@ -29,49 +24,31 @@ export default function HomePage(props) {
     <div>
       <Header
         color="blue"
-        //routes={dashboardRoutes}
         brand="Seminar GEOTOP-A"
-        rightLinks={<HeaderLinks/>}
+        rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 400,
           color: "white"
         }}
-        //{...rest}
       />
 
-      <Parallax filter image={backgroundImageHome}>
-        <div className={classes.container}>
-          <GridContainer>
-            <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Seminar GEOTOP-A</h1>
-              <h4>
-                Web-seminar series on Applications of Geometry and Topology
-              </h4>
-              <br />
-              <Link href={"previous-talks/"+props.last_talk}>
-                <Button
-                  color= "primary"
-                  size="lg"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fas fa-play" />
-                  Watch our last seminar!
-                </Button>
-              </Link>
-            </GridItem>
-          </GridContainer>
-        </div>
-      </Parallax>
+      <Parallax home style={
+        {
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          alignItems: "flex-end",
+          backgroundPosition: "center 70px"
+        }
+      } image={backgroundImageHome} />
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionCarousel images={props.images}/>
+        <SectionCarousel images={props.images} />
         <FutureTalksSection />
         <StreamingTimeSection />
         <TeamSection />
       </div>
-      <Footer />          
+      <Footer />
     </div>
   )
 }
