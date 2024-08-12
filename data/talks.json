@@ -3,11 +3,14 @@
         "speaker_id": 135,
         "date": "August 23, 2024",
         "date2": "20240823",
-        "title": "TBA",
+        "title": "Topological models for studying DNA self-assembly",
         "keywords": [
-            "TBA"
+            "DNA self-assembly",
+            "three dimensional structures",
+            "embeddings in 3D",
+            "topological models"
         ],
-        "abstract": "TBA",
+        "abstract": "There is an increased necessity for mathematical study of self-assembly of various phenomena ranging from nano-scale structures, material design, crystals and nano devices. We present a range of topological questions associated with DNA self-assembly and three dimensional structures. The questions vary from topological graph theory related to DNA strand routing of a three-dimensional mesh, to questions in knot theory related to structural embeddings in 3D.",
         "season": "FALL 2024",
         "video": null
     },
