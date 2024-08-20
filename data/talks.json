@@ -1,4 +1,17 @@
 {
+    "155": {
+        "speaker_id": 136,
+        "date": "September 6, 2024",
+        "date2": "20240906",
+        "title": "On the (higher) topological complexity of manifolds with abelian fundamental group",
+        "keywords": [
+            "topological complexity",
+            "manifolds with abelian fundamental group"
+        ],
+        "abstract": "The topological complexity and its higher versions are homotopy invariants which were introduced by M. Farber and Y. Rudyak in order to give a topological measure of the complexity of the motion planning problem. We will discuss some properties of these invariants for closed manifolds with abelian fundamental group. In particular, we will give sufficient conditions for the (higher) topological complexity of such a manifold to be non-maximal. This is based on joint works with N. Cadavid, D. Cohen, J. González and S. Hughes.",
+        "season": "FALL 2024",
+        "video": null
+    },
     "154": {
         "speaker_id": 135,
         "date": "August 23, 2024",
