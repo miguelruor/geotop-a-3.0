@@ -1,4 +1,19 @@
 {
+    "159": {
+        "speaker_id": 140,
+        "date": "October 18, 2024",
+        "date2": "20241018",
+        "title": "Topological insights into physical phenomena",
+        "keywords": [
+            "TDA",
+            "physical system",
+            "phase transitions",
+            "quantification of disorder"
+        ],
+        "abstract": "Methods of Topological Data Analysis are now an important part of modern data-driven scientific discovery. This talk will provide an overview of recent results, theoretical and experimental, that arise from the interactions between topology and physics. We will discuss topological characteristics that can be used to trackithe time evolution of physical system and to detect its phase transitions. We will then discuss a topological quantification of disorder where it can be used to detect “sufficiently ordered systems” which, although irregular, still display interesting physical characteristics. We will end with a discussion of the uses of topology in the design of physical systems. ",
+        "season": "FALL 2024",
+        "video": null
+    },
     "158": {
         "speaker_id": 139,
         "date": "October 11, 2024",
