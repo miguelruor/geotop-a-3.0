@@ -1,4 +1,14 @@
 {
+    "140": {
+        "surname": "Brodzki",
+        "completeName": "Jacek Brodzki",
+        "middle_initial": null,
+        "name": "Jacek",
+        "talks": [
+            159
+        ],
+        "image": true
+    },
     "139": {
         "surname": "Lipton",
         "completeName": "Max Lipton",
@@ -7,7 +17,7 @@
         "talks": [
             158
         ],
-        "image": false
+        "image": true
     },
     "138": {
         "surname": "Ziegler",
