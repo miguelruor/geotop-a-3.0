@@ -1,4 +1,18 @@
 {
+    "160": {
+        "speaker_id": 141,
+        "date": "November 1, 2024",
+        "date2": "20241101",
+        "title": "Hodge Laplacians on Sequences",
+        "keywords": [
+            "TDA",
+            "Hodge Laplacians",
+            "sequential data"
+        ],
+        "abstract": "Hodge Laplacians have been previously proposed as a natural tool for understanding higher-order interactions in networks and directed graphs. In this talk, we will cover a Hodge-theoretic approach to spectral theory and dimensionality reduction for probability distributions on sequences and simplicial complexes.  We will introduce a feature space based on the Laplacian eigenvectors associated  to a set of sequences, and will see these eigenvectors capture the underlying geometry of our data. Furthermore, we will show this Hodge theory has desirable properties with respect to natural null-models, where the underlying vertices are independent. Specifically, we will see the appropriate Hodge Laplacian has an integer spectrum with high multiplicities, and describe its eigenspaces. Finally, we will cover a simple proof showing the underlying cell complex of sequences has trivial reduced homology.",
+        "season": "FALL 2024",
+        "video": null
+    },
     "159": {
         "speaker_id": 140,
         "date": "October 18, 2024",
