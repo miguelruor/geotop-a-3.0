@@ -32,11 +32,13 @@
         "speaker_id": 139,
         "date": "October 11, 2024",
         "date2": "20241011",
-        "title": "TBA",
+        "title": "Pseudodifferential Methods and the Mobius Knot Energy",
         "keywords": [
-            "TBA"
+            "Moebius energy",
+            "knot invariants",
+            "pseudodifferential calculus"
         ],
-        "abstract": "TBA",
+        "abstract": "The Mobius energy of a knot is a useful analytic tool which can yield information about classical knot invariants. Freedman, He, and Wang proved the existence of curves with a given prime knot type which minimizes the Mobius energy, and they also proved the minimizers are $C^{1,1}$. Shortly after, He proved the minimizers are analytic using nonlocal techniques involving pseudodifferential calculus. I will discuss these methods and how they may apply to unresolved problems regarding the Mobius energy.",
         "season": "FALL 2024",
         "video": null
     },
