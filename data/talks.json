@@ -1,4 +1,16 @@
 {
+    "161": {
+        "speaker_id": 142,
+        "date": "November 15, 2024",
+        "date2": "20241115",
+        "title": "Robustness and Computability of 2-Parameter Persistent Homology",
+        "keywords": [
+            "multiparameter persistent homology", "clustering"
+        ],
+        "abstract": "<p>The Vietoris-Rips filtration, the standard filtration on metric data in topological data analysis, is notoriously sensitive to outliers and can be insensitive to variations in density.  A natural solution is to consider 2-parameter persistence, treating density and spatial scale as separate parameters.  In this talk, I will present results on the stability, robustness, and computability of 2-parameter persistence.  A main focus will be Sheehy's subdivision-Rips bifiltration, the only density-sensitive bifiltration on metric data known to satisfy a strong robustness property.  This filtration is too large to compute directly, but we will see that it can be approximated by much smaller objects.  Our results reveal an apparent tension between robustness and computability for 2-parameter persistence, which in spite of substantial progress, is not yet fully understood.</p><p>The talk will be based on three papers, the first with Andrew Blumberg and the others with KenMcCabe: <a href=\"https://link.springer.com/article/10.1007/s10208-022-09576-6\" target=\"_blank\">https://link.springer.com/article/10.1007/s10208-022-09576-6</a><br /> <a href=\"https://arxiv.org/abs/2406.07679\" target=\"_blank\">https://arxiv.org/abs/2406.07679</a><br /> <a href=\"https://arxiv.org/abs/2408.16716\" target=\"_blank\">https://arxiv.org/abs/2408.16716</a><br /></p>",
+        "season": "FALL 2024",
+        "video": null
+    },
     "160": {
         "speaker_id": 141,
         "date": "November 1, 2024",
@@ -26,7 +38,7 @@
         ],
         "abstract": "Methods of Topological Data Analysis are now an important part of modern data-driven scientific discovery. This talk will provide an overview of recent results, theoretical and experimental, that arise from the interactions between topology and physics. We will discuss topological characteristics that can be used to track the time evolution of physical system and to detect its phase transitions. We will then discuss a topological quantification of disorder where it can be used to detect “sufficiently ordered systems” which, although irregular, still display interesting physical characteristics. We will end with a discussion of the uses of topology in the design of physical systems. ",
         "season": "FALL 2024",
-        "video": null
+        "video": "https://www.youtube.com/embed/VHoEYE4Jy14?si=9PYKCGWxI9SlJBMN"
     },
     "158": {
         "speaker_id": 139,
@@ -40,7 +52,7 @@
         ],
         "abstract": "The Mobius energy of a knot is a useful analytic tool which can yield information about classical knot invariants. Freedman, He, and Wang proved the existence of curves with a given prime knot type which minimizes the Mobius energy, and they also proved the minimizers are $C^{1,1}$. Shortly after, He proved the minimizers are analytic using nonlocal techniques involving pseudodifferential calculus. I will discuss these methods and how they may apply to unresolved problems regarding the Mobius energy.",
         "season": "FALL 2024",
-        "video": null
+        "video": "https://www.youtube.com/embed/XYZ1i31KOO4?si=1VHUfnG8wz-mu5ed"
     },
     "157": {
         "speaker_id": 138,
