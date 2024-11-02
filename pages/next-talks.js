@@ -8,6 +8,7 @@ export async function getStaticProps() {
   let next_talks = [];
 
   next_talks_ids.next_talks_ids.forEach(talk_id => {
+    talk_id = talk_id.toString()
     const speakerID = talks[talk_id].speaker_id.toString();
 
     next_talks.push({
