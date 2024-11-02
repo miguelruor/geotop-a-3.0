@@ -43,7 +43,9 @@ There are four main files where data are stored:
 
 The speaker images are stored in the directory ``/public/img/speakers/`` and should be squared (same width and height). The format to save a speaker image is ``sp{ID}.png``, where ``{ID}`` is replaced by the speaker ID (which is the key of the speaker data in the json file). Examples: ``sp0.png``, ``sp122.png``, etc.
 
-**IMPORTANT:** 
+## IMPORTANT
+
 1. Be sure to be consistent with the format of how data is stored in those files. The format can be inferred from previous data.
 2. Before adding a speaker, search through the file if it was added before. For example, you can search a file when opened with VS-Code with ``Ctrl+F``.
+3. Each commit should have a short messagge that clearly describes the purpose of the change.
 
