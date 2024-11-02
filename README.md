@@ -29,9 +29,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Workflow
 
-Changes are made in ``dev`` branch. Be sure to make commits with not too much changes (it is a best practice), for example, one commit per talk and speaker information. Then a *pull request* is made to ``main`` branch to deploy changes on production.
+Changes are made in ``dev`` branch. Be sure to make commits with not too much changes (it is a best practice), for example, one commit per talk and speaker information. Then a *pull request* is made to ``master`` branch to deploy changes on production.
 
-The website is deployed with [Vercel](https://vercel.com/), and changes are automatically deployed when a pull request to main is accepted.
+The website is deployed with [Vercel](https://vercel.com/), and changes are automatically deployed when a pull request to master is accepted.
 
 ## Data
 
