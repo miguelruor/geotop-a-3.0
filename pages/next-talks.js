@@ -2,26 +2,13 @@ import Head from 'next/head'
 import NextTalksPage from '../views/NextTalksPage/NextTalksPage'
 import speakers from '../data/speakers.json';
 import talks from '../data/talks.json';
+import next_talks_ids from '../data/next_talks.json';
 
 export async function getStaticProps() {
-  let next_talks = []
+  let next_talks = [];
 
-  Object.keys(talks).forEach(talk_id => {
-    if (talks[talk_id].eventId != undefined) {
-      // Ignore talks for events different than GEOTOP-A
-      return;
-    }
-
-    var date = talks[talk_id].date2;
-    var date_js = new Date(date.slice(0, 4), date.slice(4, 6) - "01", date.slice(6, 8));
-    var today = new Date()
-    today.setHours(0, 0, 0, 0);
-    date_js.setHours(0, 0, 0, 0);
-
-    if (date_js < today) {
-      return;
-    }
-
+  next_talks_ids.next_talks_ids.forEach(talk_id => {
+    talk_id = talk_id.toString()
     const speakerID = talks[talk_id].speaker_id.toString();
 
     next_talks.push({
