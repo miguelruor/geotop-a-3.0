@@ -7,8 +7,8 @@
         "talks": [
             162
         ],
-        "image": false
-    },
+        "image": true 
+        },
     "142": {
         "surname": "Lesnick",
         "completeName": "Mike Lesnick",
