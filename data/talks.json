@@ -1,4 +1,113 @@
-{
+{   
+    "173": {
+        "speaker_id": 152,
+	    "eventId": "1",
+        "date": "November 12, 2024",
+        "date2": "20241112",
+        "title": "Applied knot theory",
+        "keywords": [
+            "TBA"
+                   ],
+	    "abstract": "In this talk we will present two interesting applications of knot theory. In the first application, we describe the representation of circular DNA molecules by polygonal knots in the unitary lattice of $ℝ^{3}$ and the confinement problem. Secondly, we introduce a novel representation of knots as tight curves in the ordinary and hyperbolic geoboard model. As we will see, many theoretical and applied developments in knot theory are simply playing a game.",
+        "video": null
+    },
+    "172": {
+        "speaker_id": 151,
+	    "eventId": "1",
+        "date": "November 12, 2024",
+        "date2": "20241112",
+        "title": "Beyond Pairwise Interactions",
+        "keywords": [
+            "TBA"
+                   ],
+	    "abstract": "The construction of simplicial complexes is a cornerstone of topological data analysis, traditionally relying on pairwise relationships to build flag complexes. However, the limitations of this approach in capturing higher-order interactions have become increasingly apparent. This talk introduces a novel framework for constructing non-flag simplicial complexes using generalized distances (gen-distances), opening up new possibilities for representing complex, multi-dimensional relationships in data.",
+         "video": null
+    },
+    "171": {
+        "speaker_id": 150,
+	    "eventId": "1",
+        "date": "November 11, 2024",
+        "date2": "20241111",
+        "title": "Studying convective flows with TDA",
+        "keywords": [
+            "TBA"
+                   ],
+	    "abstract": "We begin by showing the importance of convective flows in the design of liquid metal batteries and in crystal growth. We then describe the problem of understanding the behavior of Lagrangian orbits in a convective flow and we use a numerical simulation to identify the flow orbits with point clouds in space. The orbits' topological properties are obtained with TDA. Remarkably we show how the bottleneck metric can be used to establish an order of the orbits even in the chaotic regions of the flow.",
+         "video": null
+    },
+    "170": {
+        "speaker_id": 149,
+	    "eventId": "1",
+        "date": "November 9, 2024",
+        "date2": "20241109",
+        "title": "Ribbon graphs and the DNA reporter strand problem",
+        "keywords": [
+            "TBA"
+                   ],
+	    "abstract": "In this talk we will consider the relationship between ribbon graphs and DNA molecules. A ribbon graph is a thickened graph that is obtained from a graph embedded in a compact surface. A reporter strand walk in a graph G is a walk that visits every edge of G at least once, and occurs as a facial walk in some orientable embedding of G. The problem of finding such a walk is closely related to making a DNA molecule that has the structure of the given graph. We will illustrate these concepts with some examples.",
+         "video": null
+    },
+    "168": {
+        "speaker_id": 147,
+	    "eventId": "1",
+        "date": "November 11, 2024",
+        "date2": "20241111",
+        "title": "Introduction to Applied Topology through Sage (Sage)",
+        "keywords": [
+            "TBA"
+                   ],
+	"abstract": "Often a barrier fledgling applied topologists face is becoming acquainted with the variety of tools used in performing tasks in computational geometry and topology. This course aims to rectify this by introducing in an interactive and welcoming manner how you can use Sage to solve problems in applied topology. This will be done through a series of jupyter notebooks that will be published in advance to allow students ample time to prepare for this mini-course.<br /><br /> Lectures will include an (1) introduction to Topology in the Python / Sage environment, (2) Building Simplicial Complexes, (3) TDA with Vietoris Rips, and (4) Constructing More Complex Filtrations. Much of the tooling is based on the GUDHI (Geometry Understanding in Higher Dimensions) Library.",
+         "video": null
+    },
+    "167": {
+        "speaker_id": 146,
+	    "eventId": "1",
+        "date": "November 11, 2024",
+        "date2": "20241111",
+        "title": "Applications of Topology to the Theory of Neural Networks (TNN)",
+        "keywords": [
+            "TBA"
+                   ],
+        "abstract": "Recent applications of neural networks have been spectacularly successful (chatgpt, image recognition, etc.) and are rapidly transforming many aspects of modern society. However, many foundational questions about how and why they work (or don't) remain mysterious. Developing a rigorous mathematical theory of deep learning (deep learning refers to neural networks) is an active and rapidly advancing area of research. <br /><br /> This course will discuss applications of topology to the emerging mathematical theory of neural networks. No prior knowledge of neural networks is required; the first lecture will introduce the relevant theory. Examples of topological concepts that we will discuss include transversality, genericity of hyperplane arrangements, Morse theory, polyhedral complexes, and topological structures of fibers of quotient maps. Along the way, I will point out a variety of concrete, open, mathematical questions.",
+         "video": null
+    },
+    "166": {
+        "speaker_id": 57,
+	    "eventId": "1",
+        "date": "November 8, 2024",
+        "date2": "20241108",
+        "title": "Introduction to Topological Data Analysis (TDA)",
+        "keywords": [
+            "TBA"
+                   ],
+        "abstract": "In this lecture, we will embark on a comprehensive journey through the landscape of Topological Data Analysis (TDA), a powerful suite of techniques for quantifying and visualizing the shape of data, particularly in high-dimensional settings. TDA has seen broad applications across mathematics, physics, biology, medicine, and even social sciences, offering a rich interplay between theoretical depth and practical utility.<br />We will begin by introducing the classical framework of persistent homology, a fundamental concept in TDA, which allows us to detect and analyze multi-scale topological features in data. Building upon this, we will explore its extensions, including Euler characteristic curves and profiles, that provide more refined ways to summarize the shape and structure of data. Moving forward, we will highlight the use of these topological tools in diverse fields of mathematics, particularly focusing on applications in statistical hypothesis testing. This will demonstrate the robustness and versatility of TDA in analyzing complex datasets. <br />To complement the theoretical discussions, we will delve into topological visualization techniques, showcasing how ideas from algebraic topology can help us grasp the layout and structure of high-dimensional point clouds. This will be followed by an introduction to Forman's discrete Morse theory, which offers a discrete counterpart to classical Morse theory and can be a useful tool in the analysis of topological spaces derived from data. <br /> Throughout the lecture, we will present both mathematical insights and algorithmic implementations. We will also provide software demonstrations, showing how these methodologies can be applied in real-world scenarios, with a strong emphasis on case studies and practical use cases.",
+        "video": null
+    },               
+    
+    "165": {
+        "speaker_id": 62,
+	    "eventId": "1",
+        "date": "November 7, 2024",
+        "date2": "20241107",
+        "title": "Introduction to Persistent Homology  (IPH)",
+        "keywords": [
+            "TBA"
+                   ],
+        "abstract": "This mini-course provides a brief introduction to the persistent homology of point clouds. We will focus on the most common structures encountered in applications, discussing their definitions and presenting the foundational results that support the theory. The course is divided into three parts. In the first part, we will cover simplicial homology by defining simplicial complexes and their homology, along with methods for computation. In the second part, we will explore persistent homology by introducing constructions of complexes associated with point clouds, such as the Čech complex, and explain how to generate persistent modules from them, emphasizing the importance of the Nerve Theorem. In the final part, we will introduce the Stability Theorem by defining the bottleneck distance and showing how persistent homology remains stable under small perturbations in the point cloud. The only prerequisite for this course is basic knowledge of linear algebra with mod two coefficients.",
+         "video": null
+    },
+    "164": {
+        "speaker_id": 145,
+	    "eventId": "1",
+        "date": "November 7, 2024",
+        "date2": "20241107",
+        "title": "Discrete Morse Theory (DMT)",
+        "keywords": [
+            "TBA"
+                   ],
+        "abstract": "In 1997, Robin Forman introduced a combinatorial adaptation of classical Morse theory used in the study of smooth manifolds. Like its differentiable predecessor, discrete Morse theory (DMT) provides efficient access to topological aspects of smooth manifolds through their triangulations. Given its nature, the use of DMT has not been limited to theoretical contexts; these techniques have found fertile and particularly fruitful ground in applications relevant to our modern technological life, such as data analysis and robotics. In this course we will review the foundations of DMT and its use in various computational problems of algebraic topology and its applications.",
+	    "video": null
+    },
     "163": {
         "speaker_id": 144,
         "date": "December 6, 2024",
@@ -39,7 +148,7 @@
         ],
         "abstract": "The Vietoris-Rips filtration, the standard filtration on metric data in topological data analysis, is notoriously sensitive to outliers and can be insensitive to variations in density.  A natural solution is to consider 2-parameter persistence, treating density and spatial scale as separate parameters.  In this talk, I will present results on the stability, robustness, and computability of 2-parameter persistence.  A main focus will be Sheehy's subdivision-Rips bifiltration, the only density-sensitive bifiltration on metric data known to satisfy a strong robustness property.  This filtration is too large to compute directly, but we will see that it can be approximated by much smaller objects.  Our results reveal an apparent tension between robustness and computability for 2-parameter persistence, which in spite of substantial progress, is not yet fully understood.<br /><br />The talk will be based on three papers, the first with Andrew Blumberg and the others with KenMcCabe:<br /> <a href=\"https://link.springer.com/article/10.1007/s10208-022-09576-6\" target=\"_blank\">https://link.springer.com/article/10.1007/s10208-022-09576-6</a><br /><a href=\"https://arxiv.org/abs/2406.07679\" target=\"_blank\">https://arxiv.org/abs/2406.07679</a><br /> <a href=\"https://arxiv.org/abs/2408.16716\" target=\"_blank\">https://arxiv.org/abs/2408.16716</a>",
         "season": "FALL 2024",
-        "video": null
+        "video": "https://youtu.be/MqceY6aMqDk"
     },
     "160": {
         "speaker_id": 141,
