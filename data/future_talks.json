@@ -55,5 +55,64 @@
       "speaker": " Pablo Soberón",
       "institution": "CUNY - USA"
     }
+  ],
+  "SPRING 2025": [
+    {
+      "date": "January 17",
+      "speaker": "Ciprian Manolescu",
+      "institution": "Stanford University - USA"
+    },
+    {
+      "date": "January 31",
+      "speaker": "Mathilde Papillon",
+      "institution": "University of California, Santa Barbara - USA"
+    },
+    {
+      "date": "February 14",
+      "speaker": "Steve Levene",
+      "institution": "University of Texas at Dallas - USA"
+    },
+    {
+      "date": "February 28",
+      "speaker": "Colin Adams",
+      "institution": "Williams College - USA "
+    },
+    {
+      "date": "March 14",
+      "speaker": "Agnese Barbensi",
+      "institution": "University of Queensland - Australia"
+    },
+    {
+      "date": "March 28",
+      "speaker": "Oliver Gross",
+      "institution": "Technical University of Berlin - Germany"
+    },
+    {
+      "date": "April 11",
+      "speaker": "Magnus Botman",
+      "institution": "Vrije Universiteit Amsterdam - Netherlands"
+    },
+    {
+      "date": "April 25",
+      "speaker": "Kathryn Lindsey",
+      "institution": "Boston College - USA"
+    },
+    {
+      "date": "May 9",
+      "speaker": "Bernadette Stolz",
+      "institution": "Max Planck Institute of Biochemistry - Germany"
+    },
+    {
+      "date": "May 23",
+      "speaker": "Dante Chialvo",
+      "institution": "Universidad Nacional de San Martín - Peru"
+    },
+    {
+      "date": "June 6",
+      "speaker": "María del Rocío González Díaz",
+      "institution": "Universidad de Sevilla - Spain"
+    }
+    
   ]
+
 }
