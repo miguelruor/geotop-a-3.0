@@ -9,7 +9,7 @@
         "Borsuk-Ulam",
         "topological combinatorics"  
 		            ],
-        "abstract": "A hyperplane arrangement in R^d divides space into two sets via a chessboard coloring.  Given a set of measures, we can attempt to split each into two equal parts using the chessboard coloring of a hyperplane arrangement. Special cases of this problem include the classic ham sandwich theorem by Banach or the necklace splitting theorem by Hobby and Rice.  We present a new common generalization of many mass partition results of this kind.  Surprisingly, the proof methods are not topological, breaking a long tradition in the area. During this talk, we will describe the results that can be generalized this way and the reach of this new non-topological approach.<br />Joint work with Alfredo Hubard ",
+        "abstract": "A hyperplane arrangement in $R^d$ divides space into two sets via a chessboard coloring.  Given a set of measures, we can attempt to split each into two equal parts using the chessboard coloring of a hyperplane arrangement. Special cases of this problem include the classic ham sandwich theorem by Banach or the necklace splitting theorem by Hobby and Rice.  We present a new common generalization of many mass partition results of this kind.  Surprisingly, the proof methods are not topological, breaking a long tradition in the area. During this talk, we will describe the results that can be generalized this way and the reach of this new non-topological approach.<br />Joint work with Alfredo Hubard. ",
         "season": "FALL 2024",
         "video": null
     },
