@@ -1,4 +1,16 @@
 {
+    "174": {
+        "speaker_id": 153,
+        "date": "January 17, 2025",
+        "date2": "20250117",
+        "title": "TBA",
+        "keywords": [
+		"TBA"
+		            ],
+        "abstract": "TBA",
+        "season": "SPRING 2025",
+        "video": null
+    },
     "164": {
         "speaker_id": 145,
         "date": "December 13, 2024",
@@ -11,7 +23,7 @@
 		            ],
         "abstract": "A hyperplane arrangement in $\\mathbb{R}^d$ divides space into two sets via a chessboard coloring.  Given a set of measures, we can attempt to split each into two equal parts using the chessboard coloring of a hyperplane arrangement. Special cases of this problem include the classic ham sandwich theorem by Banach or the necklace splitting theorem by Hobby and Rice.  We present a new common generalization of many mass partition results of this kind.  Surprisingly, the proof methods are not topological, breaking a long tradition in the area. During this talk, we will describe the results that can be generalized this way and the reach of this new non-topological approach.<br />Joint work with Alfredo Hubard. ",
         "season": "FALL 2024",
-        "video": null
+        "video": "https://www.youtube.com/embed/UGXvbDhGGDM?si=2nkENKFSjjJ4rzN_"
     },
     "163": {
         "speaker_id": 144,
