@@ -1,6 +1,6 @@
 {
-    "175": {
-        "speaker_id": 154,
+    "166": {
+        "speaker_id": 147,
         "date": "January 31, 2025",
         "date2": "20250131",
         "title": "Make any GNN Go Topological with TopoTune",
@@ -14,8 +14,8 @@
         "season": "SPRING 2025",
         "video": null
     },
-    "174": {
-        "speaker_id": 153,
+    "165": {
+        "speaker_id": 146,
         "date": "January 17, 2025",
         "date2": "20250117",
         "title": "Generalizations of Rasmussen's invariant",
