@@ -1,4 +1,39 @@
-{
+{   "170": {
+        "speaker_id": 149,
+	    "eventId": "1",
+        "date": "November 7, 2024",
+        "date2": "20241107",
+        "title": "Discrete Morse Theory (DMT)",
+        "keywords": [
+            "TBA"
+                   ],
+        "abstract": "In 1997, Robin Forman introduced a combinatorial adaptation of classical Morse theory used in the study of smooth manifolds. Like its differentiable predecessor, discrete Morse theory (DMT) provides efficient access to topological aspects of smooth manifolds through their triangulations. Given its nature, the use of DMT has not been limited to theoretical contexts; these techniques have found fertile and particularly fruitful ground in applications relevant to our modern technological life, such as data analysis and robotics. In this course we will review the foundations of DMT and its use in various computational problems of algebraic topology and its applications.",
+	    "video": "https://www.youtube.com/embed/0_eoKEGzdPY?si=NHWd6hT7vo9J80_h"
+    },
+    "169": {
+        "speaker_id": 57,
+	    "eventId": "1",
+        "date": "November 8, 2024",
+        "date2": "20241108",
+        "title": "Introduction to Topological Data Analysis (TDA)",
+        "keywords": [
+            "TBA"
+                   ],
+        "abstract": "In this lecture, we will embark on a comprehensive journey through the landscape of Topological Data Analysis (TDA), a powerful suite of techniques for quantifying and visualizing the shape of data, particularly in high-dimensional settings. TDA has seen broad applications across mathematics, physics, biology, medicine, and even social sciences, offering a rich interplay between theoretical depth and practical utility.<br />We will begin by introducing the classical framework of persistent homology, a fundamental concept in TDA, which allows us to detect and analyze multi-scale topological features in data. Building upon this, we will explore its extensions, including Euler characteristic curves and profiles, that provide more refined ways to summarize the shape and structure of data. Moving forward, we will highlight the use of these topological tools in diverse fields of mathematics, particularly focusing on applications in statistical hypothesis testing. This will demonstrate the robustness and versatility of TDA in analyzing complex datasets. <br />To complement the theoretical discussions, we will delve into topological visualization techniques, showcasing how ideas from algebraic topology can help us grasp the layout and structure of high-dimensional point clouds. This will be followed by an introduction to Forman's discrete Morse theory, which offers a discrete counterpart to classical Morse theory and can be a useful tool in the analysis of topological spaces derived from data. <br /> Throughout the lecture, we will present both mathematical insights and algorithmic implementations. We will also provide software demonstrations, showing how these methodologies can be applied in real-world scenarios, with a strong emphasis on case studies and practical use cases.",
+        "video": "https://www.youtube.com/embed/31LY2merp-M?si=m-Vj-Pri4vxdJmrA"
+    },               
+    "168": {
+        "speaker_id": 62,
+	    "eventId": "1",
+        "date": "November 7, 2024",
+        "date2": "20241107",
+        "title": "Introduction to Persistent Homology  (IPH)",
+        "keywords": [
+            "TBA"
+                   ],
+        "abstract": "This mini-course provides a brief introduction to the persistent homology of point clouds. We will focus on the most common structures encountered in applications, discussing their definitions and presenting the foundational results that support the theory. The course is divided into three parts. In the first part, we will cover simplicial homology by defining simplicial complexes and their homology, along with methods for computation. In the second part, we will explore persistent homology by introducing constructions of complexes associated with point clouds, such as the Čech complex, and explain how to generate persistent modules from them, emphasizing the importance of the Nerve Theorem. In the final part, we will introduce the Stability Theorem by defining the bottleneck distance and showing how persistent homology remains stable under small perturbations in the point cloud. The only prerequisite for this course is basic knowledge of linear algebra with mod two coefficients.",
+         "video": "https://www.youtube.com/embed/O5x-hMWnQoA?si=pvbY8HHESR-Pun-d"
+    },
     "167": {
         "speaker_id": 148,
         "date": "February 14, 2025",
@@ -27,7 +62,7 @@
 		            ],
         "abstract": "Graph Neural Networks (GNNs) excel in learning from relational datasets, processing node and edge features in a way that preserves the symmetries of the graph domain. However, many complex systems--such as biological or social networks--involve multiway complex interactions that are more naturally represented by higher-order topological spaces. The emerging field of Topological Deep Learning (TDL) aims to accommodate and leverage these higher-order structures. Combinatorial Complex Neural Networks (CCNNs), fairly general TDL models, have been shown to be more expressive and better performing than GNNs. However, differently from the graph deep learning ecosystem, TDL lacks a principled and standardized framework for easily defining new architectures, restricting its accessibility and applicability. To address this issue, we introduce in this talk Generalized CCNNs (GCCNs), a novel simple yet powerful family of TDL models that can be used to systematically transform any (graph) neural network into its TDL counterpart. We show how GCCNs generalize and subsume CCNNs, and briefly describe extensive experiments on a diverse class of GCCNs. We show that these architectures consistently match or outperform CCNNs, often with less model complexity. In an effort to accelerate and democratize TDL, we also introduce TopoTune, a lightweight software that allows practitioners to define, build, and train GCCNs with unprecedented flexibility and ease.",
         "season": "SPRING 2025",
-        "video": null
+        "video": "https://www.youtube.com/embed/AR_3yRjFHYQ?si=_FD8x4S-wvpTbeLN"
     },
     "165": {
         "speaker_id": 146,
