@@ -1,4 +1,29 @@
 {  
+"169": {
+    "speaker_id": 150,
+    "date": "February 28, 2025",
+    "date2": "20250228",
+    "title": "Hyperbolicity for Knotoids, Generalized Knotoids and Staked links",
+    "keywords": [
+    "knotoid",
+    "generalized knotoid",
+    "staked link",
+    " hyperbolic volume"   ],
+    "abstract": "Knotoids are a useful variation on knots that can be used to model proteins. We explain how one can apply hyperbolicity and hyperbolic volume as a powerful tool for distinguishing knotoids and a broad extension of knotoids called generalized knotoids. Then, we further consider staked knots, a particular type of generalized knotoid where stakes are placed around a projection of a knot, restricting its motion and discuss hyperbolicity in this context.",
+    "season": "SPRING 2025",
+    "video": null
+},    
+"168": {
+        "speaker_id": 149,
+        "date": "February 21, 2025",
+        "date2": "20250221",
+        "title": "TBA",
+        "keywords": [
+		"TBA"   ],
+        "abstract": "TBA",
+        "season": "SPRING 2025",
+        "video": null
+    },
     "167": {
         "speaker_id": 148,
         "date": "February 14, 2025",
@@ -23,8 +48,7 @@
 		"Topological Deep Learning",
         "Graph Neural Networks",
         "Combinatorial Complex",
-        "Higher Order Relationships"
-		            ],
+        "Higher Order Relationships"    ],
         "abstract": "Graph Neural Networks (GNNs) excel in learning from relational datasets, processing node and edge features in a way that preserves the symmetries of the graph domain. However, many complex systems--such as biological or social networks--involve multiway complex interactions that are more naturally represented by higher-order topological spaces. The emerging field of Topological Deep Learning (TDL) aims to accommodate and leverage these higher-order structures. Combinatorial Complex Neural Networks (CCNNs), fairly general TDL models, have been shown to be more expressive and better performing than GNNs. However, differently from the graph deep learning ecosystem, TDL lacks a principled and standardized framework for easily defining new architectures, restricting its accessibility and applicability. To address this issue, we introduce in this talk Generalized CCNNs (GCCNs), a novel simple yet powerful family of TDL models that can be used to systematically transform any (graph) neural network into its TDL counterpart. We show how GCCNs generalize and subsume CCNNs, and briefly describe extensive experiments on a diverse class of GCCNs. We show that these architectures consistently match or outperform CCNNs, often with less model complexity. In an effort to accelerate and democratize TDL, we also introduce TopoTune, a lightweight software that allows practitioners to define, build, and train GCCNs with unprecedented flexibility and ease.",
         "season": "SPRING 2025",
         "video": "https://www.youtube.com/embed/AR_3yRjFHYQ?si=_FD8x4S-wvpTbeLN"

@@ -1,5 +1,22 @@
 {
-
+    "150": {
+        "surname": "Adams",
+        "completeName": "Colin Adams",
+        "middle_initial": null,
+        "name": "Colin",
+        "talks": [  
+            169],
+        "image": true
+    },
+    "149": {
+        "surname": "Knight",
+        "completeName": "Sophia Knight",
+        "middle_initial": null,
+        "name": "Sophia",
+        "talks": [  
+            168],
+        "image": false
+    },
     "148": {
         "surname": "Levene",
         "completeName": "Stephen D. Levene",
