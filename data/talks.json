@@ -6,7 +6,9 @@
         "date2": "20241107",
         "title": "Discrete Morse Theory (DMT)",
         "keywords": [
-            "TBA"
+            "Discrete Morse Theory",
+            "Critical cells",
+            "Discrete gradient vector fields"
         ],
         "abstract": "In 1997, Robin Forman introduced a combinatorial adaptation of classical Morse theory used in the study of smooth manifolds. Like its differentiable predecessor, discrete Morse theory (DMT) provides efficient access to topological aspects of smooth manifolds through their triangulations. Given its nature, the use of DMT has not been limited to theoretical contexts; these techniques have found fertile and particularly fruitful ground in applications relevant to our modern technological life, such as data analysis and robotics. In this course we will review the foundations of DMT and its use in various computational problems of algebraic topology and its applications.",
         "video": [
