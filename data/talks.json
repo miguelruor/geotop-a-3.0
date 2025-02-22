@@ -1,42 +1,45 @@
-{  
+{
     "170": {
-    "speaker_id": 151,
-    "date": "March 14, 2025",
-    "date2": "20250314",
-    "title": "Topologically steered simulations and the role of geometric constraints in protein knotting",
-    "keywords": [
-    "protein knotting",
-    "topologically steered simulations",
-    "geometric constraints",
-    "polymer",
-    "twist knots"   ],
-    "abstract": "We introduce a method to determine the optimal pathway by which a polymer may knot or unknot, while subject to a given set of physics, and we investigate the effect of imposing geometric constraints. We show that with protein-like geometric constraints, the frequency of twist knots increases, similar to the observed abundance of twist knots in protein structures. This is joint work with A.Klotz and D.Goundaroulis.",
-    "season": "SPRING 2025",
-    "video": null
-},    
-"169": {
-    "speaker_id": 150,
-    "date": "February 28, 2025",
-    "date2": "20250228",
-    "title": "Hyperbolicity for Knotoids, Generalized Knotoids and Staked links",
-    "keywords": [
-    "knotoid",
-    "generalized knotoid",
-    "staked link",
-    " hyperbolic volume"   ],
-    "abstract": "Knotoids are a useful variation on knots that can be used to model proteins. We explain how one can apply hyperbolicity and hyperbolic volume as a powerful tool for distinguishing knotoids and a broad extension of knotoids called generalized knotoids. Then, we further consider staked knots, a particular type of generalized knotoid where stakes are placed around a projection of a knot, restricting its motion and discuss hyperbolicity in this context.",
-    "season": "SPRING 2025",
-    "video": null
-},    
-"168": {
+        "speaker_id": 151,
+        "date": "March 14, 2025",
+        "date2": "20250314",
+        "title": "Topologically steered simulations and the role of geometric constraints in protein knotting",
+        "keywords": [
+            "protein knotting",
+            "topologically steered simulations",
+            "geometric constraints",
+            "polymer",
+            "twist knots"
+        ],
+        "abstract": "We introduce a method to determine the optimal pathway by which a polymer may knot or unknot, while subject to a given set of physics, and we investigate the effect of imposing geometric constraints. We show that with protein-like geometric constraints, the frequency of twist knots increases, similar to the observed abundance of twist knots in protein structures. This is joint work with A.Klotz and D.Goundaroulis.",
+        "season": "SPRING 2025",
+        "video": null
+    },
+    "169": {
+        "speaker_id": 150,
+        "date": "February 28, 2025",
+        "date2": "20250228",
+        "title": "Hyperbolicity for Knotoids, Generalized Knotoids and Staked links",
+        "keywords": [
+            "knotoid",
+            "generalized knotoid",
+            "staked link",
+            " hyperbolic volume"
+        ],
+        "abstract": "Knotoids are a useful variation on knots that can be used to model proteins. We explain how one can apply hyperbolicity and hyperbolic volume as a powerful tool for distinguishing knotoids and a broad extension of knotoids called generalized knotoids. Then, we further consider staked knots, a particular type of generalized knotoid where stakes are placed around a projection of a knot, restricting its motion and discuss hyperbolicity in this context.",
+        "season": "SPRING 2025",
+        "video": null
+    },
+    "168": {
         "speaker_id": 149,
         "date": "February 21, 2025",
         "date2": "20250221",
         "title": "Logical undefinability and Truth Set Algebras",
         "keywords": [
-		"truth set algebras", 
-        "undefinability",
-        "logical connectives"   ],
+            "truth set algebras",
+            "undefinability",
+            "logical connectives"
+        ],
         "abstract": "I will describe truth set algebras, a new technique for proving the undefinability of logical connectives through one another. I will illustrate the technique with several examples. I will show new proofs of some existing results in logical undefinability, and some new results proven using this technique.",
         "season": "SPRING 2025",
         "video": null
@@ -47,11 +50,11 @@
         "date2": "20250214",
         "title": "Unmasking a hidden DNA-supercoil relaxation activity in a site-specific recombination system",
         "keywords": [
-		"DNA topology",
-        "recombination",
-        "knot type",
-        "reaction networks"
-		            ],
+            "DNA topology",
+            "recombination",
+            "knot type",
+            "reaction networks"
+        ],
         "abstract": "The tyrosine superfamily of recombinases generates knotted products when acting on inverted target sites in circular, supercoiled DNA. For the Cre/loxP system prime torus knots are formed exclusively even for strongly supercoiled DNA substrates. This is surprising because models that are used to describe the recombination reaction predict the appearance of complex knot types over the course of repeated reaction cycles due to the release of mechanical energy stored in supercoiled DNA. We solved this puzzle by revealing a hidden DNA-supercoil relaxation activity that accompanies Cre/loxP recombination through a detailed kinetic analysis of the joint distribution of DNA knot type and linking number. A biophysical model for the time evolution of topological states in circular DNA generated by multiple reaction cycles of recombination shows that the time-dependent knot distributions observed in experiments can only be quantitatively explained by a model that includes DNA unwinding. Thus, the detailed dynamics of transitions between topological states in knotted supercoiled DNA unravels an important aspect of the Cre/loxP recombination mechanism that could not be discerned without probing the time dependence of the recombination mechanism.",
         "season": "SPRING 2025",
         "video": "https://www.youtube.com/embed/omv_sobNmCU?si=-e3NEbpjdZitxyGr"
@@ -62,10 +65,11 @@
         "date2": "20250131",
         "title": "Make any GNN Go Topological with TopoTune",
         "keywords": [
-		"Topological Deep Learning",
-        "Graph Neural Networks",
-        "Combinatorial Complex",
-        "Higher Order Relationships"    ],
+            "Topological Deep Learning",
+            "Graph Neural Networks",
+            "Combinatorial Complex",
+            "Higher Order Relationships"
+        ],
         "abstract": "Graph Neural Networks (GNNs) excel in learning from relational datasets, processing node and edge features in a way that preserves the symmetries of the graph domain. However, many complex systems--such as biological or social networks--involve multiway complex interactions that are more naturally represented by higher-order topological spaces. The emerging field of Topological Deep Learning (TDL) aims to accommodate and leverage these higher-order structures. Combinatorial Complex Neural Networks (CCNNs), fairly general TDL models, have been shown to be more expressive and better performing than GNNs. However, differently from the graph deep learning ecosystem, TDL lacks a principled and standardized framework for easily defining new architectures, restricting its accessibility and applicability. To address this issue, we introduce in this talk Generalized CCNNs (GCCNs), a novel simple yet powerful family of TDL models that can be used to systematically transform any (graph) neural network into its TDL counterpart. We show how GCCNs generalize and subsume CCNNs, and briefly describe extensive experiments on a diverse class of GCCNs. We show that these architectures consistently match or outperform CCNNs, often with less model complexity. In an effort to accelerate and democratize TDL, we also introduce TopoTune, a lightweight software that allows practitioners to define, build, and train GCCNs with unprecedented flexibility and ease.",
         "season": "SPRING 2025",
         "video": "https://www.youtube.com/embed/AR_3yRjFHYQ?si=_FD8x4S-wvpTbeLN"
@@ -76,10 +80,10 @@
         "date2": "20250117",
         "title": "Generalizations of Rasmussen's invariant",
         "keywords": [
-		"Rasmussen invariant of knots",
-        "genus of smooth surfaces in 4-manifolds",
-        "exotic 4-manifolds with boundary"
-		            ],
+            "Rasmussen invariant of knots",
+            "genus of smooth surfaces in 4-manifolds",
+            "exotic 4-manifolds with boundary"
+        ],
         "abstract": "Over the last 20 years, the Rasmussen invariant of knots in $\\mathbb{S}^3$ has had a number of interesting applications to questions about surfaces in $\\mathbb{B}^4$. In this talk I will survey some recent extensions of the invariant to knots in other three-manifolds: in connected sums of $\\mathbb{S}^1$ x $\\mathbb{S}^2$ (joint work with Marengon, Sarkar, and Willis), in $\\mathbb{RP}^3$ (joint work with Willis, and also separate work of Chen), and in a general setting (work by Morrison, Walker and Wedrich; and independently by Ren-Willis). I will describe how these invariants give bounds on the genus of smooth surfaces in 4-manifolds, and can even detect exotic 4-manifolds with boundary. ",
         "season": "SPRING 2025",
         "video": "https://www.youtube.com/embed/Mc_FoVkaOpU?si=9bJP8tPStI29zbU3"
@@ -90,10 +94,10 @@
         "date2": "20241213",
         "title": "Bisecting masses with hyperplane arrangements",
         "keywords": [
-		"mass partition", 
-        "Borsuk-Ulam",
-        "topological combinatorics"  
-		            ],
+            "mass partition",
+            "Borsuk-Ulam",
+            "topological combinatorics"
+        ],
         "abstract": "A hyperplane arrangement in $\\mathbb{R}^d$ divides space into two sets via a chessboard coloring.  Given a set of measures, we can attempt to split each into two equal parts using the chessboard coloring of a hyperplane arrangement. Special cases of this problem include the classic ham sandwich theorem by Banach or the necklace splitting theorem by Hobby and Rice.  We present a new common generalization of many mass partition results of this kind.  Surprisingly, the proof methods are not topological, breaking a long tradition in the area. During this talk, we will describe the results that can be generalized this way and the reach of this new non-topological approach.<br />Joint work with Alfredo Hubard. ",
         "season": "FALL 2024",
         "video": "https://www.youtube.com/embed/UGXvbDhGGDM?si=2nkENKFSjjJ4rzN_"
@@ -104,10 +108,10 @@
         "date2": "20241206",
         "title": "The binormal flow and the evolution of viscous vortex filaments",
         "keywords": [
-		"Binormal Curvature Flow", 
-        "viscous vortex filaments",
-        "turbulence"  
-		            ],
+            "Binormal Curvature Flow",
+            "viscous vortex filaments",
+            "turbulence"
+        ],
         "abstract": "I'll present the so called Localized Induction Approximation that describes the dynamics of a vortex filament according to the Binormal Curvature Flow (BF). I'll give a result about the desingularization of the Biot-Savart integral proved with Marco A. Fontelos within the framework of Navier-Stokes equations. Some particular examples regarding BF obtained with Valeria Banica will be also considered. These examples allow to connect BF with the so called Riemann non-differentiable function and the Frisch-Parisi approach to turbulence.",
         "season": "FALL 2024",
         "video": "https://www.youtube.com/embed/lsGLkTjasjQ?si=mqm8amo9hAo5jIdU"
@@ -118,11 +122,11 @@
         "date2": "20241122",
         "title": "Morse Theory for Chromatic Delaunay Triangulations",
         "keywords": [
-		"Chromatic alpha filtration",  
-		"Delaunay-Čech filtration",
-  		"Delaunay-Rips filtration", 
-		"generalised Discrete Morse Theory"
-                    ],
+            "Chromatic alpha filtration",
+            "Delaunay-Čech filtration",
+            "Delaunay-Rips filtration",
+            "generalised Discrete Morse Theory"
+        ],
         "abstract": "This talk is focused on new techniques for the topological data analysis (TDA) of labelled point cloud data.<br /><br />Well-established filtrations in TDA for a point cloud data include the Čech, Vietoris-Rips, and alpha filtrations. Bauer and Edelsbrunner [BE16] demonstrated that the Čech filtration can be simplicially collapsed onto the alpha filtration, showing that they are homotopy equivalent.<br /><br />Recent techniques in data collection across fields like cancer biology, geospatial analysis and ecology have produced chromatic (labeled) data that express interactions among points of different colors. In such cases, it is crucial to understand not only the overall spatial structure of the data but also the spatial relationships among subsets defined by their labels. The chromatic alpha filtration [Mon+24]  is a generalization of the alpha filtration that captures these relationships, making it particularly useful for multi-species data in TDA.<br /><br />In this talk we introduce the chromatic Delaunay-Čech and chromatic Delaunay-Rips filtrations as computationally efficient alternatives to the chromatic alpha filtration. We use generalized discrete Morse theory to demonstrate that the Čech, chromatic Delaunay-Čech, and chromatic alpha filtrations are interconnected through simplicial collapses, extending Bauer and Edelsbrunner's results from non-chromatic to chromatic contexts. <br /><br />Our findings offer theoretical support for the application of chromatic Delaunay-Čech and chromatic Delaunay-Rips filtrations, and we illustrate their computational advantages through numerical experiments.<br /><br />This is joint work with A. Natarajan, T. Chaplin and A. Brown from University of Oxford  (arXiv:2405.19303).<br /><br />[BE16] Ulrich Bauer and Herbert Edelsbrunner. “The Morse theory of Cech and Delaunay complexes”.  In: Transactions of the American Mathematical Society 369.5 (Dec. 27, 2016), pp. 3741-3762. DOI:10.1090/tran/6991.<br />[Mon+24] Sebastiano Cultrera di Montesano et al. Chromatic Alpha Complexes. Feb. 7, 2024. arXiv: 2212.03128",
         "season": "FALL 2024",
         "video": "https://www.youtube.com/embed/GY1MqjT5Uvo?si=lqOHN-pEnWjAeMhR"

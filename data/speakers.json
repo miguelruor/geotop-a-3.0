@@ -1,11 +1,12 @@
-{   
+{
     "151": {
         "surname": "Barbensi",
         "completeName": "Agenese Barbensi",
         "middle_initial": null,
         "name": "Agenese",
-        "talks": [  
-            170],
+        "talks": [
+            170
+        ],
         "image": true
     },
     "150": {
@@ -13,8 +14,9 @@
         "completeName": "Colin Adams",
         "middle_initial": null,
         "name": "Colin",
-        "talks": [  
-            169],
+        "talks": [
+            169
+        ],
         "image": true
     },
     "149": {
@@ -22,8 +24,9 @@
         "completeName": "Sophia Knight",
         "middle_initial": null,
         "name": "Sophia",
-        "talks": [  
-            168],
+        "talks": [
+            168
+        ],
         "image": true
     },
     "148": {
@@ -32,7 +35,8 @@
         "middle_initial": "D",
         "name": "Stephen",
         "talks": [
-            167        ],
+            167
+        ],
         "image": true
     },
     "147": {
@@ -41,7 +45,8 @@
         "middle_initial": null,
         "name": "Mathilde",
         "talks": [
-            166        ],
+            166
+        ],
         "image": true
     },
     "146": {
@@ -51,7 +56,7 @@
         "name": "Ciprian",
         "talks": [
             165
-               ],
+        ],
         "image": true
     },
     "145": {
@@ -82,8 +87,8 @@
         "talks": [
             162
         ],
-        "image": true 
-        },
+        "image": true
+    },
     "142": {
         "surname": "Lesnick",
         "completeName": "Mike Lesnick",
