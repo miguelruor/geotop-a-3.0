@@ -1,4 +1,4 @@
-{     
+{
     "0": {
         "eventId": "0",
         "eventName": "Topological Methods in Mathematical Physics 2022",
@@ -45,6 +45,17 @@
             "119",
             "120",
             "121"
+        ]
+    },
+    "1": {
+        "eventId": "1",
+        "eventName": "Escuela de Mérida",
+        "date": "20241201",
+        "topNote": "December 2024",
+        "category": "Advanced School",
+        "season": "2024",
+        "talksIds": [
+            "171"
         ]
     }
 }

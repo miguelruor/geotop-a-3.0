@@ -1,4 +1,21 @@
 {
+    "171": {
+        "speaker_id": 4,
+        "eventId": "1",
+        "date": "November 7, 2024",
+        "date2": "20241107",
+        "title": "Discrete Morse Theory (DMT)",
+        "keywords": [
+            "TBA"
+        ],
+        "abstract": "In 1997, Robin Forman introduced a combinatorial adaptation of classical Morse theory used in the study of smooth manifolds. Like its differentiable predecessor, discrete Morse theory (DMT) provides efficient access to topological aspects of smooth manifolds through their triangulations. Given its nature, the use of DMT has not been limited to theoretical contexts; these techniques have found fertile and particularly fruitful ground in applications relevant to our modern technological life, such as data analysis and robotics. In this course we will review the foundations of DMT and its use in various computational problems of algebraic topology and its applications.",
+        "video": [
+            "https://www.youtube.com/embed/0_eoKEGzdPY?si=z1fbIM9jm0ujyPR_",
+            "https://www.youtube.com/embed/Ho6MLFey1JU?si=0RMxdfxXqaunW6Je",
+            "https://www.youtube.com/embed/kbDNqXWXIZo?si=Vxpyq3mntXaxCC2F",
+            "https://www.youtube.com/embed/u328Z0JuvEg?si=KYo0e_xY6zLk_CMx"
+        ]
+    },
     "170": {
         "speaker_id": 151,
         "date": "March 14, 2025",
