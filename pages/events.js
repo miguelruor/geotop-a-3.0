@@ -41,35 +41,6 @@ export async function getStaticProps() {
         seasons_aux[season].reverse()
     }
 
-    const eventName = "Topological Methods in Mathematical Physics 2022"
-    const eventId = 0
-    const event = {
-        topNote: "September 2-6, 2022",
-        title: eventName,
-        subtitle: "International Conference",
-        link: `/events/${eventId}`,
-        image: "/img/events/" + eventId + "/event_image.jpg"
-    }
-
-    const content = {
-        "2022": [
-            {
-                eventId: 0,
-                ...event
-            },
-            {
-                eventId: 2,
-                ...event
-            }
-        ],
-        "2021": [
-            {
-                eventId: 1,
-                ...event
-            }
-        ]
-    }
-
     return {
         props: {
             cardsContent: seasons_aux,
