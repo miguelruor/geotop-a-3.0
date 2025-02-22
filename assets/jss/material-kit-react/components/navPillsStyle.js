@@ -23,7 +23,7 @@ const navPillsStyle = theme => ({
   smallTitle: {
     color: "#6c757d"
   },
-  layout:{
+  layout: {
     height: "100%",
     display: "flex",
     flexDirection: "column",
@@ -31,7 +31,7 @@ const navPillsStyle = theme => ({
     alignContent: "space-between",
     alignItem: "center"
   },
-  layoutItem:{
+  layoutItem: {
     flex: "1 0 auto"
   },
   modalStyle,
@@ -76,7 +76,6 @@ const navPillsStyle = theme => ({
     height: "auto",
     opacity: "1",
     maxWidth: "100%",
-    margin: "0 5px"
   },
   pillsWithIcons: {
     borderRadius: "4px"
@@ -167,9 +166,9 @@ const navPillsStyle = theme => ({
     textAlign: 'center'
   },
   button: {
-    width:'50%',
+    width: '50%',
     marginLeft: "auto",
-    marginRight: "auto" 
+    marginRight: "auto"
   },
   ...tooltipsStyle,
   ...popoverStyles
