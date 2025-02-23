@@ -46,9 +46,9 @@
     "176": {
         "speaker_id": 154,
 	    "eventId": "1",
-        "date": "November 11, 2024",
+        "date": "November 11 and 12, 2024",
         "date2": "20241111",
-        "title": "Introduction to Applied Topology through Sage",
+        "title": "COURSE</br>Introduction to Applied Topology through Sage",
         "keywords": [
             "Python",
             "Sage",
@@ -64,9 +64,9 @@
 "175": {
         "speaker_id": 153,
 	    "eventId": "1",
-        "date": "November 11, 2024",
+        "date": "November 11 and 12, 2024",
         "date2": "20241111",
-        "title": "Applications of Topology to the Theory of Neural Networks",
+        "title": "COURSE</br>Applications of Topology to the Theory of Neural Networks",
         "keywords": [
             "Deep Learning Topology",
             "Generic Hyperplane Arrangements",
@@ -99,9 +99,9 @@
  "173": {
         "speaker_id": 57,
 	    "eventId": "1",
-        "date": "November 8, 2024",
+        "date": "November 8 and 9, 2024",
         "date2": "20241108",
-        "title": "Introduction to Topological Data Analysis",
+        "title": "COURSE</br>Introduction to Topological Data Analysis",
         "keywords": [
             "Topological Data Analysis",
             "Multi-scale Topological Features",
@@ -123,7 +123,7 @@
 	    "eventId": "1",
         "date": "November 7, 2024",
         "date2": "20241107",
-        "title": "Introduction to Persistent Homology ",
+        "title": "COURSE</br>Introduction to Persistent Homology",
         "keywords": [
             "Persistent Homology",
             "Čech Complexes",
@@ -139,9 +139,9 @@
 "171": {
         "speaker_id": 4,
         "eventId": "1",
-        "date": "November 7, 2024",
+        "date": "November 7 and 8, 2024",
         "date2": "20241107",
-        "title": "Discrete Morse Theory",
+        "title": "COURSE</br>Discrete Morse Theory",
         "keywords": [
             "Discrete Morse Theory",
             "Critical cells",
