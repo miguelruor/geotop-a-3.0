@@ -1,4 +1,61 @@
 {
+    
+    "157": {
+        "surname": "Frías García" ,
+        "completeName": "José Ángel Frías García",
+        "name": "José Ángel",
+        "talks": [
+            179
+        ],
+        "image": true
+    },
+    "156": {
+        "surname": "Kindelan Nuñez",
+        "completeName": "Rolando Kindelan Nuñez",
+        "name": "Rolando",
+        "talks": [
+            178
+        ],
+        "image": true
+    },
+    "155": {
+        "surname": "González Lemus",
+        "completeName": "Juan Ahtziri González Lemus",
+        "name": "Juan Ahtziri",
+        "talks": [
+            177
+        ],
+        "image": true
+    },
+
+   "154": {
+        "surname": "DePaul",
+        "completeName": "Gregory Alexander DePaul",
+        "name": "Gregory Alexander",
+        "talks": [
+            176
+        ],
+        "image": true
+    },
+    "153": {
+        "surname": "Lindsey",
+        "completeName": "Kathryn Lindsey",
+        "middle_initial": null,
+        "name": "Kathryn",
+        "talks": [
+            175
+        ],
+        "image": true
+    },
+    "152": {
+        "surname": "Gómez Gutiérrez",
+        "completeName": "Vinicio Antonio Gómez Gutiérrez",
+        "name": "Vinicio Antonio",
+        "talks": [
+	    174
+        ],
+        "image": true
+    },
     "151": {
         "surname": "Barbensi",
         "completeName": "Agenese Barbensi",
@@ -903,7 +960,8 @@
         "middle_initial": null,
         "name": "Jesús",
         "talks": [
-            62
+            62,
+            172
         ],
         "image": true
     },
@@ -953,7 +1011,8 @@
         "middle_initial": null,
         "name": "Paweł",
         "talks": [
-            57
+            57,
+            173
         ],
         "image": true
     },
@@ -1074,7 +1133,8 @@
         "middle_initial": null,
         "name": "Jesús",
         "talks": [
-            4
+            4,
+            171
         ],
         "image": true
     },
