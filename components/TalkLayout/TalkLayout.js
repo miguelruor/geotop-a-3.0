@@ -79,10 +79,7 @@ export default function TalkLayout(props) {
                             <div style={{ height: "50px" }}></div>
                         </>)
                         :
-                        <>
-                            <h2 className={style.title}>Video</h2>
-                            <p className={style.non_video}>Not available yet.</p>
-                        </>)
+                        <></>)
                 }
             </div>
         </div>
