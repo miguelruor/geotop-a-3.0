@@ -199,7 +199,8 @@
         ],
         "abstract": "Knotoids are a useful variation on knots that can be used to model proteins. We explain how one can apply hyperbolicity and hyperbolic volume as a powerful tool for distinguishing knotoids and a broad extension of knotoids called generalized knotoids. Then, we further consider staked knots, a particular type of generalized knotoid where stakes are placed around a projection of a knot, restricting its motion and discuss hyperbolicity in this context.",
         "season": "SPRING 2025",
-        "video": null
+        "warning": "Sometimes the presenter's image obstructs the presentation slightly.",
+        "video": "https://www.youtube.com/embed/F8mh7jai10g?si=eOlQcnrP40wK2Ufq"
     },
     "168": {
         "speaker_id": 149,
