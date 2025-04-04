@@ -43,7 +43,7 @@
         ],
         "abstract": "The magnetic relaxation problem studies the self-organization of magnetic field lines in a perfectly conducting fluid to a steady state. In this talk I will discuss such a process from the perspective of conformal geometry. A key insight is the conformal equivalence between force-free magnetic fields and so-called geodesible vector fields. Building on this insight, I will discuss a computational approach to magnetic relaxation that is driven only by local geometry optimization. The method is based on a structure-preserving discretization for pressure-confined regions of an ideal plasma with free boundary conditions, which is represented by a collection of thickness curves interacting with each other. <br />This is joint work with Albert Chern (UC San Diego, CA, USA), Ulrich Pinkall (TU Berlin, Germany) and Peter Schröder (Caltech, Pasadena, CA USA). ",
         "season": "SPRING 2025",
-        "video": null
+        "video": "https://www.youtube.com/embed/xMXxns71IIs?si=KjRDBjhGpvS2Bz3D"
     },
 "179": {
         "speaker_id": 157,
