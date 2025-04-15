@@ -1,5 +1,14 @@
-{
-    
+{    
+    "160": {
+        "surname": "Stolz" ,
+        "completeName": "Bernadette J. Stolz",
+        "middle_initial": "J",
+        "name": "Bernadette",
+        "talks": [
+            183
+        ],
+        "image": true
+    },
     "159": {
         "surname": "Botnan" ,
         "completeName": "Magnus Botnan",
