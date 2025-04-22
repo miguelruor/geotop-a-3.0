@@ -44,7 +44,7 @@
         ],
         "abstract":"In this talk, I will present two recent projects exploring extremal properties of flag complexes and structural aspects of multiparameter persistence.<br /> In the first part (joint with Lies Beers, accepted to SoCG '25), we investigate fundamental yet surprisingly challenging questions about the Vietoris-Rips barcode in degree k homology. Given a data set of N points, what is the maximum number of bars in its barcode? What is the maximal total persistence? How long can the longest bar be? We establish tight bounds in many cases but also uncover intriguing open problems. I will place our results in the context of earlier work by Kozlov and others, highlighting key challenges that remain.<br />The second part (joint with U. Bauer, S. Oppermann, and J. Steen) focuses on multiparameter persistence in homology degree 0. It is well known that any diagram of vector spaces (over a prime field) and linear maps can be realized via degree k homology applied to a diagram of simplicial complexes. But what if we restrict to degree 0? This is equivalent to studying diagrams of vector spaces and linear maps arising from diagrams of sets and set maps—an inherently more difficult setting. While our recent work develops a general theory, I will focus on the specific case of grids which is closely related to clustering.",
         "season": "SPRING 2025",
-        "video": null
+        "video": "https://www.youtube.com/embed/oHYM7zqa_hM?si=WcjiQY7OiCAaqsuh"
     },
     "180": {
         "speaker_id": 158,
