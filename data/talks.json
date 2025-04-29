@@ -1,4 +1,32 @@
 {
+    "185": {
+        "speaker_id": 162,
+	    "date": "June 6, 2025",
+        "date2": "20250606",
+        "title": "Topology-based Optimization for Robot Fleet Behavior",
+        "keywords": [
+            "Topological data analysis",
+            "persistent homology",
+            "persistent divergence",
+            "reliability and explainability",
+            "robot fleet behaviour."
+        ],
+        "abstract":"In this talk, I introduce novel topological methods for the analysis of robot fleet behaviors simulated using Navground software [1]. Our aim is to understand and improve the evolution of robot fleet behaviors to, for example, reduce unintended behaviors such as collisions and deadlocks. Understanding the robot fleet's dynamics will allow us to predict safer and more efficient routes for robot displacement. To achieve this, we propose employing TDA techniques such as persistent homology, block functions induced by persistence morphisms, and persistent entropy. These methods leverage the geometric and topological structure of the data, allowing us to capture high-level spatial and relational patterns in agent behaviors and configurations. Unlike classical approaches, which often rely on predefined features or statistical assumptions, TDA provides an interpretable framework that can highlight qualitative differences in the robot fleet's dynamics. While we do not claim definitive performance improvements over traditional methods, the added interpretability and the ability to capture intrinsic spatial structures make these techniques particularly suitable for characterizing different agent behaviors and ensuring safe and efficient simulations. This work is part of the European Project 'REliable & eXplainable Swarm Intelligence for People with Reduced mObility - REXASIPRO [2]. <br /> <a href=\"https://idsia-robotics.github.io/navground/_build/html/index.html\" target=\"_blank\">[1] https://idsia-robotics.github.io/navground/_build/html/index.html</a><br /> <a href=\"https://cordis.europa.eu/project/id/101070028\" target=\"_blank\">[2] https://cordis.europa.eu/project/id/101070028</a><br />", 
+        "season": "SPRING 2025",
+        "video": null
+    },
+    "184": {
+        "speaker_id": 161,
+	    "date": "May 23, 2025",
+        "date2": "20250523",
+        "title": "TBA",
+        "keywords": [
+            "TBA"
+        ],
+        "abstract":"TBA",
+        "season": "SPRING 2025",
+        "video": null
+    },
     "183": {
         "speaker_id": 160,
 	    "date": "May 09, 2025",
