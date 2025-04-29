@@ -1,4 +1,24 @@
 {    
+    "162": {
+        "surname": "González Díaz" ,
+        "completeName": "María del Rocío González Díaz",
+        "middle_initial":null ,
+        "name": "María del Rocío",
+        "talks": [
+            185
+        ],
+        "image": true
+    },
+    "161": {
+        "surname": "Chialvo" ,
+        "completeName": "Dante Chialvo",
+        "middle_initial":null ,
+        "name": "Dante",
+        "talks": [
+            184
+        ],
+        "image": false
+    },
     "160": {
         "surname": "Stolz" ,
         "completeName": "Bernadette J. Stolz",
