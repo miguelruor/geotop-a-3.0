@@ -57,7 +57,7 @@
         ],
         "abstract":"Applications of neural networks are rapidly transforming numerous fields, yet a rigorous mathematical foundation for their behavior remains elusive. This talk will focus on feedforward networks with ReLU activations, which correspond precisely to the class of piecewise linear functions. I will explore how central questions of interest to practitioners—such as expressivity, generalization, and training dynamics—connect to ideas from geometry and topology. In particular, I will discuss how these networks induce rich polyhedral and combinatorial structures on input space, and how the space of functions they compute can be viewed as a moduli space arising from quotienting parameter space by symmetries. I will highlight some recent progress and pose open problems.  No prior familiarity with neural networks will be assumed.",
         "season": "SPRING 2025",
-        "video": null
+        "video": "https://www.youtube.com/embed/q3k0s7763Z8?si=X12aD3YsMODkks4r"
     },
     "181": {
         "speaker_id": 159,
