@@ -43,7 +43,7 @@
         ],
         "abstract":"Topological data analysis (TDA) has been successfully applied to study many biological phenomena. In this talk I will highlight two recent applications to spatial data from oncology, including synthetic and real-world data. The first application is a case study of topological model selection in tumour-induced angiogenesis, the process in which blood vessel networks are formed during tumour growth. While many mathematical models of tumour-induced angiogenesis exist, significant challenges persist in objectively evaluating and comparing their outputs. We showcase a combination of TDA and approximate Bayesian Computation for parameter inference and model selection. In the second application I will present two techniques in relational TDA that we develop to encode spatial heterogeneity of multispecies data. Our approaches are based on Dowker complexes and Witness complexes. We demonstrate that relational TDA features can extract biological insight, including dominant immune cell phenotype (an important predictor of patient prognosis) and parameter regimes in a data-generating model of tumour-immune cell interactions. Our pipelines can be combined with graph neural networks (GNN), a popular machine learning approach for spatial data. I will present how we can incorporate local relational TDA into a GNN and significantly enhance its performance on real-world data.",
         "season": "SPRING 2025",
-        "video": null
+        "video": "https://www.youtube.com/embed/okylAXasyTQ?si=LnIuQUKkXlNvwpR9"
     },
     "182": {
         "speaker_id": 153,
