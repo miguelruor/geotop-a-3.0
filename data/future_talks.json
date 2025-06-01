@@ -61,6 +61,59 @@
       "institution": "Universidad de Sevilla - Spain"
     }
     
+  ],
+  "FALL 2025": [
+    {
+      "date": "September 12",
+      "speaker": "Ginestra  Bianconi",
+      "institution": "Queen Mary University of London - UK"
+    },
+    {
+      "date": "September 19",
+      "speaker": "Christine Heisch",
+      "institution": "Georgia Tech - USA"
+    },    
+    {
+      "date": "September 26",
+      "speaker": "Sergei Gukov",
+      "institution": "California Institute of Technology - USA"
+    },    
+    {
+      "date": "October 10",
+      "speaker": "Benedikt Kolbe",
+      "institution": "University of Bonn - Germany"
+    },    
+    {
+      "date": "October 17",
+      "speaker": "Juan Carlos Díaz Patiño",
+      "institution": "Universidad Nacional Autónoma de México-México"
+    },    
+    {
+      "date": "October 31",
+      "speaker": "Nicholas Beaton",
+      "institution": "The University of Melbourne - Australia"
+    },    
+    {
+      "date": "November 7",
+      "speaker": "Boštjan Gabrovšek",
+      "institution": "University of Ljubljana - Slovenia"
+    }, 
+    {
+      "date": "November 14",
+      "speaker": "Lida Kanari",
+      "institution": "École polytechnique fédérale de Lausanne - Switzerland"
+    }, 
+    {
+      "date": "November 28",
+      "speaker": "Raymond Goldstein",
+      "institution": "University of Cambridge - UK"
+    }, 
+    {
+      "date": "December 5",
+      "speaker": "Andrew Gilbert",
+      "institution": "University of Exeter - UK"
+    } 
+  
   ]
 
 }
