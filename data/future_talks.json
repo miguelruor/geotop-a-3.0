@@ -1,117 +1,53 @@
-{
-   "SPRING 2025": [
-    {
-      "date": "January 17",
-      "speaker": "Ciprian Manolescu",
-      "institution": "Stanford University - USA"
-    },
-    {
-      "date": "January 31",
-      "speaker": "Mathilde Papillon",
-      "institution": "University of California, Santa Barbara - USA"
-    },
-    {
-      "date": "February 14",
-      "speaker": "Steve Levene",
-      "institution": "University of Texas at Dallas - USA"
-    },
-    {
-      "date": "February 21",
-      "speaker": "Sophia Knight",
-      "institution": "University of Minnesota Duluth - USA"
-    },
-    {
-      "date": "February 28",
-      "speaker": "Colin Adams",
-      "institution": "Williams College - USA "
-    },
-    {
-      "date": "March 14",
-      "speaker": "Agnese Barbensi",
-      "institution": "University of Queensland - Australia"
-    },
-    {
-      "date": "March 28",
-      "speaker": "Oliver Gross",
-      "institution": "University of California San Diego - USA"
-    },
-    {
-      "date": "April 11",
-      "speaker": "Magnus Botnan",
-      "institution": "Vrije Universiteit Amsterdam - Netherlands"
-    },
-    {
-      "date": "April 25",
-      "speaker": "Kathryn Lindsey",
-      "institution": "Boston College - USA"
-    },
-    {
-      "date": "May 9",
-      "speaker": "Bernadette Stolz",
-      "institution": "Max Planck Institute of Biochemistry - Germany"
-    },
-    {
-      "date": "May 23",
-      "speaker": "Dante Chialvo",
-      "institution": "Universidad Nacional de San Martín - Argentina"
-    },
-    {
-      "date": "June 6",
-      "speaker": "María del Rocío González Díaz",
-      "institution": "Universidad de Sevilla - Spain"
-    }
-    
-  ],
-  "FALL 2025": [
+{"FALL 2025": [
     {
       "date": "September 12",
       "speaker": "Ginestra  Bianconi",
-      "institution": "Queen Mary University of London - UK"
+      "institution": "Queen Mary University of London"
     },
     {
       "date": "September 19",
       "speaker": "Christine Heisch",
-      "institution": "Georgia Tech - USA"
+      "institution": "Georgia Tech"
     },    
     {
       "date": "September 26",
       "speaker": "Sergei Gukov",
-      "institution": "California Institute of Technology - USA"
+      "institution": "California Institute of Technology"
     },    
     {
       "date": "October 10",
       "speaker": "Benedikt Kolbe",
-      "institution": "University of Bonn - Germany"
+      "institution": "University of Bonn"
     },    
     {
       "date": "October 17",
       "speaker": "Juan Carlos Díaz Patiño",
-      "institution": "Universidad Nacional Autónoma de México-México"
+      "institution": "Universidad Nacional Autónoma de México"
     },    
     {
       "date": "October 31",
       "speaker": "Nicholas Beaton",
-      "institution": "The University of Melbourne - Australia"
+      "institution": "The University of Melbourne"
     },    
     {
       "date": "November 7",
       "speaker": "Boštjan Gabrovšek",
-      "institution": "University of Ljubljana - Slovenia"
+      "institution": "University of Ljubljana"
     }, 
     {
       "date": "November 14",
       "speaker": "Lida Kanari",
-      "institution": "École polytechnique fédérale de Lausanne - Switzerland"
+      "institution": "École polytechnique fédérale de Lausanne"
     }, 
     {
       "date": "November 28",
       "speaker": "Raymond Goldstein",
-      "institution": "University of Cambridge - UK"
+      "institution": "University of Cambridge"
     }, 
     {
       "date": "December 5",
       "speaker": "Andrew Gilbert",
-      "institution": "University of Exeter - UK"
+      "institution": "University of Exeter"
     } 
   
   ]
