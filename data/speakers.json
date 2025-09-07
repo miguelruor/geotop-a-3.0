@@ -1,4 +1,24 @@
 {
+    "165": {
+        "surname": "Gukov" ,
+        "completeName": "Sergei Gukov",
+        "middle_initial":null ,
+        "name": "Sergei",
+        "talks": [
+            188
+        ],
+        "image": true
+     },
+    "164": {
+        "surname": "Heitsch",
+        "completeName": "Christine Heitsch",
+        "middle_initial":null ,
+        "name": "Christine",
+        "talks": [
+            187
+        ],
+        "image": false
+     },
     "163": {
         "surname": "Bianconi" ,
         "completeName": "Ginestra Bianconi",

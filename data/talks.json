@@ -1,4 +1,34 @@
-{  "186": {
+{  
+     "188": {
+        "speaker_id": 165,
+	    "date": "September 26, 2025",
+        "date2": "20250926",
+        "title": "A two-variable series for knot complements: recent developments and applications",
+        "keywords": ["Quantum link invariants",
+                     "Heegaard Floer",
+                     "Homology",
+                     "Exotic smooth structures on 4-manifolds"],
+        "abstract":" In this talk, we review properties and applications of quantum link invariants constructed from infinite-dimensional representations of quantum groups at generic values of $q$. When these invariants were introduced by the speaker and Ciprian Manolescu approximately five years ago, they highlighted a new and surprising role of Spin$^c$ structures that was rather mysterious at the time and was not expected in complex Chern-Simons theory. Since then, the role of Spin$^c$ structures was understood thanks to many works --- including Akhmechet-Johnson-Krushkal, Moore-Tarasca, Harichurn-Nemethi-Svoboda, among others --- and plays an important part in connections to Heegaard Floer homology and categorification of quantum $U_q (sl_2)$ invariants of 3-manifolds at generic $q$. This opens a new path from quantum topology to the study of exotic smooth structures on 4-manifolds.", 
+        "season": "FALL 2025",
+        "video": null
+    },
+    "187": {
+        "speaker_id": 164,
+	    "date": "September 19, 2025",
+        "date2": "20250919",
+        "title": "On barrier height and other problems in RNA branching landscapes",
+        "keywords": ["RNA folding",
+                    " three-dimensional",
+                    "structures",
+                    "branching", 
+                    "secondary structure",
+                     "plane trees",
+                     "convex polytopes"],
+        "abstract": "Understanding the folding of RNA sequences into three-dimensional structures is a fundamental challenge in molecular biology. A key aspect amenable to mathematical analysis is characterizing the branching of an RNA secondary structure, which is a critical molecular characteristic yet too often difficult to predict correctly. Using combinatorial models (i.e. plane trees/noncrossing perfect matchings) and methods (e.g. convex polytopes and their normal fans), we give results that characterize different types of branching landscapes. Not only does this yield insights into RNA structure formation, but also suggests interesting new directions for further mathematical analysis.", 
+        "season": "FALL 2025",
+        "video": null
+    },
+    "186": {
         "speaker_id": 163,
 	    "date": "September 12, 2025",
         "date2": "20250912",
