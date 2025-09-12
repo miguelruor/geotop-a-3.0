@@ -1,4 +1,26 @@
 {
+    
+     
+    "167": {
+        "surname": "Díaz Patiño" ,
+        "completeName": "Juan Carlos Díaz Patiño",
+        "middle_initial":null ,
+        "name": "Juan Carlos",
+        "talks": [
+            190
+        ],
+        "image": true
+     },
+    "166": {
+        "surname": "Kolbe" ,
+        "completeName": "Benedikt Kolbe",
+        "middle_initial":null ,
+        "name": "Benedikt",
+        "talks": [
+            189
+        ],
+        "image": false
+     },
     "165": {
         "surname": "Gukov" ,
         "completeName": "Sergei Gukov",
