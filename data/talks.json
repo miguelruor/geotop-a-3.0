@@ -1,5 +1,31 @@
 {  
-     "188": {
+    "190": {
+        "speaker_id": 167,
+	    "date": "October 17, 2025",
+        "date2": "20251017",
+        "title": "Applications of TDA to the study of the human brain connectome.",
+        "keywords": ["fMRI",
+            "resting-state",
+            "ADHD",
+            "Puberty",
+            "Betti Curves"
+                     ],
+        "abstract":"One of the main scientific fields where TDA has been very successfully applied has been in Neuroscience. In this talk, we will provide a brief introduction to functional magnetic resonance imaging, including its various types of studies. Then we will present several results obtained using TDA, from both the Mapper algorithm and Persistent Homology perspectives.", 
+        "season": "FALL 2025",
+        "video": null
+    },    
+    "189": {
+        "speaker_id": 166,
+	    "date": "October 10, 2025",
+        "date2": "20251010",
+        "title": "TBA",
+        "keywords": ["TBA"
+                     ],
+        "abstract":" TBA", 
+        "season": "FALL 2025",
+        "video": null
+    },    
+"188": {
         "speaker_id": 165,
 	    "date": "September 26, 2025",
         "date2": "20250926",
