@@ -51,7 +51,7 @@
                      "convex polytopes"],
         "abstract": "Understanding the folding of RNA sequences into three-dimensional structures is a fundamental challenge in molecular biology. A key aspect amenable to mathematical analysis is characterizing the branching of an RNA secondary structure, which is a critical molecular characteristic yet too often difficult to predict correctly. Using combinatorial models (i.e. plane trees/noncrossing perfect matchings) and methods (e.g. convex polytopes and their normal fans), we give results that characterize different types of branching landscapes. Not only does this yield insights into RNA structure formation, but also suggests interesting new directions for further mathematical analysis.", 
         "season": "FALL 2025",
-        "video": null
+        "video": "https://www.youtube.com/embed/Tvht-zGkKls?si=szIdU5iwLlVOBMFt"
     },
     "186": {
         "speaker_id": 163,
