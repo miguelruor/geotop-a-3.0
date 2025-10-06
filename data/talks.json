@@ -1,4 +1,28 @@
-{  
+{   "192": {
+        "speaker_id": 169,
+	    "date": "October 31, 2025",
+        "date2": "20251031",
+        "title": " Lattice models of theta-shaped polymers and other branching structures.",
+        "keywords": ["Lattice models of polymers",
+        "Monte Carlo methods",
+        "Branching structures",
+         "Theta graphs"          
+                     ],
+        "abstract":"We implement a new version of the BFACF algorithm combined with the Wang-Landau method to sample lattice polymers with a theta shape. The initial goal is to understand how the three \"arms\" scale in length, and if this resembles the scaling of a large knotted polygon in dilute solution. Other shapes like \"tadpoles\" are also studied. These branching structures can potentially be used to model R-loops and other complex polymer molecules.<br /><br /> This is work in progress, in collaboration with Aleks Owczarek and James Gleeson.", 
+        "season": "FALL 2025",
+        "video": null
+    },     
+    "191": {
+        "speaker_id": 168,
+	    "date": "October 24, 2025",
+        "date2": "20251024",
+        "title": "TBA",
+        "keywords": ["TBA"           
+                     ],
+        "abstract":"TBA", 
+        "season": "FALL 2025",
+        "video": null
+    },    
     "190": {
         "speaker_id": 167,
 	    "date": "October 17, 2025",

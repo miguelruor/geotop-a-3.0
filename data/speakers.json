@@ -1,6 +1,23 @@
-{
-    
-     
+{  "169": {
+        "surname": "Beaton" ,
+        "completeName": "Nicholas Beaton",
+        "middle_initial":null ,
+        "name": "Nicholas",
+        "talks": [
+            192
+        ],
+        "image": true
+    },
+    "168": {
+        "surname": "Blumberg" ,
+        "completeName": "Andrew Blumberg",
+        "middle_initial":null ,
+        "name": "Andrew",
+        "talks": [
+            191
+        ],
+        "image": false
+    },
     "167": {
         "surname": "Díaz Patiño" ,
         "completeName": "Juan Carlos Díaz Patiño",
@@ -10,7 +27,7 @@
             190
         ],
         "image": true
-     },
+    },
     "166": {
         "surname": "Kolbe" ,
         "completeName": "Benedikt Kolbe",
