@@ -1,4 +1,15 @@
-{  "169": {
+{  
+    "170": {
+        "surname": "Gabrovšek" ,
+        "completeName":"Boštjan Gabrovšek" ,
+        "middle_initial":null ,
+        "name": "Boštjan",
+        "talks": [
+            193
+        ],
+        "image": true
+    },
+    "169": {
         "surname": "Beaton" ,
         "completeName": "Nicholas Beaton",
         "middle_initial":null ,
