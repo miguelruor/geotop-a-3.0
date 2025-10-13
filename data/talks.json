@@ -17,10 +17,10 @@
 	    "date": "October 31, 2025",
         "date2": "20251031",
         "title": " Lattice models of theta-shaped polymers and other branching structures.",
-        "keywords": ["Lattice models of polymers",
+        "keywords": ["lattice models of polymers",
         "Monte Carlo methods",
-        "Branching structures",
-         "Theta graphs"          
+        "branching structures",
+         "theta graphs"          
                      ],
         "abstract":"We implement a new version of the BFACF algorithm combined with the Wang-Landau method to sample lattice polymers with a theta shape. The initial goal is to understand how the three \"arms\" scale in length, and if this resembles the scaling of a large knotted polygon in dilute solution. Other shapes like \"tadpoles\" are also studied. These branching structures can potentially be used to model R-loops and other complex polymer molecules.<br /><br /> This is work in progress, in collaboration with Aleks Owczarek and James Gleeson.", 
         "season": "FALL 2025",
@@ -31,7 +31,7 @@
 	    "date": "October 24, 2025",
         "date2": "20251024",
         "title": "Curvature in geometric data analysis",
-        "keywords": [" Curvature",
+        "keywords": ["curvature",
         "geometric data analysis",
         "manifold learning"           
                      ],
@@ -47,8 +47,8 @@
         "keywords": ["fMRI",
             "resting-state",
             "ADHD",
-            "Puberty",
-            "Betti Curves"
+            "puberty",
+            "betti curves"
                      ],
         "abstract":"One of the main scientific fields where TDA has been very successfully applied has been in Neuroscience. In this talk, we will provide a brief introduction to functional magnetic resonance imaging, including its various types of studies. Then we will present several results obtained using TDA, from both the Mapper algorithm and Persistent Homology perspectives.", 
         "season": "FALL 2025",
@@ -59,7 +59,7 @@
 	    "date": "October 10, 2025",
         "date2": "20251010",
         "title": "Three-dimensional entangled graphs from mapping class groups and approximate persistence computations",
-        "keywords": ["Hyperbolic geometry", 
+        "keywords": ["hyperbolic geometry", 
                     "hyperbolic surfaces",
                     "triply-periodic minimal surfaces",
                     "entangled graphs",
@@ -77,10 +77,10 @@
 	    "date": "September 26, 2025",
         "date2": "20250926",
         "title": "A two-variable series for knot complements: recent developments and applications",
-        "keywords": ["Quantum link invariants",
+        "keywords": ["quantum link invariants",
                      "Heegaard Floer",
-                     "Homology",
-                     "Exotic smooth structures on 4-manifolds"],
+                     "homology",
+                     "exotic smooth structures on 4-manifolds"],
         "abstract":" In this talk, we review properties and applications of quantum link invariants constructed from infinite-dimensional representations of quantum groups at generic values of $q$. When these invariants were introduced by the speaker and Ciprian Manolescu approximately five years ago, they highlighted a new and surprising role of Spin$^c$ structures that was rather mysterious at the time and was not expected in complex Chern-Simons theory. Since then, the role of Spin$^c$ structures was understood thanks to many works --- including Akhmechet-Johnson-Krushkal, Moore-Tarasca, Harichurn-Nemethi-Svoboda, among others --- and plays an important part in connections to Heegaard Floer homology and categorification of quantum $U_q (sl_2)$ invariants of 3-manifolds at generic $q$. This opens a new path from quantum topology to the study of exotic smooth structures on 4-manifolds.", 
         "season": "FALL 2025",
         "video": "https://www.youtube.com/embed/aby4C_V1BMo?si=RPE9oRYwg6TSuIqY"
@@ -91,7 +91,7 @@
         "date2": "20250919",
         "title": "On barrier height and other problems in RNA branching landscapes",
         "keywords": ["RNA folding",
-                    " three-dimensional structures",
+                    "three dimensional structures",
                     "branching", 
                     "secondary structure",
                      "plane trees",
@@ -105,10 +105,10 @@
 	    "date": "September 12, 2025",
         "date2": "20250912",
         "title": "Topology shapes dynamics of higher-order networks and more",
-        "keywords": ["Topology",
-                     "Geometry",
-                     "Dynamics",
-                     "Higher-order networks"],
+        "keywords": ["topology",
+                     "geometry",
+                     "dynamics",
+                     "higher-order networks"],
         "abstract":"Complex systems like the brain, climate, and next-generation artificial intelligence rely on higher-order interactions that extend beyond simple pairwise relationships. These many-body interactions are captured by  higher-order networks [1].<br /><br />By integrating algebraic topology with non-linear dynamics, theoretical physics and machine learning, this talk reveals the critical role of topology in shaping the dynamics of such systems [2].<br /><br /> The research highlights how topological signals, dynamical variables defined on nodes, edges, triangles, and other higher-order structures, drive phenomena such as topological synchronization, pattern formation, and triadic percolation. The surprising result that emerges from this research is that topological operators including the Topological Dirac operator, offer a common language for treating complexity, AI algorithms, and quantum physics. <br /><br />These findings not only advance the understanding of the underlying mechanisms in neuroscience and climate science but also pave the way for transformative machine learning algorithms inspired by theoretical physics.<br /><br /> We conclude the seminar discussing the role of geometry in shaping dynamics. In particular we will provide an overview of the  emergent field of Statistical Mechanics of Geometry, a promising new information theory framework for unifying quantum gravity captured by the Gravity from Entropy [3] approach, complex systems and the theory of computation. <br /><br />[1] Bianconi, G., 2021. Higher-order networks: An introduction to Simplicial Complexes. Cambridge University Press.<br /><br />[2] Millán, A.P., Sun, H., Giambagli, L., Muolo, R., Carletti, T., Torres, J.J., Radicchi, F., Kurths, J. and Bianconi, G., 2025. Topology shapes dynamics of higher-order networks. Nature Physics, pp.1-9.<br /><br />[3] Bianconi, G., 2025. Gravity from entropy. Physical Review D, 111(6), p.066001.", 
         "season": "FALL 2025",
         "video": "https://www.youtube.com/embed/o4TWDTgqQKY?si=g-S2TFOT_M-PkUmg"
@@ -119,7 +119,7 @@
         "date2": "20250606",
         "title": "Topology-based Optimization for Robot Fleet Behavior",
         "keywords": [
-            "Topological data analysis",
+            "topological data analysis (TDA)",
             "persistent homology",
             "persistent divergence",
             "reliability and explainability",
@@ -135,9 +135,9 @@
         "date2": "20250523",
         "title": "Life at the edge",
         "keywords": [
-            "Scale Invariance",
-            "Critical Phenomena",
-            "Phase Transitions"
+            "scale invariance",
+            "critical phenomena",
+            "phase transitions"
         ],
         "abstract":"Why is life complex and — most importantly — what is the origin of the over abundance of complexity in nature? This is a fundamental scientific question which, paraphrasing the late Per Bak, “is screaming to be answered but seldom is even being asked”. We review recent attempts across several scales to link complexity with scale invariance from the perspective of critical phenomena. This is a nontechnical talk illustrating the approach discussing three cases, namely the large-scale brain dynamics, the characterization of spontaneous fluctuations of proteins, and the physiological complexity of the cell mitochondria network.",
         "season": "SPRING 2025",
@@ -149,11 +149,11 @@
         "date2": "20250509",
         "title": "Topological learning for spatial data",
         "keywords": [
-            "Topological learning",
-            "Bayesian Computation",
-            "Oncology",
-            "Spatial heterogeneity",
-            "Multispecies data"
+            "topological learning",
+            "Bayesian computation",
+            "oncology",
+            "spatial heterogeneity",
+            "multispecies data"
         ],
         "abstract":"Topological data analysis (TDA) has been successfully applied to study many biological phenomena. In this talk I will highlight two recent applications to spatial data from oncology, including synthetic and real-world data. The first application is a case study of topological model selection in tumour-induced angiogenesis, the process in which blood vessel networks are formed during tumour growth. While many mathematical models of tumour-induced angiogenesis exist, significant challenges persist in objectively evaluating and comparing their outputs. We showcase a combination of TDA and approximate Bayesian Computation for parameter inference and model selection. In the second application I will present two techniques in relational TDA that we develop to encode spatial heterogeneity of multispecies data. Our approaches are based on Dowker complexes and Witness complexes. We demonstrate that relational TDA features can extract biological insight, including dominant immune cell phenotype (an important predictor of patient prognosis) and parameter regimes in a data-generating model of tumour-immune cell interactions. Our pipelines can be combined with graph neural networks (GNN), a popular machine learning approach for spatial data. I will present how we can incorporate local relational TDA into a GNN and significantly enhance its performance on real-world data.",
         "season": "SPRING 2025",
@@ -196,10 +196,10 @@
         "date2": "20250328",
         "title": "Conformal Geometry in Magnetic Relaxation",
         "keywords": [
-            "Magnetic Relaxation",
-            "Local Geometry Optimization",
-            "Plasma",
-            "Conformal Geometry"
+            "magnetic relaxation",
+            "local geometry optimization",
+            "plasma",
+            "conformal geometry"
         ],
         "abstract": "The magnetic relaxation problem studies the self-organization of magnetic field lines in a perfectly conducting fluid to a steady state. In this talk I will discuss such a process from the perspective of conformal geometry. A key insight is the conformal equivalence between force-free magnetic fields and so-called geodesible vector fields. Building on this insight, I will discuss a computational approach to magnetic relaxation that is driven only by local geometry optimization. The method is based on a structure-preserving discretization for pressure-confined regions of an ideal plasma with free boundary conditions, which is represented by a collection of thickness curves interacting with each other. <br />This is joint work with Albert Chern (UC San Diego, CA, USA), Ulrich Pinkall (TU Berlin, Germany) and Peter Schröder (Caltech, Pasadena, CA USA). ",
         "season": "SPRING 2025",
@@ -212,9 +212,9 @@
         "date2": "20241112",
         "title": "Applied knot theory",
         "keywords": [
-            "Applied Knot Theory",
-            "Circular DNA Representation",
-            "Confinement & Complexity"
+            "applied knot theory",
+            "circular DNA representation",
+            "confinement & complexity"
                    ],
 	    "abstract": "In this talk we will present two interesting applications of knot theory. In the first application, we describe the representation of circular DNA molecules by polygonal knots in the unitary lattice of $R^{3}$ and the confinement problem. Secondly, we introduce a novel representation of knots as tight curves in the ordinary and hyperbolic geoboard model. As we will see, many theoretical and applied developments in knot theory are simply playing a game.",
         "video": "https://www.youtube.com/embed/YmStsF04Dtk?si=eYP1DbQXoKxMeHN2"
@@ -226,10 +226,10 @@
         "date2": "20241112",
         "title": "Beyond Pairwise Interactions",
         "keywords": [
-            "Non-flag Simplicial Complexes",
-            "Generalized Distances",
-            "Higher-order Interactions",
-            "Multi-dimensional Relationship Modeling"
+            "non-flag simplicial complexes",
+            "generalized distances",
+            "higher-order interactions",
+            "multi-dimensional relationship modeling"
                    ],
 	    "abstract": "The construction of simplicial complexes is a cornerstone of topological data analysis, traditionally relying on pairwise relationships to build flag complexes. However, the limitations of this approach in capturing higher-order interactions have become increasingly apparent. This talk introduces a novel framework for constructing non-flag simplicial complexes using generalized distances (gen-distances), opening up new possibilities for representing complex, multi-dimensional relationships in data.",
          "video": "https://www.youtube.com/embed/vSRzZqkvF90?si=SY1kXZHbQuLVivXJ"
@@ -241,9 +241,9 @@
         "date2": "20241111",
         "title": "Studying convective flows with TDA",
         "keywords": [
-            "Convective Flow Dynamics",
-            "Lagrangian Orbit Tracing",
-            "Topological Data Analysis"
+            "convective flow dynamics",
+            "lagrangian orbit tracing",
+            "topological data analysis (TDA)"
                    ],
 	    "abstract": "We begin by showing the importance of convective flows in the design of liquid metal batteries and in crystal growth. We then describe the problem of understanding the behavior of Lagrangian orbits in a convective flow and we use a numerical simulation to identify the flow orbits with point clouds in space. The orbits' topological properties are obtained with TDA. Remarkably we show how the bottleneck metric can be used to establish an order of the orbits even in the chaotic regions of the flow.",
          "video": "https://www.youtube.com/embed/_pUbiy1rIf8?si=ysNFEiojchEz3Drk"
@@ -255,9 +255,9 @@
         "date2": "20241111",
         "title": "COURSE</br>Introduction to Applied Topology through Sage",
         "keywords": [
-            "Python",
-            "Sage",
-            "Computational Topological Tools"
+            "python",
+            "sage",
+            "computational topological tools"
                    ],
 	    "abstract": "Often a barrier fledgling applied topologists face is becoming acquainted with the variety of tools used in performing tasks in computational geometry and topology. This course aims to rectify this by introducing in an interactive and welcoming manner how you can use Sage to solve problems in applied topology. This will be done through a series of jupyter notebooks that will be published in advance to allow students ample time to prepare for this mini-course.<br /><br /> Lectures will include an (1) introduction to Topology in the Python / Sage environment, (2) Building Simplicial Complexes, (3) TDA with Vietoris Rips, and (4) Constructing More Complex Filtrations. Much of the tooling is based on the GUDHI (Geometry Understanding in Higher Dimensions) Library.",
          "video": [
@@ -273,9 +273,9 @@
         "date2": "20241111",
         "title": "COURSE</br>Applications of Topology to the Theory of Neural Networks",
         "keywords": [
-            "Deep Learning Topology",
-            "Generic Hyperplane Arrangements",
-            "Polyhedral Complexes"
+            "deep learning topology",
+            "generic hyperplane arrangements",
+            "polyhedral complexes"
                    ],
         "abstract": "Recent applications of neural networks have been spectacularly successful (chatgpt, image recognition, etc.) and are rapidly transforming many aspects of modern society. However, many foundational questions about how and why they work (or don't) remain mysterious. Developing a rigorous mathematical theory of deep learning (deep learning refers to neural networks) is an active and rapidly advancing area of research. <br /><br /> This course will discuss applications of topology to the emerging mathematical theory of neural networks. No prior knowledge of neural networks is required; the first lecture will introduce the relevant theory. Examples of topological concepts that we will discuss include transversality, genericity of hyperplane arrangements, Morse theory, polyhedral complexes, and topological structures of fibers of quotient maps. Along the way, I will point out a variety of concrete, open, mathematical questions.",
          "video": [
@@ -292,9 +292,9 @@
         "date2": "20241109",
         "title": "Ribbon graphs and the DNA reporter strand problem",
         "keywords": [
-            "Ribbon Graphs",
-            "Reporter Strand Walk",
-            "DNA Modeling"
+            "ribbon graphs",
+            "reporter strand walk",
+            "DNA modeling"
                    ],
 	    "abstract": "In this talk we will consider the relationship between ribbon graphs and DNA molecules. A ribbon graph is a thickened graph that is obtained from a graph embedded in a compact surface. A reporter strand walk in a graph G is a walk that visits every edge of G at least once, and occurs as a facial walk in some orientable embedding of G. The problem of finding such a walk is closely related to making a DNA molecule that has the structure of the given graph. We will illustrate these concepts with some examples.",
          "video":"https://www.youtube.com/embed/R7sha-1tF2Q?si=x-EWvuEj3rT30U5S"  
@@ -308,10 +308,10 @@
         "date2": "20241108",
         "title": "COURSE</br>Introduction to Topological Data Analysis",
         "keywords": [
-            "Topological Data Analysis",
-            "Multi-scale Topological Features",
-            "Topological Hypothesis Testing",
-            "Discrete Morse Theory Extensions"
+            "topological data analysis (TDA)",
+            "multi-scale topological features",
+            "topological hypothesis testing",
+            "discrete Morse theory extensions"
                    ],
         "abstract": "In this lecture, we will embark on a comprehensive journey through the landscape of Topological Data Analysis (TDA), a powerful suite of techniques for quantifying and visualizing the shape of data, particularly in high-dimensional settings. TDA has seen broad applications across mathematics, physics, biology, medicine, and even social sciences, offering a rich interplay between theoretical depth and practical utility.<br />We will begin by introducing the classical framework of persistent homology, a fundamental concept in TDA, which allows us to detect and analyze multi-scale topological features in data. Building upon this, we will explore its extensions, including Euler characteristic curves and profiles, that provide more refined ways to summarize the shape and structure of data. Moving forward, we will highlight the use of these topological tools in diverse fields of mathematics, particularly focusing on applications in statistical hypothesis testing. This will demonstrate the robustness and versatility of TDA in analyzing complex datasets. <br />To complement the theoretical discussions, we will delve into topological visualization techniques, showcasing how ideas from algebraic topology can help us grasp the layout and structure of high-dimensional point clouds. This will be followed by an introduction to Forman's discrete Morse theory, which offers a discrete counterpart to classical Morse theory and can be a useful tool in the analysis of topological spaces derived from data. <br /> Throughout the lecture, we will present both mathematical insights and algorithmic implementations. We will also provide software demonstrations, showing how these methodologies can be applied in real-world scenarios, with a strong emphasis on case studies and practical use cases.",
         "video": [
@@ -330,9 +330,9 @@
         "date2": "20241107",
         "title": "COURSE</br>Introduction to Persistent Homology",
         "keywords": [
-            "Persistent Homology",
-            "Čech Complexes",
-            "Nerve Theorem"
+            "persistent homology",
+            "Cech complexes",
+            "nerve theorem"
                    ],
         "abstract": "This mini-course provides a brief introduction to the persistent homology of point clouds. We will focus on the most common structures encountered in applications, discussing their definitions and presenting the foundational results that support the theory. The course is divided into three parts. In the first part, we will cover simplicial homology by defining simplicial complexes and their homology, along with methods for computation. In the second part, we will explore persistent homology by introducing constructions of complexes associated with point clouds, such as the Čech complex, and explain how to generate persistent modules from them, emphasizing the importance of the Nerve Theorem. In the final part, we will introduce the Stability Theorem by defining the bottleneck distance and showing how persistent homology remains stable under small perturbations in the point cloud. The only prerequisite for this course is basic knowledge of linear algebra with mod two coefficients.",
          "video": [
@@ -348,9 +348,9 @@
         "date2": "20241107",
         "title": "COURSE</br>Discrete Morse Theory",
         "keywords": [
-            "Discrete Morse Theory",
-            "Critical cells",
-            "Discrete gradient vector fields"
+            "discrete Morse theory",
+            "critical cells",
+            "discrete gradient vector fields"
         ],
         "abstract": "In 1997, Robin Forman introduced a combinatorial adaptation of classical Morse theory used in the study of smooth manifolds. Like its differentiable predecessor, discrete Morse theory (DMT) provides efficient access to topological aspects of smooth manifolds through their triangulations. Given its nature, the use of DMT has not been limited to theoretical contexts; these techniques have found fertile and particularly fruitful ground in applications relevant to our modern technological life, such as data analysis and robotics. In this course we will review the foundations of DMT and its use in various computational problems of algebraic topology and its applications.",
         "video": [
@@ -385,7 +385,7 @@
             "knotoid",
             "generalized knotoid",
             "staked link",
-            " hyperbolic volume"
+            "hyperbolic volume"
         ],
         "abstract": "Knotoids are a useful variation on knots that can be used to model proteins. We explain how one can apply hyperbolicity and hyperbolic volume as a powerful tool for distinguishing knotoids and a broad extension of knotoids called generalized knotoids. Then, we further consider staked knots, a particular type of generalized knotoid where stakes are placed around a projection of a knot, restricting its motion and discuss hyperbolicity in this context.",
         "season": "SPRING 2025",
@@ -427,10 +427,10 @@
         "date2": "20250131",
         "title": "Make any GNN Go Topological with TopoTune",
         "keywords": [
-            "Topological Deep Learning",
-            "Graph Neural Networks",
-            "Combinatorial Complex",
-            "Higher Order Relationships"
+            "topological deep learning",
+            "graph neural networks",
+            "combinatorial complex",
+            "higher order relationships"
         ],
         "abstract": "Graph Neural Networks (GNNs) excel in learning from relational datasets, processing node and edge features in a way that preserves the symmetries of the graph domain. However, many complex systems--such as biological or social networks--involve multiway complex interactions that are more naturally represented by higher-order topological spaces. The emerging field of Topological Deep Learning (TDL) aims to accommodate and leverage these higher-order structures. Combinatorial Complex Neural Networks (CCNNs), fairly general TDL models, have been shown to be more expressive and better performing than GNNs. However, differently from the graph deep learning ecosystem, TDL lacks a principled and standardized framework for easily defining new architectures, restricting its accessibility and applicability. To address this issue, we introduce in this talk Generalized CCNNs (GCCNs), a novel simple yet powerful family of TDL models that can be used to systematically transform any (graph) neural network into its TDL counterpart. We show how GCCNs generalize and subsume CCNNs, and briefly describe extensive experiments on a diverse class of GCCNs. We show that these architectures consistently match or outperform CCNNs, often with less model complexity. In an effort to accelerate and democratize TDL, we also introduce TopoTune, a lightweight software that allows practitioners to define, build, and train GCCNs with unprecedented flexibility and ease.",
         "season": "SPRING 2025",
@@ -442,7 +442,7 @@
         "date2": "20250117",
         "title": "Generalizations of Rasmussen's invariant",
         "keywords": [
-            "Rasmussen invariant of knots",
+            "rasmussen invariant of knots",
             "genus of smooth surfaces in 4-manifolds",
             "exotic 4-manifolds with boundary"
         ],
@@ -470,7 +470,7 @@
         "date2": "20241206",
         "title": "The binormal flow and the evolution of viscous vortex filaments",
         "keywords": [
-            "Binormal Curvature Flow",
+            "binormal curvature flow",
             "viscous vortex filaments",
             "turbulence"
         ],
@@ -484,12 +484,12 @@
         "date2": "20241122",
         "title": "Morse Theory for Chromatic Delaunay Triangulations",
         "keywords": [
-            "Chromatic alpha filtration",
+            "chromatic alpha filtration",
             "Delaunay-Čech filtration",
             "Delaunay-Rips filtration",
-            "generalised Discrete Morse Theory"
+            "generalized discrete Morse theory"
         ],
-        "abstract": "This talk is focused on new techniques for the topological data analysis (TDA) of labelled point cloud data.<br /><br />Well-established filtrations in TDA for a point cloud data include the Čech, Vietoris-Rips, and alpha filtrations. Bauer and Edelsbrunner [BE16] demonstrated that the Čech filtration can be simplicially collapsed onto the alpha filtration, showing that they are homotopy equivalent.<br /><br />Recent techniques in data collection across fields like cancer biology, geospatial analysis and ecology have produced chromatic (labeled) data that express interactions among points of different colors. In such cases, it is crucial to understand not only the overall spatial structure of the data but also the spatial relationships among subsets defined by their labels. The chromatic alpha filtration [Mon+24]  is a generalization of the alpha filtration that captures these relationships, making it particularly useful for multi-species data in TDA.<br /><br />In this talk we introduce the chromatic Delaunay-Čech and chromatic Delaunay-Rips filtrations as computationally efficient alternatives to the chromatic alpha filtration. We use generalized discrete Morse theory to demonstrate that the Čech, chromatic Delaunay-Čech, and chromatic alpha filtrations are interconnected through simplicial collapses, extending Bauer and Edelsbrunner's results from non-chromatic to chromatic contexts. <br /><br />Our findings offer theoretical support for the application of chromatic Delaunay-Čech and chromatic Delaunay-Rips filtrations, and we illustrate their computational advantages through numerical experiments.<br /><br />This is joint work with A. Natarajan, T. Chaplin and A. Brown from University of Oxford  (arXiv:2405.19303).<br /><br />[BE16] Ulrich Bauer and Herbert Edelsbrunner. “The Morse theory of Cech and Delaunay complexes”.  In: Transactions of the American Mathematical Society 369.5 (Dec. 27, 2016), pp. 3741-3762. DOI:10.1090/tran/6991.<br />[Mon+24] Sebastiano Cultrera di Montesano et al. Chromatic Alpha Complexes. Feb. 7, 2024. arXiv: 2212.03128",
+        "abstract": "This talk is focused on new techniques for the topological data analysis (TDA) of labelled point cloud data.<br /><br />Well-established filtrations in TDA for a point cloud data include the Čech, Vietoris-Rips, and alpha filtrations. Bauer and Edelsbrunner [BE16] demonstrated that the Čech filtration can be simplicially collapsed onto the alpha filtration, showing that they are homotopy equivalent.<br /><br />Recent techniques in data collection across fields like cancer biology, geospatial analysis and ecology have produced chromatic (labeled) data that express interactions among points of different colors. In such cases, it is crucial to understand not only the overall spatial structure of the data but also the spatial relationships among subsets defined by their labels. The chromatic alpha filtration [Mon+24]  is a generalization of the alpha filtration that captures these relationships, making it particularly useful for multi-species data in TDA.<br /><br />In this talk we introduce the chromatic Delaunay-Čech and chromatic Delaunay-Rips filtrations as computationally efficient alternatives to the chromatic alpha filtration. We use generalized discrete Morse theory to demonstrate that the Čech, chromatic Delaunay-Čech, and chromatic alpha filtrations are interconnected through simplicial collapses, extending Bauer and Edelsbrunner's results from non-chromatic to chromatic contexts. <br /><br />Our findings offer theoretical support for the application of chromatic Delaunay-Čech and chromatic Delaunay-Rips filtrations, and we illustrate their computational advantages through numerical experiments.<br /><br />This is joint work with A. Natarajan, T. Chaplin and A. Brown from University of Oxford  (arXiv:2405.19303).<br /><br />[BE16] Ulrich Bauer and Herbert Edelsbrunner. “The Morse theory of \u010Cech and Delaunay complexes”.  In: Transactions of the American Mathematical Society 369.5 (Dec. 27, 2016), pp. 3741-3762. DOI:10.1090/tran/6991.<br />[Mon+24] Sebastiano Cultrera di Montesano et al. Chromatic Alpha Complexes. Feb. 7, 2024. arXiv: 2212.03128",
         "season": "FALL 2024",
         "video": "https://www.youtube.com/embed/GY1MqjT5Uvo?si=lqOHN-pEnWjAeMhR"
     },
@@ -513,7 +513,7 @@
         "title": "Hodge Laplacians on Sequences",
         "keywords": [
             "TDA",
-            "Hodge Laplacians",
+            "Hodge laplacians",
             "sequential data"
         ],
         "abstract": "Hodge Laplacians have been previously proposed as a natural tool for understanding higher-order interactions in networks and directed graphs. In this talk, we will cover a Hodge-theoretic approach to spectral theory and dimensionality reduction for probability distributions on sequences and simplicial complexes.  We will introduce a feature space based on the Laplacian eigenvectors associated  to a set of sequences, and will see these eigenvectors capture the underlying geometry of our data. Furthermore, we will show this Hodge theory has desirable properties with respect to natural null-models, where the underlying vertices are independent. Specifically, we will see the appropriate Hodge Laplacian has an integer spectrum with high multiplicities, and describe its eigenspaces. Finally, we will cover a simple proof showing the underlying cell complex of sequences has trivial reduced homology.",
@@ -576,7 +576,7 @@
             "rational knots",
             "Montesinos knots",
             "pretzel knots",
-            "Homfly-Pt polynomial"
+            "HOMFLY-PT polynomial"
         ],
         "abstract": "We review a well-known method to compute the braid index. Using this method, we can give a compute the braid index of all alternating Montesinos knots and links and all non alternating pretzel knots and links. The method uses just information that can be read of a minimal diagram of the knot or link.",
         "season": "FALL 2024",
@@ -645,7 +645,7 @@
         "keywords": [
             "ropelength",
             "alternating knots and links",
-            "Braid index"
+            "braid index"
         ],
         "abstract": "A long standing conjecture states that the ropelength of any alternating link is at least proportional to its crossing number. That is, there exists a constant $b_0>0$ such that $R(K)\\ge b_0Cr(K)$ for any alternating link $K$, where $R(K)$ is the ropelength of $K$ and $Cr(K)$ is the crossing number of $K$. This conjecture has been recently proved affirmatively for the case of alternating knots. In this talk I will present the main results/ideas leading to the proof of this result, where the braid index served as the key bridge between the minimum crossing number and the ropelength of the knot.",
         "season": "SPRING 2024",
@@ -689,11 +689,11 @@
         "date2": "20240405",
         "title": "Three easy pieces for Hodge Laplacian and higher order interactions",
         "keywords": [
-            "Hodge Laplacian",
-            "Combinatorial Laplacian",
-            "Shapley Value",
-            "Simplicial Kuramoto",
-            "Higher order Renormalization"
+            "Hodge laplacian",
+            "combinatorial laplacian",
+            "shapley value",
+            "simplicial Kuramoto",
+            "higher order renormalization"
         ],
         "abstract": "We propose an approach via the Hodge Laplacian to three different problems and settings:</br></br>Firstly, we present a cross-order Laplacian renormalization group (X-LRG) scheme for arbitrary higher-order networks. The renormalization group is a fundamental concept in the physics theory of scaling, scale-invariance, and universality. An RG scheme was recently introduced for complex networks with dyadic interactions based on diffusion dynamics. However, we still lack a general RG scheme for higher-order networks despite the mounting evidence of the importance of polyadic interactions. Our approach uses a diffusion process to group nodes or simplices, where information can flow between nodes and between simplices (higher-order interactions).</br></br>Secondly, we discuss simplicial Kuramoto models, which have emerged as a diverse and intriguing model that describes oscillators on simplices rather than nodes. We present a unified framework to describe different variants of these models, which are categorized into three main groups: \"simple\" models, \"Hodge-coupled\" models, and \"order-coupled\" (Dirac) models. We explore a potential application in reconstructing brain functional connectivity from structural connectomes. We find that simple edge-based Kuramoto models perform competitively or outperform complex extensions of node-based models.</br></br>Lastly, we consider associated games in cooperative game theory, which allows for the meaningful characterization of solution concepts. Moreover, generalized values allow computing each coalition's influence or power index in a game. We view associated games through the lens of game maps and graph Laplacian, thus defining the novel Hodge Generalized Value (HGV). We characterize HGV via an axiomatic approach as a generalized value. Finally, we show how HGV is linked to the solution of the Poisson equation derived from the Hodge decomposition of the direct graph associated with the poset of coalitions in the game. </br></br>References and coauthor list:</br></br>Nurisso, M., Morandini, M., Lucas, M., Vaccarino, F., Gili, T., & Petri, G. (2024). Higher-order Laplacian Renormalization. arXiv preprint arXiv:2401.11298.</br></br>Nurisso, M., Arnaudon, A., Lucas, M., Peach, R. L., Expert, P., Vaccarino, F., & Petri, G. (2023). A unified framework for Simplicial Kuramoto models. arXiv e-prints, arXiv-2305.</br></br>Mastropietro, Antonio, and Francesco Vaccarino. \"The Shapley-Hodge Associated Game.\" arXiv preprint arXiv:2303.17151(2023).",
         "season": "SPRING 2024",
@@ -739,7 +739,7 @@
         "date2": "20240216",
         "title": "From Descriptive to Operational Topological Data Analysis",
         "keywords": [
-            "Operational Topological Data Analysis",
+            "operational topological data analysis",
             "optimization",
             "algorithms"
         ],
@@ -754,10 +754,10 @@
         "title": "Tropical Geometry of Phylogenetic Tree Space",
         "keywords": [
             "BHV Tree space",
-            "Generalized Hilbert projective metric",
-            "Phylogenetic trees",
-            "Tropical geometry",
-            "Tropical Grassmannian"
+            "generalized Hilbert projective metric",
+            "phylogenetic trees",
+            "tropical geometry",
+            "tropical Grassmannian"
         ],
         "abstract": "BHV space is a well-studied moduli space of phylogenetic trees that appears in many scientific disciplines, including computational biology, computer vision, combinatorics, and category theory. Speyer and Sturmfels identify a homeomorphism between BHV space and a version of the Grassmannian using tropical geometry, endowing the space of phylogenetic trees with a tropical structure, which turns out to be advantageous for computational studies. In this talk, I will present the coincidence between BHV space and the tropical Grassmannian. I will then give an overview of some recent work I have done that studies the tropical Grassmannian as a metric space and the practical implications of these results on probabilistic and statistical studies on sets of phylogenetic trees.",
         "season": "SPRING 2024",
@@ -784,7 +784,7 @@
         "date2": "20231201",
         "title": "Data, geometry, and homology",
         "keywords": [
-            "topological data analysis",
+            "topological data analysis (TDA)",
             "geometrical representations of data",
             "homology",
             "stable ranks"
@@ -833,7 +833,7 @@
             "simplicial methods",
             "standard distributed tasks",
             "complexity",
-            "Weak Symmetry Breaking distributed task"
+            "weak symmetry breaking distributed task"
         ],
         "abstract": "We will give a brief introduction to the subject. The survey of main ideas and tools will be complemented with applications to specific standard distributed tasks. We will conclude with stating an open problem in combinatorial topology which is related to the complexity of the Weak Symmetry Breaking distributed task.",
         "season": "FALL 2023",
@@ -845,7 +845,7 @@
         "date2": "20231013",
         "title": "The Fermat principle in Riemannian geometry",
         "keywords": [
-            "topological data analysis",
+            "topological data analysis (TDA)",
             "persistent homology",
             "manifold learning",
             "distance learning",
@@ -922,7 +922,7 @@
         "date2": "20230818",
         "title": "Coupling Time-Aware Multipersistence Knowledge Representation with Graph Convolutional Networks for Time Series Forecasting",
         "keywords": [
-            "Graph Neural Networks",
+            "graph neural networks",
             "multipersistence",
             "Euler-Poincaré surface",
             "forecasting"
@@ -1180,7 +1180,7 @@
         "title": "Topological solitons as nuclei",
         "keywords": [
             "topological solitons",
-            "Skyrmions"
+            "skyrmions"
         ],
         "abstract": "Topological solitons [1] are particle-like solutions of nonlinear partial differential equations. This contribution will provide an introduction to Skyrmions, which are topological solitons that model nuclei [2]. Some of the properties of Skyrmions will be discussed in Skyrme\u2019s original theory, followed by more recent developments that attempt to improve on this theory, for example by matching the cluster structure of light nuclei [3].</br></br>[1] Manton, N.S. and Sutcliffe, P.M. 2004 Topological Solitons. Cambridge University Press. </br>[2] Manton, N.S. 2022 Skyrmions: A Theory of Nuclei. World Scientific. </br>[3] Naya, C. and Sutcliffe, P.M. 2018 Skyrmions and clustering in light nuclei. Phys.Rev.Lett. 121, 232002.",
         "video": "https://www.youtube.com/embed/OXJ23ru6iWY"
@@ -1250,7 +1250,7 @@
         "date2": "20220901",
         "title": "Introducing KnotPlot redux for experiments in knot theory",
         "keywords": [
-            "KnotPlot"
+            "knotplot"
         ],
         "abstract": "A newly reworked version of the speaker's software KnotPlot will be presented.  This version has an updated user interface with a native look and feel on multiple platforms, making the program much easier to learn and use.  In addition, KnotPlot is now augmented with powerful scripting languages (Lua and Python) that will allow researchers to write their own code for their experiments.  Example projects involving geometrical and topological simplification of knots, and a plugin mechanism for customizing the dynamics, will be presented.</br></br>[1] KnotPlot: https://www.knotplot.com/",
         "video": "https://www.youtube.com/embed/Euyiq5HTCfY"
@@ -1277,7 +1277,7 @@
         "title": "Multi-valued potentials and physical reality",
         "keywords": [
             "multi-valued potentials",
-            "multiply-connected domains"
+            "multiply connected domains"
         ],
         "abstract": "Riemann\u2019s paper [1] on multi-valued potentials in multiply-connected domains marks arguably the origin of topology. It prompted Lord Kelvin [2] to propose a correction to Green\u2019s first identity in potential theory, but his result remained almost unnoticed. Following Kelvin\u2019s own work we re-derive this result from first principles, and show how ideas and techniques introduced have important implications in modern physics and in current applications of multi-valued gauge theory in condensed matter physics [3].</br></br>[1] Riemann, B. 1857 Lehrs\u00e4tze aus der analysis situs f\u00fcr die Theorie der Integrale von zweigliedrigen vollst\u00e4ndigen Differentialen. J. Mathematik 54, 105-110. </br>[2] Thomson, W. (Lord Kelvin) 1869 On vortex motion. Trans. Roy. Soc. Edin. 25, 217-260. </br>[3] Ricca R.L., Foresti M. 2022 Multi-valued potentials in topological field theory. In Knotted Fields (edited by R.L. Ricca & X. Liu), to appear, Springer.",
         "video": "https://www.youtube.com/embed/5X8gRy-dDSE"
@@ -1522,7 +1522,7 @@
         "date2": "20220901",
         "title": "Skyrmionic hopfions: realising particle-like topologies in structured light",
         "keywords": [
-            "Skyrmionic Hopfions",
+            "skyrmionic Hopfions",
             "Hopf fibration",
             "optical defects"
         ],
@@ -1631,7 +1631,7 @@
         "date2": "20230113",
         "title": "Measure Vectorization for Automatic Topologically-Oriented Learning with guarantees.",
         "keywords": [
-            "topological data analysis",
+            "topological data analysis (TDA)",
             "persistence diagrams",
             "unsupervised learning",
             "clustering",
@@ -1647,9 +1647,9 @@
         "date2": "20221216",
         "title": "Mathematical Virology: Geometry in the Fight against Viral Infection",
         "keywords": [
-            "Geometric and topological models of virus structure",
-            "Virus (dis)assembly",
-            "Viral Tiling theory",
+            "geometric and topological models of virus structure",
+            "virus (dis)assembly",
+            "viral tiling theory",
             "Hamiltonian paths"
         ],
         "abstract": "The Covid-19 pandemic has highlighted the need for novel antiviral strategies. In this talk, I will demonstrate that insights into the geometric principles underpinning virus architecture provide a key to uncovering the mechanisms by which viruses replicate and infect their hosts. Geometric and topological descriptors of virus architecture, combined with stochastic simulations, reveal how viruses navigate the knife\u2019s edge between stability and instability, guaranteeing protection for their genetic cargo while also enabling its timely release. Models of virus architecture also provide a novel perspective on open problems in virus assembly. This includes the origin and control of polymorphic particle assembly, which arises, amongst others, when virus-derived protein containers are functionalised to present antigens for applications in vaccinology. They moreover play an instrumental role in the discovery of genome- encoded virus assembly instructions. These results shed new light on selective pressures on viral evolution and pave the way for innovation in antiviral therapy and virus nanotechnology.",
@@ -1679,7 +1679,7 @@
         "date2": "20221118",
         "title": "Is turbulence knotted?",
         "keywords": [
-            "Turbulence",
+            "turbulence",
             "knots",
             "vortex lines",
             "superfluid",
@@ -1733,7 +1733,7 @@
         "keywords": [
             "TDA",
             "biological images",
-            "TDAExplore",
+            "TDA explore",
             "synthetic periodic videos"
         ],
         "abstract": "I will present the results of two projects applying topological data analysis (TDA) and machine learning (ML) to biological data. In the first, we have developed a new tool, TDAExplore, that combines TDA and ML to both classify biological images and to provide a visualization that is biologically informative. In the second, we use TDA and ML to classify quasi-periodic biological videos and we apply TDA to such a video to produce synthetic periodic videos.",
@@ -1766,7 +1766,7 @@
             "knowability",
             "simplicity",
             "learnability",
-            "Surprise Exam Paradox",
+            "surprise exam paradox",
             "Cantor derivative",
             "perfect core"
         ],
@@ -1780,7 +1780,7 @@
         "date2": "20220909",
         "title": "Compositional Modeling with Decorated Cospans",
         "keywords": [
-            "Compositionality",
+            "compositionality",
             "double category",
             "decorated cospan",
             "epidemiology"
@@ -1796,7 +1796,7 @@
         "date2": "20220902",
         "title": "Stable and interpretable topological feature maps",
         "keywords": [
-            "Persistent homology",
+            "persistent homology",
             "stability",
             "Wasserstein distance",
             "feature maps"
@@ -1814,7 +1814,7 @@
             "collapsing pair",
             "directed topology",
             "cubical complexes",
-            "Euclidean Cubical Complex"
+            "Euclidean cubical complex"
         ],
         "abstract": "In a simplicial complex, a pair of simplices  are a collapsing pair, if one is a unique maximal coface of the other which is then a free face. Such a pair can be collapsed by removal of the two simplices and all simplices between them \u2013 think about an edge in a solid tetrahedron; collapsing means removing the edge, the interior of the tetrahedron and the interior of the two faces containing that edge. This leads to a homotopy equivalence. There is a similar notion for cubical complexes. A sequence of collapses leads to a simpler (fewer simplices/cubes) space.\nFor a directed space, which is a topological space with a selected set of paths, the directed paths, directed homotopy equivalence is a very strong requirement, and not what should be the basis of collapsing.\nWe study the following setting: A Euclidean Cubical Complex, an ECC, is a subset of R^n which is a union of elementary cubes. An elementary cube is a product of n intervals [ai,ai+e], where e is either 0 or 1. A directed path in an ECC is continuous and non-decreasing in all coordinates.\nWe define a notion of collapse with the aim of preserving various properties of spaces of directed paths.\nThis is joint work with the WiT, Women in Topology, group R. Belton, R. Brooks, S.Ebli, L.F., B.T.Fasy, N.Sanderson, E. Vidaurre.",
         "season": "FALL 2022",
@@ -1841,7 +1841,7 @@
         "date2": "20220520",
         "title": "Multi-parameter persistence from the viewpoint of discrete Morse theory",
         "keywords": [
-            "Multi-parameter persistence",
+            "multi-parameter persistence",
             "discrete Morse theory",
             "multivariate data",
             "persistence modules",
@@ -1889,7 +1889,7 @@
         "date2": "20220401",
         "title": "Dynamically relevant motifs in inhibition-dominated networks",
         "keywords": [
-            "Motifs",
+            "motifs",
             "inhibitory threshold-linear networks (TLNs)",
             "neural circuits",
             "dynamic attractor",
@@ -1920,7 +1920,7 @@
         "date2": "20220311",
         "title": "Discrete Stratified Morse Theory",
         "keywords": [
-            "discrete Morse Theory",
+            "discrete Morse theory",
             "stratified"
         ],
         "abstract": "In this talk I will describe a discrete version of stratified Morse theory and give several examples of the utility of theory. This is joint work with Bei Wang.",
@@ -1947,9 +1947,9 @@
         "date2": "20220204",
         "title": "Topological Analysis from Latent Semantic Analysis",
         "keywords": [
-            "Persistent Homology",
-            "Latent Semantic Analysis",
-            "Natural Language Processing"
+            "persistent homology",
+            "latent semantic analysis",
+            "natural language processing"
         ],
         "abstract": "Latent Semantic Analysis is one of the most widely used and accepted techniques in natural language processing. A better understanding of the topology of Latent Spaces could lead to better applications. We applied different topological techniques such as Ballmapper and persistent homology to the Latent Semantic representation of hundreds of thousands of abstracts and titles from the ArXiv database. We will present a comprehensible synthesis of our computations, comparing results between different time frames and ArXiv categories",
         "season": "SPRING 2022",
@@ -2020,7 +2020,7 @@
             "sheaf theory",
             "Cech closure spaces"
         ],
-        "abstract": "We generalize several basic notions in algebraic topology to categories which contain both topological spaces classically treated by classical homotopy theory as well as more discrete and combinatorial spaces of interest in applications, such as graphs and point clouds. The advantage of doing so is that there are now non-trivial 'continuous' maps from paracompact Hausdorff spaces to finite spaces (given the appropriate structure), and one may then compare the resulting topological invariants on each side functorially. We find that there are a number of possible such categories, each with its own particular homotopy theory and associated homologies, and, additionally, that there is a generalization of the coarse category which allows finite sets to be non-trivial (i.e. not 'coarsely' equivalent to a point). We will give an overview of these theories and several applications, show how they are related to familiar objects in applied topology, such as the Vietoris-Rips homology, and discuss the advantages and disadvantages of each. We finish by describing a recent construction of sheaf theory in the category of Cech closure spaces, a strict generalization of the category of topological spaces.",
+        "abstract": "We generalize several basic notions in algebraic topology to categories which contain both topological spaces classically treated by classical homotopy theory as well as more discrete and combinatorial spaces of interest in applications, such as graphs and point clouds. The advantage of doing so is that there are now non-trivial 'continuous' maps from paracompact Hausdorff spaces to finite spaces (given the appropriate structure), and one may then compare the resulting topological invariants on each side functorially. We find that there are a number of possible such categories, each with its own particular homotopy theory and associated homologies, and, additionally, that there is a generalization of the coarse category which allows finite sets to be non-trivial (i.e. not 'coarsely' equivalent to a point). We will give an overview of these theories and several applications, show how they are related to familiar objects in applied topology, such as the Vietoris-Rips homology, and discuss the advantages and disadvantages of each. We finish by describing a recent construction of sheaf theory in the category of \u010Cech closure spaces, a strict generalization of the category of topological spaces.",
         "season": "FALL 2021",
         "video": "https://www.youtube.com/embed/msbvjWMoy7U"
     },
@@ -2077,8 +2077,8 @@
         "date2": "20211015",
         "title": "The Wonderful World of Protein Structures",
         "keywords": [
-            "Protein Structures",
-            "Chirality"
+            "protein structures",
+            "chirality"
         ],
         "abstract": "This talk will aim to present an overview of the three dimensional structures of proteins. These large and intricate molecules perform the vast majority of the biological functions of life and the structures of over 170,000 proteins have been determined and are stored in the Protein Databank. A detailed understanding of their structures has gradually emerged over the last 50 years. Chirality within protein structures is observed at all 'levels' of structure, starting with the basic stereochemistry of the polypeptide chain, through local chain folding, to the 'tertiary' structure of the whole chain and even to chirality of large complexes.",
         "season": "FALL 2021",
@@ -2126,7 +2126,7 @@
             "persistence",
             "spectral graph theory",
             "effective resistence",
-            "combinatorial Laplacian"
+            "combinatorial laplacian"
         ],
         "abstract": "<p>The combinatorial graph Laplacian, as an operator on functions defined on the vertex set of a graph, is a fundamental object in the analysis of and optimization on graphs. There is also an algebraic topology view of the graph Laplacian which arises through considering boundary operators and specific inner products defined on simplicial (co)chain groups. This permits extending the graph Laplacian to a more general operator, the q-th combinatorial Laplacian to a given simplicial complex. An extension of this combinatorial Laplacian to the setting of pairs (or more generally, a sequence of) simplicial complexes was recently introduced by (R.) Wang, Nguyen and Wei. In this talk, I will present serveral results (including a persistent version of the Cheeger inequality) from our recent study of the theoretical properties for the persistence Laplacian, as well as efficient algorithms to compute it. This is joint work with Facundo Memoli and Zhengchao Wan. </p>",
         "season": "FALL 2021",
@@ -2303,7 +2303,7 @@
             "measurement",
             "quantum Hall effect",
             "Fibonacci model",
-            "Majorana Fermion",
+            "Majorana fermion",
             "Artin braid group",
             "unitary braiding",
             "Clifford algebra"
@@ -2456,7 +2456,7 @@
         "video": "https://www.youtube.com/embed/aJTR5l1EIwE",
         "title": "Topological Dimensionality Reduction.",
         "keywords": [
-            "Dimensionality reduction",
+            "dimensionality reduction",
             "topological data analysis (TDA)",
             "persistent homology",
             "Eilenberg-MacLane coordinates"
@@ -2518,7 +2518,7 @@
         "video": "https://www.youtube.com/embed/StoaNWadOwE",
         "title": "Aspects of High Dimensional Expansion.",
         "keywords": [
-            "High dimensional expansion",
+            "high dimensional expansion",
             "simplicial cohomology",
             "random complexes"
         ],
@@ -2608,8 +2608,8 @@
         "video": "https://www.youtube.com/embed/E4bhPpZxtIg",
         "title": "On the interplay between DNA topology, elasticity, and its biological role.",
         "keywords": [
-            "Elastic rod theory",
-            "Immersed boundary method",
+            "elastic rod theory",
+            "immersed boundary method",
             "DNA supercoiling",
             "gene regulation",
             "DNA",
@@ -2627,7 +2627,7 @@
         "keywords": [
             "vortex dynamics",
             "singularities",
-            "Lagrangian chaos",
+            "lagrangian chaos",
             "dynamo mechanisms",
             "magnetic relaxation",
             "knotted vortices",
@@ -2719,8 +2719,8 @@
             "polyhedral graphs",
             "convex geometry",
             "convex polytopes",
-            "CW- complexes",
-            "Simplex Method",
+            "CW-complexes",
+            "simplex method",
             "monotone paths on polytopes",
             "directed graphs",
             "analysis of algorithms"
@@ -2855,7 +2855,7 @@
         "video": "https://www.youtube.com/embed/ntwjBdEC_B4",
         "title": "Predicting emergent sequences of neural networks via directional graphs",
         "keywords": [
-            "Neuroscience",
+            "neuroscience",
             "topological data analysis (TDA)",
             "graph signal processing"
         ],
@@ -2886,9 +2886,9 @@
         "title": "Topologically Active Polymers and DNA",
         "keywords": [
             "DNA topology",
-            "Microrheology",
-            "Soft Matter",
-            "Living Polymers"
+            "microrheology",
+            "soft matter",
+            "living polymers"
         ],
         "abstract": "<p>Polymer physics principles heavily rely on the assumption that polymers do not change topology (or architecture) in time. This is not the case for DNA, which is constantly topologically re-arranged within the cell nucleus. Inspired by this, I propose to study entangled systems of polymers which can selectively alter their topology and architecture in time and may expend energy to do so. I argue that solutions of these 'topologically active (living) polymers' can display unconventional viscoelastic behaviours and can be conveniently realised using solutions of DNA functionalised by certain families of proteins. </p> <p>In this talk I will present my first excursion into this field and present some recent results on the microrheology of entangled Lambda DNA undergoing digestion by restriction enzymes. Finally, I will discuss some wild conjectures and speculations about possible future directions.</p>",
         "season": "SPRING 2021",
@@ -2903,7 +2903,7 @@
             "quantum vortices",
             "nodal lines",
             "Schr\u00f6dinger equation",
-            "Gross-Pitaievskii equation",
+            "Gross-Pitaevskii equation",
             "approximation theorems"
         ],
         "abstract": "<p>The quantum vortices of a superfluid are described as nodal lines of a solution to the time-dependent Gross-Pitaevskii equation. Experiments in Lab and extensive numerical computations show that quantum vortices cross, each of them breaking into two parts and exchanging part of itself for part of the other. This phenomenon, known as quantum vortex reconnection, occurs even though the superfluid does not lose its smoothness. This usually leads to a change of topology of the quantum vortices. In this talk I will show that, given any initial and final congurations of quantum vortices (i.e. closed curves, possibly knotted and linked), and any way of transforming one into the other through a generic pseudo-Seifert surface embedded in spacetime, there is an initial condition whose associatedsolution realizes this specific vortex reconnection scenario. This allows us to track the vortex reconnection process at all times, both locally and globally. Key to prove this result is a new Runge-type approximation theorem for the linear Schrodinger equation.</p> <p>This is based on joint work with Alberto Enciso.</p>",
@@ -2919,7 +2919,7 @@
         "keywords": [
             "turbulence",
             "inertial range",
-            "turbulent cascade"
+            "turbulence cascade"
         ],
         "abstract": "<p>In this talk we develop a simple toy model of the inertial range of turbulent flow, based upon a cascade of vortical filaments. The filaments are taken to be helical, one turn of the helix playing the role of a turbulent eddy. A binary branching structure is proposed, involving the splitting of filaments at each step into pairs of daughter filaments with differing properties, in effect two distinct simultaneous cascades. Neither of the cascades of this bimodal structure, in isolation, has the Richardson exponent of 1/3. If cascades are assumed to be initiated continuously and throughout space we obtain a model of the inertial range of stationary turbulence. We impose the constraint associated with Kolmogorov's four-fifths law and then adjust the splitting to achieve good agreement with the observed structure exponents <i>zeta<sub>p</sub></i>. The presence of two simultaneous cascades is responsible for the nonlinear dependence of <i>zeta<sub>p</sub></i> upon <i>p</i>. We also consider the initial value problem and study the flow of energy to small scales.</p><p>This is joint work with Andrew Gilbert.</p>",
         "season": "SPRING 2021",
