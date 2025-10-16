@@ -70,7 +70,7 @@
                      ],
         "abstract":"This talk has two parts. The first main part will discuss recent breakthroughs concerning an inherently interdisciplinary project between mathematicians, physicists, chemists, and computer scientists that attempts to produce structures in three-dimensional Euclidean space from graph embeddings on triply-periodic minimal surfaces. Exploring the different graphs embeddings naturally leads to a new application, relevant for materials science, structure formation, and knot theory, of the mapping class group (MCG) of a surface, a prominent object that has received considerable attention in pure mathematics. We explain how to apply the MCG to the construction of candidates for new crystalline structures from graph embeddings on triply-periodic minimal surfaces, making use of the intrinsically hyperbolic nature of the surfaces for promising three-periodic structures. We then give an overview of new results on MCGs that facilitates an enumeration of isotopy classes of graph embeddings with a given group of symmetries and conclude with a catalogue of three-dimensional structures that have resulted from the approach.<br /><br />In the second part of the talk, we discuss ongoing work on analyzing the resulting entangled structures using methods from topological data analysis. We explain how the hyperbolic context has inspired novel results concerning approximations of persistent homology computations of natural filtrations for point sets of bounded doubling dimension. ",
         "season": "FALL 2025",
-        "video": null
+        "video": "https://www.youtube.com/embed/LO768BsUAf4?si=v80hCEP4rnlR4NTS"
     },    
 "188": {
         "speaker_id": 165,
