@@ -1,4 +1,22 @@
-{  "193": {
+{    "194": {
+        "speaker_id": 171,
+	    "date": "November 14, 2025",
+        "date2": "20251114",
+        "title": "From Neurons to Networks: Exploring the Brain Through Algebraic Topology",
+        "keywords": [
+            "topological data analysis",
+            "machine learning",
+            "networks",
+            "intelligence",
+            "trees",
+            "neuronal morphologies",
+            "human, mouse"
+             ],
+        "abstract":"How can mathematics help us understand the brain? In recent years, a field called topological data analysis (TDA) has offered powerful new ways to study complex systems (from protein shapes to brain networks) by capturing their underlying structure. In neuroscience, these tools help us uncover the hidden patterns that shape how brain cells connect and communicate. The Topological Morphology Descriptor (TMD, [1]), turns the branching shapes of neurons into mathematical “barcodes” that summarize their structure. This approach allows us to classify, cluster and compare neurons across different types and species.<br /><br />In this talk, I will present recent results in the topological representation of brain cells, focusing on neurons. I will then demonstrate how algebraic topology provides insights into the relationships between single neurons and networks, allowing us to bridge different computational scales.<br /><br />A central question in neuroscience concerns the organizational principles that distinguish the human brain from other species. Our findings [2] suggest that human neurons are strikingly more complex than those in other animals. In particular, human pyramidal cells, the most abundant cell type in the cortex, form denser, more interconnected networks. This greater dendritic complexity, a unique characteristic of human neurons, may underlie the enhanced computational power and cognitive flexibility of the human cortex.<br /><br />[1] Kanari et al. 2018. A Topological representation of branching neuronal morphologies<br /><br />[2] Kanari et al. 2025. Of mice and men: Dendritic architecture differentiates human from mouse neuronal networks",
+        "season":"FALL 2025",
+        "video": null
+    },      
+    "193": {
         "speaker_id": 170,
 	    "date": "November 7, 2025",
         "date2": "20251107",
