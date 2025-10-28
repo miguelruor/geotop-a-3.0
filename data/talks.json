@@ -56,7 +56,7 @@
                      ],
         "abstract":"Classical manifold learning relies on estimation of the tangent bundle of a manifold from a finite sample, i.e., the first derivative.  A natural next question to consider is second derivative information --- estimation and application of curvature from finite point clouds.  This talk will survey the landscape on estimating various kinds of curvature for point clouds and on applications of discrete curvature measures in geometric data analysis.  The work discussed includes joint work with Hickok, Saidi, and Rieck.", 
         "season": "FALL 2025",
-        "video": null
+        "video": "https://www.youtube.com/embed/a38OTpdu8os?si=n2tUmdeWrThMtzUc"
     },    
     "190": {
         "speaker_id": 167,
