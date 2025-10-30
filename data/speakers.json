@@ -1,4 +1,14 @@
 {  
+     "172": {
+        "surname": "Goldstein" ,
+        "completeName":"Raymond Goldstein" ,
+        "middle_initial":null ,
+        "name": "Raymond",
+        "talks": [
+            195
+        ],
+        "image": false
+    },
     "171": {
         "surname": "Kanari" ,
         "completeName":"Lida Kanari" ,
