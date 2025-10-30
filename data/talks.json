@@ -1,4 +1,18 @@
-{    "194": {
+{   "195": {
+        "speaker_id": 172,
+	    "date": "November 28, 2025",
+        "date2": "20251128",
+        "title": " The Geometry of Multicellular Life",
+        "keywords": [
+            "multicellularity",
+            "topological defects",
+            "embryonic inversion"
+             ],
+        "abstract":"One of the most fundamental issues in evolutionary biology is how unicellular life transitioned to multicellular life. How — and why — was it that the simplest single-celled organisms that emerged from the primordial soup evolved into organisms with many cells and cell types dividing up life’s processes?  This talk will describe recent experimental and theoretical advances in understanding the architecture of organisms that serve as models of this evolutionary transition. <br /> I will discuss the shape-shifting properties of certain choanoflagellates (the closest living relatives of animals), the recent discovery of common probability distributions of cellular neighborhood volumes in yeast and alga, as well as embryonic 'inversion' and the spontaneous curling of the extracellular matrix of green algae. These studies together shed light on the fundamental question, \"How do cells produce structures external to themselves in an accurate and robust manner?\"",
+        "season":"FALL 2025",
+        "video": null
+    },       
+    "194": {
         "speaker_id": 171,
 	    "date": "November 14, 2025",
         "date2": "20251114",
@@ -10,7 +24,8 @@
             "intelligence",
             "trees",
             "neuronal morphologies",
-            "human, mouse"
+            "human", 
+            "mouse"
              ],
         "abstract":"How can mathematics help us understand the brain? In recent years, a field called topological data analysis (TDA) has offered powerful new ways to study complex systems (from protein shapes to brain networks) by capturing their underlying structure. In neuroscience, these tools help us uncover the hidden patterns that shape how brain cells connect and communicate. The Topological Morphology Descriptor (TMD, [1]), turns the branching shapes of neurons into mathematical “barcodes” that summarize their structure. This approach allows us to classify, cluster and compare neurons across different types and species.<br /><br />In this talk, I will present recent results in the topological representation of brain cells, focusing on neurons. I will then demonstrate how algebraic topology provides insights into the relationships between single neurons and networks, allowing us to bridge different computational scales.<br /><br />A central question in neuroscience concerns the organizational principles that distinguish the human brain from other species. Our findings [2] suggest that human neurons are strikingly more complex than those in other animals. In particular, human pyramidal cells, the most abundant cell type in the cortex, form denser, more interconnected networks. This greater dendritic complexity, a unique characteristic of human neurons, may underlie the enhanced computational power and cognitive flexibility of the human cortex.<br /><br />[1] Kanari et al. 2018. A Topological representation of branching neuronal morphologies<br /><br />[2] Kanari et al. 2025. Of mice and men: Dendritic architecture differentiates human from mouse neuronal networks",
         "season":"FALL 2025",
