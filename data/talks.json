@@ -57,7 +57,7 @@
                      ],
         "abstract":"We implement a new version of the BFACF algorithm combined with the Wang-Landau method to sample lattice polymers with a theta shape. The initial goal is to understand how the three \"arms\" scale in length, and if this resembles the scaling of a large knotted polygon in dilute solution. Other shapes like \"tadpoles\" are also studied. These branching structures can potentially be used to model R-loops and other complex polymer molecules.<br /><br /> This is work in progress, in collaboration with Aleks Owczarek and James Gleeson.", 
         "season": "FALL 2025",
-        "video": null
+        "video": "https://www.youtube.com/embed/TtZ1X2HQar4?si=psY3tk5Hs50uTfiR"
         
     },     
     "191": {
