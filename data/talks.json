@@ -57,7 +57,7 @@
                      ],
         "abstract":"We present recent advances in the topological analysis of protein structures, combining mathematical invariants, persistent homology, and machine learning. We explore how topological analysis captures subtle geometric features of folded chains, enabling efficient recognition of knots, links, θ-curves, and lasso motifs inside proteins. Finally, we show how integrating these tools, ranging from combinatorial invariants to recurrent neural architectures, reveals new insights into the organization, dynamics, and function of entangled proteins, illustrating the deep interplay between topology and modern structural biology.", 
         "season": "FALL 2025",
-        "video": null
+        "video": "https://www.youtube.com/embed/TiGDMzny0Hc?si=2Wuqqj9eN8H-7_Yw"
     },     
     "192": {
         "speaker_id": 169,
