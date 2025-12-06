@@ -1,60 +1,9 @@
-{"FALL 2025": [
-    {
-      "date": "September 12",
-      "speaker": "Ginestra  Bianconi",
-      "institution": "Queen Mary University of London"
-    },
-    {
-      "date": "September 19",
-      "speaker": "Christine Heitsch",
-      "institution": "Georgia Tech"
-    },    
-    {
-      "date": "September 26",
-      "speaker": "Sergei Gukov",
-      "institution": "California Institute of Technology"
-    },    
-    {
-      "date": "October 10",
-      "speaker": "Benedikt Kolbe",
-      "institution": "University of Bonn"
-    },    
-    {
-      "date": "October 17",
-      "speaker": "Juan Carlos Díaz Patiño",
-      "institution": "Universidad Nacional Autónoma de México"
-    },
-        {
-      "date": "October 24",
-      "speaker": "Andrew Blumberg",
-      "institution": "Columbia University"
-    },    
-    {
-      "date": "October 31",
-      "speaker": "Nicholas Beaton",
-      "institution": "The University of Melbourne"
-    },    
-    {
-      "date": "November 7",
-      "speaker": "Boštjan Gabrovšek",
-      "institution": "University of Ljubljana, Rudolfovo - Science and Technology Centre Novo mesto"
-    }, 
-    {
-      "date": "November 14",
-      "speaker": "Lida Kanari",
-      "institution": "University of Oxford"
-    }, 
-    {
-      "date": "November 28",
-      "speaker": "Raymond Goldstein",
-      "institution": "University of Cambridge"
-    }, 
-    {
-      "date": "December 5",
-      "speaker": "Andrew Gilbert",
-      "institution": "University of Exeter"
-    } 
-  
-  ]
+{"SPRING 2026":[
+  {
+      "date": "January 16",
+      "speaker": "Ivan Smalyukh",
+      "institution": "University of Colorado"
+    }
 
+]
 }

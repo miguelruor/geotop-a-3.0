@@ -1,4 +1,14 @@
 {  
+     "174": {
+        "surname": "Smalyukh" ,
+        "completeName":"Ivan Smalyukh" ,
+        "middle_initial":null ,
+        "name": "Ivan",
+        "talks": [
+            197
+        ],
+        "image": false
+    },
      "173": {
         "surname": "Gilbert" ,
         "completeName":"Andrew Gilbert" ,
