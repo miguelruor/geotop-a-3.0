@@ -3,7 +3,47 @@
       "date": "January 16",
       "speaker": "Ivan Smalyukh",
       "institution": "University of Colorado"
-    }
+    },
+   {
+      "date": "January 30",
+      "speaker": "Patricio Frosini",
+      "institution": "University of Pisa"
+    } ,
+    {
+      "date": "February 6",
+      "speaker": "Massa Shoura",
+      "institution": "PHINOMICS"
+    } ,
+    {
+      "date": "February 13",
+      "speaker": "Daniela Egas",
+      "institution": "Max Planck Institute of Molecular Cell Biology and Genetics and the Center for Systems Biology Dresden"
+    } ,
+    {
+      "date": "March 13",
+      "speaker": "Sofia Labropoulou",
+      "institution": "National Technical University Athens"
+    } ,
+    {
+      "date": "March 27",
+      "speaker": "Eleni Panagiotou",
+      "institution": "Arizona State University"
+    } ,
+    {
+      "date": "May 8",
+      "speaker": "Henry Adams",
+      "institution": "University of Florida"
+    } ,
+    {
+      "date": "May 22",
+      "speaker": "José Angel Frías García",
+      "institution": "Universidad Autónoma de Morelos"
+    } ,
+    {
+      "date": "June 5",
+      "speaker": "Ljubica S. Velimirović",
+      "institution": "University of Niš"
+    }    
 
 ]
 }
