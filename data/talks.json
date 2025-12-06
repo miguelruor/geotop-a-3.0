@@ -1,4 +1,15 @@
-{   "196": {
+{   "197": {
+        "speaker_id": 174,
+	    "date": "January 16, 2026",
+        "date2": "20261601",
+        "title": "TBA",
+        "keywords": ["TBA"
+                       ],
+        "abstract":"TBA",
+        "season":"SPRING 2026",
+        "video": null
+    },     
+    "196": {
         "speaker_id": 173,
 	    "date": "December 5, 2025",
         "date2": "20251205",
