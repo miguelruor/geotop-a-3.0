@@ -6,7 +6,7 @@
     },
    {
       "date": "January 30",
-      "speaker": "Patricio Frosini",
+      "speaker": "Patrizio Frosini",
       "institution": "University of Pisa"
     } ,
     {
@@ -30,6 +30,11 @@
       "institution": "Arizona State University"
     } ,
     {
+      "date": "April 10",
+      "speaker": "Nikolas Schonsheck",
+      "institution": "Rockefeller University"
+    } ,
+     {
       "date": "May 8",
       "speaker": "Henry Adams",
       "institution": "University of Florida"
