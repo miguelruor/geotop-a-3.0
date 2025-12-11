@@ -21,7 +21,7 @@
              ],
         "abstract":"In seminal papers in the 1960s Vladimir Arnold introduced the idea that the motion of an ideal fluid can be considered as a geodesic in the space of volume-preserving maps from the fluid domain to itself. This viewpoint places fluid dynamics, on any Riemannian manifold, in an abstract setting which also incorporates Lie group structure. Although this theory is profound and beautiful, at first sight it  has little bearing for the everyday applications of fluid dynamics. However it turns out that the process of Lagrangian averaging (namely averaging over fluid parcels in an ensemble of fluid flows, contrasted with Eulerian averaging at a fixed point), is best understood using the ideas of pull-backs and Lie derivatives on a general manifold, even though one ultimately applies these notions in ordinary three-dimensional space. <br /><br /> This talk will be very much aimed at fluid dynamicists rather than professional geometers, and will outline Arnold’s ideas, and applications to the Generalised Lagrangian Mean Theory put forward by David Andrews and Michael McIntyre, and subsequent related theories, particularly of Andrew Soward and Paul Roberts. <br /><br /> This is joint work with Jacques Vanneste (University of Edinburgh). ",
         "season":"FALL 2025",
-        "video": null
+        "video": "https://www.youtube.com/embed/k_tZ0gfNH8g?si=7rvme64Mggg7ZYhE"
     },       
     "195": {
         "speaker_id": 172,
