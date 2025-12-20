@@ -20,6 +20,11 @@
       "institution": "Max Planck Institute of Molecular Cell Biology and Genetics and the Center for Systems Biology Dresden"
     } ,
     {
+      "date": "February 27",
+      "speaker": "Rade Živaljević",
+      "institution":"Mathematical Institute SANU"
+    } ,
+    {
       "date": "March 13",
       "speaker": "Sofia Labropoulou",
       "institution": "National Technical University Athens"
@@ -34,7 +39,18 @@
       "speaker": "Nikolas Schonsheck",
       "institution": "Rockefeller University"
     } ,
-     {
+     
+    {
+      "date": "April 17",
+      "speaker": "Ahtziri González-Lemus",
+      "institution": "Universidad Michoacana de San Nicolás de Hidalgo"
+    } ,
+    {
+      "date": "April 24",
+      "speaker": "Dejan Govc",
+      "institution": "University of Ljubljana"
+    } ,
+    {
       "date": "May 8",
       "speaker": "Henry Adams",
       "institution": "University of Florida"
