@@ -1,4 +1,14 @@
-{  
+{
+    "175": {
+        "surname": "Frosini" ,
+        "completeName":"Patrizio Frosini" ,
+        "middle_initial":null ,
+        "name": "Patrizio",
+        "talks": [
+            198
+        ],
+        "image": true
+    },  
      "174": {
         "surname": "Smalyukh" ,
         "completeName":"Ivan Smalyukh" ,
@@ -7,7 +17,7 @@
         "talks": [
             197
         ],
-        "image": false
+        "image": true
     },
      "173": {
         "surname": "Gilbert" ,
