@@ -1,4 +1,13 @@
-{
+{   "176": {
+        "surname": "Shoura" ,
+        "completeName":"Massa Shoura" ,
+        "middle_initial":null ,
+        "name": "Massa",
+        "talks": [
+            199
+        ],
+        "image": true
+    }, 
     "175": {
         "surname": "Frosini" ,
         "completeName":"Patrizio Frosini" ,
