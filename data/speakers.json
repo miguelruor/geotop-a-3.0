@@ -1,4 +1,25 @@
-{   "176": {
+{   
+    "178": {
+        "surname": "Živaljević" ,
+        "completeName":"Rade Živaljević" ,
+        "middle_initial":null ,
+        "name": "Rade",
+        "talks": [
+            201
+        ],
+        "image": true
+    }, 
+    "177": {
+        "surname": "Egas" ,
+        "completeName":"Daniela Egas" ,
+        "middle_initial":null ,
+        "name": "Daniela",
+        "talks": [
+            200
+        ],
+        "image": false
+    },    
+    "176": {
         "surname": "Shoura" ,
         "completeName":"Massa Shoura" ,
         "middle_initial":null ,
