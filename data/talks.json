@@ -1,4 +1,24 @@
 {   
+    "201": {
+        "speaker_id": 178,
+	    "date": "February 27, 2026",
+        "date2": "20260227",
+        "title": "Combinatorics, geometry, and topology of Bier spheres",
+        "keywords":["Bier spheres", "generalized permutohedra", "polyhedral products", "Steinitz problem", "polygedral fans"],
+        "abstract":"Each simplicial complex K (alias a simple game P([n])\\K)) with n vertices is associated an (n-2)-dimensional, combinatorial sphere on (at most) 2n-vertices. This is the so called Bier sphere Bier(K) (named after Thomas Bier), formally defined as the deleted join of  K  with its (combinatorial) Alexander dual. Bier spheres have been studied from the viewpoint of combinatorics (simplicial complexes), topology (polyhedral products, toric manifolds), convex polytopes (generalized permutohedra, algorithmic Steinitz problem), game theory (cooperative games), experimental mathematics (nonpolytopal spheres), combinatorial optimization (submodular functions), algebraic statistics (convex rank tests), etc.<br />We present an overview of this area, emphasizing the interplay of ideas from different mathematical fields. <br /><br /> For illustration we show how:<br /> (i) Canonical cubulations of Bier spheres appear in toric topology as boundaries of intersections of associated polyhedral products;<br />(ii) Characterize “weighted majority games” as the games whose associated Bier spheres are canonically polytopal;<br />(iii) Show, by extensive computer search, that all Bier spheres with at most 11 vertices are (non-canonically) polytopal;<br />(iv) Relate the homology of the associated real and complex toric manifolds, with the combinatorics of Bier(K);<br />(v) Discuss open problems, including the problem of finding a non-polytopal simple game with the smallest number of players.<br /><br />The talk is based on joint papers with Marinko Timotijević, Filip Jevtić, and Ivan Limonchenko.",
+        "season":"SPRING 2026",
+        "video": null
+    },    
+    "200": {
+        "speaker_id": 177,
+	    "date": "February 13, 2026",
+        "date2": "20260213",
+        "title": "TBA",
+        "keywords": ["TBA"],
+        "abstract": "TBA",
+        "season":"SPRING 2026",
+        "video": null
+    }, 
     "199": {
         "speaker_id": 176,
 	    "date": "February 6, 2026",
