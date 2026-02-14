@@ -1,5 +1,16 @@
 {   
-    "178": {
+    
+"179": {
+        "surname": "Labropoulou" ,
+        "completeName":"Sofia Labropoulou" ,
+        "middle_initial":null ,
+        "name": "Sofia",
+        "talks": [
+            202
+        ],
+        "image": true
+    },
+"178": {
         "surname": "Živaljević" ,
         "completeName":"Rade Živaljević" ,
         "middle_initial":null ,

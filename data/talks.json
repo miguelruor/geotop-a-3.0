@@ -1,4 +1,14 @@
 {   
+        "202": {
+        "speaker_id": 179,
+	    "date": "March 13, 2026",
+        "date2": "20260313",
+        "title": "The theory of doubly periodic tangles",
+        "keywords":["TBA"],
+        "abstract":"Doubly periodic tangles (DP tangles) are entanglements of curves embedded in the thickened plane that are periodically repeated in two transversal directions. They are useful in many scientific fields for the study of physical systems. A better understanding of their topology, often associated to some physical properties, could allow the prediction of functions of the system. In the first part we will establish the topological background of the theory of DP tangles. DP tangles arise as universal covers of knots and links in the thickened torus. We study their DP isotopies via an equivalence relation between their generating (flat) motifs. In the second part we present some isotopy invariants of DP tangles, used for distinguishing their properties.",
+        "season":"SPRING 2026",
+        "video": null
+    }, 
     "201": {
         "speaker_id": 178,
 	    "date": "February 27, 2026",
