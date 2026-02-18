@@ -27,7 +27,7 @@
         "keywords": ["connectomics","directed higher-order motifs","structure function relation","TDA"],
         "abstract": "A central hypothesis in neuroscience is that many aspects of brain function are determined by the \"map of the brain\", and that its computational power relies on its connectivity architecture. Impressive scientific and engineering advances in recent years have produced a plethora of large-scale, cellular-resolution brain network reconstructions with incredibly complex architectures. <br /><br /> A central feature of the architecture is its inherent directionality, which reflects the flow of information. Evidence shows that  in biological neural networks reciprocal connections and higher-order motifs, such as directed cliques, emerge preferentially rather than at random. This raises fundamental questions in both mathematics and computational neuroscience.<br /><br />In this talk, we first examine the presence and functional relevance of these connectivity patterns and how they naturally emerge from the physical constraints of neuronal morphology. We then distill the underlying mechanism into a point-neuron stochastic algorithm that reproduces both the basic network statistics and the higher-order structure observed in biology.",
         "season":"SPRING 2026",
-        "video": null
+        "video": "https://www.youtube.com/embed/KrOPZW9CVFg?si=vKJQeve0NsonVP0W"
     }, 
     "199": {
         "speaker_id": 176,
