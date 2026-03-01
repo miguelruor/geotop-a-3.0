@@ -1,5 +1,16 @@
 {   
-        "202": {
+
+   "203": {
+        "speaker_id": 180,
+	    "date": "March 27, 2026",
+        "date2": "20260327",
+        "title": "Novel metrics of entanglement of open curves in 3-space and their applications to proteins",
+        "keywords":["entanglement", "open curves in 3-space", "proteins", "polymers", "Jones polynomial", "Vassiliev invariants", "linkoids" ],
+        "abstract":"Filamentous materials may exhibit structure-dependent material properties and function that depend on their entanglement. Even though intuitively entanglement is often understood in terms of knotting or linking, many of the filamentous systems in the natural world are not mathematical knots or links. In this talk, we will introduce a novel and  general framework in knot theory that can characterize the complexity of open curves in 3-space. This leads to new metrics of entanglement of open curves in 3-space that generalize classical topological invariants, like for example, the Jones polynomial and Vassiliev invariants. For open curves, these are continuous functions of the curve coordinates and converge to topological invariants of classical knots and links when the endpoints of the curves tend to coincide. These methods provide an innovative approach to advance important questions in knot theory. As an example, we will see how the theory of linkoids enables the first, to our knowledge, parallel algorithm for computing the Jones polynomial. <br /><br />Importantly, this approach opens exciting applications to systems that can be modeled as open curves in 3-space, such as polymers and proteins, for which new quantitative relationships between their structure and material properties become evident. As an example, we apply our methods to proteins to understand the interplay between their structures and functions. We show that our proposed quantitative topological metrics based on static protein structures alone correlate with protein dynamics and protein function. The methods and results represent a new framework for advancing knot theory, as well as its applications to filamentous materials, which can be validated by experimental data and integrated into machine-learning algorithms.",
+        "season":"SPRING 2026",
+        "video": null
+    }, 
+    "202": {
         "speaker_id": 179,
 	    "date": "March 13, 2026",
         "date2": "20260313",
