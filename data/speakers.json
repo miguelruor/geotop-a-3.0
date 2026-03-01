@@ -1,5 +1,15 @@
 {   
-    
+ "180": {
+        "surname": "Panagiotou" ,
+        "completeName":"Eleni Panagiotou" ,
+        "middle_initial":null ,
+        "name": "Eleni",
+        "talks": [
+            203
+            
+        ],
+        "image": true
+    },    
 "179": {
         "surname": "Labropoulou" ,
         "completeName":"Sofia Labropoulou" ,
