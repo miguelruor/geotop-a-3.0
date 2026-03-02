@@ -1,24 +1,14 @@
 {   
- "180": {
+   
+"179": {
         "surname": "Panagiotou" ,
         "completeName":"Eleni Panagiotou" ,
         "middle_initial":null ,
         "name": "Eleni",
         "talks": [
             203
-            
-        ],
-        "image": true
-    },    
-"179": {
-        "surname": "Labropoulou" ,
-        "completeName":"Sofia Labropoulou" ,
-        "middle_initial":null ,
-        "name": "Sofia",
-        "talks": [
-            202
-        ],
-        "image": true
+                    ],
+        "image": true 
     },
 "178": {
         "surname": "Živaljević" ,
@@ -893,7 +883,7 @@
         "middle_initial": null,
         "name": "Sofia",
         "talks": [
-            99
+            99,202
         ],
         "image": true
     },
