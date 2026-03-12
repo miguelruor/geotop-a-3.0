@@ -1,5 +1,14 @@
 {   
-
+"204": {
+        "speaker_id": 180,
+	    "date": "April 10, 2026",
+        "date2": "20260410",
+        "title": "Identifying, tracking, and learning the grid cell circular coordinate systems",
+        "keywords":["topological data analysis", "persistent homology", "neuroscience", "neural manifold"],
+        "abstract":" Brains use a variety of coordinate systems to encode information. Sometimes these coordinate systems are linear and can be recovered from population activity using standard techniques. Often, however, they are not: many coordinate systems exhibit nonlinear global topology for which such tools can be less effective. Notably, grid cells in the entorhinal cortex comprise two linearly independent circular coordinate systems that, together, exhibit toroidal topology. Recent recordings using high-density probes confirm this toroidal topology persists during spatial and non-spatial behavior, and can be quantified and decoded with persistent (co)homology.<br /><br />We ask a next natural question: is the propagation of circular coordinate systems through neural circuits a generic feature of biological neural networks, or must this be learned? If learning is necessary, how does it occur? We apply methods from topological data analysis developed to quantitatively measure propagation of such nonlinear manifolds across populations to address these problems. We identify a collection of connectivity and parameter regimes for feed-forward networks in which learning is required, and demonstrate that simple Hebbian spike-timing dependent plasticity reorganizes such networks to correctly propagate circular coordinate systems. We also observe during this learning process the emergence of geometrically non-local experimentally observed receptive field types: bimodally-tuned head-direction cells and cells with spatially periodic, band-like receptive fields.",
+        "season":"SPRING 2026",
+        "video": null
+    },
    "203": {
         "speaker_id": 179,
 	    "date": "March 27, 2026",
@@ -15,7 +24,7 @@
 	    "date": "March 13, 2026",
         "date2": "20260313",
         "title": "The theory of doubly periodic tangles",
-        "keywords":["tangles", "doubly periodic", "universal covers", "knots", "links", "motifs"],
+        "keywords":["doubly periodic tangle","lattice", "generating motif", "DP isotopy", "translation", "scaling", "shearing", "motif equivalence", "DP invariants", "directional invariants", "axis motif", "arc triple"],
         "abstract":"Doubly periodic tangles (DP tangles) are entanglements of curves embedded in the thickened plane that are periodically repeated in two transversal directions. They are useful in many scientific fields for the study of physical systems. A better understanding of their topology, often associated to some physical properties, could allow the prediction of functions of the system. In the first part we will establish the topological background of the theory of DP tangles. DP tangles arise as universal covers of knots and links in the thickened torus. We study their DP isotopies via an equivalence relation between their generating (flat) motifs. In the second part we present some isotopy invariants of DP tangles, used for distinguishing their properties.",
         "season":"SPRING 2026",
         "video": null
