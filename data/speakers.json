@@ -1,9 +1,20 @@
-{   
+{
+"181": {
+        "surname": "Govc" ,
+        "completeName":"Dejan Govc" ,
+        "middle_initial":null ,
+        "name": "Dejan",
+        "talks": [
+            206
+        ],
+        "image": true 
+    },   
+   
 "180": {
         "surname": "Schonsheck" ,
         "completeName":"Nikolas Schonsheck" ,
         "middle_initial":null ,
-        "name": "Nikolas Schonsheck",
+        "name": "Nikolas",
         "talks": [
             204
         ],
