@@ -1,5 +1,16 @@
 {
-        "206": {
+    "207": {
+        "speaker_id":182,
+	    "date": "May 8, 2026",
+        "date2": "20260508",
+        "title": "Gromov-Hausdorff distances, Borsuk-Ulam theorems, and Vietoris-Rips complexes",
+        "keywords":["Gromov–Hausdorff distance", "Borsuk–Ulam theorems", "Vietoris–Rips complexes", "modulus of discontinuity"],
+        "abstract": "The Gromov-Hausdorff distance between two metric spaces is an important tool in geometry, but it is difficult to compute. I will show how to provide new lower bounds on the Gromov-Hausdorff distance between unit spheres of different dimensions by combining Vietoris-Rips complexes with Borsuk-Ulam theorems. This is joint work with <b>Johnathan Bush</b>, <b>Nate Clause</b>, <b>Florian Frick</b>, <b>Mario Gómez</b>, <b>Michael Harrison</b>, <b>R. Amzi Jeffs</b>, <b>Evgeniya Lagoda</b>, <b>Sunhyuk Lim</b>, <b>Facundo Mémoli</b>, <b>Michael Moy</b>, <b>Nikola Sadovek</b>, <b>Matt Superdock</b>, <b>Daniel Vargas</b>, <b>Qingsong Wang</b>, <b>Ling Zhou</b>, accepted to Algebraic & Geometric Topology, and available at https://arxiv.org/abs/2301.00246. Many questions remain open! ",
+        "season":"SPRING 2026",
+        "video": null
+    }, 
+    
+    "206": {
         "speaker_id":181,
 	    "date": "April 24, 2026",
         "date2": "20260424",
