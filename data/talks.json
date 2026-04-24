@@ -1,4 +1,15 @@
 {
+    "208": {
+        "speaker_id":157,
+	    "date": "May 22, 2026",
+        "date2": "20260522",
+        "title": "3-manifold invariants and embedded graph polynomials.",
+        "keywords":["3-manifold", "Heegaard splitting", "embedded graph", "graph polynomials", "lens space"],
+        "abstract": "Heegaard splittings are useful descompositions in the study of 3-manifolds. Every closed orientable 3-manifold $M$ admits a Heegaard splitting, $M = H_{1} \\cup H_{2}$, where $H_{1}$ and $H_{2}$ are genus-$g$ handlebodies which are glued together via an orientation reversing homeomorphism between their boundaries. Given a particular splitting of a 3-manifold,   $M = H_{1}\\cup H_{2}$, and a set of decomposing discs for each handlebody, we get a graph embedded in the Heegaard surface, whose vertices are the intersection points between the boundaries of the two sets of decomposing discs and whose edges are the complementary arcs in such boundaries. We call this embedded graph a Heegaard graph associated with the Heegaard splitting.</br></br>Several embedded graph polynomials can be computed for Heegaard graphs of 3-manifolds, including Tutte, Penrose and ribbon graph polynomials. Under assumptions of minimality in the genus of Heegaard splittings and vertices of the Heegaard graphs of a 3-manifold $M$, the number of non-isomorphic Heegaard graphs of $M$ is finite. For a given lens space its Heegaard graph is unique, up to isomorphism of embedded graphs, and the embedded graph polynomials computed for this Heegaard graph are invariants of the lens space. Algorithms to compute embedded graph polynomials were implemented.</br></br>This is a joint work with <b>José Carlos Gómez-Larrañaga</b>, <b>José Luis León-Medina</b> and <b> Fabiola Manjarrez-Gutiérrez</b> ",
+        "season":"SPRING 2026",
+        "video": null
+    }, 
+    
     "207": {
         "speaker_id":182,
 	    "date": "May 8, 2026",
