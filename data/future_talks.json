@@ -66,5 +66,58 @@
       "institution": "University of Niš"
     }    
 
-]
+],
+"FALL 2026":[
+  {
+      "date": " August 21",
+      "speaker": "Barbara Giunti",
+      "institution": "SUNY Albany"
+    },
+    {
+      "date": " August 28",
+      "speaker": "Louis Kauffman",
+      "institution": "University of Illinois at Chicago"
+    },
+     {
+      "date": "September 4",
+      "speaker": "Xia Kelin",
+      "institution": "Nanyang Technological University"
+    },
+    {
+      "date": "September 18",
+      "speaker": "Tancredi Schettini Gherardini",
+      "institution": "University of Bonn"
+    },
+    {
+      "date": "October 2",
+      "speaker": "Pengliu Liu",
+      "institution": "University of Rhode Island"
+    },
+    {
+      "date": "October 16",
+      "speaker": "Louis Kauffman",
+      "institution": "University of Illinois at Chicago"
+    },
+    {
+      "date": "October 30",
+      "speaker": "Iolo Jones",
+      "institution": "University of Oxford"
+    },
+    {
+      "date": "November 13",
+      "speaker": "Louis Kauffman",
+      "institution": "University of Illinois at Chicago"
+       },
+    {
+      "date": "November 27",
+      "speaker": "Davorin Lešnik",
+      "institution": "University of Ljubljana"
+    },
+    {
+      "date": "December 11",
+      "speaker": "Yasuhide Fukumoto",
+      "institution": "Kyushu University & IMI"
+    }
+  
+  ]
 }
