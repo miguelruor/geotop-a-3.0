@@ -20,6 +20,7 @@ import Image from "next/image";
 import Link from "next/link";
 import 'katex/dist/katex.min.css'
 import Latex from "react-latex-next";
+import SpecialLectureLabel from "../SpecialLectureLabel/SpecialLectureLabel";
 
 const useStyles = makeStyles(styles);
 
@@ -123,6 +124,8 @@ export default function NavPills(props) {
                           <div className={classes.layoutItem}>
                             <h4 className={classes.cardTitle}>
                               {talk["speaker"]}
+                              <br />
+                              {talk["specialLecture"] ? <SpecialLectureLabel /> : null}
                               <br />
                               <small className={classes.smallTitle}>
                                 <Latex>{talk["title"]}</Latex>

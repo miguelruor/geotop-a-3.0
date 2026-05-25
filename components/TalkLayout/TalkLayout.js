@@ -6,6 +6,7 @@ import classNames from "classnames";
 
 import GridContainer from '../Grid/GridContainer';
 import GridItem from '../Grid/GridItem';
+import SpecialLectureLabel from '../SpecialLectureLabel/SpecialLectureLabel';
 import style from "../../assets/css/talks.module.css"
 import styles from "../../assets/css/talkStyle.js";
 
@@ -51,7 +52,10 @@ export default function TalkLayout(props) {
                 </GridItem>
                 <GridItem xs={12} sm={12} md={7}>
                     <GridContainer>
-                        <GridItem xs={12} sm={12} md={12}><h1 className={classes.speaker}>{props.speaker}</h1></GridItem>
+                        <GridItem xs={12} sm={12} md={12}>
+                            <h1 className={classes.speaker}>{props.speaker}</h1>
+                            {props.specialLecture ? <SpecialLectureLabel /> : null}
+                        </GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{props.date}</b></p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Title: </b><Latex>{props.title}</Latex></p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Abstract: </b> <Latex>{props.abstract}</Latex></p></GridItem>

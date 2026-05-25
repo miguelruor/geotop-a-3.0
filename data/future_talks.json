@@ -106,7 +106,8 @@
     {
       "date": "November 13",
       "speaker": "Louis Kauffman",
-      "institution": "University of Illinois at Chicago"
+      "institution": "University of Illinois at Chicago",
+      "specialLecture": true
        },
     {
       "date": "November 27",

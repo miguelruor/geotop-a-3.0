@@ -35,6 +35,7 @@ export async function getStaticProps() {
         speakerID: speakerID,
         talkID: key,
         speaker: speakers[speakerID.toString()].completeName,
+        specialLecture: talks[key].specialLecture === true,
         title: talks[key].title,
         keywords: talks[key].keywords,
         date: dateString,
