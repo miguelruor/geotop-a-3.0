@@ -12,6 +12,7 @@ import styles2 from "./FutureTalksSection.module.css"
 import styles from "./FutureTalksStyle.js";
 import future_talks from "../../data/future_talks.json";
 import Link from "next/link";
+import SpecialLectureLabel from "../SpecialLectureLabel/SpecialLectureLabel";
 
 const useStyles = makeStyles(styles);
 
@@ -49,7 +50,10 @@ export default function FutureTalks() {
                                             <p className={classes.nextTalks}>{talk.date}</p>
                                         </GridItem>
                                         <GridItem sm={3} md={2}>
-                                            <p className={classes.nextTalks}>{talk.speaker}</p>
+                                            <p className={classes.nextTalks}>
+                                                {talk.speaker}
+                                                {talk.specialLecture ? <SpecialLectureLabel /> : null}
+                                            </p>
                                         </GridItem>
                                         <GridItem sm={6} md={8}>
                                             <p className={classes.nextTalks}>{talk.institution}</p>
@@ -61,7 +65,12 @@ export default function FutureTalks() {
                                     {/* Seccion Movil */}
                                     <Hidden smUp>
                                         <GridItem xs={12} sm={3} md={2}>
-                                            <p className={classes.nextTalks}><b>{talk.speaker}</b> - {talk.date}</p>
+                                            <p className={classes.nextTalks}>
+                                                <b>{talk.speaker}</b>
+                                                {talk.specialLecture ? <SpecialLectureLabel /> : null}
+                                                {!talk.specialLecture ? <>{" - "}{talk.date}</> : null}
+                                                {talk.specialLecture ? <span style={{ display: "block", marginTop: "0.45rem" }}>{talk.date}</span> : null}
+                                            </p>
                                         </GridItem>
                                         <GridItem xs={12}>
                                             <p className={classes.nextTalks}>{talk.institution}</p>
