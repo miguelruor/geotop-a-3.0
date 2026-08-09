@@ -1,4 +1,14 @@
 {
+    "211": {
+        "speaker_id":8,
+        "date": "August 28, 2026",
+        "date2": "20260828",
+        "title": "Introduction to Khovanov Homology",
+        "keywords":["Jones polynomial","Kauffman Bracket polynomial", "Khovanov Category", "Khovanov complex", "Frobenius algebra", "Lee algebra", "Rasmussen invariant", "classical knot theory", "virtual knot theory", "virtual Khovanov homology", "knotted vortex","reconnection number"],
+        "abstract": "This talk is an introduction to Khovanov Homology, a knot and link invariant that arises from the Kauffman Bracket model of the Jones polynomial by categorification: The states in the bracket summation are upleveled to become objects in a category and resmoothngs of states become morphisms in the category. Khovanov defined a natural chain complex structure associated with this category, and the homology of this chain complex becomes the new invariant. The graded Euler characteristic of the Khovanov homology yields the bracket polynomial or the Jones polynomial, depending on grading choices. We will further discuss how the Khovanov homology allows the definition of the Rasmussen invariant that can estimate the minimal genus of a knot or link in the four ball. This talk will discuss Khovanov homology and Rasmussen invariant for both classical and virtual knot theory and we will prepare the ground for a following talk where the Rasmussen invariant will be used to determine the minimal number of reconnections needed to unknot certain knotted vortices.",
+        "season":"FALL 2026",
+        "video": null
+    },
     "210": {
         "speaker_id":184,
         "date": "August 21, 2026",
