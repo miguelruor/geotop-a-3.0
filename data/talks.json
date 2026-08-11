@@ -1,4 +1,14 @@
 {
+    "212": {
+        "speaker_id":185,
+        "date": "September 4 , 2026",
+        "date2": "20260904",
+        "title": "Mathematical AI for Molecular Sciences: from topological data analysis to topological deep learning",
+        "keywords":["Topological/geometric data analysis", " molecular representation", "Geometric/topological deep learning"],
+        "abstract": "A central challenge in artificial intelligence (AI)-driven molecular science lies in efficiently representing molecular data and developing learning architectures that capture intrinsic structure-function relationships. In this work, we introduce advanced mathematics-based molecular representations and learning frameworks. Molecular structures and interactions are encoded using high-order topological and algebraic representations, including Rips complexes, Alpha complexes, Neighborhood complexes, Dowker complexes, Hom-complexes, Tor-algebras, Rhomboid tilings, Sheaves, etc. Building on these foundations, we design physics-informed geometric and topological deep learning models that systematically integrate high-order, multiscale, and periodic information of molecular systems. These models have been successfully applied to diverse molecular datasets across chemistry, biology, and materials science, demonstrating their versatility and effectiveness in uncovering complex structural-functional relationships.",
+        "season":"FALL 2026",
+        "video": null
+    },
     "211": {
         "speaker_id":8,
         "date": "August 28, 2026",
