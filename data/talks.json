@@ -1,7 +1,17 @@
 {
+    "213": {
+        "speaker_id":186,
+        "date": "September 18, 2026",
+        "date2": "20260918",
+        "title": "Geometry-Aware Neural Networks for Geometric Analysis",
+        "keywords":["PINNs"," Plateau problem"," neural networks", "geometric analysis"],
+        "abstract": "Physics-informed neural networks (PINNs) provide a mesh-free way of searching for solutions of differential equations by turning their residuals, constraints, or variational principles into an optimisation problem. While standard applications focus on Euclidean domains, many fundamental problems in geometric analysis involve nonlinear PDEs posed on manifolds having non-trivial topology and/or geometry. In this talk, after an introduction to PINNs, I will present a PINN-based approach to the problem of constructing minimal surfaces in hyperbolic space with prescribed asymptotic boundary, motivated by a conjecture of Joel Fine. This approach, developed in collaboration with Marco Usula, produced substantial nontrivial evidence corroborating the conjecture, by showing that the number of double points on the numerical surfaces matches theoretical predictions (see arXiv:2605.26234). Along the way, I will emphasise all aspects of our method that can be generalised into useful guidelines for the use of PINNs in geometric analysis and differential geometry. Numerical results like the ones mentioned above represent valuable insights into deep geometric conjectures and highlight the role of PINNs in the broader and rapidly evolving field of AI for mathematical discovery.",
+        "season":"FALL 2026",
+        "video": null
+    },
     "212": {
         "speaker_id":185,
-        "date": "September 4 , 2026",
+        "date": "September 4, 2026",
         "date2": "20260904",
         "title": "Mathematical AI for Molecular Sciences: from topological data analysis to topological deep learning",
         "keywords":["Topological/geometric data analysis", " molecular representation", "Geometric/topological deep learning"],
