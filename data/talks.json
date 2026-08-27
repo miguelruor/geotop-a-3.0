@@ -37,7 +37,7 @@
         "keywords":["parametrized persistence", "vines and vineyards", "persistence theory"],
         "abstract": "In this talk, we provide a new construction for studying parameterized persistence, called a canopy. We do this by making a simple but major modification in the persistence bundle representation information: namely, rather than tracking a point in the persistence diagram, we instead track some choice of pairs of simplices that created said point. This viewpoint is a combinatorial version of tracking the chain complex information rather than just the output of persistence. We show how to construct the canopies from any filtered filtration function, proving, using the algebraic structure of filtered chain complexes, that different choices of pairs result in homeomorphic structures. Finally, we showcase the power of our approach by using canopies to define vines even in the presence of points with multiplicity; to discuss monodromy; and to obtain some immediate results linking non-trivial monodromy in the persistent homology transform with the existence of non-Hausdorff points in the canopy.",
         "season":"FALL 2026",
-        "video": null
+        "video": "https://www.youtube.com/embed/8KbWyecRKqQ?si=BSw7H4Ux3SUjFqd6"
     },
 "209": {
         "speaker_id":183,
