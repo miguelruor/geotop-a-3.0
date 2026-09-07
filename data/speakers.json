@@ -1,4 +1,45 @@
-{ "186": {
+{ 
+    "190": {
+        "surname": "Fukumoto",
+        "completeName": "Yasuhide Fukumoto",
+        "middle_initial": null,
+        "name": "Yasuhide",
+        "talks": [
+        219
+        ],
+        "image": false
+        },
+    "189": {
+        "surname": "Lešnik",
+        "completeName": "Davorin Lešnik",
+        "middle_initial": null,
+        "name": "Davorin",
+        "talks": [
+            218
+        ],
+        "image": false
+    },
+    "188": {
+        "surname": "Jones",
+        "completeName": "Iolo Jones",
+        "middle_initial": null,
+        "name": "Iolo",
+        "talks": [
+          216
+        ],
+        "image": false
+    },
+    "187": {
+        "surname": "Liu",
+        "completeName": "Pengyu Liu",
+        "middle_initial": null,
+        "name": "Pengyu",
+        "talks": [
+         215
+        ],
+        "image": false
+    },
+    "186": {
         "surname": "Schettini Gherardini" ,
         "completeName":"Tancredi Schettini Gherardini" ,
         "middle_initial":null,
