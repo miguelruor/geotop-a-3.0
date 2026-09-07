@@ -1,4 +1,64 @@
 {
+    "219": {
+	    "speaker_id": 190,
+	    "date": "December 11, 2026",
+	    "date2": "20261211",
+	    "title": "TBA",
+	    "keywords": ["TBA"],
+	    "abstract": "TBA",
+	    "season": "FALL 2026",
+	    "video": null
+	},
+	"218": {
+	    "speaker_id": 189,
+	    "date": "November 27, 2026",
+	    "date2": "20261127",
+	    "title": "TBA",
+	    "keywords": ["TBA"],
+	    "abstract": "TBA",
+	    "season": "FALL 2026",
+	    "video": null
+	},
+	"217": {
+	    "speaker_id": 8,
+	    "date": "November 13, 2026",
+	    "date2": "20261113",
+	    "title": "TBA",
+	    "keywords": ["TBA"],
+	    "abstract": "TBA",
+	    "season": "FALL 2026",
+	    "video": null
+	},
+	"216": {
+	    "speaker_id": 188,
+	    "date": "October 30, 2026",
+	    "date2": "20261030",
+	    "title": "TBA",
+	    "keywords": ["TBA"],
+	    "abstract": "TBA",
+	    "season": "FALL 2026",
+	    "video": null
+	},
+	"215": {
+	    "speaker_id": 8,
+	    "date": "October 16, 2026",
+	    "date2": "20261016",
+	    "title": "Reconnection Numbers of Knotted Vortices",
+	    "keywords": ["knotted vortices", "reconnection number", "Khovanov Homology", "Rasmussen invariant", "knots", "links"],
+	    "abstract": "This talk discusses knotted vortices and how they tend to degenerate to unknots and unlinks by reconnection processes. We define a reconnection number of knots and links and show how aspects of four dimensional topology allow the computation of the reconnection number. This allows us to see that in some cases of experiments with vortices in water and with computer models of vortex knots, the processes find the least number of reconnections to undo the knot. In other cases the physical process is less efficient than the best mathematical reconnection. </br> Our main result is an exact determination of the reconnection number R(K) for K any positive link. In particular, we show the Theorem: If K is an unsplittable knot or link with a positive crossing diagram with c(K) crossings and s(K) Seifert circles, then the reconnection number of K is exactly twice the genus of the Seifert spanning surface of K when K is a knot, and for both knots and links we have the formula R(K) = c(K) - s(K) + 1. The talk will give many examples and remind about work on vortices of Kelvin, Aleeksenko, Kleckner and Irvine, Ricca and others. We will also connect with recent work with Hall, Tai and Smalyukh. The talk will be self-contained but will use results from Khovanov Homology and the Rasmussen invariant whose consequences will be stated clearly. There are many questions about vortex reconnection, and we hope that this talk will stimulate even more questions.",
+	    "season": "FALL 2026",
+	    "video": null
+	},
+    "214": {
+        "speaker_id":187,
+        "date": "October 2, 2026",
+        "date2": "20261002",
+        "title": "TBA",
+        "keywords":["TBA"],
+        "abstract": "TBA",
+        "season":"FALL 2026",
+        "video": null
+    },
     "213": {
         "speaker_id":186,
         "date": "September 18, 2026",
