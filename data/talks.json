@@ -53,9 +53,9 @@
         "speaker_id":187,
         "date": "October 2, 2026",
         "date2": "20261002",
-        "title": "TBA",
-        "keywords":["TBA"],
-        "abstract": "TBA",
+        "title": "Tree polynomial encoding of structural data in life sciences",
+        "keywords":["structure encoding, tree polynomial, structural data analysis, polynomial invariant"],
+        "abstract": "Advancements in sequencing technologies have produced a wealth of genomic data. Through recent methods enabled by the development of artificial intelligence, these data can be converted, for example, into phylogenies that reflect evolutionary history, or into molecular structures that reveal biological functions and properties. While analyzing the resulting structural data can advance biological research by providing novel approaches and insights, a major challenge is the lack of efficient and accurate structure encodings. In this talk, we introduce an encoding technique from topological combinatorics that represents tree structures by a series of graph polynomials. We show that these tree-distinguishing polynomials enable efficient, accurate and interpretable structure analysis using modern data analytics tools. We demonstrate their applications in comparing phylogenies and extracting evolutionary information, as well as predicting and understanding the formation of pathogenic nucleic acid structures.",
         "season":"FALL 2026",
         "video": null
     },
