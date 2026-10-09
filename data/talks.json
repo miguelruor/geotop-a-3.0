@@ -47,17 +47,17 @@
 	    "keywords": ["knotted vortices", "reconnection number", "Khovanov Homology", "Rasmussen invariant", "knots", "links"],
 	    "abstract": "This talk discusses knotted vortices and how they tend to degenerate to unknots and unlinks by reconnection processes. We define a reconnection number of knots and links and show how aspects of four dimensional topology allow the computation of the reconnection number. This allows us to see that in some cases of experiments with vortices in water and with computer models of vortex knots, the processes find the least number of reconnections to undo the knot. In other cases the physical process is less efficient than the best mathematical reconnection. </br> Our main result is an exact determination of the reconnection number R(K) for K any positive link. In particular, we show the Theorem: If K is an unsplittable knot or link with a positive crossing diagram with c(K) crossings and s(K) Seifert circles, then the reconnection number of K is exactly twice the genus of the Seifert spanning surface of K when K is a knot, and for both knots and links we have the formula R(K) = c(K) - s(K) + 1. The talk will give many examples and remind about work on vortices of Kelvin, Aleeksenko, Kleckner and Irvine, Ricca and others. We will also connect with recent work with Hall, Tai and Smalyukh. The talk will be self-contained but will use results from Khovanov Homology and the Rasmussen invariant whose consequences will be stated clearly. There are many questions about vortex reconnection, and we hope that this talk will stimulate even more questions.",
 	    "season": "FALL 2026",
-	    "video": null
+	    "video":  null
 	},
     "214": {
         "speaker_id":187,
         "date": "October 2, 2026",
         "date2": "20261002",
         "title": "Tree polynomial encoding of structural data in life sciences",
-        "keywords":["structure encoding, tree polynomial, structural data analysis, polynomial invariant"],
+        "keywords":["structure encoding", "tree polynomial", "structural data analysis", "polynomial invariant"],
         "abstract": "Advancements in sequencing technologies have produced a wealth of genomic data. Through recent methods enabled by the development of artificial intelligence, these data can be converted, for example, into phylogenies that reflect evolutionary history, or into molecular structures that reveal biological functions and properties. While analyzing the resulting structural data can advance biological research by providing novel approaches and insights, a major challenge is the lack of efficient and accurate structure encodings. In this talk, we introduce an encoding technique from topological combinatorics that represents tree structures by a series of graph polynomials. We show that these tree-distinguishing polynomials enable efficient, accurate and interpretable structure analysis using modern data analytics tools. We demonstrate their applications in comparing phylogenies and extracting evolutionary information, as well as predicting and understanding the formation of pathogenic nucleic acid structures.",
         "season":"FALL 2026",
-        "video": null
+        "video":"https://www.youtube.com/embed/jGmd6wR5Ebw?si=7OGPdOCNKP-rqvc0"
     },
     "213": {
         "speaker_id":186,
