@@ -33,9 +33,9 @@
 	    "speaker_id": 188,
 	    "date": "October 30, 2026",
 	    "date2": "20261030",
-	    "title": "TBA",
-	    "keywords": ["TBA"],
-	    "abstract": "TBA",
+	    "title": "Towards scalable, inductive, and intrinsic diffusion geometry",
+	    "keywords": ["diffusion geometry", "deep learning"],
+	    "abstract": "Tools for geometric and topological data analysis are largely based on classical algorithms like graphs, complexes, and kernels. These are effective in many applications, but have fundamental limitations, and cannot exploit the numerous advantages presented by deep learning. In this talk, I will discuss how diffusion geometry can generalise beyond graph-based methods and offer a foundation for computational geometry with deep learning. Specifically, I will show how the carré du champ operator, which forms the basis for diffusion geometry, can be learned with a neural network by repurposing ideas from training diffusion models. Importantly, this allows the possibility of recovering the true intrinsic geometry: real data are often arbitrary, indirect observations of an unknown underlying process, and those observations can distort its geometry. Existing geometric methods equip data with the induced geometry of the ambient space, but this entangles the true geometry of the process with the distortion of the observation. I will show how, in a broad class of examples, we can recover the intrinsic carré du champ in spite of this, and apply these tools to study image and video data, and molecular dynamics simulations.",
 	    "season": "FALL 2026",
 	    "video": null
 	},
