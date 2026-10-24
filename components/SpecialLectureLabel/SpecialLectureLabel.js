@@ -14,9 +14,18 @@ const badgeStyles = {
   marginTop: "0.45rem",
 };
 
-export default function SpecialLectureLabel() {
+export default function SpecialLectureLabel({size = "small"}) {
+  const large = size == "large";
+  const styles = {
+    ...badgeStyles,
+    padding: large ? "0.65rem 1.2 rem" : badgeStyles.padding,
+    fontSize: large ? "1rem" : badgeStyles.fontSize,
+    borderWidth: large ? "2px" : "1px",
+    marginTop: large ? "0.8rem" : badgeStyles.marginTop,
+  };
+
   return (
-    <span style={badgeStyles}>
+    <span style={styles}>
       {SPECIAL_LECTURE_LABEL}
     </span>
   );

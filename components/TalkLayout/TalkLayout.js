@@ -54,7 +54,9 @@ export default function TalkLayout(props) {
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={12}>
                             <h1 className={classes.speaker}>{props.speaker}</h1>
-                            {props.specialLecture ? <SpecialLectureLabel /> : null}
+                            {props.specialLecture ? (
+                                <SpecialLectureLabel  size="large"/> 
+                            ) : null}
                         </GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{props.date}</b></p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>Title: </b><Latex>{props.title}</Latex></p></GridItem>
