@@ -13,9 +13,9 @@
 	    "speaker_id": 189,
 	    "date": "November 27, 2026",
 	    "date2": "20261127",
-	    "title": "TBA",
-	    "keywords": ["TBA"],
-	    "abstract": "TBA",
+	    "title": "Continuity of Metric Space Magnitude",
+	    "keywords": ["magnitude", "metric spaces", "weight measures"],
+	    "abstract": "The magnitude of finite metric spaces is an isometric invariant that first appeared in biodiversity research, where it was used as a measure of the ``effective number of species''. More generally, magnitude is defined for enriched categories, as an analogue of the Euler characteristic of a topological space. In this talk, I will introduce the magnitude of finite and compact metric spaces, present examples and discuss its basic properties. When a space is scaled down to a point, one expects its magnitude to tend to $1$; this is the one-point property, a continuity statement at the one-point space. In general continuity fails badly, since magnitude is nowhere continuous on the Gromov-Hausdorff space of finite metric spaces, but positive results become possible once the ambient space is fixed. I will explain why magnitude is continuous at every finite subset of $\\ell_1^N$.",
 	    "season": "FALL 2026",
 	    "video": null
 	},
