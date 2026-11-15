@@ -3,9 +3,9 @@
 	    "speaker_id": 190,
 	    "date": "December 11, 2026",
 	    "date2": "20261211",
-	    "title": "TBA",
-	    "keywords": ["TBA"],
-	    "abstract": "TBA",
+	    "title": "Topological invariants, Nambu bracket and factorization of equations for ideal fluid dynamics and magnetohydrodynamics",
+	    "keywords": ["topological invariants", "cross helicity", "Noether's theorem", "Nambu bracket", "wave energy"],
+	    "abstract": "The helicity is a topological invariant of the ideal fluid flows in three dimensions. This is no longer the case if the baroclinic effect and, for a conducting fluid, the Lorentz force are called into play. By appealing to Noether's theorem, we show that the cross-helicity is the integral invariant associated with the variational symmetry of particle-relabeling for the action of the ideal magnetohydrodynamics. By incorporating the divergence symmetry, other known topological invariants are put on the same ground. The Nambu bracket, with their use, manifestly captures the underlying Lie-Poisson structure from a topological perspective, by virtually decomposing the solution space into two parts, one characterized by the topology and the other by the geometry. Inspired by this decomposition, the Frieman-Rotenberg equation, the linearized MHD (Euler) equation, is factorized in the same spirit. As a byproduct, calculation becomes feasible of the wave energy and the wave-induced mean flow.",
 	    "season": "FALL 2026",
 	    "video": null
 	},
